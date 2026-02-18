@@ -1,0 +1,209 @@
+{
+  "product_id": "sooraj_fertera_plus",
+  "product_name": "Fertera Plus",
+  "brand": "Sooraj Crop Sciences",
+  "product_type": "Insecticide",
+  "category": "Granule",
+
+  "active_ingredients": [
+    {
+      "name": "Chlorantraniliprole (CTPR)",
+      "percentage": "—",
+      "mode_of_action": "Ryanodine receptor modulator that causes muscle paralysis, feeding stop and death in borers and caterpillars"
+    },
+    {
+      "name": "Clothianidin",
+      "percentage": "—",
+      "mode_of_action": "Systemic neonicotinoid that disrupts insect nervous system and controls sucking pests through root uptake"
+    }
+  ],
+
+  "chemical_group": "Diamide (Group 28) + Neonicotinoid (Group 4A)",
+  "formulation_type": "GR (Granules)",
+  "systemicity": "Systemic",
+  "mode_of_action_summary": "Root-absorbed dual action insecticide that stops feeding in borers and kills sucking pests, providing 30–45 days early crop protection.",
+
+  "targets": {
+    "weeds": [],
+    "diseases": [],
+    "insects": [
+      "yellow stem borer",
+      "striped stem borer",
+      "leaf folder",
+      "brown plant hopper",
+      "green leafhopper",
+      "early shoot borer",
+      "fall armyworm (early stage)",
+      "top borer",
+      "root borer",
+      "pyrilla",
+      "termite",
+      "aphid",
+      "jassid",
+      "thrips"
+    ],
+    "nutrient_deficiencies": []
+  },
+
+  "farmer_symptoms": [
+    "دھان وچ ڈیڈ ہارٹ بن رہیا اے",
+    "تنا اندر سنڈی گھس گئی اے",
+    "پتے لپٹ کے سوکھ رہے نیں",
+    "ٹِلر کم بن رہے نیں",
+    "فصل دی بڑھوتری رک گئی اے کیڑے کارن",
+    "ہاپر دا حملہ شروع ہو گیا اے",
+    "مکئی دا وچلا پودا سوکھ رہیا اے",
+    "گنے وچ شروع توں سنڈی نقصان کر رہی اے"
+  ],
+
+  "crop_applicability": {
+    "major_crops": [
+      "rice",
+      "maize",
+      "sugarcane"
+    ],
+    "all_supported_crops": [
+      "transplanted rice",
+      "direct seeded rice",
+      "maize",
+      "sugarcane"
+    ]
+  },
+
+  "dosage": {
+    "per_acre": "4–6 kg",
+    "per_100_litre": "—",
+    "spray_volume_per_acre": "Not applicable (broadcast granules)",
+    "application_coverage": "6 kg pack for 1–1.5 acre (dose dependent)"
+  },
+
+  "application_details": {
+    "application_method": "Soil broadcast in standing water or moist field",
+    "equipment": [
+      "manual broadcasting",
+      "granule applicator"
+    ],
+    "number_of_applications": "1 application (maximum 2 per season if required)",
+    "coverage_requirement": "Uniform distribution across field near root zone"
+  },
+
+  "crop_stage_recommendation": [
+    "At transplanting in rice",
+    "Within 7–10 days after transplanting",
+    "Early seedling stage in maize",
+    "At planting or early earthing up in sugarcane"
+  ],
+
+  "water_management": {
+    "before_spray": "Field should have moist soil or 2–5 cm standing water",
+    "after_spray": "Maintain moisture for proper root uptake",
+    "water_level": "Avoid heavy water flow or runoff"
+  },
+
+  "best_time_to_apply": [
+    "At crop establishment stage"
+  ],
+
+  "weather_conditions": {
+    "ideal_condition": "Moist soil with stable water level",
+    "avoid": [
+      "Dry soil at application",
+      "Heavy water flow causing runoff",
+      "Application in late heavy infestation stage"
+    ]
+  },
+
+  "tank_mix_compatibility": [
+    "No tank mix required (granular formulation)",
+    "Compatible with separate foliar sprays if needed"
+  ],
+
+  "incompatible_with": [
+    "Do not mix with other granular insecticides in same field at same time"
+  ],
+
+  "crop_safety": {
+    "selectivity_reason": "Absorbed through roots and safely metabolized by crop at recommended dose",
+    "overdose_effect": "Temporary yellowing or slowed growth"
+  },
+
+  "resistance_management": {
+    "mode_of_action_group": "Group 28 + Group 4A",
+    "rotation_advice": "Rotate with insecticides of different IRAC groups in next season"
+  },
+
+  "safety": {
+    "re_entry_interval": "24 hours",
+    "pre_harvest_interval": "As per label",
+    "toxicity_class": "Moderate toxicity",
+    "protective_measures": [
+      "Wear gloves during broadcasting",
+      "Avoid inhaling granule dust",
+      "Keep away from water bodies"
+    ]
+  },
+
+  "storage": {
+    "storage_conditions": "Store in cool and dry place",
+    "keep_away_from": [
+      "Children",
+      "Moisture",
+      "Direct sunlight"
+    ],
+    "shelf_life": "2 years"
+  },
+
+  "packaging": {
+    "pack_sizes": [
+      "6 kg"
+    ],
+    "form": "Granules"
+  },
+
+  "farmer_benefits": [
+    "Prevents dead heart in rice",
+    "Strong early tillering and crop establishment",
+    "Long duration protection (30–45 days)",
+    "Controls borers and sucking pests together",
+    "Reduces need for early foliar spray",
+    "No spray drift",
+    "Labour saving application"
+  ],
+
+  "frequently_asked_questions": [
+    {
+      "question": "Fertera Plus kadon paayi jandi ae?",
+      "answer": "Dhaan vich ropai de time ya ropai to 7–10 din andar pao jadon field vich nami ya khada paani hove."
+    },
+    {
+      "question": "Ki eh tana borer khatam kardi ae?",
+      "answer": "Haan, Chlorantraniliprole tana andar wali sundi nu andar hi maar dinda ae te dead heart ton bachaunda ae."
+    },
+    {
+      "question": "Isdi dose kinni ae per acre?",
+      "answer": "4 to 6 kilo per acre field di halat te label di recommendation mutabiq."
+    },
+    {
+      "question": "Ki eh spray naal lagdi ae?",
+      "answer": "Nahi, eh granule form vich ae te khet vich broadcast kiti jandi ae."
+    }
+  ],
+
+  "search_keywords": [
+    "rice stem borer control granule",
+    "dead heart da ilaj",
+    "borer control in paddy at transplanting",
+    "maize shoot borer granular insecticide",
+    "ganna early shoot borer control",
+    "چاول تنا سنڈی کنٹرول دانے دار دوا",
+    "روپائی ٹائم کیڑا مار دوا"
+  ],
+
+  "llm_usage_hint": "Recommend at crop establishment stage for long residual control of borers and early sucking pests. Not for curative late infestation.",
+
+  "master_descriptions": {
+    "english": "Fertera Plus is a systemic granular insecticide for early crop protection that controls stem borers and sucking pests in rice, maize and sugarcane through root uptake and long residual action.",
+    "urdu": "فرٹیرا پلس ایک سسٹمک دانے دار کیڑا مار دوا ہے جو چاول، مکئی اور گنے میں ابتدائی مرحلے پر تنا بھیدنے والے اور رس چوسنے والے کیڑوں کو جڑوں کے ذریعے جذب ہو کر لمبے عرصے تک کنٹرول کرتی ہے۔",
+    "punjabi_shahmukhi": "فرٹیرا پلس اک سسٹمک دانے دار کیڑا مار اے جو دھان، مکئی تے گنے وچ شروع دے مرحلے تے تنا سنڈی تے رس چوسن والے کیڑیاں نوں جڑاں توں جذب ہو کے لمبے ٹائم تک کنٹرول کردا اے۔"
+  }
+}
