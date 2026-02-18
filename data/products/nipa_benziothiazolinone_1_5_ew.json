@@ -1,0 +1,185 @@
+{
+  "product_id": "sooraj_nipa_benziothiazolinone_1_5_ew",
+  "product_name": "NIPA",
+  "brand": "Sooraj Crop Sciences",
+  "product_type": "Fungicide / Bactericide",
+  "category": "Fungicide",
+
+  "active_ingredients": [
+    {
+      "name": "Benziothiazolinone",
+      "percentage": "1.5%",
+      "mode_of_action": "Multi-site contact action that disrupts pathogen cell metabolism and structure"
+    }
+  ],
+
+  "formulation_type": "EW (Emulsion in Water)",
+  "systemicity": "Contact",
+  "mode_of_action_summary": "Forms a protective antimicrobial layer on plant surface and stops fungal and bacterial growth by destroying cellular activity of pathogens.",
+
+  "targets": {
+    "diseases": [
+      "bacterial leaf spot",
+      "bacterial blight",
+      "bacterial streak",
+      "leaf spot",
+      "early blight",
+      "head blight",
+      "scab",
+      "powdery mildew",
+      "rice blast"
+    ],
+    "pests": [],
+    "weeds": [],
+    "nutrient_deficiencies": []
+  },
+
+  "crop_applicability": {
+    "major_crops": [
+      "wheat",
+      "rice",
+      "citrus",
+      "apple"
+    ],
+    "vegetables": [
+      "chilli",
+      "cucumber",
+      "tomato",
+      "potato"
+    ],
+    "all_supported_crops": [
+      "wheat",
+      "rice",
+      "citrus",
+      "apple",
+      "chilli",
+      "cucumber",
+      "tomato",
+      "potato",
+      "vegetables",
+      "fruits",
+      "field crops"
+    ]
+  },
+
+  "dosage": {
+    "per_acre": "As per label recommendation",
+    "per_100_litre": "As per label recommendation",
+    "spray_volume_per_acre": "100–200 litres (typical foliar spray)"
+  },
+
+  "application_details": {
+    "application_method": "Foliar spray",
+    "equipment": [
+      "knapsack sprayer",
+      "tractor mounted boom sprayer"
+    ],
+    "number_of_applications": "2–3 depending on disease pressure",
+    "spray_interval": "7–14 days",
+    "coverage_requirement": "Thorough coverage of both sides of leaves"
+  },
+
+  "crop_stage_recommendation": [
+    "Preventive spray before disease development",
+    "At first appearance of disease symptoms"
+  ],
+
+  "best_time_to_apply": [
+    "Morning",
+    "Evening"
+  ],
+
+  "weather_conditions": {
+    "ideal_temperature": "Moderate temperature with high disease risk conditions",
+    "avoid": [
+      "Rain immediately after spray",
+      "Strong wind"
+    ],
+    "rainfastness": "May require re-application after heavy rain",
+    "wind_condition": "Spray in calm weather"
+  },
+
+  "tank_mix_compatibility": [
+    "Compatible with most commonly used crop protection products (jar test recommended)"
+  ],
+
+  "incompatible_with": [
+    "Strong oxidizing agents",
+    "Highly alkaline products"
+  ],
+
+  "safety": {
+    "re_entry_interval": "24 hours",
+    "pre_harvest_interval": "30 days (crop dependent)",
+    "toxicity_class": "Irritant in concentrated form",
+    "protective_measures": [
+      "Wear gloves",
+      "Wear mask",
+      "Wear protective clothing"
+    ],
+    "first_aid": "In case of skin or eye contact wash immediately with clean water. If inhaled move to fresh air."
+  },
+
+  "storage": {
+    "storage_conditions": "Store in cool, dry and well ventilated place",
+    "keep_away_from": [
+      "Children",
+      "Food",
+      "Animal feed",
+      "Water bodies"
+    ],
+    "shelf_life": "2–3 years"
+  },
+
+  "packaging": {
+    "pack_sizes": [
+      "200 ml"
+    ],
+    "form": "Liquid"
+  },
+
+  "farmer_benefits": [
+    "Controls both bacterial and fungal diseases",
+    "Low resistance risk due to multi-site action",
+    "Improves plant health and yield",
+    "Easy to mix in water",
+    "Suitable for preventive and early curative spray"
+  ],
+
+  "frequently_asked_questions": [
+    {
+      "question": "Is this systemic or contact?",
+      "answer": "It is a contact fungicide and bactericide."
+    },
+    {
+      "question": "When should we spray?",
+      "answer": "Spray preventively or at the first sign of disease."
+    },
+    {
+      "question": "After rain do we need to spray again?",
+      "answer": "Yes, repeat spray after heavy rain if required."
+    },
+    {
+      "question": "Does it work on bacterial diseases?",
+      "answer": "Yes, it controls both bacterial and fungal diseases."
+    }
+  ],
+
+  "search_keywords": [
+    "bacterial disease control spray",
+    "fungicide for blight",
+    "rice blast control",
+    "wheat head blight spray",
+    "بیکٹیریا دی دوا",
+    "بلائٹ دا سپرے",
+    "چاول دا بلاست سپرے"
+  ],
+
+  "llm_usage_hint": "When recommending this product, highlight dual action (fungicide + bactericide), preventive use, spray interval and re-spray after rain.",
+
+  "master_descriptions": {
+    "english": "NIPA (Benziothiazolinone 1.5% EW) is a broad-spectrum contact fungicide and bactericide that controls both fungal and bacterial diseases and provides protective action when applied preventively or at early disease stage.",
+    "urdu": "نیپا بینزیو تھایازولینون 1.5٪ ای ڈبلیو ایک وسیع اثر رکھنے والی فنگس کش اور بیکٹیریا کش دوا ہے جو بیماریوں کو ابتدائی مرحلے میں کنٹرول کرتی ہے اور پودے کو حفاظتی تہہ فراہم کرتی ہے۔",
+    "punjabi_shahmukhi": "نیپا بینزیو تھایازولینون 1.5٪ ای ڈبلیو اک رابطہ والی فنگس کش تے بیکٹیریا کش اے جو فنگس تے بیکٹیریا والیاں بیماریوں نوں شروع وچ ہی کنٹرول کردا اے تے پتیاں اُتے حفاظتی تہہ بنا دیندا اے۔"
+  }
+}

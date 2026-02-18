@@ -1,0 +1,181 @@
+{
+  "product_id": "sooraj_winsta_30_wp",
+  "product_name": "Winsta 30% WP",
+  "brand": "Sooraj Crop Sciences",
+  "product_type": "Herbicide",
+  "category": "Herbicide",
+
+  "active_ingredients": [
+    {
+      "name": "Bispyribac Sodium",
+      "percentage": "18%",
+      "mode_of_action": "ALS inhibitor absorbed through leaves, stops amino acid synthesis in grassy weeds"
+    },
+    {
+      "name": "Bensulfuron Methyl",
+      "percentage": "12%",
+      "mode_of_action": "ALS inhibitor absorbed through roots and leaves, controls sedges and broadleaf weeds"
+    }
+  ],
+
+  "chemical_group": "ALS inhibitor (Sulfonylurea + Pyrimidinyl carboxy)",
+  "formulation_type": "WP (Wettable Powder)",
+  "systemicity": "Systemic",
+  "mode_of_action_summary": "Blocks ALS enzyme in weeds, stopping amino acid formation and cell division, leading to weed death in 7–14 days.",
+
+  "targets": {
+    "weeds": [
+      "barnyard grass",
+      "jungle rice",
+      "echinochloa",
+      "cyperus difformis",
+      "fimbristylis",
+      "monochoria",
+      "ammannia",
+      "ludwigia"
+    ],
+    "diseases": [],
+    "insects": [],
+    "nutrient_deficiencies": []
+  },
+
+  "crop_applicability": {
+    "major_crops": [
+      "rice"
+    ],
+    "all_supported_crops": [
+      "transplanted rice",
+      "direct seeded rice"
+    ]
+  },
+
+  "dosage": {
+    "per_acre": "60–100 g",
+    "per_100_litre": "20–25 g",
+    "spray_volume_per_acre": "100–120 litres",
+    "application_coverage": "1 acre (100 g pack)"
+  },
+
+  "application_details": {
+    "application_method": "Post-emergence foliar spray",
+    "equipment": [
+      "knapsack sprayer"
+    ],
+    "number_of_applications": "Single application",
+    "coverage_requirement": "Uniform spray on weed foliage"
+  },
+
+  "crop_stage_recommendation": [
+    "15–25 days after transplanting",
+    "2–4 leaf stage of weeds"
+  ],
+
+  "water_management": {
+    "before_spray": "Drain standing water",
+    "after_spray": "Reflood after 24–48 hours",
+    "water_level": "Maintain shallow water"
+  },
+
+  "best_time_to_apply": [
+    "Morning",
+    "Evening"
+  ],
+
+  "weather_conditions": {
+    "ideal_condition": "Moist soil with no deep standing water",
+    "avoid": [
+      "Strong wind",
+      "Heavy rain after spray",
+      "Dry soil"
+    ]
+  },
+
+  "tank_mix_compatibility": [
+    "Use recommended surfactant/adjuvant"
+  ],
+
+  "incompatible_with": [
+    "Unknown tank mix combinations"
+  ],
+
+  "crop_safety": {
+    "selectivity_reason": "Rice metabolizes the herbicide safely at recommended dose",
+    "overdose_effect": "Crop yellowing or temporary growth suppression"
+  },
+
+  "resistance_management": {
+    "mode_of_action_group": "ALS inhibitor",
+    "rotation_advice": "Do not use repeatedly in the same field season after season. Rotate with herbicides of different mode of action."
+  },
+
+  "safety": {
+    "re_entry_interval": "24 hours",
+    "pre_harvest_interval": "Not applicable",
+    "toxicity_class": "Moderate toxicity",
+    "protective_measures": [
+      "Wear gloves",
+      "Wear mask",
+      "Avoid spray drift to nearby crops"
+    ]
+  },
+
+  "storage": {
+    "storage_conditions": "Store in cool and dry place",
+    "keep_away_from": [
+      "Children",
+      "Moisture"
+    ],
+    "shelf_life": "2 years"
+  },
+
+  "packaging": {
+    "pack_sizes": [
+      "100 g"
+    ],
+    "form": "Powder"
+  },
+
+  "farmer_benefits": [
+    "Controls grasses, sedges and broadleaf weeds in one spray",
+    "Reduces manual weeding cost",
+    "Improves tillering in rice",
+    "Increases yield potential",
+    "Low dose and easy handling"
+  ],
+
+  "frequently_asked_questions": [
+    {
+      "question": "When should we apply Winsta?",
+      "answer": "Apply 15–25 days after transplanting when weeds are at 2–4 leaf stage."
+    },
+    {
+      "question": "Can we spray in standing water?",
+      "answer": "No, drain water before spray and reflood after 24–48 hours."
+    },
+    {
+      "question": "Does it control all types of weeds?",
+      "answer": "Yes, it controls grasses, sedges and broadleaf weeds together."
+    },
+    {
+      "question": "Is one spray enough?",
+      "answer": "Yes, usually a single spray is sufficient."
+    }
+  ],
+
+  "search_keywords": [
+    "rice weed control",
+    "dhaan ki ghaas ka ilaaj",
+    "post emergence herbicide for rice",
+    "swanki control",
+    "ڈیلا کنٹرول دھان",
+    "چوڑے پتوں والی جڑی بوٹی دی دوا"
+  ],
+
+  "llm_usage_hint": "When recommending this product, mention correct timing (15–25 DAT), water management and single spray benefit.",
+
+  "master_descriptions": {
+    "english": "Winsta 30% WP is a selective post-emergence systemic herbicide for rice that controls grasses, sedges and broadleaf weeds by inhibiting the ALS enzyme.",
+    "urdu": "ونسٹا 30٪ ڈبلیو پی دھان کی فصل کے لیے ایک سلیکٹو پوسٹ ایمرجنس جڑی بوٹی مار دوا ہے جو گھاس نما، چوڑی پتی اور ڈیلا جڑی بوٹیوں کو کنٹرول کرتی ہے۔",
+    "punjabi_shahmukhi": "ونسٹا 30٪ ڈبلیو پی دھان لئی اک سلیکٹو پوسٹ ایمرجنس جڑی بوٹی مار اے جو گھاساں، ڈیلا تے چوڑی پتی جڑی بوٹیاں نوں اک ہی سپرے نال کنٹرول کردا اے۔"
+  }
+}

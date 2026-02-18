@@ -1,0 +1,258 @@
+[
+  {
+    "problem": "Leaf white powder (Powdery mildew)",
+    "local_terms": [
+      "patton par safed powder",
+      "safed daag",
+      "chitte nishan",
+      "patte safed ho rahe hain",
+      "patton par safed gard",
+      "safed dhool jaisi cheez",
+      "patton par safedi"
+    ],
+    "type": "fungal",
+    "symptoms": "white powdery layer appearing on leaf surface",
+    "affects_crops": ["wheat", "cotton", "vegetables", "fruits"]
+  },
+  {
+    "problem": "Leaves turning yellow (Nutrient deficiency)",
+    "local_terms": [
+      "patte peelay ho rahe hain",
+      "pila pan",
+      "patton ka rang peela",
+      "patte zard ho gaye hain",
+      "patti peeli par rahi hai",
+      "neeche walay patte peelay ho rahe hain"
+    ],
+    "type": "nutrient deficiency",
+    "symptoms": "yellowing of leaves starting from edges or lower leaves",
+    "affects_crops": ["wheat", "rice", "corn", "cotton", "vegetables"]
+  },
+
+  {
+    "problem": "Leaves curling (Leaf curl / stress)",
+    "local_terms": [
+      "patte murh rahe hain",
+      "patte murh ke lapet ho gaye",
+      "patton ka kinara murh gaya",
+      "patte sikur rahe hain",
+      "patte andar ki taraf murh gaye",
+      "patte tedhe medhe ho gaye",
+      "patti murh ke choti ho gayi",
+      "patte tang ho gaye",
+      "patte murh ke sukh rahe hain",
+      "patte lipat rahe hain"
+    ],
+    "type": "pest / viral / stress",
+    "symptoms": "leaves curling inward, twisted shape, reduced size, unhealthy growth",
+    "affects_crops": ["cotton", "chilli", "tomato", "vegetables", "fruits"]
+  },
+  {
+    "problem": "Black spots on leaves (Leaf spot)",
+    "local_terms": [
+      "patton par kaale daag",
+      "kaalay nishan",
+      "patte par kaali bindiyaan",
+      "patton par jalay jaisay daag",
+      "patte par kaali dhariyan",
+      "patton par siyah dhabbay",
+      "patte kaalay ho rahe hain",
+      "patte par daagh par gaye",
+      "patton par daag barh rahe hain"
+    ],
+    "type": "fungal / bacterial",
+    "symptoms": "black or dark brown spots spreading on leaf surface",
+    "affects_crops": ["wheat", "rice", "vegetables", "fruits", "cotton"]
+  },
+  {
+    "problem": "Small insects under leaves (Sap sucking pests)",
+    "local_terms": [
+      "patton ke neeche chotay keere",
+      "patte ke neeche makhiyan",
+      "safed choti makhi",
+      "hara keera patte ke neeche",
+      "patton ke neeche chipkay huay keere",
+      "ras choosne walay keere",
+      "patton ke neeche jhund bana hua",
+      "patte chipak rahe hain keero ki wajah se",
+      "patton par chikna pan",
+      "patte chamak rahe hain"
+    ],
+    "type": "pest",
+    "symptoms": "tiny insects under leaves, sticky surface, leaf discoloration",
+    "affects_crops": ["cotton", "vegetables", "fruits", "wheat", "rice"]
+  },
+  {
+    "problem": "Holes in leaves (Chewing insects)",
+    "local_terms": [
+      "patton mein sorakh",
+      "patte khaye huay lagte hain",
+      "patton mein chhed",
+      "patte jali jaisay ho gaye",
+      "patte ko keera kha gaya",
+      "patton ka gosht utra hua",
+      "patte tukray tukray ho rahe hain",
+      "patton par khaanay ke nishan"
+    ],
+    "type": "pest",
+    "symptoms": "visible holes and eaten leaf parts due to insects",
+    "affects_crops": ["vegetables", "cotton", "maize", "fruits"]
+  },
+  {
+    "problem": "Plant not growing (Stunted growth)",
+    "local_terms": [
+      "paudha barh nahi raha",
+      "nashonuma ruk gayi hai",
+      "paudha chota reh gaya",
+      "paudha kamzor hai",
+      "paudha patla reh gaya",
+      "paudha qadd nahi le raha",
+      "paudha theek se nahi pal raha",
+      "paudha sookha sookha lag raha hai",
+      "paudha ruk gaya hai"
+    ],
+    "type": "nutrient / root / disease",
+    "symptoms": "slow growth, weak stem, small leaves, unhealthy plant",
+    "affects_crops": ["wheat", "rice", "corn", "cotton", "vegetables", "fruits"]
+  },
+  {
+    "problem": "Leaves drying from edges (Leaf burn)",
+    "local_terms": [
+      "patton ke kinare sookh rahe hain",
+      "patton ka kinara jal gaya",
+      "patton ke konay brown ho gaye",
+      "patte kinare se murjha rahe hain",
+      "patton ke sides jal rahe hain",
+      "patton ka kinara khushk ho gaya",
+      "patte konon se sookh gaye"
+    ],
+    "type": "nutrient / heat / salt",
+    "symptoms": "leaf edges turning brown and dry while center remains green",
+    "affects_crops": ["wheat", "rice", "vegetables", "cotton", "fruits"]
+  },
+  {
+    "problem": "Stem turning black (Stem rot)",
+    "local_terms": [
+      "tana kaala ho raha hai",
+      "tana sarr raha hai",
+      "tana neechay se kaala ho gaya",
+      "tane par siyahi aa gayi",
+      "tana gal raha hai",
+      "tane mein sarran",
+      "pauday ka tana kamzor ho gaya"
+    ],
+    "type": "fungal",
+    "symptoms": "stem base turning black, rotting, plant falling",
+    "affects_crops": ["vegetables", "cotton", "fruits", "rice"]
+  },
+  {
+    "problem": "Fruit/flower dropping early",
+    "local_terms": [
+      "phal gir rahe hain",
+      "phool gir rahe hain",
+      "kachi phal zameen par gir rahi hai",
+      "phal lag kar gir jata hai",
+      "phool lag kar toot jata hai",
+      "pauday se phal tik nahi raha",
+      "phal girnay ki bemari"
+    ],
+    "type": "nutrient / stress / pest",
+    "symptoms": "flowers or young fruits dropping before maturity",
+    "affects_crops": ["chilli", "tomato", "cotton", "fruits", "vegetables"]
+  },
+
+  {
+    "problem": "Leaves turning brown spots (Brown leaf spot / blight)",
+    "local_terms": [
+      "patton par bhuray daag",
+      "patte par brown nishan",
+      "patton par zung jaisay daag",
+      "patte par bhuri bindiyaan",
+      "patton par sookhay bhuray daag",
+      "patte jalay jaisay lag rahe hain",
+      "patton par bhooray dhabbe",
+      "patte par murda jaisay nishan",
+      "patton par daag phail rahe hain"
+    ],
+    "type": "fungal / bacterial",
+    "symptoms": "brown dry spots spreading on leaves, sometimes surrounded by yellow margin",
+    "affects_crops": ["wheat", "rice", "vegetables", "cotton", "fruits"]
+  },
+  {
+    "problem": "White lines on leaves (Leaf miner damage)",
+    "local_terms": [
+      "patton par safed lakeeren",
+      "patte ke andar safed rasta bana hua",
+      "patton par tedhi medhi safed line",
+      "patte ke andar se keera guzra hua lagta hai",
+      "patton par naqsh jaisay nishan",
+      "patte par safed surang",
+      "patton ke andar lakeer jaisi safedi"
+    ],
+    "type": "pest",
+    "symptoms": "thin white winding lines inside leaves caused by leaf miner larvae",
+    "affects_crops": ["vegetables", "cotton", "fruits"]
+  },
+  {
+    "problem": "Plant wilting during day (Temporary wilting)",
+    "local_terms": [
+      "paudha din mein murjha jata hai",
+      "dhoop mein paudha jhuk jata hai",
+      "paudha din ko latak jata hai",
+      "paudha pani ke bawajood murjha raha hai",
+      "paudha dopahar mein bejaan lagta hai",
+      "paudha shaam ko theek ho jata hai",
+      "paudha garmi mein murjha jata hai"
+    ],
+    "type": "water stress / root / disease",
+    "symptoms": "plant droops during hot hours and may recover in evening",
+    "affects_crops": ["vegetables", "cotton", "fruits", "rice"]
+  },
+  {
+    "problem": "Roots rotting (Root rot)",
+    "local_terms": [
+      "jarr sarr rahi hai",
+      "jarr gal gayi hai",
+      "jarr se badboo aa rahi hai",
+      "paudha jarr se kamzor ho gaya",
+      "jarr ka rang kaala ho gaya",
+      "jarr naram ho gayi hai",
+      "jarr mitti mein gal rahi hai"
+    ],
+    "type": "fungal / water logging",
+    "symptoms": "roots turning brown or black, soft, foul smell, weak yellow plant",
+    "affects_crops": ["vegetables", "cotton", "fruits", "rice", "wheat"]
+  },
+  {
+    "problem": "Yellow lines on leaves (Leaf streak / viral symptom)",
+    "local_terms": [
+      "patton par peeli lakeeren",
+      "patte par peeli dhariyan",
+      "patton par peeli rekhain",
+      "patton mein peeli dhari ban gayi hai",
+      "patton par naqsh jaisi peeli lakeer",
+      "patte par peela nishan seedha chal raha hai"
+    ],
+    "type": "viral / nutrient",
+    "symptoms": "yellow streaks or straight lines appearing on leaf surface",
+    "affects_crops": ["wheat", "rice", "corn", "vegetables"]
+  },
+  {
+    "problem": "Very small or weak leaves (Micronutrient deficiency)",
+    "local_terms": [
+      "patte bohat chotay reh gaye",
+      "patte kamzor hain",
+      "patte patlay aur chotay hain",
+      "patton mein jaan nahi hai",
+      "patte theek se nahi khul rahe",
+      "patte sukhay aur kamzor lagte hain",
+      "patte sahi size ke nahi ban rahe"
+    ],
+    "type": "micronutrient deficiency",
+    "symptoms": "leaves remain small, thin, weak and underdeveloped",
+    "affects_crops": ["wheat", "rice", "cotton", "vegetables", "fruits"]
+  }
+]
+
+
+

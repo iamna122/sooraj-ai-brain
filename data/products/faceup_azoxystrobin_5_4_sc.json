@@ -1,0 +1,208 @@
+{
+  "product_id": "sooraj_faceup_azoxystrobin_5_4_sc",
+  "product_name": "FACEUP 56% SC",
+  "brand": "Sooraj Crop Sciences",
+  "product_type": "Fungicide",
+  "category": "Fungicide",
+
+  "active_ingredients": [
+    {
+      "name": "Azoxystrobin",
+      "percentage": "5.4%",
+      "mode_of_action": "QoI fungicide that blocks mitochondrial respiration in fungi and stops energy production"
+    }
+  ],
+
+  "chemical_group": "Strobilurin (QoI)",
+  "formulation_type": "SC (Suspension Concentrate)",
+  "systemicity": "Systemic and translaminar",
+  "mode_of_action_summary": "Absorbed by the plant and moves within leaf tissue, stopping fungal spore germination and growth by blocking energy formation.",
+
+  "targets": {
+    "diseases": [
+      "powdery mildew",
+      "downy mildew",
+      "rust",
+      "leaf spot",
+      "early blight",
+      "late blight",
+      "anthracnose",
+      "rice blast",
+      "sheath blight"
+    ],
+    "insects": [],
+    "weeds": [],
+    "nutrient_deficiencies": []
+  },
+
+  "crop_applicability": {
+    "major_crops": [
+      "rice",
+      "wheat",
+      "maize",
+      "cotton"
+    ],
+    "vegetables": [
+      "tomato",
+      "chilli",
+      "okra",
+      "potato",
+      "cucurbits"
+    ],
+    "fruits": [
+      "mango",
+      "citrus",
+      "grapes",
+      "apple"
+    ],
+    "all_supported_crops": [
+      "rice",
+      "wheat",
+      "maize",
+      "cotton",
+      "tomato",
+      "chilli",
+      "okra",
+      "potato",
+      "cucurbits",
+      "mango",
+      "citrus",
+      "grapes",
+      "apple",
+      "vegetables",
+      "fruits"
+    ]
+  },
+
+  "dosage": {
+    "per_acre": "200–250 ml",
+    "per_100_litre": "60–80 ml",
+    "spray_volume_per_acre": "100–120 litres"
+  },
+
+  "application_details": {
+    "application_method": "Foliar spray",
+    "equipment": [
+      "knapsack sprayer",
+      "tractor mounted boom sprayer"
+    ],
+    "number_of_applications": "1–2 consecutive sprays maximum",
+    "spray_interval": "10–14 days",
+    "coverage_requirement": "Uniform coverage on both sides of leaves"
+  },
+
+  "crop_stage_recommendation": [
+    "Preventive spray before disease development",
+    "At early disease appearance"
+  ],
+
+  "best_time_to_apply": [
+    "Morning",
+    "Evening"
+  ],
+
+  "weather_conditions": {
+    "ideal_temperature": "Moderate temperature",
+    "avoid": [
+      "Rain immediately after spray",
+      "Strong wind",
+      "High temperature at noon"
+    ],
+    "rainfastness": "Good rainfastness after drying",
+    "wind_condition": "Spray in calm weather"
+  },
+
+  "tank_mix_compatibility": [
+    "Compatible with most commonly used fungicides and insecticides (jar test recommended)"
+  ],
+
+  "incompatible_with": [
+    "Strong alkaline products"
+  ],
+
+  "resistance_management": {
+    "mode_of_action_group": "QoI fungicide",
+    "rotation_advice": "Do not apply more than two consecutive sprays. Rotate with fungicides of different mode of action such as triazoles, mancozeb or sulphur."
+  },
+
+  "plant_health_benefits": [
+    "Greening effect",
+    "Improved stress tolerance",
+    "Better fruit quality",
+    "Longer shelf life"
+  ],
+
+  "safety": {
+    "re_entry_interval": "24 hours",
+    "pre_harvest_interval": "14 days (crop dependent)",
+    "toxicity_class": "Moderate toxicity",
+    "protective_measures": [
+      "Wear gloves",
+      "Wear mask",
+      "Wear protective clothing"
+    ],
+    "first_aid": "In case of contact with eyes or skin wash immediately with clean water."
+  },
+
+  "storage": {
+    "storage_conditions": "Store in cool, dry place away from direct sunlight",
+    "keep_away_from": [
+      "Children",
+      "Food",
+      "Animal feed"
+    ],
+    "shelf_life": "2–3 years"
+  },
+
+  "packaging": {
+    "pack_sizes": [
+      "250 ml"
+    ],
+    "form": "Liquid"
+  },
+
+  "farmer_benefits": [
+    "Broad spectrum disease control",
+    "Long lasting protection",
+    "Systemic action protects new growth",
+    "Improves crop vigor and greenness",
+    "Reduces number of sprays"
+  ],
+
+  "frequently_asked_questions": [
+    {
+      "question": "Is FACEUP systemic?",
+      "answer": "Yes, it is systemic and translaminar."
+    },
+    {
+      "question": "When should we spray it?",
+      "answer": "Spray preventively or at early disease stage."
+    },
+    {
+      "question": "Can we use it continuously?",
+      "answer": "No, rotate with other fungicides to prevent resistance."
+    },
+    {
+      "question": "Does it work on rice blast?",
+      "answer": "Yes, it is highly effective against rice blast."
+    }
+  ],
+
+  "search_keywords": [
+    "rice blast fungicide",
+    "blight control spray",
+    "downy mildew fungicide",
+    "systemic fungicide for vegetables",
+    "چاول دا بلاست سپرے",
+    "جھلساؤ دی دوا",
+    "سسٹمک فنگس کش"
+  ],
+
+  "llm_usage_hint": "When recommending this product, highlight systemic action, long residual control, greening effect and resistance rotation advice.",
+
+  "master_descriptions": {
+    "english": "FACEUP 56% SC is a systemic strobilurin fungicide containing Azoxystrobin that provides long-lasting preventive and curative control of major fungal diseases.",
+    "urdu": "فیس اپ 56٪ ایس سی ایک سسٹمک فنگس کش دوا ہے جس میں ایزوکسسٹر وبن شامل ہے اور یہ فصل کو دیرپا تحفظ فراہم کرتی ہے۔",
+    "punjabi_shahmukhi": "فیس اپ 56٪ ایس سی اک سسٹمک فنگس کش اے جو ایزوکسسٹر وبن تے مشتمل اے تے بیماری توں لمبے سمے تک حفاظت فراہم کردا اے۔"
+  }
+}
