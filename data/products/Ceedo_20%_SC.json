@@ -1,0 +1,201 @@
+{
+  "product_id": "ceedo_20_sc",
+  "product_name": "Ceedo 20% SC",
+  "brand": "Sooraj Crop Sciences",
+  "product_type": "Insecticide",
+  "category": "Insecticide",
+
+  "active_ingredients": [
+    {
+      "name": "Clothianidin",
+      "percentage": "20%",
+      "mode_of_action": "nAChR agonist that disrupts the insect nervous system causing feeding cessation, paralysis and death"
+    }
+  ],
+
+  "chemical_group": "Neonicotinoid (IRAC Group 4A)",
+  "formulation_type": "SC (Suspension Concentrate)",
+  "systemicity": "Systemic + Translaminar + Contact",
+  "mode_of_action_summary": "Absorbed by leaves and roots and moves through xylem to entire plant. Overstimulates nicotinic acetylcholine receptors in insects, stopping feeding within hours and killing them within 24–48 hours.",
+
+  "targets": {
+    "weeds": [],
+    "diseases": [],
+    "insects": [
+      "aphid",
+      "whitefly",
+      "jassid",
+      "thrips",
+      "brown planthopper",
+      "green leafhopper",
+      "white backed planthopper",
+      "mealybug",
+      "scale insects",
+      "psyllid"
+    ],
+    "nutrient_deficiencies": []
+  },
+
+  "farmer_symptoms": [
+    "پتیاں مڑ رہیاں نیں تے رس چوسیا جا ریا اے",
+    "سفید مکھی بہت زیادہ اے",
+    "ٹیلہ فصل نوں کمزور کر ریا اے",
+    "مہو دی کالونیاں بن گئیاں نیں",
+    "پتیاں پیلیاں تے چپچپی ہو گئیاں نیں",
+    "چاول وچ تہسین دا حملہ اے",
+    "پتیاں تھلے کیڑے لُکے ہوئے نیں",
+    "پودا ہرا نہیں رہیا تے بڑھوتری رک گئی اے"
+  ],
+
+  "crop_applicability": {
+    "major_crops": [
+      "rice",
+      "cotton"
+    ],
+    "all_supported_crops": [
+      "rice",
+      "cotton",
+      "wheat",
+      "maize",
+      "vegetables",
+      "citrus",
+      "mango",
+      "sugarcane",
+      "potato"
+    ]
+  },
+
+  "dosage": {
+    "per_acre": "100–200 ml",
+    "per_100_litre": "80–100 ml",
+    "spray_volume_per_acre": "80–120 litres",
+    "application_coverage": "Depends on crop and dose"
+  },
+
+  "application_details": {
+    "application_method": "Foliar spray",
+    "equipment": [
+      "knapsack sprayer",
+      "boom sprayer"
+    ],
+    "number_of_applications": "Apply at economic threshold level",
+    "coverage_requirement": "Uniform spray on upper and lower leaf surface"
+  },
+
+  "crop_stage_recommendation": [
+    "Early pest appearance",
+    "Vegetative stage"
+  ],
+
+  "best_time_to_apply": [
+    "Morning",
+    "Evening"
+  ],
+
+  "weather_conditions": {
+    "ideal_condition": "Mild temperature with low wind",
+    "avoid": [
+      "Spray during flowering",
+      "Strong wind",
+      "Rain within 2 hours",
+      "High temperature"
+    ]
+  },
+
+  "tank_mix_compatibility": [
+    "Most fungicides",
+    "Foliar fertilizers",
+    "Pyrethroids"
+  ],
+
+  "incompatible_with": [
+    "Strong alkaline products",
+    "Other neonicotinoids"
+  ],
+
+  "crop_safety": {
+    "selectivity_reason": "Rapid metabolism and recommended dose safety",
+    "overdose_effect": "Temporary leaf stress or phytotoxicity"
+  },
+
+  "resistance_management": {
+    "mode_of_action_group": "IRAC Group 4A",
+    "rotation_advice": "Rotate with insecticides of different mode of action to avoid resistance"
+  },
+
+  "safety": {
+    "re_entry_interval": "24 hours",
+    "pre_harvest_interval": "3–14 days depending on crop",
+    "toxicity_class": "Moderate toxicity",
+    "protective_measures": [
+      "Wear gloves",
+      "Wear mask",
+      "Avoid spray during pollinator activity",
+      "Avoid drift to water bodies"
+    ]
+  },
+
+  "storage": {
+    "storage_conditions": "Store in cool and dry place",
+    "keep_away_from": [
+      "Children",
+      "Food",
+      "Direct sunlight"
+    ],
+    "shelf_life": "2 years"
+  },
+
+  "packaging": {
+    "pack_sizes": [
+      "150 ml",
+      "250 ml"
+    ],
+    "form": "Liquid"
+  },
+
+  "farmer_benefits": [
+    "Fast feeding stop within hours",
+    "Long residual control",
+    "Systemic protection for new growth",
+    "Controls major sucking pests",
+    "Improves crop vigor and greenness",
+    "Low dose effective"
+  ],
+
+  "frequently_asked_questions": [
+    {
+      "question": "Ceedo kis liye use hoti hai?",
+      "answer": "Yeh sucking pests jaise whitefly, jassid, aphid aur hopper ke control ke liye use hoti hai."
+    },
+    {
+      "question": "Rice mein dose kitna hai?",
+      "answer": "Rice mein 200 ml per acre 100–120 litre pani mein."
+    },
+    {
+      "question": "Kitne time mein asar karti hai?",
+      "answer": "2–4 ghante mein keera khana band kar deta hai aur 24–48 ghante mein mar jata hai."
+    },
+    {
+      "question": "Flowering mein spray kar sakte hain?",
+      "answer": "Nahi, bees ke liye toxic hone ki wajah se flowering mein spray na karein."
+    }
+  ],
+
+  "search_keywords": [
+    "sucking pest control",
+    "whitefly control",
+    "jassid ki dawa",
+    "rice hopper spray",
+    "مہو دا علاج",
+    "ٹیلہ کنٹرول",
+    "systemic insecticide"
+  ],
+
+  "llm_usage_hint": "Recommend when sucking pests appear at early stage and long systemic control is required. Avoid during flowering due to bee toxicity.",
+
+  "master_descriptions": {
+    "english": "Ceedo 20% SC is a systemic neonicotinoid insecticide containing Clothianidin that provides fast and long-lasting control of major sucking pests in multiple crops.",
+    "urdu": "سیڈو 20٪ ایس سی ایک سسٹمک نیونیکوٹینوئیڈ انسیکٹیسائڈ ہے جو رس چوسنے والے کیڑوں کو تیزی سے ختم کر کے لمبے عرصے تک تحفظ دیتا ہے۔",
+    "punjabi_shahmukhi": "سیڈو 20٪ ایس سی اک سسٹمک نیونیکوٹینوئیڈ انسیکٹیسائڈ اے جو رس چوسن آلے کیڑیاں نوں تیزی نال ختم کرکے لمبے ٹائم تک فصل نوں بچاؤ دیندا اے۔"
+  }
+}

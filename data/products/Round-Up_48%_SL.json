@@ -1,0 +1,215 @@
+{
+  "product_id": "sooraj_roundup_48_sl",
+  "product_name": "Round-Up 48% SL",
+  "brand": "Sooraj Crop Sciences",
+  "product_type": "Herbicide",
+  "category": "Herbicide",
+
+  "active_ingredients": [
+    {
+      "name": "Glyphosate (as IPA salt)",
+      "percentage": "48%",
+      "mode_of_action": "EPSP synthase inhibitor absorbed through leaves and translocated to roots causing complete plant death"
+    }
+  ],
+
+  "chemical_group": "Glycine derivative (Organophosphonate)",
+  "formulation_type": "SL (Soluble Liquid)",
+  "systemicity": "Systemic",
+  "mode_of_action_summary": "Blocks amino acid synthesis in weeds through the shikimate pathway, stopping growth and killing the plant from leaf to root.",
+
+  "targets": {
+    "weeds": [
+      "khabbal",
+      "dhoob grass",
+      "sawanki",
+      "wild oats",
+      "bathoo",
+      "cholai",
+      "makoh",
+      "lehli",
+      "field bindweed",
+      "annual grasses",
+      "broadleaf weeds",
+      "perennial weeds",
+      "motha (suppression)"
+    ],
+    "diseases": [],
+    "insects": [],
+    "nutrient_deficiencies": []
+  },
+
+  "farmer_symptoms": [
+    "ہر قسم دی گھاس ختم کرنی اے",
+    "خبال بہت ہو گئی اے",
+    "ڈھوب گھاس قابو نہیں آ رہی",
+    "بوائی توں پہلاں کھیت صاف کرنا اے",
+    "کھیت وچ پرانی جڑی بوٹی کھڑی اے",
+    "باغ دے تھلے زمین صاف کرنی اے",
+    "واٹاں تے نہر کنارے گھاس ختم کرنی اے",
+    "زیرو ٹیلج کرنی اے",
+    "ہل چلائے بغیر گھاس مارنی اے"
+  ],
+
+  "crop_applicability": {
+    "major_crops": [
+      "wheat",
+      "rice",
+      "maize",
+      "cotton",
+      "sugarcane",
+      "orchards"
+    ],
+    "all_supported_crops": [
+      "pre-sowing for all crops",
+      "orchard floor",
+      "non-crop areas",
+      "bunds",
+      "canal banks",
+      "roadsides"
+    ]
+  },
+
+  "dosage": {
+    "per_acre": "400–1000 ml",
+    "per_100_litre": "300–500 ml",
+    "spray_volume_per_acre": "100–150 litres",
+    "application_coverage": "1–2 acres per liter depending on weed density"
+  },
+
+  "application_details": {
+    "application_method": "Post-emergence foliar directed spray on weeds",
+    "equipment": [
+      "knapsack sprayer",
+      "tractor mounted boom sprayer"
+    ],
+    "number_of_applications": "Single application for existing weeds",
+    "coverage_requirement": "Uniform spray on green actively growing weeds"
+  },
+
+  "crop_stage_recommendation": [
+    "pre-sowing",
+    "pre-plant land preparation",
+    "post-harvest weed control",
+    "orchard inter-row directed spray"
+  ],
+
+  "water_management": {
+    "before_spray": "Ensure weeds are actively growing with adequate soil moisture",
+    "after_spray": "Avoid irrigation or rainfall for at least 6 hours",
+    "water_level": "Not dependent on standing water"
+  },
+
+  "best_time_to_apply": [
+    "Morning",
+    "Evening"
+  ],
+
+  "weather_conditions": {
+    "ideal_condition": "Moderate temperature with actively growing weeds",
+    "avoid": [
+      "Rain within 6 hours",
+      "Strong wind",
+      "Extreme heat",
+      "Frost",
+      "Drought-stressed weeds"
+    ]
+  },
+
+  "tank_mix_compatibility": [
+    "2,4-D (where recommended)",
+    "Non-ionic surfactant"
+  ],
+
+  "incompatible_with": [
+    "Muddy water",
+    "Hard water with high calcium",
+    "Copper based products"
+  ],
+
+  "crop_safety": {
+    "selectivity_reason": "Non-selective herbicide kills all green plants on contact",
+    "overdose_effect": "Severe damage or death of contacted crop plants"
+  },
+
+  "resistance_management": {
+    "mode_of_action_group": "HRAC Group 9",
+    "rotation_advice": "Rotate with herbicides of different mode of action such as paraquat or glufosinate."
+  },
+
+  "safety": {
+    "re_entry_interval": "24 hours",
+    "pre_harvest_interval": "Not applicable",
+    "toxicity_class": "Low toxicity",
+    "protective_measures": [
+      "Wear gloves",
+      "Wear mask",
+      "Avoid spray drift to crops",
+      "Avoid contamination of water bodies"
+    ]
+  },
+
+  "storage": {
+    "storage_conditions": "Store in cool and dry place away from direct sunlight",
+    "keep_away_from": [
+      "Children",
+      "Food items",
+      "Heat sources"
+    ],
+    "shelf_life": "2 years"
+  },
+
+  "packaging": {
+    "pack_sizes": [
+      "1000 ml"
+    ],
+    "form": "Liquid"
+  },
+
+  "farmer_benefits": [
+    "Complete root kill of weeds",
+    "Controls annual and perennial weeds in one spray",
+    "No regrowth from roots",
+    "Saves labour cost",
+    "Ideal for land preparation",
+    "Supports zero tillage farming"
+  ],
+
+  "frequently_asked_questions": [
+    {
+      "question": "Can we spray Round-Up on standing crop?",
+      "answer": "No, it is a non-selective herbicide and will kill the crop."
+    },
+    {
+      "question": "When should we sow the next crop after spray?",
+      "answer": "Next crop can be sown 3–7 days after application."
+    },
+    {
+      "question": "Does it control khabbal and dhoob?",
+      "answer": "Yes, it is highly effective against deep-rooted perennial weeds."
+    },
+    {
+      "question": "How long does it take to kill weeds?",
+      "answer": "Yellowing starts in 3–5 days and complete kill occurs in 14–21 days."
+    }
+  ],
+
+  "search_keywords": [
+    "total weed killer",
+    "glyphosate 48 sl",
+    "pre sowing weed control",
+    "khabbal control",
+    "zero tillage herbicide",
+    "ہر قسم دی گھاس مار دوا",
+    "بوائی توں پہلاں جڑی بوٹی ختم",
+    "خبال ختم کرنے والی دوا"
+  ],
+
+  "llm_usage_hint": "Recommend only for pre-sowing, land preparation, orchard floor and non-crop weed control where complete vegetation kill is required.",
+
+  "master_descriptions": {
+    "english": "Round-Up 48% SL is a non-selective systemic herbicide that kills all types of weeds from leaf to root and is mainly used for land preparation and non-crop weed control.",
+    "urdu": "راؤنڈ اپ 48٪ ایس ایل ایک نان سلیکٹو سسٹمک جڑی بوٹی مار دوا ہے جو تمام اقسام کی جڑی بوٹیوں کو جڑ سمیت ختم کرتی ہے اور زیادہ تر بوائی سے پہلے زمین صاف کرنے کے لیے استعمال ہوتی ہے۔",
+    "punjabi_shahmukhi": "راؤنڈ اپ 48٪ ایس ایل اک نان سلیکٹو سسٹمک جڑی بوٹی مار اے جو ہر قسم دی گھاس نوں جڑ توں ختم کردا اے تے زیادہ تر بوائی توں پہلاں زمین صاف کرن لئی ورتیا جاندا اے۔"
+  }
+}

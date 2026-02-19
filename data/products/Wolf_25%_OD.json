@@ -1,0 +1,201 @@
+{
+  "product_id": "sooraj_wolf_25_od",
+  "product_name": "Wolf 25% OD",
+  "brand": "Sooraj Crop Sciences",
+  "product_type": "Herbicide",
+  "category": "Herbicide",
+
+  "active_ingredients": [
+    {
+      "name": "Mesosulfuron Methyl",
+      "percentage": "0.9%",
+      "mode_of_action": "ALS inhibitor absorbed through leaves and roots, stops amino acid synthesis in grassy weeds"
+    },
+    {
+      "name": "Florasulam",
+      "percentage": "0.6%",
+      "mode_of_action": "Systemic ALS inhibitor that controls broadleaf weeds by blocking cell division"
+    },
+    {
+      "name": "MCPA",
+      "percentage": "23.5%",
+      "mode_of_action": "Synthetic auxin that causes uncontrolled growth in broadleaf weeds leading to plant death"
+    }
+  ],
+
+  "chemical_group": "Sulfonylurea + Triazolopyrimidine + Phenoxy (ALS inhibitor + Synthetic auxin)",
+  "formulation_type": "OD (Oil Dispersion)",
+  "systemicity": "Systemic",
+  "mode_of_action_summary": "Triple-action post-emergence herbicide that controls grassy and broadleaf weeds in wheat by ALS inhibition and hormonal disruption.",
+
+  "targets": {
+    "weeds": [
+      "phalaris minor",
+      "wild oats",
+      "canary grass",
+      "ryegrass",
+      "bathua",
+      "lehli",
+      "wild mustard",
+      "makoh",
+      "cholai",
+      "kulfa"
+    ],
+    "diseases": [],
+    "insects": [],
+    "nutrient_deficiencies": []
+  },
+
+  "farmer_symptoms": [
+    "گندم وچ گلی ڈنڈا بہت اے",
+    "جنگلی جئی کھیت وچ پھیلی ہوئی اے",
+    "چوڑی پتی جڑی بوٹیاں ختم نہیں ہورہیاں",
+    "باتھو گندم نوں دبا رہیا اے",
+    "لہلی بہت زیادہ اے",
+    "کھیت وچ ملی جلی جڑی بوٹیاں نیں",
+    "گندم دی گروتھ رک گئی اے جڑی بوٹیاں کرکے",
+    "کھیت صاف نہیں ہورہا"
+  ],
+
+  "crop_applicability": {
+    "major_crops": [
+      "wheat"
+    ],
+    "all_supported_crops": [
+      "wheat"
+    ]
+  },
+
+  "dosage": {
+    "per_acre": "360–480 ml",
+    "per_100_litre": "300–400 ml",
+    "spray_volume_per_acre": "100–120 litres",
+    "application_coverage": "1 acre"
+  },
+
+  "application_details": {
+    "application_method": "Post-emergence foliar spray",
+    "equipment": [
+      "knapsack sprayer",
+      "flat fan nozzle"
+    ],
+    "number_of_applications": "Single application",
+    "coverage_requirement": "Uniform spray on weed foliage at knee height"
+  },
+
+  "crop_stage_recommendation": [
+    "Tillering stage of wheat (2–3 tillers)"
+  ],
+
+  "best_time_to_apply": [
+    "Morning",
+    "Evening"
+  ],
+
+  "weather_conditions": {
+    "ideal_condition": "Moist soil with actively growing weeds",
+    "avoid": [
+      "Rain within 2 hours",
+      "Strong wind",
+      "Frost",
+      "High temperature above 30°C",
+      "Drought stress"
+    ]
+  },
+
+  "tank_mix_compatibility": [
+    "Isoproturon",
+    "Pinoxaden",
+    "Carfentrazone-ethyl",
+    "Micronutrients"
+  ],
+
+  "incompatible_with": [
+    "Organophosphate insecticides",
+    "Strong alkaline products"
+  ],
+
+  "crop_safety": {
+    "selectivity_reason": "Wheat rapidly metabolizes the herbicide at recommended dose",
+    "overdose_effect": "Temporary yellowing or phytotoxicity in wheat"
+  },
+
+  "resistance_management": {
+    "mode_of_action_group": "HRAC Group 2 + Group 4",
+    "rotation_advice": "Rotate with herbicides of different mode of action to prevent resistance"
+  },
+
+  "safety": {
+    "re_entry_interval": "24 hours",
+    "pre_harvest_interval": "60–70 days",
+    "toxicity_class": "Moderate toxicity",
+    "protective_measures": [
+      "Wear gloves",
+      "Wear mask",
+      "Wear protective clothing",
+      "Avoid spray drift to nearby broadleaf crops"
+    ]
+  },
+
+  "storage": {
+    "storage_conditions": "Store in cool and dry place",
+    "keep_away_from": [
+      "Children",
+      "Direct sunlight",
+      "Moisture"
+    ],
+    "shelf_life": "2 years"
+  },
+
+  "packaging": {
+    "pack_sizes": [
+      "4 CD-ML"
+    ],
+    "form": "Liquid"
+  },
+
+  "farmer_benefits": [
+    "Controls grassy and broadleaf weeds in one spray",
+    "Best solution for phalaris minor and wild oats",
+    "Improves wheat tillering",
+    "Reduces manual weeding cost",
+    "Protects yield potential",
+    "Better absorption due to OD formulation"
+  ],
+
+  "frequently_asked_questions": [
+    {
+      "question": "When should we apply Wolf 25% OD?",
+      "answer": "Apply at wheat tillering stage when weeds are at 2–4 leaf stage."
+    },
+    {
+      "question": "Does it control phalaris minor?",
+      "answer": "Yes, it is highly effective against phalaris minor and wild oats."
+    },
+    {
+      "question": "Can we spray after jointing stage?",
+      "answer": "No, do not spray after jointing stage as it may harm the crop."
+    },
+    {
+      "question": "Is one spray enough?",
+      "answer": "Yes, a single spray is usually sufficient for complete weed control."
+    }
+  ],
+
+  "search_keywords": [
+    "wheat weed control",
+    "gulli danda control",
+    "phalaris minor ka ilaaj",
+    "jangli jai control",
+    "post emergence herbicide for wheat",
+    "گندم دی جڑی بوٹی مار دوا"
+  ],
+
+  "llm_usage_hint": "When recommending this product, mention wheat tillering stage, mixed weed control and phalaris minor effectiveness.",
+
+  "master_descriptions": {
+    "english": "Wolf 25% OD is a triple-action selective post-emergence systemic herbicide for wheat that controls grassy and broadleaf weeds including phalaris minor and wild oats.",
+    "urdu": "وولف 25٪ او ڈی گندم کے لیے ایک سلیکٹو پوسٹ ایمرجنس جڑی بوٹی مار دوا ہے جو گھاس نما اور چوڑی پتی جڑی بوٹیوں کو ختم کرتی ہے۔",
+    "punjabi_shahmukhi": "وولف 25٪ او ڈی گندم لئی اک سلیکٹو پوسٹ ایمرجنس جڑی بوٹی مار اے جو گلی ڈنڈا، جنگلی جئی تے چوڑی پتی جڑی بوٹیاں نوں اک ہی سپرے نال ختم کردا اے۔"
+  }
+}

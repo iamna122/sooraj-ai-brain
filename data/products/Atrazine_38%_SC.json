@@ -1,0 +1,154 @@
+{
+  "product_id": "atrazine_38_sc",
+  "product_name": "Atrazine 38% SC",
+  "brand": "",
+  "category": "Herbicide",
+  "formulation": "SC",
+  "pack_size": "500 ML",
+
+  "active_ingredients": [
+    {
+      "name": "Atrazine",
+      "percentage": "38%",
+      "chemical_group": "Triazine",
+      "hrac_group": "Group 5",
+      "mode_of_action": "Photosystem II inhibitor"
+    }
+  ],
+
+  "product_type": {
+    "selectivity": "Selective",
+    "application_timing": ["Pre-emergence", "Early post-emergence"],
+    "systemicity": "Systemic",
+    "soil_residual": "4-8 weeks"
+  },
+
+  "mode_of_action_summary": "Absorbed through roots and leaves, blocks Photosystem II by binding to D1 protein, stops photosynthesis, causes chlorosis and necrosis leading to weed death.",
+
+  "target_weeds": {
+    "broadleaf": [
+      "Bathu",
+      "Cholai",
+      "Makoh",
+      "Kulfa",
+      "Lehli",
+      "Wild mustard",
+      "Itsit",
+      "Parthenium (early stage)"
+    ],
+    "grassy": [
+      "Sawank (Echinochloa)",
+      "Crabgrass (Digitaria)",
+      "Foxtail (early stage)"
+    ],
+    "note": "Weak on perennial grasses; tank mix required for complete control."
+  },
+
+  "target_crops": {
+    "safe_crops": [
+      "Maize",
+      "Sugarcane",
+      "Sorghum (label dependent)"
+    ],
+    "not_safe_crops": [
+      "Wheat",
+      "Rice",
+      "Cotton",
+      "Pulses",
+      "Vegetables",
+      "Oilseeds"
+    ]
+  },
+
+  "dosage": {
+    "maize": {
+      "pre_emergence": "500-800 ml per acre",
+      "post_emergence": "400-600 ml per acre"
+    },
+    "sugarcane": "600-800 ml per acre",
+    "water_volume": "100-150 liters per acre",
+    "pack_coverage": "Approximately 1 acre (pre-emergence)"
+  },
+
+  "application_timing": {
+    "pre_emergence": "0-3 days after sowing on moist soil",
+    "post_emergence": "Weeds at 2-4 leaf stage, crop at 2-6 leaf stage"
+  },
+
+  "soil_requirements": [
+    "Moist soil required for activation",
+    "Light irrigation after spray improves performance",
+    "Dry soil reduces efficacy"
+  ],
+
+  "crop_safety_conditions": [
+    "Avoid overdose",
+    "Do not apply on stressed crop",
+    "Avoid sandy soil at high dose",
+    "Do not apply after 6-leaf stage in maize"
+  ],
+
+  "residual_and_rotation": {
+    "residual_life": "4-8 weeks",
+    "next_crop": "Wheat, vegetables and pulses can be grown after residual breakdown"
+  },
+
+  "tank_mix_recommendations": [
+    "Atrazine + Nicosulfuron for complete grass and broadleaf control",
+    "Atrazine + Pendimethalin for strong pre-emergence program",
+    "Atrazine + 2,4-D for enhanced broadleaf control (early post)"
+  ],
+
+  "benefits": [
+    "Long residual weed control",
+    "Clean field during critical crop growth stage",
+    "Strong crop establishment",
+    "Reduced manual hoeing cost",
+    "Better fertilizer utilization",
+    "Higher yield potential",
+    "Cost-effective maize herbicide"
+  ],
+
+  "farmer_problem_triggers_shahmukhi": [
+    "مکئی وچ شروع توں جڑی بوٹی بہت اے",
+    "بوائی توں بعد کھیت صاف رکھنا اے",
+    "پہلی گوڈی دا خرچہ بچانا اے",
+    "باتھو تے چولائی بہت نکل آندے نیں",
+    "گنے وچ لائن وچ جڑی بوٹی کنٹرول کرنی اے"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moist soil",
+      "Calm wind",
+      "Moderate temperature"
+    ],
+    "avoid_conditions": [
+      "Dry soil",
+      "Heavy rain forecast",
+      "Strong wind",
+      "High temperature during post-emergence"
+    ]
+  },
+
+  "safety": [
+    "Avoid spray near water bodies",
+    "Use PPE during handling and spraying",
+    "Prevent drift to sensitive crops",
+    "Follow recommended dose"
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Crop is maize or sugarcane",
+      "Pre-emergence stage after sowing",
+      "Early weed emergence",
+      "Broadleaf weeds dominant"
+    ],
+    "do_not_recommend_when": [
+      "Crop is wheat, rice, cotton or vegetables",
+      "Weeds are large and mature",
+      "Farmer needs non-selective herbicide"
+    ]
+  }
+}
