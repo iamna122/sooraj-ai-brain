@@ -35,42 +35,29 @@
     "nutrient_deficiencies": []
   },
 
+  "farmer_symptoms": [
+    "پتیاں تے داغ",
+    "پتیاں جل جانا",
+    "پتیاں سڑ جانا",
+    "پھپھوند لگ جانا",
+    "بیماری تیزی نال پھیلنا",
+    "چاول دا بلاسٹ",
+    "شیٹھ بلائٹ",
+    "رسٹ دی بیماری",
+    "پتے تے سفیدی آ جانا",
+    "ٹماٹر تے جھلساؤ",
+    "آلو تے لیٹ بلائٹ"
+  ],
+
   "crop_applicability": {
-    "major_crops": [
-      "rice",
-      "wheat",
-      "maize",
-      "cotton"
-    ],
-    "vegetables": [
-      "tomato",
-      "chilli",
-      "okra",
-      "potato",
-      "cucurbits"
-    ],
-    "fruits": [
-      "mango",
-      "citrus",
-      "grapes",
-      "apple"
-    ],
+    "major_crops": ["rice", "wheat", "maize", "cotton"],
+    "vegetables": ["tomato", "chilli", "okra", "potato", "cucurbits"],
+    "fruits": ["mango", "citrus", "grapes", "apple"],
     "all_supported_crops": [
-      "rice",
-      "wheat",
-      "maize",
-      "cotton",
-      "tomato",
-      "chilli",
-      "okra",
-      "potato",
-      "cucurbits",
-      "mango",
-      "citrus",
-      "grapes",
-      "apple",
-      "vegetables",
-      "fruits"
+      "rice", "wheat", "maize", "cotton",
+      "tomato", "chilli", "okra", "potato", "cucurbits",
+      "mango", "citrus", "grapes", "apple",
+      "vegetables", "fruits"
     ]
   },
 
@@ -96,10 +83,7 @@
     "At early disease appearance"
   ],
 
-  "best_time_to_apply": [
-    "Morning",
-    "Evening"
-  ],
+  "best_time_to_apply": ["Morning", "Evening"],
 
   "weather_conditions": {
     "ideal_temperature": "Moderate temperature",
@@ -116,9 +100,7 @@
     "Compatible with most commonly used fungicides and insecticides (jar test recommended)"
   ],
 
-  "incompatible_with": [
-    "Strong alkaline products"
-  ],
+  "incompatible_with": ["Strong alkaline products"],
 
   "resistance_management": {
     "mode_of_action_group": "QoI fungicide",
@@ -146,18 +128,12 @@
 
   "storage": {
     "storage_conditions": "Store in cool, dry place away from direct sunlight",
-    "keep_away_from": [
-      "Children",
-      "Food",
-      "Animal feed"
-    ],
+    "keep_away_from": ["Children", "Food", "Animal feed"],
     "shelf_life": "2–3 years"
   },
 
   "packaging": {
-    "pack_sizes": [
-      "250 ml"
-    ],
+    "pack_sizes": ["250 ml"],
     "form": "Liquid"
   },
 
@@ -169,25 +145,6 @@
     "Reduces number of sprays"
   ],
 
-  "frequently_asked_questions": [
-    {
-      "question": "Is FACEUP systemic?",
-      "answer": "Yes, it is systemic and translaminar."
-    },
-    {
-      "question": "When should we spray it?",
-      "answer": "Spray preventively or at early disease stage."
-    },
-    {
-      "question": "Can we use it continuously?",
-      "answer": "No, rotate with other fungicides to prevent resistance."
-    },
-    {
-      "question": "Does it work on rice blast?",
-      "answer": "Yes, it is highly effective against rice blast."
-    }
-  ],
-
   "search_keywords": [
     "rice blast fungicide",
     "blight control spray",
@@ -195,7 +152,8 @@
     "systemic fungicide for vegetables",
     "چاول دا بلاست سپرے",
     "جھلساؤ دی دوا",
-    "سسٹمک فنگس کش"
+    "فنگس کش سپرے",
+    "پھپھوندی دی دوا"
   ],
 
   "llm_usage_hint": "When recommending this product, highlight systemic action, long residual control, greening effect and resistance rotation advice.",
