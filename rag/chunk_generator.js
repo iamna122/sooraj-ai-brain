@@ -2,62 +2,65 @@ const fs = require("fs");
 const path = require("path");
 
 const productsDir = path.join(__dirname, "../data/products");
-const outPath = path.join(__dirname, "chunks/product_chunks.json");
+const outputDir = path.join(__dirname, "chunks");
+const outputFile = path.join(outputDir, "product_chunks.json");
 
-function safe(val) {
-  if (!val) return "";
-  if (Array.isArray(val)) return val.join(", ");
-  return val;
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir);
 }
 
-function buildSearchText(p) {
-  return `
-Product: ${safe(p.product_name)}
+const files = fs.readdirSync(productsDir);
 
-Category: ${safe(p.category)}
+let chunks = [];
 
-Type: ${safe(p.type)}
+files.forEach(file => {
+  if (!file.endsWith(".json")) return;
 
-Crops: ${safe(p.crops)}
+  const product = JSON.parse(
+    fs.readFileSync(path.join(productsDir, file), "utf-8")
+  );
 
-Controls / Solves: ${safe(p.controls)}
+  const text = `
+Product: ${product.product_name}
+Category: ${product.category}
+Type: ${product.type}
 
-Diseases: ${safe(p.diseases)}
+Crops: ${(product.crops || []).join(", ")}
 
-Weeds: ${safe(p.weeds)}
-
-Nutrient deficiency: ${safe(p.nutrient_deficiency)}
+Controls: ${(product.controls || []).join(", ")}
+Diseases: ${(product.diseases || []).join(", ")}
+Weeds: ${(product.weeds || []).join(", ")}
+Nutrient deficiency: ${(product.nutrient_deficiency || []).join(", ")}
 
 Description:
-${safe(p.description)}
+${product.description}
 
 Recommendation:
-${safe(p.recommendation)}
+${product.recommendation}
 `;
-}
 
-function run() {
-  const files = fs.readdirSync(productsDir);
+  chunks.push({
+    text,
+    metadata: {
+      product: product.product_name,
+      category: product.category,
+      type: product.type,
+      crops: product.crops || [],
+      controls: product.controls || [],
+      diseases: product.diseases || [],
+      weeds: product.weeds || [],
+      nutrient_deficiency: product.nutrient_deficiency || [],
+      intent_tags: [
+        product.category === "Insecticide" ? "insect" :
+        product.category === "Fungicide" ? "disease" :
+        product.category === "Herbicide" ? "weed" :
+        "nutrition"
+      ]
+    }
+  });
 
-  let chunks = [];
+});
 
-  for (const file of files) {
-    const json = JSON.parse(
-      fs.readFileSync(path.join(productsDir, file), "utf-8")
-    );
+fs.writeFileSync(outputFile, JSON.stringify(chunks, null, 2));
 
-    chunks.push({
-      text: buildSearchText(json),
-      metadata: {
-        product: json.product_name,
-        category: json.category,
-      },
-    });
-  }
-
-  fs.writeFileSync(outPath, JSON.stringify(chunks, null, 2));
-
-  console.log("✅ Chunks generated:", chunks.length);
-}
-
-run();
+console.log(`✅ Chunks generated: ${chunks.length}`);

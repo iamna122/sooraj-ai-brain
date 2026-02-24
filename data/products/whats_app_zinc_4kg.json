@@ -4,94 +4,67 @@
   "brand": "Sooraj Crop Sciences",
 
   "category": "Crop Nutrition",
-  "type": "Micronutrient fertilizer",
-  "product_type": "Zinc fertilizer",
+  "product_type": "Micronutrient fertilizer",
+  "formulation": "Granular",
+  "systemicity": "Soil and foliar",
 
-  "composition": {
-    "zinc": "33%",
-    "form": "Zinc sulphate"
-  },
-
-  "crops": [
-    "rice",
-    "wheat",
-    "maize",
-    "cotton",
-    "sugarcane",
-    "vegetables"
+  "active_ingredients": [
+    {
+      "name": "Zinc (Zn)",
+      "percentage": "33%",
+      "mode_of_action": "Corrects zinc deficiency and boosts enzyme activity"
+    }
   ],
 
   "targets": {
-    "nutrient_deficiencies": [
-      "zinc deficiency",
-      "khaira disease"
-    ],
     "insects": [],
     "diseases": [],
-    "weeds": []
+    "weeds": [],
+    "nutrient_deficiencies": ["zinc deficiency", "khaira disease"]
+  },
+
+  "crop_applicability": {
+    "major_crops": ["rice", "wheat"],
+    "all_supported_crops": ["rice", "wheat", "maize", "cotton", "vegetables"]
+  },
+
+  "dosage": { "per_acre": "4 kg" },
+
+  "application_details": {
+    "application_method": "Soil broadcast / foliar",
+    "spray_interval": "Once at early stage"
   },
 
   "farmer_symptoms": [
-    "دھان وچ زنک دی کمی اے",
-    "کھئیرا بیماری",
-    "پتے پیلے ہو گئے نیں",
-    "پتے تے بھورے دھبے",
-    "پودا چھوٹا رہ گیا اے",
-    "ٹِلرنگ کٹ ہو گئی اے",
-    "growth رک گئی اے",
-    "leaf yellowing between veins",
-    "stunted plant growth",
-    "bronze color leaves",
-    "rice khaira disease",
-    "zinc deficiency in wheat",
-    "maize zinc deficiency",
-    "choti pattiyaan",
-    "kamzor poda"
+    "دھان وچ زنک دی کمی",
+    "کھیرہ بیماری",
+    "پتے پیلے ہو گئے",
+    "stunted crop",
+    "bronzing in rice"
+  ],
+
+  "farmer_queries": [
+    "zinc deficiency in rice",
+    "khaira disease treatment"
   ],
 
   "search_keywords": [
-    "zinc deficiency fertilizer",
+    "زنک کھاد",
     "zinc for rice",
-    "khaira disease treatment",
-    "micronutrient for wheat",
-    "زنک دی کمی دا علاج",
-    "کھئیرا بیماری دی دوا",
-    "rice zinc spray",
-    "zinc sulphate fertilizer",
-    "پتے پیلے ہو رہے نیں حل"
+    "micro nutrient zinc"
   ],
-
-  "dosage": {
-    "per_acre": "4 kg"
-  },
-
-  "application_details": {
-    "application_method": [
-      "Soil application",
-      "Foliar spray (if water soluble)"
-    ],
-    "best_time": [
-      "Morning",
-      "Evening"
-    ]
-  },
 
   "farmer_benefits": [
-    "Recovers zinc deficient crops quickly",
-    "Improves tillering in rice",
-    "Enhances root development",
-    "Increases grain formation",
-    "Improves plant vigor",
-    "Uniform crop growth"
+    "Greener crop",
+    "More tillers",
+    "Higher yield"
   ],
 
-  "description": "High quality zinc fertilizer that corrects zinc deficiency and khaira disease and boosts crop growth and yield.",
-
-  "recommendation": "Apply 4 kg per acre at early growth stage or when deficiency symptoms appear.",
+  "intent_tags": ["nutrition"],
 
   "master_descriptions": {
-    "english": "High efficiency zinc fertilizer for rapid correction of zinc deficiency in rice, wheat and maize.",
-    "urdu": "زنک کی کمی کو فوری دور کرنے اور فصل کی بہتر بڑھوتری کے لیے بہترین کھاد۔",
-    "punjabi_shahmukhi": "زنک دی کمی نوں جلدی پورا کرن تے فصل دی وادھیا نشوونما لئی بہترین کھاد۔"
+    "english": "High efficiency zinc fertilizer for rapid deficiency correction.",
+    "urdu": "زنک کی کمی کا فوری حل۔",
+    "punjabi_shahmukhi": "زنک دی کمی دا تیز علاج۔"
   }
 }

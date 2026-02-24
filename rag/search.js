@@ -1,32 +1,29 @@
 const fs = require("fs");
 const path = require("path");
-const similarity = require("compute-cosine-similarity");
+const cosine = require("compute-cosine-similarity");
 
 async function run() {
-  const query = process.argv[2];
-
-  if (!query) {
-    console.log("❌ Please provide a search query");
-    return;
-  }
-
   const { pipeline } = await import("@xenova/transformers");
 
-  console.log("🌾 User Query:", query);
-  console.log("--------------------------------------------------");
-
-  // ✅ Load vector DB
-  const dbPath = path.join(__dirname, "../vector_store/vectors.json");
-
-  if (!fs.existsSync(dbPath)) {
-    console.log("❌ vectors.json not found. Run embed script first.");
+  const query = process.argv[2];
+  if (!query) {
+    console.log("❌ Please provide a query");
     return;
   }
 
-  const db = JSON.parse(fs.readFileSync(dbPath, "utf-8"));
+  console.log("\n🌾 User Query:", query);
+
+  // 📦 LOAD VECTOR DB
+  const db = JSON.parse(
+    fs.readFileSync(
+      path.join(__dirname, "../vector_store/vectors.json"),
+      "utf-8"
+    )
+  );
+
   console.log("📦 Total vectors loaded:", db.length);
 
-  // ✅ Load embedding model
+  // 🧠 LOAD MODEL
   const embedder = await pipeline(
     "feature-extraction",
     "Xenova/all-MiniLM-L6-v2"
@@ -34,7 +31,7 @@ async function run() {
 
   console.log("🧠 Embedding model loaded");
 
-  // ✅ Create query embedding
+  // 🔎 QUERY EMBEDDING
   const output = await embedder(query, {
     pooling: "mean",
     normalize: true,
@@ -42,22 +39,74 @@ async function run() {
 
   const queryVector = Array.from(output.data);
 
-  // ✅ Compute similarity
-  const results = db.map((item) => ({
-    text: item.text,
-    product: item.metadata?.product || "unknown",
-    score: similarity(queryVector, item.vector),
-  }));
+  // 🧠 INTENT DETECTION
+  const intent =
+    /whitefly|aphid|jassid|thrips|hopper|کیڑا/.test(query) ? "insect" :
+    /کمی|deficiency|zinc|کھاد/.test(query) ? "nutrition" :
+    /rust|blight|mildew|پھپھوند/.test(query) ? "disease" :
+    /weed|گھاس|سوانکی/.test(query) ? "weed" :
+    "unknown";
 
-  results.sort((a, b) => b.score - a.score);
+  console.log("🧠 Detected intent:", intent);
 
+  // 🎯 INTENT FILTER
+  let filtered = db;
+
+  if (intent !== "unknown") {
+    filtered = db.filter(item =>
+      item.metadata.intent_tags?.includes(intent)
+    );
+  }
+
+  // 📊 SCORING
+  const results = filtered.map(item => {
+
+    if (!item.vector) return null;
+
+    const score = cosine(queryVector, item.vector);
+
+    // 🔥 KEYWORD BOOST
+    let boost = 0;
+
+    const text = item.text.toLowerCase();
+    const q = query.toLowerCase();
+
+    if (text.includes("whitefly") && q.includes("whitefly")) boost += 0.25;
+    if (text.includes("zinc") && q.includes("zinc")) boost += 0.25;
+    if (text.includes("rust") && q.includes("rust")) boost += 0.25;
+
+    return {
+      ...item,
+      score: score + boost
+    };
+  })
+  .filter(Boolean)
+  .sort((a, b) => b.score - a.score);
+
+  // 🏆 OUTPUT
   console.log("\n🔝 Top Matches:\n");
 
-  results.slice(0, 3).forEach((r) => {
-    console.log(`📦 Product: ${r.product}`);
-    console.log(`⭐ Score: ${r.score.toFixed(3)}`);
-    console.log(`📝 ${r.text.substring(0, 120)}...\n`);
+  results.slice(0, 3).forEach(r => {
+
+    const m = r.metadata || {};
+
+    console.log(`📦 Product: ${m.product || "N/A"}`);
+    console.log(`📂 Category: ${m.category || "N/A"}`);
+    console.log(`🧪 Type: ${m.type || "N/A"}`);
+
+    console.log(`🌾 Crops: ${(m.crops || []).join(", ") || "N/A"}`);
+
+    console.log(`🎯 Controls: ${(m.controls || []).join(", ") || "N/A"}`);
+    console.log(`🍄 Diseases: ${(m.diseases || []).join(", ") || "N/A"}`);
+    console.log(`🌿 Weeds: ${(m.weeds || []).join(", ") || "N/A"}`);
+
+    console.log(
+      `🧬 Nutrient deficiency: ${(m.nutrient_deficiency || []).join(", ") || "N/A"}`
+    );
+
+    console.log(`⭐ Score: ${r.score.toFixed(3)}\n`);
   });
+
 }
 
 run();

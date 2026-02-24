@@ -1,98 +1,66 @@
 {
-  "product_id": "sooraj_sulphur_80_wdg",
+  "product_id": "sooraj_sulphur_80wdg",
   "product_name": "Sulphur 80% WDG",
   "brand": "Sooraj Crop Sciences",
-  "product_type": "Fungicide",
+
   "category": "Fungicide",
+  "product_type": "Contact fungicide",
+  "formulation": "WDG",
+  "systemicity": "Contact",
+
+  "active_ingredients": [
+    {
+      "name": "Sulphur",
+      "percentage": "80%",
+      "mode_of_action": "Disrupts fungal respiration"
+    }
+  ],
 
   "targets": {
-    "diseases": [
-      "powdery mildew",
-      "rust",
-      "scab",
-      "leaf spot"
-    ],
-    "insects": [],
+    "insects": ["mites"],
+    "diseases": ["powdery mildew"],
     "weeds": [],
-    "nutrient_deficiencies": [
-      "sulphur deficiency"
-    ]
+    "nutrient_deficiencies": []
+  },
+
+  "crop_applicability": {
+    "major_crops": ["vegetables", "fruits"],
+    "all_supported_crops": ["cucurbits", "mango", "grapes", "chilli"]
+  },
+
+  "dosage": { "per_acre": "800 g" },
+
+  "application_details": {
+    "application_method": "Foliar spray",
+    "spray_interval": "10 days"
   },
 
   "farmer_symptoms": [
-    "پتے تے سفیدی آ گئی اے",
-    "پتیاں تے سفید پاوڈر ورگا مادہ",
-    "پتے تے زنگ ورگے داغ",
-    "پتیاں پیلیاں ہو رہیاں نیں سلفر دی کمی نال",
-    "پودا کمزور اے تے بڑھوتری رک گئی اے",
-    "پتے سکڑ رہے نیں",
-    "پتے تے بھورے یا نارنجی داغ",
-    "رسٹ دی بیماری",
     "سفید پھپھوند",
-    "powdery mildew in crop",
-    "rust attack in wheat",
-    "sulphur deficiency symptoms",
-    "pale yellow leaves new growth"
+    "powdery mildew on leaves",
+    "mites on crop"
   ],
 
-  "crop_applicability": {
-    "major_crops": [
-      "wheat",
-      "mango",
-      "grapes",
-      "citrus",
-      "groundnut"
-    ],
-    "all_supported_crops": [
-      "wheat",
-      "mango",
-      "grapes",
-      "citrus",
-      "groundnut",
-      "chillies",
-      "okra",
-      "beans",
-      "peas",
-      "cowpea",
-      "guar",
-      "cucurbits",
-      "fruits",
-      "vegetables"
-    ]
-  },
-
-  "dosage": {
-    "per_acre": "750–1000 g"
-  },
-
-  "application_details": {
-    "application_method": "Foliar spray"
-  },
-
-  "best_time_to_apply": [
-    "Morning",
-    "Evening"
-  ],
-
-  "farmer_benefits": [
-    "Effective control of powdery mildew and rust",
-    "Controls mites",
-    "Improves crop growth by supplying sulphur",
-    "Greener leaves",
-    "Better plant vigor"
+  "farmer_queries": [
+    "powdery mildew spray",
+    "sulphur for mites"
   ],
 
   "search_keywords": [
-    "powdery mildew control",
-    "rust control in wheat",
-    "سفید پھپھوند دا علاج",
-    "گندم دا رسٹ سپرے",
-    "سلفر دی کمی"
+    "پھپھوندی دا سپرے",
+    "sulphur fungicide"
   ],
 
+  "farmer_benefits": [
+    "Stops fungal spread",
+    "Controls mites"
+  ],
+
+  "intent_tags": ["disease", "insect"],
+
   "master_descriptions": {
-    "english": "Sulphur 80% WDG is a contact fungicide for powdery mildew and rust that also supplies sulphur nutrition to the crop.",
-    "urdu": "سلفر 80٪ ڈبلیو ڈی جی پاوڈری میلڈیو اور رسٹ کے کنٹرول کے ساتھ ساتھ فصل کو سلفر فراہم کرتا ہے۔",
-    "punjabi_shahmukhi": "سلفر 80٪ ڈبلیو ڈی جی سفیدی والی پھپھوند تے رسٹ دا زبردست کنٹرول کردا اے نالے فصل نوں سلفر دی غذائیت وی دیندا اے۔"
+    "english": "Multi-purpose sulphur for fungal and mite control.",
+    "urdu": "پھپھوندی اور مائیٹس کا مؤثر علاج۔",
+    "punjabi_shahmukhi": "پھپھوندی تے مائیٹس دا علاج۔"
   }
 }
