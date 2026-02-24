@@ -1,191 +1,66 @@
 {
-  "product_id": "sooraj_sulphur_80_wdg",
+  "product_id": "sooraj_sulphur_80wdg",
   "product_name": "Sulphur 80% WDG",
   "brand": "Sooraj Crop Sciences",
-  "product_type": "Fungicide / Miticide / Micronutrient",
+
   "category": "Fungicide",
+  "product_type": "Contact fungicide",
+  "formulation": "WDG",
+  "systemicity": "Contact",
 
   "active_ingredients": [
     {
       "name": "Sulphur",
       "percentage": "80%",
-      "mode_of_action": "Contact protective action that inhibits fungal spore germination and controls mites through vapor and contact activity"
+      "mode_of_action": "Disrupts fungal respiration"
     }
   ],
 
-  "formulation_type": "WDG (Water Dispersible Granules)",
-  "systemicity": "Contact",
-  "mode_of_action_summary": "Creates a protective layer on plant surface, stops fungal spore germination and respiration of mites, and supplies essential sulphur nutrient.",
-
   "targets": {
-    "diseases": [
-      "powdery mildew",
-      "rust",
-      "scab",
-      "leaf spot"
-    ],
-    "pests": [
-      "mites"
-    ],
+    "insects": ["mites"],
+    "diseases": ["powdery mildew"],
     "weeds": [],
-    "nutrient_deficiencies": [
-      "sulphur deficiency"
-    ]
+    "nutrient_deficiencies": []
   },
 
   "crop_applicability": {
-    "major_crops": [
-      "wheat",
-      "mango",
-      "grapes",
-      "citrus",
-      "groundnut"
-    ],
-    "vegetables": [
-      "chillies",
-      "okra",
-      "beans",
-      "peas",
-      "cucurbits"
-    ],
-    "all_supported_crops": [
-      "wheat",
-      "mango",
-      "grapes",
-      "citrus",
-      "groundnut",
-      "chillies",
-      "okra",
-      "beans",
-      "peas",
-      "cowpea",
-      "guar",
-      "cucurbits",
-      "fruits",
-      "vegetables"
-    ]
+    "major_crops": ["vegetables", "fruits"],
+    "all_supported_crops": ["cucurbits", "mango", "grapes", "chilli"]
   },
 
-  "dosage": {
-    "per_acre": "750–1000 g",
-    "per_100_litre": "250–300 g",
-    "spray_volume_per_acre": "200–400 litres"
-  },
+  "dosage": { "per_acre": "800 g" },
 
   "application_details": {
     "application_method": "Foliar spray",
-    "equipment": [
-      "knapsack sprayer",
-      "tractor mounted boom sprayer"
-    ],
-    "number_of_applications": "2–3",
-    "spray_interval": "10–14 days",
-    "coverage_requirement": "Uniform coverage on both sides of leaves"
+    "spray_interval": "10 days"
   },
 
-  "crop_stage_recommendation": [
-    "Preventive spray before disease appearance",
-    "Early disease onset",
-    "Vegetative stage to pre-flowering stage"
+  "farmer_symptoms": [
+    "سفید پھپھوند",
+    "powdery mildew on leaves",
+    "mites on crop"
   ],
 
-  "best_time_to_apply": [
-    "Morning",
-    "Evening"
-  ],
-
-  "weather_conditions": {
-    "ideal_temperature": "Below 30–32°C",
-    "avoid": [
-      "High temperature",
-      "Strong sunlight",
-      "Drought stress"
-    ],
-    "rainfastness": "Moderate after drying",
-    "wind_condition": "Spray in calm wind"
-  },
-
-  "tank_mix_compatibility": [
-    "Most commonly used fungicides",
-    "Most insecticides"
-  ],
-
-  "incompatible_with": [
-    "Oil based sprays",
-    "Lime sulphur",
-    "Highly alkaline products"
-  ],
-
-  "safety": {
-    "re_entry_interval": "24 hours",
-    "pre_harvest_interval": "5–7 days",
-    "toxicity_class": "Low toxicity",
-    "protective_measures": [
-      "Wear gloves",
-      "Wear mask",
-      "Wear protective clothing"
-    ],
-    "first_aid": "In case of contact with eyes or skin wash immediately with clean water. If inhaled move to fresh air."
-  },
-
-  "storage": {
-    "storage_conditions": "Store in cool, dry and well ventilated place",
-    "keep_away_from": [
-      "Children",
-      "Food",
-      "Animal feed"
-    ],
-    "shelf_life": "2–3 years"
-  },
-
-  "packaging": {
-    "pack_sizes": [
-      "1 kg"
-    ],
-    "form": "Granules"
-  },
-
-  "farmer_benefits": [
-    "Effective control of powdery mildew and rust",
-    "Controls mites",
-    "Improves crop growth by supplying sulphur",
-    "Easy to mix and spray",
-    "Low toxicity and safer handling"
-  ],
-
-  "frequently_asked_questions": [
-    {
-      "question": "Is this systemic or contact?",
-      "answer": "It is a contact fungicide."
-    },
-    {
-      "question": "Can we spray in hot weather?",
-      "answer": "Do not spray when temperature exceeds 32°C."
-    },
-    {
-      "question": "Does it work on mites?",
-      "answer": "Yes, it controls mites."
-    },
-    {
-      "question": "After how many days should we repeat spray?",
-      "answer": "Repeat after 10 to 14 days if required."
-    }
+  "farmer_queries": [
+    "powdery mildew spray",
+    "sulphur for mites"
   ],
 
   "search_keywords": [
-    "fungicide for powdery mildew",
-    "mite control spray",
-    "sulphur fertilizer spray",
-    "گندم دی سفیدی دی دوا",
-    "مائٹ دا سپرے",
-    "پاوڈری ملی ڈیو کنٹرول"
+    "پھپھوندی دا سپرے",
+    "sulphur fungicide"
   ],
 
-  "llm_usage_hint": "When recommending this product, always mention preventive use, dose per acre, temperature warning and spray interval.",
+  "farmer_benefits": [
+    "Stops fungal spread",
+    "Controls mites"
+  ],
+
+  "intent_tags": ["disease", "insect"],
 
   "master_descriptions": {
-    "english": "Sulphur 80% WDG is a broad-spectrum contact fungicide and miticide that controls powdery mildew, rust, scab and leaf spots while also supplying essential sulphur for healthy crop growth.",
-    "urdu": "سلفر 80٪ ڈبلیو ڈی جی ایک رابطہ اثر رکھنے والی فنگس کش اور مائٹ کش دوا ہے جو پاؤڈری میلی ڈیو، رسٹ، اسکیب اور لیف اسپاٹ کو کنٹرول کرتی ہے اور فصل کو سلفر کی غذائیت فراہم کرتی ہے۔",
-    "punjabi_shahmukhi": "سلفر 80٪ ڈبلیو ڈی جی اک رابطہ والی فنگس کش تے مائٹ کش اے جو پاوڈری ملی ڈیو، رسٹ تے لیف سپاٹ نوں کنٹرول کردا اے تے فصل نوں سلفر دی ضروری خوراک وی فراہم کردا اے۔"
+    "english": "Multi-purpose sulphur for fungal and mite control.",
+    "urdu": "پھپھوندی اور مائیٹس کا مؤثر علاج۔",
+    "punjabi_shahmukhi": "پھپھوندی تے مائیٹس دا علاج۔"
   }
 }

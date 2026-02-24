@@ -5,45 +5,32 @@
   "product_type": "Micronutrient / Soil Conditioner / Bio-stimulant",
   "category": "Crop Nutrition",
 
-  "active_ingredients": [
-    {
-      "name": "Humic Acid",
-      "percentage": "Derived from potassium humate",
-      "mode_of_action": "Improves soil structure, nutrient chelation and root growth"
-    },
-    {
-      "name": "Fulvic Acid",
-      "percentage": "Natural fraction",
-      "mode_of_action": "Enhances nutrient transport into plant cells"
-    },
-    {
-      "name": "Potassium",
-      "percentage": "Available form",
-      "mode_of_action": "Improves stress tolerance, sugar movement and crop quality"
-    }
-  ],
-
-  "formulation_type": "Granular / Crystalline",
-  "systemicity": "Soil applied nutrient activation",
-  "mode_of_action_summary": "Acts as a soil activator that improves root development, enhances fertilizer efficiency, increases microbial activity and improves water retention.",
+  "mode_of_action_summary": "Soil activator that improves root growth, unlocks nutrients, increases fertilizer efficiency and strengthens weak crop.",
 
   "targets": {
-    "diseases": [],
-    "insects": [],
-    "weeds": [],
     "nutrient_deficiencies": [
       "poor nutrient uptake",
       "low organic matter soil"
     ]
   },
 
-  "soil_conditions_where_needed": [
-    "hard compact soil",
-    "low organic matter soil",
-    "sandy soil",
-    "nutrient lock-up soil",
-    "drought-prone soil",
-    "kallar or mildly saline soil"
+  "farmer_symptoms": [
+    "پودا کمزور اے",
+    "فصل دی بڑھوتری رک گئی اے",
+    "جڑاں کمزور نیں",
+    "جڑاں تھلے نہیں جا رہیاں",
+    "کھاد اثر نہیں کر رہی",
+    "پانی کھیت وچ نہیں ٹھہردا",
+    "زمین سخت ہو گئی اے",
+    "ریتلی زمین اے فصل کمزور اے",
+    "کالر والی زمین اے",
+    "فصل دا رنگ ہلکا اے",
+    "ایک جیسی بڑھوتری نہیں ہو رہی",
+    "کمزور ٹلرنگ",
+    "weak crop growth",
+    "poor root development",
+    "fertilizer not working",
+    "low organic matter soil"
   ],
 
   "crop_applicability": {
@@ -51,18 +38,9 @@
       "wheat",
       "rice",
       "maize",
-      "cotton"
-    ],
-    "vegetables": [
-      "potato",
-      "tomato",
-      "chilli",
-      "onion"
-    ],
-    "fruits": [
-      "citrus",
-      "mango",
-      "orchards"
+      "cotton",
+      "dhan",
+      "gandum"
     ],
     "all_supported_crops": [
       "all field crops",
@@ -72,8 +50,7 @@
   },
 
   "dosage": {
-    "per_acre": "3–4 kg",
-    "application_coverage": "1 acre"
+    "per_acre": "3–4 kg"
   },
 
   "application_details": {
@@ -81,12 +58,7 @@
       "Soil broadcast",
       "Through irrigation",
       "Mixed with basal fertilizer"
-    ],
-    "timing": [
-      "Soil preparation",
-      "Early vegetative stage"
-    ],
-    "method": "Apply in moist soil for best results"
+    ]
   },
 
   "best_time_to_apply": [
@@ -94,104 +66,31 @@
     "Early crop stage"
   ],
 
-  "compatibility": {
-    "recommended_with": [
-      "Urea",
-      "DAP",
-      "Zinc fertilizers",
-      "Sulphur fertilizers"
-    ],
-    "benefit": "Improves fertilizer use efficiency and reduces nutrient leaching"
-  },
-
-  "soil_health_benefits": [
-    "Improves soil aeration",
-    "Increases water holding capacity",
-    "Enhances microbial activity",
-    "Breaks compact soil",
-    "Reduces nutrient lock-up"
-  ],
-
-  "plant_health_benefits": [
-    "Stronger and deeper roots",
-    "Better drought tolerance",
-    "Improved nutrient uptake",
-    "Early crop vigor",
-    "Improved crop uniformity"
-  ],
-
-  "crop_quality_benefits": [
-    "Better fruit size",
-    "Improved grain filling",
-    "Higher yield potential"
-  ],
-
-  "safety": {
-    "toxicity_class": "Safe and environmentally friendly",
-    "protective_measures": [
-      "Store in dry place",
-      "Keep away from children"
-    ]
-  },
-
-  "storage": {
-    "storage_conditions": "Store in cool and dry place",
-    "keep_away_from": [
-      "Moisture",
-      "Direct sunlight"
-    ],
-    "shelf_life": "3 years"
-  },
-
-  "packaging": {
-    "pack_sizes": [
-      "4 kg"
-    ],
-    "form": "Granules"
-  },
-
   "farmer_benefits": [
-    "Improves fertilizer efficiency",
-    "Enhances root growth",
-    "Increases soil fertility",
-    "Improves drought tolerance",
-    "Better crop uniformity",
-    "Higher yield potential"
-  ],
-
-  "frequently_asked_questions": [
-    {
-      "question": "When should we apply potassium humate?",
-      "answer": "Apply at soil preparation or early crop stage."
-    },
-    {
-      "question": "Can we apply with urea or DAP?",
-      "answer": "Yes, it improves their efficiency."
-    },
-    {
-      "question": "Which soils need it most?",
-      "answer": "Hard, sandy, low organic matter and kallar soils."
-    },
-    {
-      "question": "What is the main benefit?",
-      "answer": "Stronger roots and better nutrient uptake."
-    }
+    "کھاد دی افادیت ودھاندی اے",
+    "جڑاں مضبوط کردا اے",
+    "زمین نرم کردا اے",
+    "پانی روکنے دی صلاحیت ودھاندی اے",
+    "فصل نوں طاقتور بناندا اے",
+    "یکساں بڑھوتری",
+    "وڈی پیداوار"
   ],
 
   "search_keywords": [
     "soil conditioner for crops",
-    "fertilizer efficiency booster",
     "root growth stimulant",
+    "fertilizer efficiency booster",
     "humic acid khad",
     "مٹی نرم کرنے والی کھاد",
-    "جڑاں مضبوط کرنے والی کھاد"
+    "جڑاں مضبوط کرنے والی کھاد",
+    "کھاد اثر کیوں نہیں کر رہی"
   ],
 
-  "llm_usage_hint": "When recommending this product, link weak crop growth with poor soil health, fertilizer inefficiency and root development.",
+  "llm_usage_hint": "Best for weak crop, poor soil health, fertilizer inefficiency and root development problems.",
 
   "master_descriptions": {
-    "english": "Crestor Potassium Humate is an organic soil conditioner that improves root growth, nutrient uptake and fertilizer efficiency for higher crop productivity.",
-    "urdu": "کریسٹر پوٹاشیم ہیومیٹ ایک آرگینک سوائل کنڈیشنر ہے جو جڑوں کی بڑھوتری، کھاد کے بہتر استعمال اور فصل کی پیداوار کو بڑھاتا ہے۔",
-    "punjabi_shahmukhi": "کریسٹر پوٹاشیم ہیومیٹ اک سوائل کنڈیشنر اے جو جڑاں مضبوط کردا اے، کھاد دی افادیت ودھاندہ اے تے فصل دی پیداوار بہتر کردا اے۔"
+    "english": "Crestor Potassium Humate improves soil health, root growth and fertilizer efficiency for stronger crop growth.",
+    "urdu": "کریسٹر پوٹاشیم ہیومیٹ کمزور فصل اور خراب زمین کو بہتر بنا کر جڑوں کی مضبوطی اور کھاد کے بہتر استعمال میں مدد دیتا ہے۔",
+    "punjabi_shahmukhi": "کریسٹر پوٹاشیم ہیومیٹ کمزور فصل نوں طاقتور کردا اے، جڑاں نوں مضبوط کردا اے تے کھاد دی افادیت ودھاندہ اے۔"
   }
 }

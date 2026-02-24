@@ -1,200 +1,103 @@
-  {
-  "product_id": "sooraj_rippet_dinotefuran_pymetrozine",
+{
+  "product_id": "sooraj_rippet",
   "product_name": "Rippet",
   "brand": "Sooraj Crop Sciences",
-  "product_type": "Insecticide",
+
   "category": "Insecticide",
+  "type": "Systemic insecticide",
+
+  "formulation": "WDG",
+  "systemicity": "Systemic and contact",
+
+  "mode_of_action_summary": "Dual action insecticide that stops feeding and kills sucking pests through nervous system disruption.",
 
   "active_ingredients": [
     {
       "name": "Dinotefuran",
       "percentage": "20%",
-      "mode_of_action": "Systemic neonicotinoid that disrupts insect nervous system causing paralysis and death"
+      "mode_of_action": "Neonicotinoid that disrupts insect nervous system"
     },
     {
       "name": "Pymetrozine",
       "percentage": "40%",
-      "mode_of_action": "Feeding blocker that stops sap sucking insects from feeding leading to starvation"
+      "mode_of_action": "Feeding blocker for sap sucking pests"
     }
   ],
 
-  "formulation_type": "WG (Water Dispersible Granules)",
-  "systemicity": "Systemic and contact",
-  "mode_of_action_summary": "Dual action insecticide providing quick knockdown through nervous system disruption and long-lasting control by stopping insect feeding.",
+  "target_pests": [
+    "whitefly",
+    "aphid",
+    "jassid",
+    "thrips",
+    "brown plant hopper",
+    "green leaf hopper"
+  ],
 
-  "targets": {
-    "insects": [
-      "aphids",
-      "whitefly",
-      "jassid",
-      "thrips",
-      "brown plant hopper",
-      "green leaf hopper",
-      "planthopper"
-    ],
-    "diseases": [],
-    "weeds": [],
-    "nutrient_deficiencies": []
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "crops": {
+    "major": ["cotton", "rice"],
+    "all": ["cotton", "rice", "vegetables", "okra", "tomato"]
   },
 
-  "crop_applicability": {
-    "major_crops": [
-      "cotton",
-      "rice"
+  "farmer_crop_terms": [
+    "kapas",
+    "dhaan",
+    "chawal"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "کپاس پر سفید مکھی",
+      "پتیاں سکڑ رہی ہیں",
+      "چپچپا مادہ"
     ],
-    "vegetables": [
-      "okra",
-      "tomato",
-      "brinjal",
-      "cucurbits"
+    "punjabi": [
+      "کپاس تے تیلا",
+      "پتے مڑ گئے نیں"
     ],
-    "fruits": [
-      "citrus",
-      "mango",
-      "guava"
+    "roman_urdu": [
+      "safed makhi attack",
+      "pattay mur gaye"
     ],
-    "all_supported_crops": [
-      "cotton",
-      "rice",
-      "okra",
-      "tomato",
-      "brinjal",
-      "cucurbits",
-      "citrus",
-      "mango",
-      "guava",
-      "vegetables",
-      "fruits"
+    "english": [
+      "whitefly infestation",
+      "leaf curling"
     ]
   },
 
-  "dosage": {
-    "per_acre": "80–100 g",
-    "per_100_litre": "20–25 g",
-    "spray_volume_per_acre": "100–150 litres"
-  },
-
-  "application_details": {
-    "application_method": "Foliar spray",
-    "equipment": [
-      "knapsack sprayer",
-      "tractor mounted boom sprayer"
-    ],
-    "number_of_applications": "1–2 depending on pest pressure",
-    "spray_interval": "10–14 days if required",
-    "coverage_requirement": "Thorough coverage especially on underside of leaves"
-  },
-
-  "crop_stage_recommendation": [
-    "At first appearance of sucking pests",
-    "Early pest population stage"
-  ],
-
-  "best_time_to_apply": [
-    "Morning",
-    "Evening"
-  ],
-
-  "weather_conditions": {
-    "ideal_temperature": "Moderate temperature",
-    "avoid": [
-      "Rain immediately after spray",
-      "Strong wind",
-      "High temperature at noon"
-    ],
-    "rainfastness": "Rainfast within approximately 3 hours",
-    "wind_condition": "Spray in calm weather"
-  },
-
-  "tank_mix_compatibility": [
-    "Compatible with most commonly used insecticides and fungicides (jar test recommended)"
-  ],
-
-  "incompatible_with": [
-    "Strong acidic products",
-    "Unknown tank mix combinations"
-  ],
-
-  "resistance_management": {
-    "mode_of_action_group": [
-      "Neonicotinoid",
-      "Pymetrozine feeding blocker"
-    ],
-    "rotation_advice": "Rotate with insecticides of different mode of action to prevent resistance"
-  },
-
-  "safety": {
-    "re_entry_interval": "24 hours",
-    "pre_harvest_interval": "14 days (crop dependent)",
-    "toxicity_class": "Moderate toxicity",
-    "protective_measures": [
-      "Wear gloves",
-      "Wear mask",
-      "Wear protective clothing"
-    ],
-    "first_aid": "In case of skin or eye contact wash immediately with clean water. If inhaled move to fresh air."
-  },
-
-  "storage": {
-    "storage_conditions": "Store in cool, dry place away from direct sunlight",
-    "keep_away_from": [
-      "Children",
-      "Food",
-      "Animal feed",
-      "Water bodies"
-    ],
-    "shelf_life": "2 years"
-  },
-
-  "packaging": {
-    "pack_sizes": [
-      "100 g"
-    ],
-    "form": "Granules"
-  },
-
-  "farmer_benefits": [
-    "Fast knockdown of sucking pests",
-    "Stops pest feeding immediately",
-    "Long residual control",
-    "Reduces virus transmission by whitefly and aphids",
-    "Protects new plant growth due to systemic action"
-  ],
-
-  "frequently_asked_questions": [
-    {
-      "question": "When should we spray Rippet?",
-      "answer": "Spray at the early stage of pest attack."
-    },
-    {
-      "question": "Does it kill whitefly and jassid?",
-      "answer": "Yes, it is highly effective against all sucking pests."
-    },
-    {
-      "question": "Is it systemic?",
-      "answer": "Yes, it has systemic and contact action."
-    },
-    {
-      "question": "After how many days should we repeat spray?",
-      "answer": "Repeat after 10 to 14 days if pest pressure remains."
-    }
+  "farmer_problem_queries": [
+    "whitefly on cotton",
+    "kapas par teela",
+    "sucking pest attack"
   ],
 
   "search_keywords": [
-    "whitefly control spray",
-    "jassid ka ilaj",
-    "planthopper control in rice",
-    "aphid control insecticide",
-    "چوسنے والے کیڑے دی دوا",
-    "وائٹ فلائی دا سپرے",
-    "جیسڈ کنٹرول"
+    "whitefly control",
+    "jassid spray",
+    "sucking pest medicine"
   ],
 
-  "llm_usage_hint": "When recommending this product, highlight dual action, early spray timing, coverage of underside leaves and resistance rotation advice.",
+  "intent_tags": ["insect"],
 
-  "master_descriptions": {
-    "english": "Rippet (Dinotefuran + Pymetrozine WG) is a dual action systemic insecticide that provides rapid knockdown of sucking pests and long-lasting control by stopping their feeding.",
-    "urdu": "رپٹ ڈائنوٹیفیوران اور پائمیٹروزین پر مشتمل ایک دوہری اثر والی سسٹمک حشرہ کش دوا ہے جو چوسنے والے کیڑوں کو فوری کنٹرول کرتی ہے اور ان کی خوراک بند کر دیتی ہے۔",
-    "punjabi_shahmukhi": "رپٹ ڈائنوٹیفیوران تے پائمیٹروزین والی اک سسٹمک حشرہ کش اے جو چوسن والے کیڑیاں نوں فوری مار دیندی اے تے اوہناں دی خوراک بند کر کے لمبا کنٹرول دیندی اے۔"
+  "dosage": {
+    "per_acre": "80–100 g",
+    "method": "Foliar spray",
+    "frequency": "10–14 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "benefits": [
+    "Fast knockdown",
+    "Long residual control",
+    "Stops virus transmission"
+  ],
+
+  "multilingual_description": {
+    "english": "Systemic insecticide for sucking pests.",
+    "urdu": "چوسنے والے کیڑوں کے لیے بہترین دوا۔",
+    "punjabi": "چوسن والے کیڑیاں لئی زبردست سپرے۔"
   }
 }

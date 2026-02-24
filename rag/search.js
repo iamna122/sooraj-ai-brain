@@ -1,79 +1,125 @@
 const fs = require("fs");
 const path = require("path");
+const cosine = require("compute-cosine-similarity");
 
-const VECTOR_DB = path.join(__dirname, "../vector_store/vectors.json");
+function detectIntent(q) {
+  q = q.toLowerCase();
 
-// cosine similarity
-function cosineSimilarity(a, b) {
-  const dot = a.reduce((sum, val, i) => sum + val * b[i], 0);
-  const magA = Math.sqrt(a.reduce((sum, val) => sum + val * val, 0));
-  const magB = Math.sqrt(b.reduce((sum, val) => sum + val * val, 0));
-  return dot / (magA * magB);
+  if (q.includes("whitefly") || q.includes("کیڑا") || q.includes("thrips"))
+    return "insect";
+
+  if (q.includes("rust") || q.includes("blight") || q.includes("پھپھوند"))
+    return "disease";
+
+  if (q.includes("سوانکی") || q.includes("weed"))
+    return "weed";
+
+  if (q.includes("کمی") || q.includes("zinc") || q.includes("کھاد"))
+    return "nutrition";
+
+  return "unknown";
 }
 
-async function search(query) {
+function detectCrop(q) {
+  q = q.toLowerCase();
+
+  if (q.includes("cotton") || q.includes("کپاس")) return "cotton";
+  if (q.includes("rice") || q.includes("دھان")) return "rice";
+  if (q.includes("wheat") || q.includes("گندم")) return "wheat";
+
+  return null;
+}
+
+function confidenceLabel(score) {
+  if (score > 0.75) return "🟢 High";
+  if (score > 0.55) return "🟡 Medium";
+  return "🔴 Low";
+}
+
+function safeJoin(arr) {
+  return Array.isArray(arr) && arr.length ? arr.join(", ") : "N/A";
+}
+
+async function run() {
   const { pipeline } = await import("@xenova/transformers");
+
+  const query = process.argv[2];
+  console.log("\n🌾 User Query:", query);
+
+  const db = JSON.parse(
+    fs.readFileSync(path.join(__dirname, "../vector_store/vectors.json"))
+  );
+
+  console.log("📦 Total vectors loaded:", db.length);
 
   const embedder = await pipeline(
     "feature-extraction",
     "Xenova/paraphrase-multilingual-MiniLM-L12-v2"
   );
 
-  const db = JSON.parse(fs.readFileSync(VECTOR_DB, "utf-8"));
+  console.log("🧠 Embedding model loaded");
 
-  // embed user query
   const output = await embedder(query, {
     pooling: "mean",
-    normalize: true,
+    normalize: true
   });
 
   const queryVector = Array.from(output.data);
 
-  // score all vectors
-  const scored = db.map((item) => ({
-    score: cosineSimilarity(queryVector, item.vector),
-    ...item,
-  }));
+  const intent = detectIntent(query);
+  const crop = detectCrop(query);
 
-  // sort best → worst
-  scored.sort((a, b) => b.score - a.score);
+  console.log("🧠 Detected intent:", intent);
+  console.log("🌾 Detected crop:", crop || "none");
 
-  const TOP_K = 3;
+  const results = db.map(item => {
+    let score = cosine(queryVector, item.vector);
 
-  // DEVELOPMENT THRESHOLD (for small dataset)
-  const CONFIDENCE_THRESHOLD = 0.35;
+    const text = item.text.toLowerCase();
+    const q = query.toLowerCase();
 
-  console.log("\n🌾 User Query:", query);
-  console.log("--------------------------------------------------");
+    // keyword boost
+    if (text.includes(q)) score += 0.2;
 
-  // show top-3 scores for debugging
-  console.log(
-    "🧪 Top matches:",
-    scored.slice(0, 3).map((i) => ({
-      product: i.metadata.product_name,
-      score: i.score.toFixed(3),
-    }))
-  );
+    // intent boost
+    if (
+      intent !== "unknown" &&
+      item.metadata.intent_tags?.includes(intent)
+    ) {
+      score += 0.15;
+    }
 
-  console.log("🔍 Top score:", scored[0].score.toFixed(3));
+    // crop boost
+    if (crop && item.metadata.crops?.includes(crop)) {
+      score += 0.15;
+    }
 
-  // safety check
-  if (scored[0].score < CONFIDENCE_THRESHOLD) {
-    console.log("❗ مسئلہ واضح نہیں۔ مہربانی کرکے مزید تفصیل دسو۔");
-    return;
-  }
+    return { ...item, score };
+  });
 
-  console.log("\n🏆 Top Recommendations:\n");
+  results.sort((a, b) => b.score - a.score);
 
-  scored.slice(0, TOP_K).forEach((item, index) => {
-    console.log(`🥇 Rank ${index + 1}`);
-    console.log(`📦 Product: ${item.metadata.product_name}`);
-    console.log(`📊 Score: ${item.score.toFixed(3)}`);
-    console.log(`📄 Reason:\n${item.text}`);
-    console.log("--------------------------------------------------");
+  const top = results.slice(0, 3);
+
+  console.log("\n🔝 Top Matches:\n");
+
+  top.forEach(r => {
+    console.log(`📦 Product: ${r.metadata.product_name}`);
+    console.log(`📂 Category: ${r.metadata.category}`);
+    console.log(`🧪 Type: ${r.metadata.type}`);
+    console.log(`🌾 Crops: ${safeJoin(r.metadata.crops)}`);
+    console.log(`🎯 Controls: ${safeJoin(r.metadata.controls)}`);
+    console.log(`🍄 Diseases: ${safeJoin(r.metadata.diseases)}`);
+    console.log(`🌿 Weeds: ${safeJoin(r.metadata.weeds)}`);
+    console.log(
+      `🧬 Nutrient deficiency: ${safeJoin(
+        r.metadata.nutrient_deficiency
+      )}`
+    );
+    console.log(
+      `⭐ Score: ${r.score.toFixed(3)} ${confidenceLabel(r.score)}\n`
+    );
   });
 }
 
-const userQuery = process.argv[2];
-
-search(userQuery);
+run();

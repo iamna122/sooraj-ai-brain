@@ -20,16 +20,33 @@
 
   "formulation_type": "Granular",
   "systemicity": "Soil applied nutrient uptake",
-  "mode_of_action_summary": "Corrects sulphur deficiency, reduces soil alkalinity, unlocks tied nutrients and improves nitrogen utilization in crops.",
+
+  "mode_of_action_summary": "Corrects sulphur deficiency, improves urea efficiency, reduces soil alkalinity, unlocks tied nutrients and increases protein and oil content in crops.",
 
   "targets": {
     "diseases": [],
     "insects": [],
     "weeds": [],
-    "nutrient_deficiencies": [
-      "sulphur deficiency"
-    ]
+    "nutrient_deficiencies": ["sulphur deficiency"]
   },
+
+  "farmer_symptoms": [
+    "نواں پتہ پیلا اے پرانا ہرا اے",
+    "پودا ہلکا سبز اے",
+    "گندم دی ٹلرنگ گھٹ اے",
+    "دھان کمزور اے بڑھوتری نہیں ہو رہی",
+    "پودا باریک تے کمزور اے",
+    "دیر نال پک رہی اے فصل",
+    "دانہ بھرائی کمزور اے",
+    "سرسوں وچ تیل دی مقدار گھٹ اے",
+    "یوریا دا پورا اثر نہیں ہو ریا",
+    "زمین کڑی اے نرم نہیں ہندی",
+    "alkaline soil vich fasal kamzor",
+    "urea response kam",
+    "young leaves pale yellow",
+    "sulphur deficiency in wheat",
+    "low oil content in mustard"
+  ],
 
   "deficiency_symptoms": [
     "yellowing of young leaves",
@@ -44,7 +61,9 @@
     "alkaline soil",
     "saline soil",
     "high pH soil",
-    "fields with low organic matter"
+    "fields with low organic matter",
+    "hard soil",
+    "nutrient locked soil"
   ],
 
   "crop_applicability": {
@@ -53,7 +72,9 @@
       "rice",
       "maize",
       "cotton",
-      "sugarcane"
+      "sugarcane",
+      "gandum",
+      "dhan"
     ],
     "oilseed_crops": [
       "mustard",
@@ -76,7 +97,9 @@
       "sunflower",
       "onion",
       "garlic",
-      "potato"
+      "potato",
+      "vegetables",
+      "oilseed crops"
     ]
   },
 
@@ -101,10 +124,7 @@
   ],
 
   "compatibility": {
-    "recommended_with": [
-      "Urea",
-      "Basal fertilizers"
-    ],
+    "recommended_with": ["Urea", "Basal fertilizers"],
     "benefit": "Improves nitrogen fertilizer efficiency"
   },
 
@@ -122,30 +142,6 @@
     "Improved crop greenness"
   ],
 
-  "safety": {
-    "toxicity_class": "Safe when used as recommended",
-    "protective_measures": [
-      "Store in dry place",
-      "Keep away from children and animals"
-    ]
-  },
-
-  "storage": {
-    "storage_conditions": "Store in cool and dry place",
-    "keep_away_from": [
-      "Moisture",
-      "Water contact"
-    ],
-    "shelf_life": "3 years"
-  },
-
-  "packaging": {
-    "pack_sizes": [
-      "10 kg"
-    ],
-    "form": "Granules"
-  },
-
   "farmer_benefits": [
     "Improves urea efficiency",
     "Boosts protein content in wheat",
@@ -155,41 +151,23 @@
     "Stronger plant growth"
   ],
 
-  "frequently_asked_questions": [
-    {
-      "question": "When should we apply Babbar Sher Sulphur?",
-      "answer": "Apply at soil preparation or first irrigation."
-    },
-    {
-      "question": "Can we apply with urea?",
-      "answer": "Yes, it improves nitrogen efficiency."
-    },
-    {
-      "question": "Which crops respond most?",
-      "answer": "Wheat, mustard, canola, rice and sugarcane."
-    },
-    {
-      "question": "What is the main benefit?",
-      "answer": "Higher yield quality and improved nutrient uptake."
-    }
-  ],
-
   "search_keywords": [
     "sulphur deficiency fertilizer",
     "urea efficiency improve",
     "oil content increase mustard",
     "soil pH kam karne wali khad",
+    "young leaf yellow sulphur",
     "سلفر والی کھاد",
-    "گندم پروٹین ودھاؤ",
-    "تیل والی فصل دا آئل ودھاؤ"
+    "گندم دی ٹلرنگ گھٹ",
+    "سرسوں دا تیل ودھاؤ",
+    "یوریا دا اثر ودھاؤ"
   ],
 
-  "llm_usage_hint": "When recommending this product, link sulphur deficiency with urea efficiency, oil content improvement and alkaline soil correction.",
+  "llm_usage_hint": "Use when young leaves are yellow, tillering is low, urea response is poor and oilseed oil content needs improvement.",
 
   "master_descriptions": {
-    "english": "Babbar Sher Sulphur is a high sulphur fertilizer enriched with nitrogen that improves soil fertility, nutrient availability and crop quality.",
-    "urdu": "ببر شیر سلفر ایک زیادہ سلفر والی کھاد ہے جو نائٹروجن کے بہتر استعمال، مٹی کی زرخیزی اور فصل کے معیار کو بہتر بناتی ہے۔",
-    "punjabi_shahmukhi": "ببر شیر سلفر اک ہائی سلفر کھاد اے جو یوریا دی افادیت ودھاندی اے، مٹی دی زرخیزی بہتر کردی اے تے فصل دی کوالٹی نوں چنگا کردا اے۔"
+    "english": "Babbar Sher Sulphur is a high sulphur fertilizer enriched with nitrogen that improves soil fertility, nutrient availability, urea efficiency and crop quality.",
+    "urdu": "ببر شیر سلفر ایک زیادہ سلفر والی کھاد ہے جو یوریا کے بہتر استعمال، مٹی کی زرخیزی اور فصل کے معیار کو بہتر بناتی ہے۔",
+    "punjabi_shahmukhi": "ببر شیر سلفر اک ہائی سلفر کھاد اے جو یوریا دی افادیت ودھاندی اے، مٹی نوں نرم کردا اے تے فصل دی کوالٹی بہتر کردا اے۔"
   }
 }
-    

@@ -1,191 +1,70 @@
 {
-  "product_id": "sooraj_whats_app_zinc",
+  "product_id": "sooraj_whatsapp_zinc",
   "product_name": "Whats App (Zinc)",
   "brand": "Sooraj Crop Sciences",
-  "product_type": "Micronutrient",
+
   "category": "Crop Nutrition",
+  "product_type": "Micronutrient fertilizer",
+  "formulation": "Granular",
+  "systemicity": "Soil and foliar",
 
   "active_ingredients": [
     {
-      "name": "Zinc (as Zinc Sulphate)",
-      "percentage": "21% (typical)",
-      "mode_of_action": "Activates plant enzymes, supports auxin hormone production and chlorophyll formation"
+      "name": "Zinc (Zn)",
+      "percentage": "33%",
+      "mode_of_action": "Corrects zinc deficiency and boosts enzyme activity"
     }
   ],
-
-  "formulation_type": "Granular / Crystalline",
-  "systemicity": "Nutritional uptake through root and leaf",
-  "mode_of_action_summary": "Corrects zinc deficiency and activates plant metabolic processes for improved growth and yield.",
 
   "targets": {
-    "diseases": [],
     "insects": [],
+    "diseases": [],
     "weeds": [],
-    "nutrient_deficiencies": [
-      "zinc deficiency"
-    ]
+    "nutrient_deficiencies": ["zinc deficiency", "khaira disease"]
   },
-
-  "deficiency_symptoms": [
-    "interveinal chlorosis",
-    "little leaf",
-    "stunted growth",
-    "short internodes",
-    "poor tillering in rice and wheat",
-    "small distorted leaves",
-    "reduced fruit size"
-  ],
-
-  "soil_conditions_where_needed": [
-    "alkaline soil",
-    "high pH soil",
-    "sandy soil",
-    "high phosphorus (DAP) applied fields"
-  ],
 
   "crop_applicability": {
-    "major_crops": [
-      "rice",
-      "wheat",
-      "maize",
-      "cotton"
-    ],
-    "vegetables": [
-      "tomato",
-      "chilli",
-      "okra",
-      "potato"
-    ],
-    "fruits": [
-      "mango",
-      "citrus",
-      "guava"
-    ],
-    "all_supported_crops": [
-      "rice",
-      "wheat",
-      "maize",
-      "cotton",
-      "tomato",
-      "chilli",
-      "okra",
-      "potato",
-      "mango",
-      "citrus",
-      "guava",
-      "vegetables",
-      "fruits"
-    ]
+    "major_crops": ["rice", "wheat"],
+    "all_supported_crops": ["rice", "wheat", "maize", "cotton", "vegetables"]
   },
 
-  "dosage": {
-    "per_acre": "4 kg",
-    "per_100_litre": "1–2 kg for foliar spray (if soluble form)",
-    "application_coverage": "1 acre"
-  },
+  "dosage": { "per_acre": "4 kg" },
 
   "application_details": {
-    "application_method": [
-      "Soil application",
-      "Foliar spray (if water soluble)"
-    ],
-    "soil_application_timing": "At sowing or early vegetative stage",
-    "foliar_spray_timing": "At early deficiency symptoms",
-    "method": "Broadcast uniformly and irrigate after application"
+    "application_method": "Soil broadcast / foliar",
+    "spray_interval": "Once at early stage"
   },
 
-  "best_time_to_apply": [
-    "Basal application",
-    "Early crop stage (15–30 days after sowing)"
+  "farmer_symptoms": [
+    "دھان وچ زنک دی کمی",
+    "کھیرہ بیماری",
+    "پتے پیلے ہو گئے",
+    "stunted crop",
+    "bronzing in rice"
   ],
 
-  "compatibility": {
-    "recommended_with": [
-      "Basal fertilizers"
-    ],
-    "avoid_direct_mixing_with": [
-      "DAP in same tank or bag"
-    ]
-  },
-
-  "plant_health_benefits": [
-    "Stronger root development",
-    "Better tillering in rice and wheat",
-    "Improved flowering and fruit setting",
-    "Better grain filling",
-    "Greener leaves",
-    "Higher yield",
-    "Improved stress tolerance"
-  ],
-
-  "safety": {
-    "toxicity_class": "Safe when used as recommended",
-    "protective_measures": [
-      "Avoid over application",
-      "Keep away from children",
-      "Store in dry place"
-    ]
-  },
-
-  "storage": {
-    "storage_conditions": "Store in cool and dry place",
-    "keep_away_from": [
-      "Moisture",
-      "Children",
-      "Animals"
-    ],
-    "shelf_life": "3 years"
-  },
-
-  "packaging": {
-    "pack_sizes": [
-      "4 kg"
-    ],
-    "form": "Granules"
-  },
-
-  "farmer_benefits": [
-    "Quick correction of zinc deficiency",
-    "Healthy crop growth",
-    "Improved crop quality",
-    "Higher yield potential",
-    "Better nutrient use efficiency"
-  ],
-
-  "frequently_asked_questions": [
-    {
-      "question": "When should we apply zinc?",
-      "answer": "Apply at sowing or early vegetative stage."
-    },
-    {
-      "question": "Can we apply with DAP?",
-      "answer": "Do not mix directly with DAP in the same bag or tank."
-    },
-    {
-      "question": "Which crops need zinc most?",
-      "answer": "Rice, wheat, maize and citrus respond strongly to zinc."
-    },
-    {
-      "question": "What are zinc deficiency symptoms?",
-      "answer": "Yellowing between veins, small leaves and poor tillering."
-    }
+  "farmer_queries": [
+    "zinc deficiency in rice",
+    "khaira disease treatment"
   ],
 
   "search_keywords": [
-    "zinc deficiency in rice",
-    "wheat tillering kam hai",
-    "micronutrient for crops",
-    "grain filling improvement",
-    "زنک دی کمی دی علامات",
     "زنک کھاد",
-    "چاول وچ ٹلرنگ گھٹ"
+    "zinc for rice",
+    "micro nutrient zinc"
   ],
 
-  "llm_usage_hint": "When recommending this product, explain deficiency symptoms, early soil application timing and DAP compatibility warning.",
+  "farmer_benefits": [
+    "Greener crop",
+    "More tillers",
+    "Higher yield"
+  ],
+
+  "intent_tags": ["nutrition"],
 
   "master_descriptions": {
-    "english": "Whats App (Zinc) is a zinc-based micronutrient fertilizer used to correct zinc deficiency and improve plant growth, tillering and yield.",
-    "urdu": "واٹس ایپ زنک ایک زنک پر مشتمل خوردنی کھاد ہے جو زنک کی کمی کو دور کر کے فصل کی نشوونما اور پیداوار بہتر بناتی ہے۔",
-    "punjabi_shahmukhi": "واٹس ایپ زنک اک مائیکرو نیوٹرینٹ اے جو زنک دی کمی پوری کرکے فصل دی بڑھوتری، ٹلرنگ تے پیداوار نوں بہتر بناندا اے۔"
+    "english": "High efficiency zinc fertilizer for rapid deficiency correction.",
+    "urdu": "زنک کی کمی کا فوری حل۔",
+    "punjabi_shahmukhi": "زنک دی کمی دا تیز علاج۔"
   }
 }
