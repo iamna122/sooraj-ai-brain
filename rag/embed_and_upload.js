@@ -6,21 +6,14 @@ async function run() {
 
   console.log("🚀 Embedding process started...");
 
-  // ✅ YOUR REAL FILE
-  const chunksPath = path.join(__dirname, "chunks", "product_chunks.json");
-
-  if (!fs.existsSync(chunksPath)) {
-    console.error("❌ File not found:", chunksPath);
-    return;
-  }
-
-  const chunks = JSON.parse(fs.readFileSync(chunksPath, "utf-8"));
+  const chunksPath = path.join(__dirname, "chunks/product_chunks.json");
+  const chunks = JSON.parse(fs.readFileSync(chunksPath));
 
   console.log("📦 Total chunks:", chunks.length);
 
   const embedder = await pipeline(
     "feature-extraction",
-    "Xenova/all-MiniLM-L6-v2"
+    "Xenova/paraphrase-multilingual-MiniLM-L12-v2"
   );
 
   console.log("🧠 Model loaded");
@@ -30,19 +23,20 @@ async function run() {
   for (const chunk of chunks) {
     const output = await embedder(chunk.text, {
       pooling: "mean",
-      normalize: true,
+      normalize: true
     });
 
     db.push({
       text: chunk.text,
       vector: Array.from(output.data),
-      metadata: chunk.metadata,
+      metadata: chunk.metadata
     });
   }
 
-  const outPath = path.join(__dirname, "../vector_store/vectors.json");
-
-  fs.writeFileSync(outPath, JSON.stringify(db, null, 2));
+  fs.writeFileSync(
+    path.join(__dirname, "../vector_store/vectors.json"),
+    JSON.stringify(db, null, 2)
+  );
 
   console.log("✅ Saved → vector_store/vectors.json");
 }

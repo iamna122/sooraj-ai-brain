@@ -1,66 +1,108 @@
 const fs = require("fs");
 const path = require("path");
 
-const productsDir = path.join(__dirname, "../data/products");
-const outputDir = path.join(__dirname, "chunks");
-const outputFile = path.join(outputDir, "product_chunks.json");
+const PRODUCTS_DIR = path.join(__dirname, "../data/products");
+const OUTPUT = path.join(__dirname, "chunks/product_chunks.json");
 
-if (!fs.existsSync(outputDir)) {
-  fs.mkdirSync(outputDir);
-}
+// ✅ SAFE ARRAY HELPERS
+const toArray = value => {
+  if (!value) return [];
+  if (Array.isArray(value)) return value;
+  if (typeof value === "object") return Object.values(value).flat();
+  return [value];
+};
 
-const files = fs.readdirSync(productsDir);
+const unique = value => {
+  const arr = toArray(value);
+  return [...new Set(arr.filter(Boolean))];
+};
 
-let chunks = [];
-
-files.forEach(file => {
-  if (!file.endsWith(".json")) return;
-
-  const product = JSON.parse(
-    fs.readFileSync(path.join(productsDir, file), "utf-8")
+// ✅ BUILD ONE RICH CHUNK PER PRODUCT
+function buildChunk(product) {
+  const crops = unique(product.crops?.all || product.crops || []);
+  const controls = unique(product.target_pests || product.controls);
+  const diseases = unique(product.target_diseases || product.diseases);
+  const weeds = unique(product.target_weeds || product.weeds);
+  const nutrition = unique(
+    product.target_nutrient_deficiencies || product.nutrient_deficiency
   );
+
+  const symptoms = unique([
+    ...(product.symptoms?.english || []),
+    ...(product.symptoms?.urdu || []),
+    ...(product.symptoms?.punjabi || []),
+    ...(product.symptoms?.roman_urdu || [])
+  ]);
+
+  const queries = unique(product.farmer_problem_queries);
+  const keywords = unique(product.search_keywords);
 
   const text = `
 Product: ${product.product_name}
 Category: ${product.category}
-Type: ${product.type}
+Type: ${product.type || ""}
 
-Crops: ${(product.crops || []).join(", ")}
+Crops: ${crops.join(", ")}
 
-Controls: ${(product.controls || []).join(", ")}
-Diseases: ${(product.diseases || []).join(", ")}
-Weeds: ${(product.weeds || []).join(", ")}
-Nutrient deficiency: ${(product.nutrient_deficiency || []).join(", ")}
+Controls: ${controls.join(", ")}
+Diseases: ${diseases.join(", ")}
+Weeds: ${weeds.join(", ")}
+Nutrient deficiency: ${nutrition.join(", ")}
+
+Farmer Symptoms:
+${symptoms.join(", ")}
+
+Farmer Queries:
+${queries.join(", ")}
+
+Search Keywords:
+${keywords.join(", ")}
 
 Description:
-${product.description}
+${product.multilingual_description?.english || product.description || ""}
+
+Urdu:
+${product.multilingual_description?.urdu || ""}
+
+Punjabi:
+${product.multilingual_description?.punjabi || ""}
 
 Recommendation:
-${product.recommendation}
+${product.recommendation || ""}
 `;
 
-  chunks.push({
+  return {
     text,
     metadata: {
-      product: product.product_name,
+      product_name: product.product_name,
       category: product.category,
-      type: product.type,
-      crops: product.crops || [],
-      controls: product.controls || [],
-      diseases: product.diseases || [],
-      weeds: product.weeds || [],
-      nutrient_deficiency: product.nutrient_deficiency || [],
-      intent_tags: [
-        product.category === "Insecticide" ? "insect" :
-        product.category === "Fungicide" ? "disease" :
-        product.category === "Herbicide" ? "weed" :
-        "nutrition"
-      ]
+      type: product.type || "N/A",
+      crops,
+      controls,
+      diseases,
+      weeds,
+      nutrient_deficiency: nutrition,
+      intent_tags: unique(product.intent_tags)
     }
+  };
+}
+
+function run() {
+  const files = fs.readdirSync(PRODUCTS_DIR);
+
+  const chunks = [];
+
+  files.forEach(file => {
+    const product = JSON.parse(
+      fs.readFileSync(path.join(PRODUCTS_DIR, file))
+    );
+
+    chunks.push(buildChunk(product));
   });
 
-});
+  fs.writeFileSync(OUTPUT, JSON.stringify(chunks, null, 2));
 
-fs.writeFileSync(outputFile, JSON.stringify(chunks, null, 2));
+  console.log(`✅ Chunks generated: ${chunks.length}`);
+}
 
-console.log(`✅ Chunks generated: ${chunks.length}`);
+run();

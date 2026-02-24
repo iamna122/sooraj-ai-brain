@@ -2,111 +2,124 @@ const fs = require("fs");
 const path = require("path");
 const cosine = require("compute-cosine-similarity");
 
+function detectIntent(q) {
+  q = q.toLowerCase();
+
+  if (q.includes("whitefly") || q.includes("کیڑا") || q.includes("thrips"))
+    return "insect";
+
+  if (q.includes("rust") || q.includes("blight") || q.includes("پھپھوند"))
+    return "disease";
+
+  if (q.includes("سوانکی") || q.includes("weed"))
+    return "weed";
+
+  if (q.includes("کمی") || q.includes("zinc") || q.includes("کھاد"))
+    return "nutrition";
+
+  return "unknown";
+}
+
+function detectCrop(q) {
+  q = q.toLowerCase();
+
+  if (q.includes("cotton") || q.includes("کپاس")) return "cotton";
+  if (q.includes("rice") || q.includes("دھان")) return "rice";
+  if (q.includes("wheat") || q.includes("گندم")) return "wheat";
+
+  return null;
+}
+
+function confidenceLabel(score) {
+  if (score > 0.75) return "🟢 High";
+  if (score > 0.55) return "🟡 Medium";
+  return "🔴 Low";
+}
+
+function safeJoin(arr) {
+  return Array.isArray(arr) && arr.length ? arr.join(", ") : "N/A";
+}
+
 async function run() {
   const { pipeline } = await import("@xenova/transformers");
 
   const query = process.argv[2];
-  if (!query) {
-    console.log("❌ Please provide a query");
-    return;
-  }
-
   console.log("\n🌾 User Query:", query);
 
-  // 📦 LOAD VECTOR DB
   const db = JSON.parse(
-    fs.readFileSync(
-      path.join(__dirname, "../vector_store/vectors.json"),
-      "utf-8"
-    )
+    fs.readFileSync(path.join(__dirname, "../vector_store/vectors.json"))
   );
 
   console.log("📦 Total vectors loaded:", db.length);
 
-  // 🧠 LOAD MODEL
   const embedder = await pipeline(
     "feature-extraction",
-    "Xenova/all-MiniLM-L6-v2"
+    "Xenova/paraphrase-multilingual-MiniLM-L12-v2"
   );
 
   console.log("🧠 Embedding model loaded");
 
-  // 🔎 QUERY EMBEDDING
   const output = await embedder(query, {
     pooling: "mean",
-    normalize: true,
+    normalize: true
   });
 
   const queryVector = Array.from(output.data);
 
-  // 🧠 INTENT DETECTION
-  const intent =
-    /whitefly|aphid|jassid|thrips|hopper|کیڑا/.test(query) ? "insect" :
-    /کمی|deficiency|zinc|کھاد/.test(query) ? "nutrition" :
-    /rust|blight|mildew|پھپھوند/.test(query) ? "disease" :
-    /weed|گھاس|سوانکی/.test(query) ? "weed" :
-    "unknown";
+  const intent = detectIntent(query);
+  const crop = detectCrop(query);
 
   console.log("🧠 Detected intent:", intent);
+  console.log("🌾 Detected crop:", crop || "none");
 
-  // 🎯 INTENT FILTER
-  let filtered = db;
-
-  if (intent !== "unknown") {
-    filtered = db.filter(item =>
-      item.metadata.intent_tags?.includes(intent)
-    );
-  }
-
-  // 📊 SCORING
-  const results = filtered.map(item => {
-
-    if (!item.vector) return null;
-
-    const score = cosine(queryVector, item.vector);
-
-    // 🔥 KEYWORD BOOST
-    let boost = 0;
+  const results = db.map(item => {
+    let score = cosine(queryVector, item.vector);
 
     const text = item.text.toLowerCase();
     const q = query.toLowerCase();
 
-    if (text.includes("whitefly") && q.includes("whitefly")) boost += 0.25;
-    if (text.includes("zinc") && q.includes("zinc")) boost += 0.25;
-    if (text.includes("rust") && q.includes("rust")) boost += 0.25;
+    // keyword boost
+    if (text.includes(q)) score += 0.2;
 
-    return {
-      ...item,
-      score: score + boost
-    };
-  })
-  .filter(Boolean)
-  .sort((a, b) => b.score - a.score);
+    // intent boost
+    if (
+      intent !== "unknown" &&
+      item.metadata.intent_tags?.includes(intent)
+    ) {
+      score += 0.15;
+    }
 
-  // 🏆 OUTPUT
-  console.log("\n🔝 Top Matches:\n");
+    // crop boost
+    if (crop && item.metadata.crops?.includes(crop)) {
+      score += 0.15;
+    }
 
-  results.slice(0, 3).forEach(r => {
-
-    const m = r.metadata || {};
-
-    console.log(`📦 Product: ${m.product || "N/A"}`);
-    console.log(`📂 Category: ${m.category || "N/A"}`);
-    console.log(`🧪 Type: ${m.type || "N/A"}`);
-
-    console.log(`🌾 Crops: ${(m.crops || []).join(", ") || "N/A"}`);
-
-    console.log(`🎯 Controls: ${(m.controls || []).join(", ") || "N/A"}`);
-    console.log(`🍄 Diseases: ${(m.diseases || []).join(", ") || "N/A"}`);
-    console.log(`🌿 Weeds: ${(m.weeds || []).join(", ") || "N/A"}`);
-
-    console.log(
-      `🧬 Nutrient deficiency: ${(m.nutrient_deficiency || []).join(", ") || "N/A"}`
-    );
-
-    console.log(`⭐ Score: ${r.score.toFixed(3)}\n`);
+    return { ...item, score };
   });
 
+  results.sort((a, b) => b.score - a.score);
+
+  const top = results.slice(0, 3);
+
+  console.log("\n🔝 Top Matches:\n");
+
+  top.forEach(r => {
+    console.log(`📦 Product: ${r.metadata.product_name}`);
+    console.log(`📂 Category: ${r.metadata.category}`);
+    console.log(`🧪 Type: ${r.metadata.type}`);
+    console.log(`🌾 Crops: ${safeJoin(r.metadata.crops)}`);
+    console.log(`🎯 Controls: ${safeJoin(r.metadata.controls)}`);
+    console.log(`🍄 Diseases: ${safeJoin(r.metadata.diseases)}`);
+    console.log(`🌿 Weeds: ${safeJoin(r.metadata.weeds)}`);
+    console.log(
+      `🧬 Nutrient deficiency: ${safeJoin(
+        r.metadata.nutrient_deficiency
+      )}`
+    );
+    console.log(
+      `⭐ Score: ${r.score.toFixed(3)} ${confidenceLabel(r.score)}\n`
+    );
+  });
 }
 
 run();

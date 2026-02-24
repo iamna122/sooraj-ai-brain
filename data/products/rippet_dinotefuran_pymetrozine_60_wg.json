@@ -1,78 +1,103 @@
 {
-  "product_id": "sooraj_rippet_dinotefuran_pymetrozine",
+  "product_id": "sooraj_rippet",
   "product_name": "Rippet",
   "brand": "Sooraj Crop Sciences",
 
   "category": "Insecticide",
-  "product_type": "Systemic insecticide",
-  "formulation": "WG",
+  "type": "Systemic insecticide",
+
+  "formulation": "WDG",
   "systemicity": "Systemic and contact",
+
+  "mode_of_action_summary": "Dual action insecticide that stops feeding and kills sucking pests through nervous system disruption.",
 
   "active_ingredients": [
     {
       "name": "Dinotefuran",
       "percentage": "20%",
-      "mode_of_action": "Neonicotinoid that attacks insect nervous system"
+      "mode_of_action": "Neonicotinoid that disrupts insect nervous system"
     },
     {
       "name": "Pymetrozine",
       "percentage": "40%",
-      "mode_of_action": "Stops feeding of sucking pests"
+      "mode_of_action": "Feeding blocker for sap sucking pests"
     }
   ],
 
-  "targets": {
-    "insects": ["whitefly", "aphid", "jassid", "thrips", "planthopper", "BPH"],
-    "diseases": [],
-    "weeds": [],
-    "nutrient_deficiencies": []
-  },
-
-  "crop_applicability": {
-    "major_crops": ["cotton", "rice"],
-    "all_supported_crops": ["cotton", "rice", "okra", "brinjal", "tomato", "vegetables"]
-  },
-
-  "dosage": { "per_acre": "80–100 g" },
-
-  "application_details": {
-    "application_method": "Foliar spray",
-    "spray_interval": "10–14 days",
-    "coverage_requirement": "Spray underside of leaves"
-  },
-
-  "farmer_symptoms": [
-    "کپاس تے سفید مکھی",
-    "پتیاں سکڑ رہیاں نیں",
-    "رس چوسن والا کیڑا",
-    "honeydew on leaves",
-    "leaf curl in cotton",
-    "whitefly attack"
+  "target_pests": [
+    "whitefly",
+    "aphid",
+    "jassid",
+    "thrips",
+    "brown plant hopper",
+    "green leaf hopper"
   ],
 
-  "farmer_queries": [
-    "whitefly control in cotton",
-    "planthopper in rice",
-    "تیلا کنٹرول سپرے"
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "crops": {
+    "major": ["cotton", "rice"],
+    "all": ["cotton", "rice", "vegetables", "okra", "tomato"]
+  },
+
+  "farmer_crop_terms": [
+    "kapas",
+    "dhaan",
+    "chawal"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "کپاس پر سفید مکھی",
+      "پتیاں سکڑ رہی ہیں",
+      "چپچپا مادہ"
+    ],
+    "punjabi": [
+      "کپاس تے تیلا",
+      "پتے مڑ گئے نیں"
+    ],
+    "roman_urdu": [
+      "safed makhi attack",
+      "pattay mur gaye"
+    ],
+    "english": [
+      "whitefly infestation",
+      "leaf curling"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "whitefly on cotton",
+    "kapas par teela",
+    "sucking pest attack"
   ],
 
   "search_keywords": [
-    "whitefly spray",
-    "sucking pest control",
-    "چوسنے والے کیڑے دی دوا"
+    "whitefly control",
+    "jassid spray",
+    "sucking pest medicine"
   ],
 
-  "farmer_benefits": [
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "80–100 g",
+    "method": "Foliar spray",
+    "frequency": "10–14 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "benefits": [
     "Fast knockdown",
     "Long residual control",
     "Stops virus transmission"
   ],
 
-  "intent_tags": ["insect"],
-
-  "master_descriptions": {
-    "english": "Dual action systemic insecticide for sucking pests.",
-    "urdu": "چوسنے والے کیڑوں کا مکمل کنٹرول۔",
-    "punjabi_shahmukhi": "چوسن والے کیڑیاں دا زبردست کنٹرول۔"
+  "multilingual_description": {
+    "english": "Systemic insecticide for sucking pests.",
+    "urdu": "چوسنے والے کیڑوں کے لیے بہترین دوا۔",
+    "punjabi": "چوسن والے کیڑیاں لئی زبردست سپرے۔"
   }
 }

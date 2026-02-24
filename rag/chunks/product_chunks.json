@@ -1,58 +1,134 @@
 [
   {
-    "text": "\nProduct: Babbar Sher Sulphur\n\nCategory: Crop Nutrition\n\nType: \n\nCrops: \n\nControls / Solves: \n\nDiseases: \n\nWeeds: \n\nNutrient deficiency: \n\nDescription:\n\n\nRecommendation:\n\n",
+    "text": "\nProduct: Babbar Sher Sulphur\nCategory: Crop Nutrition\nType: \n\nCrops: \n\nControls: \nDiseases: \nWeeds: \nNutrient deficiency: \n\nFarmer Symptoms:\n\n\nFarmer Queries:\n\n\nSearch Keywords:\nsulphur deficiency fertilizer, urea efficiency improve, oil content increase mustard, soil pH kam karne wali khad, young leaf yellow sulphur, سلفر والی کھاد, گندم دی ٹلرنگ گھٹ, سرسوں دا تیل ودھاؤ, یوریا دا اثر ودھاؤ\n\nDescription:\n\n\nUrdu:\n\n\nPunjabi:\n\n\nRecommendation:\n\n",
     "metadata": {
-      "product": "Babbar Sher Sulphur",
-      "category": "Crop Nutrition"
+      "product_name": "Babbar Sher Sulphur",
+      "category": "Crop Nutrition",
+      "type": "N/A",
+      "crops": [],
+      "controls": [],
+      "diseases": [],
+      "weeds": [],
+      "nutrient_deficiency": [],
+      "intent_tags": []
     }
   },
   {
-    "text": "\nProduct: Crestor Potassium Humate\n\nCategory: Crop Nutrition\n\nType: \n\nCrops: \n\nControls / Solves: \n\nDiseases: \n\nWeeds: \n\nNutrient deficiency: \n\nDescription:\n\n\nRecommendation:\n\n",
+    "text": "\nProduct: Crestor Potassium Humate\nCategory: Crop Nutrition\nType: \n\nCrops: \n\nControls: \nDiseases: \nWeeds: \nNutrient deficiency: \n\nFarmer Symptoms:\n\n\nFarmer Queries:\n\n\nSearch Keywords:\nsoil conditioner for crops, root growth stimulant, fertilizer efficiency booster, humic acid khad, مٹی نرم کرنے والی کھاد, جڑاں مضبوط کرنے والی کھاد, کھاد اثر کیوں نہیں کر رہی\n\nDescription:\n\n\nUrdu:\n\n\nPunjabi:\n\n\nRecommendation:\n\n",
     "metadata": {
-      "product": "Crestor Potassium Humate",
-      "category": "Crop Nutrition"
+      "product_name": "Crestor Potassium Humate",
+      "category": "Crop Nutrition",
+      "type": "N/A",
+      "crops": [],
+      "controls": [],
+      "diseases": [],
+      "weeds": [],
+      "nutrient_deficiency": [],
+      "intent_tags": []
     }
   },
   {
-    "text": "\nProduct: FACEUP 56% SC\n\nCategory: Fungicide\n\nType: \n\nCrops: \n\nControls / Solves: \n\nDiseases: \n\nWeeds: \n\nNutrient deficiency: \n\nDescription:\n\n\nRecommendation:\n\n",
+    "text": "\nProduct: FACEUP 56% SC\nCategory: Fungicide\nType: \n\nCrops: \n\nControls: \nDiseases: \nWeeds: \nNutrient deficiency: \n\nFarmer Symptoms:\n\n\nFarmer Queries:\n\n\nSearch Keywords:\nrice blast fungicide, blight control spray, systemic fungicide, preventive fungicide spray, چاول دا بلاست سپرے, جھلساؤ دی دوا, فنگس کش سپرے, پھپھوندی دی دوا, بیماری تیزی نال پھیل رہی اے علاج\n\nDescription:\n\n\nUrdu:\n\n\nPunjabi:\n\n\nRecommendation:\n\n",
     "metadata": {
-      "product": "FACEUP 56% SC",
-      "category": "Fungicide"
+      "product_name": "FACEUP 56% SC",
+      "category": "Fungicide",
+      "type": "N/A",
+      "crops": [],
+      "controls": [],
+      "diseases": [],
+      "weeds": [],
+      "nutrient_deficiency": [],
+      "intent_tags": []
     }
   },
   {
-    "text": "\nProduct: NIPA\n\nCategory: Fungicide\n\nType: \n\nCrops: \n\nControls / Solves: \n\nDiseases: \n\nWeeds: \n\nNutrient deficiency: \n\nDescription:\n\n\nRecommendation:\n\n",
+    "text": "\nProduct: NIPA\nCategory: Fungicide\nType: \n\nCrops: \n\nControls: \nDiseases: \nWeeds: \nNutrient deficiency: \n\nFarmer Symptoms:\n\n\nFarmer Queries:\n\n\nSearch Keywords:\nbacterial disease control spray, fungicide for blight, rice blast control, wheat head blight spray, بیکٹیریا دی دوا, بلائٹ دا سپرے, چاول دا بلاست سپرے, پتیاں تے داغ دی دوا\n\nDescription:\n\n\nUrdu:\n\n\nPunjabi:\n\n\nRecommendation:\n\n",
     "metadata": {
-      "product": "NIPA",
-      "category": "Fungicide"
+      "product_name": "NIPA",
+      "category": "Fungicide",
+      "type": "N/A",
+      "crops": [],
+      "controls": [],
+      "diseases": [],
+      "weeds": [],
+      "nutrient_deficiency": [],
+      "intent_tags": []
     }
   },
   {
-    "text": "\nProduct: Rippet\n\nCategory: Insecticide\n\nType: \n\nCrops: \n\nControls / Solves: \n\nDiseases: \n\nWeeds: \n\nNutrient deficiency: \n\nDescription:\n\n\nRecommendation:\n\n",
+    "text": "\nProduct: Rippet\nCategory: Insecticide\nType: Systemic insecticide\n\nCrops: cotton, rice, vegetables, okra, tomato\n\nControls: whitefly, aphid, jassid, thrips, brown plant hopper, green leaf hopper\nDiseases: \nWeeds: \nNutrient deficiency: \n\nFarmer Symptoms:\nwhitefly infestation, leaf curling, کپاس پر سفید مکھی, پتیاں سکڑ رہی ہیں, چپچپا مادہ, کپاس تے تیلا, پتے مڑ گئے نیں, safed makhi attack, pattay mur gaye\n\nFarmer Queries:\nwhitefly on cotton, kapas par teela, sucking pest attack\n\nSearch Keywords:\nwhitefly control, jassid spray, sucking pest medicine\n\nDescription:\nSystemic insecticide for sucking pests.\n\nUrdu:\nچوسنے والے کیڑوں کے لیے بہترین دوا۔\n\nPunjabi:\nچوسن والے کیڑیاں لئی زبردست سپرے۔\n\nRecommendation:\n\n",
     "metadata": {
-      "product": "Rippet",
-      "category": "Insecticide"
+      "product_name": "Rippet",
+      "category": "Insecticide",
+      "type": "Systemic insecticide",
+      "crops": [
+        "cotton",
+        "rice",
+        "vegetables",
+        "okra",
+        "tomato"
+      ],
+      "controls": [
+        "whitefly",
+        "aphid",
+        "jassid",
+        "thrips",
+        "brown plant hopper",
+        "green leaf hopper"
+      ],
+      "diseases": [],
+      "weeds": [],
+      "nutrient_deficiency": [],
+      "intent_tags": [
+        "insect"
+      ]
     }
   },
   {
-    "text": "\nProduct: Sulphur 80% WDG\n\nCategory: Fungicide\n\nType: \n\nCrops: \n\nControls / Solves: \n\nDiseases: \n\nWeeds: \n\nNutrient deficiency: \n\nDescription:\n\n\nRecommendation:\n\n",
+    "text": "\nProduct: Sulphur 80% WDG\nCategory: Fungicide\nType: \n\nCrops: \n\nControls: \nDiseases: \nWeeds: \nNutrient deficiency: \n\nFarmer Symptoms:\n\n\nFarmer Queries:\n\n\nSearch Keywords:\nپھپھوندی دا سپرے, sulphur fungicide\n\nDescription:\n\n\nUrdu:\n\n\nPunjabi:\n\n\nRecommendation:\n\n",
     "metadata": {
-      "product": "Sulphur 80% WDG",
-      "category": "Fungicide"
+      "product_name": "Sulphur 80% WDG",
+      "category": "Fungicide",
+      "type": "N/A",
+      "crops": [],
+      "controls": [],
+      "diseases": [],
+      "weeds": [],
+      "nutrient_deficiency": [],
+      "intent_tags": [
+        "disease",
+        "insect"
+      ]
     }
   },
   {
-    "text": "\nProduct: Whats App (Zinc)\n\nCategory: Crop Nutrition\n\nType: \n\nCrops: \n\nControls / Solves: \n\nDiseases: \n\nWeeds: \n\nNutrient deficiency: \n\nDescription:\n\n\nRecommendation:\n\n",
+    "text": "\nProduct: Whats App (Zinc)\nCategory: Crop Nutrition\nType: \n\nCrops: \n\nControls: \nDiseases: \nWeeds: \nNutrient deficiency: \n\nFarmer Symptoms:\n\n\nFarmer Queries:\n\n\nSearch Keywords:\nزنک کھاد, zinc for rice, micro nutrient zinc\n\nDescription:\n\n\nUrdu:\n\n\nPunjabi:\n\n\nRecommendation:\n\n",
     "metadata": {
-      "product": "Whats App (Zinc)",
-      "category": "Crop Nutrition"
+      "product_name": "Whats App (Zinc)",
+      "category": "Crop Nutrition",
+      "type": "N/A",
+      "crops": [],
+      "controls": [],
+      "diseases": [],
+      "weeds": [],
+      "nutrient_deficiency": [],
+      "intent_tags": [
+        "nutrition"
+      ]
     }
   },
   {
-    "text": "\nProduct: Winsta 30% WP\n\nCategory: Herbicide\n\nType: \n\nCrops: \n\nControls / Solves: \n\nDiseases: \n\nWeeds: \n\nNutrient deficiency: \n\nDescription:\n\n\nRecommendation:\n\n",
+    "text": "\nProduct: Winsta 30% WP\nCategory: Herbicide\nType: \n\nCrops: \n\nControls: \nDiseases: \nWeeds: \nNutrient deficiency: \n\nFarmer Symptoms:\n\n\nFarmer Queries:\n\n\nSearch Keywords:\nrice weed control, dhaan ki ghaas ka ilaaj, post emergence herbicide for rice, swanki control, ڈیلا کنٹرول دھان, چوڑے پتوں والی جڑی بوٹی دی دوا\n\nDescription:\n\n\nUrdu:\n\n\nPunjabi:\n\n\nRecommendation:\n\n",
     "metadata": {
-      "product": "Winsta 30% WP",
-      "category": "Herbicide"
+      "product_name": "Winsta 30% WP",
+      "category": "Herbicide",
+      "type": "N/A",
+      "crops": [],
+      "controls": [],
+      "diseases": [],
+      "weeds": [],
+      "nutrient_deficiency": [],
+      "intent_tags": []
     }
   }
 ]
