@@ -4,6 +4,7 @@
   "brand": "Sooraj Crop Sciences",
   "product_type": "Insecticide",
   "category": "Insecticide",
+  "type": "Systemic insecticide",
 
   "active_ingredients": [
     {
@@ -20,6 +21,8 @@
 
   "systemicity": "Systemic and contact",
 
+  "crops": ["cotton", "rice", "vegetables"],
+
   "targets": {
     "insects": [
       "aphids",
@@ -35,6 +38,12 @@
     "nutrient_deficiencies": []
   },
 
+  "controls": ["whitefly", "aphid", "jassid", "thrips"],
+
+  "description": "Controls sucking insects effectively with long residual action.",
+
+  "recommendation": "Use as foliar spray at recommended dose.",
+
   "farmer_symptoms": [
     "کپاس تے سفید مکھی بہت اے",
     "پتیاں مڑ گئیاں نیں",
@@ -43,32 +52,12 @@
     "کالا پھپھوند بن رہا اے",
     "رس چوسن والا کیڑا",
     "تیلے لگ گئے نیں",
-    "پودا کمزور ہو ریا اے کیڑیاں وجہ توں",
     "چاول وچ ہاپر دا حملہ",
-    "leaf curl in cotton",
     "whitefly attack",
     "jassid attack",
     "thrips in crop",
-    "honeydew on leaves",
     "sap sucking pest"
   ],
-
-  "crop_applicability": {
-    "major_crops": ["cotton", "rice"],
-    "all_supported_crops": [
-      "cotton",
-      "rice",
-      "okra",
-      "tomato",
-      "brinjal",
-      "cucurbits",
-      "citrus",
-      "mango",
-      "guava",
-      "vegetables",
-      "fruits"
-    ]
-  },
 
   "dosage": {
     "per_acre": "80–100 g"
@@ -82,22 +71,13 @@
 
   "best_time_to_apply": ["Morning", "Evening"],
 
-  "farmer_benefits": [
-    "Fast knockdown of sucking pests",
-    "Stops pest feeding immediately",
-    "Long residual control",
-    "Reduces virus transmission",
-    "Protects new plant growth"
-  ],
-
   "search_keywords": [
     "whitefly control spray",
     "aphid control insecticide",
     "jassid ka ilaj",
     "planthopper control in rice",
     "چوسنے والے کیڑے دی دوا",
-    "وائٹ فلائی دا سپرے",
-    "تیلا کنٹرول"
+    "وائٹ فلائی دا سپرے"
   ],
 
   "master_descriptions": {

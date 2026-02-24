@@ -1,129 +1,97 @@
 {
-  "product_id": "sooraj_whats_app_zinc",
+  "product_id": "sooraj_whatsapp_zinc",
   "product_name": "Whats App (Zinc)",
   "brand": "Sooraj Crop Sciences",
-  "product_type": "Micronutrient",
-  "category": "Crop Nutrition",
 
-  "active_ingredients": [
-    {
-      "name": "Zinc (as Zinc Sulphate)",
-      "percentage": "21%",
-      "mode_of_action": "Activates plant enzymes and auxin hormone production"
-    }
+  "category": "Crop Nutrition",
+  "type": "Micronutrient fertilizer",
+  "product_type": "Zinc fertilizer",
+
+  "composition": {
+    "zinc": "33%",
+    "form": "Zinc sulphate"
+  },
+
+  "crops": [
+    "rice",
+    "wheat",
+    "maize",
+    "cotton",
+    "sugarcane",
+    "vegetables"
   ],
 
-  "formulation_type": "Granular",
-  "systemicity": "Root and foliar uptake",
-  "mode_of_action_summary": "Corrects zinc deficiency and improves tillering, chlorophyll and crop growth.",
-
   "targets": {
-    "diseases": [],
+    "nutrient_deficiencies": [
+      "zinc deficiency",
+      "khaira disease"
+    ],
     "insects": [],
-    "weeds": [],
-    "nutrient_deficiencies": ["zinc deficiency", "zn deficiency"]
+    "diseases": [],
+    "weeds": []
   },
 
   "farmer_symptoms": [
-    "پتے پیلے ہو رہے نیں",
-    "پتیاں وچوں پیلاہٹ",
-    "چھوٹے تے تنگ پتے",
-    "پودا کمزور اے",
-    "بڑھوتری رک گئی اے",
-    "گندم دی ٹلرنگ گھٹ اے",
-    "دھان وچ ٹلرنگ نہیں ہو رہی",
-    "پتے سفید پیلے ہو گئے نیں",
-    "زنک دی کمی",
-    "zn deficiency",
-    "yellow leaves in rice",
-    "tillering kam hai",
-    "little leaf problem"
+    "دھان وچ زنک دی کمی اے",
+    "کھئیرا بیماری",
+    "پتے پیلے ہو گئے نیں",
+    "پتے تے بھورے دھبے",
+    "پودا چھوٹا رہ گیا اے",
+    "ٹِلرنگ کٹ ہو گئی اے",
+    "growth رک گئی اے",
+    "leaf yellowing between veins",
+    "stunted plant growth",
+    "bronze color leaves",
+    "rice khaira disease",
+    "zinc deficiency in wheat",
+    "maize zinc deficiency",
+    "choti pattiyaan",
+    "kamzor poda"
   ],
 
-  "crop_applicability": {
-    "major_crops": [
-      "rice",
-      "wheat",
-      "maize",
-      "cotton",
-      "dhan",
-      "gandum",
-      "chawal"
-    ],
-    "all_supported_crops": [
-      "rice",
-      "wheat",
-      "maize",
-      "cotton",
-      "dhan",
-      "gandum",
-      "chawal",
-      "tomato",
-      "chilli",
-      "okra",
-      "potato",
-      "mango",
-      "citrus",
-      "guava"
-    ]
-  },
+  "search_keywords": [
+    "zinc deficiency fertilizer",
+    "zinc for rice",
+    "khaira disease treatment",
+    "micronutrient for wheat",
+    "زنک دی کمی دا علاج",
+    "کھئیرا بیماری دی دوا",
+    "rice zinc spray",
+    "zinc sulphate fertilizer",
+    "پتے پیلے ہو رہے نیں حل"
+  ],
 
   "dosage": {
-    "per_acre": "4 kg",
-    "per_100_litre": "1–2 kg"
+    "per_acre": "4 kg"
   },
 
   "application_details": {
     "application_method": [
       "Soil application",
-      "Foliar spray"
+      "Foliar spray (if water soluble)"
     ],
-    "method": "Broadcast and irrigate after application"
-  },
-
-  "best_time_to_apply": [
-    "Basal application",
-    "Early crop stage",
-    "At deficiency symptoms"
-  ],
-
-  "plant_health_benefits": [
-    "Better tillering",
-    "Greener leaves",
-    "Stronger roots",
-    "Higher yield",
-    "Better grain filling"
-  ],
-
-  "safety": {
-    "protective_measures": [
-      "Avoid over application",
-      "Store in dry place"
+    "best_time": [
+      "Morning",
+      "Evening"
     ]
   },
 
   "farmer_benefits": [
-    "زنک دی کمی دا فوری حل",
-    "فصل دی تیز بڑھوتری",
-    "گندم تے دھان وچ زیادہ ٹلرنگ",
-    "پتے ہرے تروتازہ",
-    "زیادہ پیداوار"
+    "Recovers zinc deficient crops quickly",
+    "Improves tillering in rice",
+    "Enhances root development",
+    "Increases grain formation",
+    "Improves plant vigor",
+    "Uniform crop growth"
   ],
 
-  "search_keywords": [
-    "زنک دی کمی",
-    "zinc deficiency in rice",
-    "yellow leaves in wheat",
-    "gandum tillering kam",
-    "chawal mein zinc ki kami",
-    "micronutrient for tillering",
-    "کِہڑی کھاد پاواں پتے پیلے نیں",
-    "حل دسو پودا کمزور اے"
-  ],
+  "description": "High quality zinc fertilizer that corrects zinc deficiency and khaira disease and boosts crop growth and yield.",
+
+  "recommendation": "Apply 4 kg per acre at early growth stage or when deficiency symptoms appear.",
 
   "master_descriptions": {
-    "english": "Zinc micronutrient for correcting deficiency and improving tillering and yield.",
-    "urdu": "زنک کی کمی دور کرنے والی خوردنی کھاد۔",
-    "punjabi_shahmukhi": "زنک دی کمی پوری کرکے ٹلرنگ تے پیداوار ودھاندی اے۔"
+    "english": "High efficiency zinc fertilizer for rapid correction of zinc deficiency in rice, wheat and maize.",
+    "urdu": "زنک کی کمی کو فوری دور کرنے اور فصل کی بہتر بڑھوتری کے لیے بہترین کھاد۔",
+    "punjabi_shahmukhi": "زنک دی کمی نوں جلدی پورا کرن تے فصل دی وادھیا نشوونما لئی بہترین کھاد۔"
   }
 }

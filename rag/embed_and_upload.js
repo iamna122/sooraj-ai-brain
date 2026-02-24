@@ -1,25 +1,31 @@
 const fs = require("fs");
 const path = require("path");
 
-const CHUNKS_FILE = path.join(__dirname, "chunks", "product_chunks.json");
-const OUTPUT_FILE = path.join(__dirname, "../vector_store/vectors.json");
-
 async function run() {
-  console.log("🚀 Embedding process started...");
-
   const { pipeline } = await import("@xenova/transformers");
 
-  const chunks = JSON.parse(fs.readFileSync(CHUNKS_FILE, "utf-8"));
-  console.log("📦 Chunks loaded:", chunks.length);
+  console.log("🚀 Embedding process started...");
+
+  // ✅ YOUR REAL FILE
+  const chunksPath = path.join(__dirname, "chunks", "product_chunks.json");
+
+  if (!fs.existsSync(chunksPath)) {
+    console.error("❌ File not found:", chunksPath);
+    return;
+  }
+
+  const chunks = JSON.parse(fs.readFileSync(chunksPath, "utf-8"));
+
+  console.log("📦 Total chunks:", chunks.length);
 
   const embedder = await pipeline(
     "feature-extraction",
-    "Xenova/paraphrase-multilingual-MiniLM-L12-v2"
+    "Xenova/all-MiniLM-L6-v2"
   );
 
-  console.log("🧠 Embedding model loaded");
+  console.log("🧠 Model loaded");
 
-  const vectorDB = [];
+  const db = [];
 
   for (const chunk of chunks) {
     const output = await embedder(chunk.text, {
@@ -27,19 +33,18 @@ async function run() {
       normalize: true,
     });
 
-    vectorDB.push({
-      id: chunk.id,
+    db.push({
+      text: chunk.text,
       vector: Array.from(output.data),
       metadata: chunk.metadata,
-      text: chunk.text,
     });
   }
 
-  fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
+  const outPath = path.join(__dirname, "../vector_store/vectors.json");
 
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(vectorDB, null, 2));
+  fs.writeFileSync(outPath, JSON.stringify(db, null, 2));
 
-  console.log("✅ Vector DB saved → vector_store/vectors.json");
+  console.log("✅ Saved → vector_store/vectors.json");
 }
 
 run();
