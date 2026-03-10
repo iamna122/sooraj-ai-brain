@@ -1,94 +1,206 @@
 {
-  "product_id": "SC-MICRO-002",
-  "product_code": "ZN10",
-  "product_name": "Zinc 10%",
-  "brand": "Sooraj Crop Sciences",
+"product_id": "SC-MICRO-002",
+"product_code": "SC-ZN-10",
+"product_name": "Zinc 10%",
+"brand": "Sooraj Crop Sciences",
 
-  "category": "Micronutrient",
-  "type": "Plant Supplement",
-  "product_type_tags": ["zinc fertilizer", "micronutrient"],
+"category": "Micronutrient",
+"type": "Zinc Micronutrient Fertilizer",
+"product_type_tags": [
+"zinc fertilizer",
+"micronutrient",
+"crop nutrition"
+],
 
-  "formulation": "Liquid",
-  "systemicity": "nutrient",
-  "total_ai": "10%",
+"formulation": "Liquid",
+"systemicity": "Nutrient uptake",
+"total_ai": "Zinc 10%",
 
-  "active_ingredients": [
-    "Zinc 10%"
-  ],
+"active_ingredients": [
+{
+"name": "Zinc",
+"percentage": "10%",
+"mode_of_action": "Essential micronutrient involved in enzyme activation and plant growth regulation."
+}
+],
 
-  "disease_types": ["micronutrient deficiency"],
+"disease_types": [
+"micronutrient_deficiency"
+],
 
-  "target_diseases": [
-    "zinc deficiency"
-  ],
+"target_diseases": [
+{
+"name": "Zinc Deficiency",
+"key": "zinc_deficiency",
+"type": "nutrient"
+}
+],
 
-  "disease_symptoms_mapping": {
-    "zinc deficiency": [
-      "yellow leaves",
-      "stunted growth",
-      "small onion bulbs"
-    ]
-  },
+"disease_symptoms_mapping": {
+"zinc_deficiency": [
+"yellow leaves",
+"stunted plant growth",
+"small onion bulbs"
+]
+},
 
-  "crop_aliases": {
-    "onion": ["pyaz"]
-  },
+"disease_aliases": {
+"zinc_deficiency": [
+"zinc kami",
+"micronutrient deficiency"
+]
+},
 
-  "crops": {
-    "major": ["onion"],
-    "all": ["vegetables", "onion"]
-  },
+"crop_aliases": {
+"onion": ["pyaz"]
+},
 
-  "crop_stage": ["early vegetative stage"],
+"crops": {
+"major": [
+"onion"
+],
+"all": [
+"rice",
+"wheat",
+"vegetable crops"
+]
+},
 
-  "regions": ["Punjab", "Sindh"],
+"crop_stage": [
+"early vegetative stage"
+],
 
-  "farmer_problem_queries": [
-    "pyaz ki pattiyan zard ho rahi hain",
-    "onion zinc deficiency solution",
-    "pyaz growth slow hai"
-  ],
+"seasonal_relevance": [
+"Rabi season",
+"vegetative stage"
+],
 
-  "symptom_queries": [
-    "yellow onion leaves",
-    "small onion plants"
-  ],
+"regions": [
+"Punjab Pakistan",
+"Sindh Pakistan"
+],
 
-  "vector_tags": [
-    "zinc fertilizer",
-    "onion micronutrient spray"
-  ],
+"farmer_problem_queries": [
+"pyaz ki pattiyan zard ho rahi hain",
+"onion zinc deficiency solution",
+"pyaz growth slow hai",
+"micronutrient spray onion"
+],
 
-  "product_use_cases": [
-    "correct zinc deficiency in onion"
-  ],
+"symptom_queries": [
+"yellow onion leaves",
+"small onion plants",
+"onion plant weak growth"
+],
 
-  "dosage": {
-    "per_acre": "500 ml"
-  },
+"search_keywords": [
+"zinc fertilizer",
+"onion micronutrient spray",
+"zinc deficiency fertilizer"
+],
 
-  "benefits": [
-    "improves crop growth",
-    "prevents micronutrient deficiency"
-  ],
+"language_keywords": {
+"urdu": [
+"زنک کھاد",
+"پیاز کی زرد پتیاں"
+],
+"roman_urdu": [
+"zinc spray",
+"pyaz zinc deficiency"
+],
+"punjabi": [
+"زنک کھاد"
+],
+"english": [
+"zinc fertilizer",
+"micronutrient spray"
+]
+},
 
-  "ai_summary": {
-    "short": "Zinc micronutrient spray for healthy onion growth."
-  },
+"vector_tags": [
+"zinc fertilizer",
+"onion micronutrient spray",
+"zinc deficiency treatment"
+],
 
-  "metadata": {
-    "created_by": "Sooraj Crop Sciences AI team",
-    "last_updated": "2026",
-    "reviewed_by_agronomist": false
-  },
+"product_use_cases": [
+"correct zinc deficiency",
+"improve onion plant growth"
+],
 
-  "embedding_priority_fields": [
-    "farmer_problem_queries",
-    "symptom_queries",
-    "vector_tags",
-    "ai_summary",
-    "benefits"
-  ],
+"dosage": {
+"per_acre": "500 ml",
+"water_volume": "100 L",
+"method": "foliar spray"
+},
 
-  "data_version": "1.0"
+"spray_conditions": [
+"spray during morning or evening"
+],
+
+"application_guidelines": [
+"apply when deficiency symptoms appear"
+],
+
+"compatibility": [
+"compatible with most fertilizers"
+],
+
+"resistance_management": [],
+
+"precautions": [
+"avoid overdose"
+],
+
+"waiting_period": "Not required",
+
+"benefits": [
+"corrects zinc deficiency",
+"improves crop growth",
+"increases yield potential"
+],
+
+"faq": [
+{
+"question": "پیاز کی پتیاں زرد کیوں ہو جاتی ہیں؟",
+"answer": "یہ زنک کی کمی کی علامت ہو سکتی ہے جسے زنک کھاد کے سپرے سے درست کیا جا سکتا ہے۔"
+}
+],
+
+"recommendation_context": {
+"why_use": "Correct zinc deficiency in crops",
+"best_use_case": "Micronutrient deficiency stage"
+},
+
+"ai_summary": {
+"product_type": "micronutrient fertilizer",
+"primary_use": "correct zinc deficiency in crops",
+"dosage": "500 ml per acre"
+},
+
+"multilingual_description": {
+"english": "Zinc 10% is a micronutrient fertilizer used to correct zinc deficiency and improve crop growth.",
+"urdu": "یہ زنک کھاد فصل میں زنک کی کمی کو پورا کر کے نشوونما بہتر بناتی ہے۔",
+"punjabi": "ایہ زنک کھاد فصل دی گروتھ بہتر کردا اے۔"
+},
+
+"knowledge_sources": [
+"Sooraj Crop Sciences product data"
+],
+
+"metadata": {
+"created_by": "Sooraj Crop Sciences AI team",
+"last_updated": "",
+"reviewed_by_agronomist": false
+},
+
+"embedding_priority_fields": [
+"farmer_problem_queries",
+"symptom_queries",
+"vector_tags",
+"ai_summary",
+"benefits"
+],
+
+"data_version": "1.0"
 }

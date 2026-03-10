@@ -1,67 +1,294 @@
 {
-  "product_id": "SC-FUNG-005",
-  "product_code": "FACEUP56",
-  "product_name": "FACEUP 56% SC",
-  "brand": "Sooraj Crop Sciences",
+"product_id": "SC-FUNG-005",
+"product_code": "SC-FACEUP-56SC",
+"product_name": "FACEUP 56% SC",
+"brand": "Sooraj Crop Sciences",
 
-  "category": "Fungicide",
-  "type": "Systemic + Contact",
-  "product_type_tags": ["fungicide", "vegetable disease control"],
+"category": "Fungicide",
+"type": "Systemic + Contact Fungicide",
+"product_type_tags": [
+"fungicide",
+"vegetable disease control",
+"broad spectrum fungicide"
+],
 
-  "formulation": "SC",
-  "systemicity": "systemic",
+"formulation": "SC",
+"systemicity": "Systemic + Contact",
+"total_ai": "56% SC",
 
-  "active_ingredients": [
-    "Azoxystrobin",
-    "Chlorothalonil"
-  ],
+"active_ingredients": [
+{
+"name": "Azoxystrobin",
+"percentage": "5.4% w/v",
+"mode_of_action": "Systemic fungicide that inhibits mitochondrial respiration in fungal pathogens."
+},
+{
+"name": "Chlorothalonil",
+"percentage": "45% w/w",
+"mode_of_action": "Contact fungicide that blocks multiple enzyme systems of fungi preventing spore germination."
+}
+],
 
-  "target_diseases": [
-    "downy mildew",
-    "leaf spot"
-  ],
+"disease_types": [
+"fungal"
+],
 
-  "crops": {
-    "major": ["watermelon"],
-    "all": ["vegetables"]
-  },
+"target_diseases": [
+{
+"name": "Downy Mildew",
+"key": "downy_mildew",
+"type": "fungal"
+},
+{
+"name": "Leaf Spot",
+"key": "leaf_spot",
+"type": "fungal"
+},
+{
+"name": "Early Blight",
+"key": "early_blight",
+"type": "fungal"
+}
+],
 
-  "farmer_problem_queries": [
-    "tarbooz ki bimaari ka spray",
-    "watermelon fungus control"
-  ],
+"disease_symptoms_mapping": {
+"downy_mildew": [
+"yellow patches on leaves",
+"grey fungal growth on underside of leaves",
+"leaf curling and drying"
+],
+"leaf_spot": [
+"brown or black circular spots on leaves",
+"leaf drying from edges",
+"spots spreading across foliage"
+],
+"early_blight": [
+"dark concentric spots on leaves",
+"yellowing around spots",
+"leaf drop in vegetable crops"
+]
+},
 
-  "vector_tags": [
-    "watermelon fungicide",
-    "vegetable fungal control"
-  ],
+"disease_aliases": {
+"downy_mildew": [
+"white fungus",
+"leaf fungus",
+"patton par fungus"
+],
+"leaf_spot": [
+"brown leaf spots",
+"patton par daagh"
+],
+"early_blight": [
+"vegetable blight",
+"patta jalna"
+]
+},
 
-  "dosage": {
-    "per_acre": "200 ml"
-  },
+"crop_aliases": {
+"watermelon": [
+"tarbooz"
+],
+"cucumber": [
+"kheera"
+],
+"melon": [
+"kharboza"
+]
+},
 
-  "benefits": [
-    "controls fungal diseases",
-    "improves crop health"
-  ],
+"crops": {
+"major": [
+"watermelon"
+],
+"all": [
+"cucumber",
+"melon",
+"tomato",
+"vegetable crops"
+]
+},
 
-  "ai_summary": {
-    "short": "Broad spectrum fungicide for watermelon and vegetable crops."
-  },
+"crop_stage": [
+"vegetative stage",
+"flowering stage",
+"fruit formation stage",
+"early disease appearance"
+],
 
-  "metadata": {
-    "created_by": "Sooraj Crop Sciences AI team",
-    "last_updated": "2026",
-    "reviewed_by_agronomist": false
-  },
+"seasonal_relevance": [
+"February",
+"March",
+"April",
+"humid weather season"
+],
 
-  "embedding_priority_fields": [
-    "farmer_problem_queries",
-    "symptom_queries",
-    "vector_tags",
-    "ai_summary",
-    "benefits"
-  ],
+"regions": [
+"Punjab Pakistan",
+"South Punjab vegetable belt",
+"South Asia vegetable belt"
+],
 
-  "data_version": "1.0"
+"farmer_problem_queries": [
+"tarbooz ki bimaari ka spray",
+"tarbooz par fungus ka ilaj",
+"watermelon fungus control",
+"vegetable crop fungus spray",
+"leaf spot vegetable treatment",
+"tarbooz patton par daagh"
+],
+
+"symptom_queries": [
+"tarbooz k patton par daagh",
+"brown spots watermelon leaves",
+"yellow patches leaves vegetable crop",
+"leaf fungus watermelon"
+],
+
+"search_keywords": [
+"watermelon fungicide",
+"azoxystrobin chlorothalonil spray",
+"leaf spot fungicide vegetables",
+"downy mildew fungicide"
+],
+
+"language_keywords": {
+"urdu": [
+"تربوز کی بیماری",
+"سبزیوں پر فنگس",
+"فنجی سائیڈ سپرے"
+],
+"roman_urdu": [
+"tarbooz fungus spray",
+"vegetable fungus control",
+"leaf spot spray"
+],
+"punjabi": [
+"سبزی دیاں بیماریاں",
+"فنگس کنٹرول سپرے"
+],
+"english": [
+"watermelon fungicide",
+"vegetable disease spray",
+"fungicide for vegetables"
+]
+},
+
+"vector_tags": [
+"watermelon fungicide",
+"azoxystrobin fungicide",
+"leaf spot treatment",
+"downy mildew control"
+],
+
+"product_use_cases": [
+"preventive fungal protection",
+"curative treatment for downy mildew",
+"leaf disease control in vegetables"
+],
+
+"dosage": {
+"per_acre": "200–250 ml",
+"water_volume": "100–120 L",
+"method": "foliar spray",
+"frequency": "every 7–10 days during disease pressure"
+},
+
+"spray_conditions": [
+"spray during morning or evening",
+"avoid spraying during strong sunlight",
+"apply after irrigation for best coverage"
+],
+
+"application_guidelines": [
+"start spray at early disease symptoms",
+"ensure complete leaf coverage",
+"repeat spray during humid conditions"
+],
+
+"compatibility": [
+"compatible with most insecticides",
+"compatible with micronutrient sprays"
+],
+
+"resistance_management": [
+"rotate with fungicides of different chemical groups",
+"avoid repeated continuous use"
+],
+
+"precautions": [
+"do not exceed recommended dose",
+"use protective equipment",
+"store in cool dry place"
+],
+
+"waiting_period": "7 days",
+
+"benefits": [
+"controls major fungal diseases in vegetables",
+"protects foliage from leaf spot and mildew",
+"supports healthy plant growth",
+"broad spectrum disease protection"
+],
+
+"faq": [
+{
+"question": "تربوز پر فنگس کا علاج کیا ہے؟",
+"answer": "FACEUP 56% SC کا سپرے ڈاؤنی ملیو اور لیف سپاٹ جیسی بیماریوں کو کنٹرول کرتا ہے۔"
+},
+{
+"question": "اس فنجی سائیڈ کا سپرے کتنے دن بعد کرنا چاہیے؟",
+"answer": "بیماری کے دباؤ کے دوران ہر 7 سے 10 دن بعد سپرے کرنا بہتر ہے۔"
+}
+],
+
+"recommendation_context": {
+"why_use": "Effective fungicide for cucurbit and vegetable crops",
+"best_use_case": "High humidity fungal disease outbreaks",
+"disease_focus": [
+"downy mildew",
+"leaf spot",
+"early blight"
+]
+},
+
+"ai_summary": {
+"product_type": "fungicide",
+"primary_use": "control fungal diseases in watermelon and vegetable crops",
+"key_diseases": [
+"downy mildew",
+"leaf spot",
+"early blight"
+],
+"dosage": "200–250 ml per acre",
+"spray_interval": "7–10 days"
+},
+
+"multilingual_description": {
+"english": "FACEUP 56% SC is a systemic and contact fungicide used to control fungal diseases like downy mildew and leaf spot in watermelon and vegetable crops.",
+"urdu": "یہ فنجی سائیڈ تربوز اور سبزیوں کی فصلوں میں ڈاؤنی ملیو اور لیف سپاٹ جیسی بیماریوں کو کنٹرول کرتی ہے۔",
+"punjabi": "ایہ فنجی سائیڈ تربوز تے سبزیاں وچ فنگس بیماریاں کنٹرول کرن لئی استعمال ہوندا اے۔"
+},
+
+"knowledge_sources": [
+"Sooraj Crop Sciences product documentation",
+"Vegetable crop disease management guides",
+"Agricultural extension recommendations"
+],
+
+"metadata": {
+"created_by": "Sooraj Crop Sciences AI team",
+"last_updated": "",
+"reviewed_by_agronomist": false
+},
+
+"embedding_priority_fields": [
+"farmer_problem_queries",
+"symptom_queries",
+"vector_tags",
+"ai_summary",
+"benefits"
+],
+
+"data_version": "1.0"
 }

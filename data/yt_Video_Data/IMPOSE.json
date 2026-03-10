@@ -1,65 +1,238 @@
 {
-  "product_id": "SC-BIO-003",
-  "product_code": "IMPOSE",
-  "product_name": "IMPOSE",
-  "brand": "Sooraj Crop Sciences",
+"product_id": "SC-BIO-003",
+"product_code": "SC-IMP-HUMIC",
+"product_name": "IMPOSE",
+"brand": "Sooraj Crop Sciences",
 
-  "category": "Micronutrients",
-  "type": "Bio Stimulant",
-  "product_type_tags": ["humic acid", "soil conditioner"],
+"category": "Micronutrients",
+"type": "Bio Stimulant + Soil Conditioner",
+"product_type_tags": [
+"humic acid",
+"soil conditioner",
+"plant growth stimulant",
+"root development booster"
+],
 
-  "formulation": "Liquid",
-  "systemicity": "soil uptake",
-  "total_ai": "Humic Acid",
+"formulation": "Liquid",
+"systemicity": "Soil uptake",
+"total_ai": "Humic Acid",
 
-  "active_ingredients": [
-    "Humic Acid"
-  ],
+"active_ingredients": [
+{
+"name": "Humic Acid",
+"percentage": "Liquid formulation",
+"mode_of_action": "Improves soil structure, increases microbial activity and enhances nutrient uptake."
+}
+],
 
-  "target_diseases": ["poor soil fertility"],
+"disease_types": [
+"soil_fertility_problem",
+"nutrient_deficiency"
+],
 
-  "crops": {
-    "major": ["tinda", "pumpkin", "ridge gourd"],
-    "all": ["vegetables"]
-  },
+"target_diseases": [
+{
+"name": "Poor Soil Fertility",
+"key": "poor_soil_fertility",
+"type": "nutrient"
+},
+{
+"name": "Weak Root Development",
+"key": "weak_root_system",
+"type": "physiological"
+}
+],
 
-  "farmer_problem_queries": [
-    "zameen ki taqat barhane wali khad",
-    "soil fertility ka solution"
-  ],
+"disease_symptoms_mapping": {
+"poor_soil_fertility": [
+"slow plant growth",
+"low crop vigor",
+"poor nutrient uptake"
+],
+"weak_root_system": [
+"plants easily uprooted",
+"slow root expansion",
+"weak crop establishment"
+]
+},
 
-  "vector_tags": [
-    "humic acid fertilizer",
-    "soil conditioner"
-  ],
+"disease_aliases": {
+"poor_soil_fertility": [
+"zameen kamzor hai",
+"soil fertility issue",
+"zameen ki taqat kam"
+]
+},
 
-  "dosage": {
-    "per_acre": "1 liter"
-  },
+"crop_aliases": {
+"tinda": ["tindi"],
+"pumpkin": ["kaddu"],
+"ridge_gourd": ["tori"]
+},
 
-  "benefits": [
-    "improves soil fertility",
-    "enhances root growth",
-    "improves vegetable yield"
-  ],
+"crops": {
+"major": [
+"tinda",
+"pumpkin",
+"ridge gourd"
+],
+"all": [
+"tomato",
+"okra",
+"chilli",
+"vegetable crops"
+]
+},
 
-  "ai_summary": {
-    "short": "Humic acid bio stimulant improving soil fertility and vegetable crop growth."
-  },
+"crop_stage": [
+"land preparation",
+"early vegetative stage",
+"root development stage"
+],
 
-  "metadata": {
-    "created_by": "Sooraj Crop Sciences AI team",
-    "last_updated": "2026",
-    "reviewed_by_agronomist": false
-  },
+"seasonal_relevance": [
+"February",
+"March",
+"vegetable sowing season"
+],
 
-  "embedding_priority_fields": [
-    "farmer_problem_queries",
-    "symptom_queries",
-    "vector_tags",
-    "ai_summary",
-    "benefits"
-  ],
+"regions": [
+"Punjab Pakistan",
+"South Punjab",
+"vegetable belt Pakistan"
+],
 
-  "data_version": "1.0"
+"farmer_problem_queries": [
+"zameen ki taqat barhane wali khad",
+"soil fertility ka solution",
+"zameen ki zarkhaizi kaise barhayein",
+"vegetable crop growth booster"
+],
+
+"symptom_queries": [
+"plants slow growth",
+"weak root growth",
+"crop growth problem"
+],
+
+"search_keywords": [
+"humic acid fertilizer",
+"soil conditioner fertilizer",
+"vegetable growth booster"
+],
+
+"language_keywords": {
+"urdu": [
+"زمین کی زرخیزی بڑھانے والی کھاد",
+"ہیومک ایسڈ کھاد"
+],
+"roman_urdu": [
+"humic acid fertilizer",
+"zameen ki taqat khad"
+],
+"punjabi": [
+"زمین دی زرخیزی والی کھاد"
+],
+"english": [
+"humic acid fertilizer",
+"soil conditioner"
+]
+},
+
+"vector_tags": [
+"humic acid fertilizer",
+"soil conditioner",
+"vegetable crop growth"
+],
+
+"product_use_cases": [
+"improve soil fertility",
+"enhance root development",
+"increase vegetable yield"
+],
+
+"dosage": {
+"per_acre": "1–2 L",
+"water_volume": "irrigation water",
+"method": "soil drench or irrigation application",
+"frequency": "apply during early crop stage"
+},
+
+"spray_conditions": [
+"apply with irrigation water",
+"apply during moist soil conditions"
+],
+
+"application_guidelines": [
+"apply during early crop stage",
+"mix with irrigation water"
+],
+
+"compatibility": [
+"compatible with most fertilizers",
+"compatible with micronutrients"
+],
+
+"resistance_management": [],
+
+"precautions": [
+"store in cool dry place",
+"avoid direct sunlight"
+],
+
+"waiting_period": "Not required",
+
+"benefits": [
+"improves soil fertility",
+"enhances root growth",
+"improves vegetable yield",
+"increases nutrient absorption"
+],
+
+"faq": [
+{
+"question": "زمین کی زرخیزی بڑھانے کے لیے کیا کریں؟",
+"answer": "Humic acid پر مبنی بائیو سٹیمولنٹ زمین کی زرخیزی بڑھا کر فصل کی نشوونما بہتر بناتا ہے۔"
+}
+],
+
+"recommendation_context": {
+"why_use": "Improve soil fertility and root development",
+"best_use_case": "Weak soil conditions",
+"disease_focus": [
+"poor soil fertility"
+]
+},
+
+"ai_summary": {
+"product_type": "bio stimulant",
+"primary_use": "improve soil fertility and crop growth",
+"dosage": "1–2 L per acre"
+},
+
+"multilingual_description": {
+"english": "IMPOSE is a humic acid based bio stimulant that improves soil fertility and enhances root development in vegetable crops.",
+"urdu": "یہ ہیومک ایسڈ بائیو سٹیمولنٹ زمین کی زرخیزی اور جڑوں کی نشوونما بہتر بناتا ہے۔",
+"punjabi": "ایہ زمین دی زرخیزی تے جڑاں دی گروتھ بہتر کردا اے۔"
+},
+
+"knowledge_sources": [
+"Sooraj Crop Sciences product data"
+],
+
+"metadata": {
+"created_by": "Sooraj Crop Sciences AI team",
+"last_updated": "",
+"reviewed_by_agronomist": false
+},
+
+"embedding_priority_fields": [
+"farmer_problem_queries",
+"symptom_queries",
+"vector_tags",
+"ai_summary",
+"benefits"
+],
+
+"data_version": "1.0"
 }

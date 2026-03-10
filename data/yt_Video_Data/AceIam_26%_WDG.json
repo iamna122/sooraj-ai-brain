@@ -1,67 +1,257 @@
 {
-  "product_id": "SC-INS-004",
-  "product_code": "ACEIAM26",
-  "product_name": "AceIam 26% WDG",
-  "brand": "Sooraj Crop Sciences",
+"product_id": "SC-INS-004",
+"product_code": "SC-ACEIAM-26WDG",
+"product_name": "AceIam 26% WDG",
+"brand": "Sooraj Crop Sciences",
 
-  "category": "Insecticide",
-  "type": "Systemic",
-  "product_type_tags": ["insecticide", "sucking pest control"],
+"category": "Insecticide",
+"type": "Systemic + Contact Insecticide",
+"product_type_tags": [
+"insecticide",
+"sucking pest control",
+"vegetable pest control"
+],
 
-  "formulation": "WDG",
-  "systemicity": "systemic",
+"formulation": "WDG",
+"systemicity": "Systemic + Contact",
+"total_ai": "26% WDG",
 
-  "active_ingredients": [
-    "Acetamiprid 23.5%",
-    "Lambda Cyhalothrin 2.5%"
-  ],
+"active_ingredients": [
+{
+"name": "Acetamiprid",
+"percentage": "23.5%",
+"mode_of_action": "Systemic neonicotinoid insecticide that disrupts the nervous system of sucking pests."
+},
+{
+"name": "Lambda Cyhalothrin",
+"percentage": "2.5%",
+"mode_of_action": "Contact pyrethroid insecticide that causes paralysis in insects."
+}
+],
 
-  "target_diseases": [
-    "whitefly",
-    "aphids"
-  ],
+"disease_types": [
+"insect"
+],
 
-  "crops": {
-    "major": ["ridge gourd"],
-    "all": ["vegetables"]
-  },
+"target_diseases": [
+{
+"name": "Whitefly",
+"key": "whitefly",
+"type": "insect"
+},
+{
+"name": "Aphids",
+"key": "aphids",
+"type": "insect"
+},
+{
+"name": "Thrips",
+"key": "thrips",
+"type": "insect"
+}
+],
 
-  "farmer_problem_queries": [
-    "tori par whitefly ka spray",
-    "ridge gourd insects control"
-  ],
+"disease_symptoms_mapping": {
+"whitefly": [
+"tiny white insects on underside of leaves",
+"yellowing foliage",
+"sticky honeydew on leaves"
+],
+"aphids": [
+"clusters of small insects on stems",
+"leaf curling",
+"stunted plant growth"
+],
+"thrips": [
+"silver streaks on leaves",
+"distorted leaf growth"
+]
+},
 
-  "vector_tags": [
-    "tori insecticide",
-    "whitefly control"
-  ],
+"disease_aliases": {
+"whitefly": [
+"safed makhi",
+"white pest",
+"white insect attack"
+],
+"aphids": [
+"tela",
+"leaf aphids"
+]
+},
 
-  "dosage": {
-    "per_acre": "100 gm"
-  },
+"crop_aliases": {
+"ridge_gourd": [
+"tori",
+"turai"
+]
+},
 
-  "benefits": [
-    "controls sucking pests",
-    "protects vegetable crops"
-  ],
+"crops": {
+"major": [
+"ridge gourd"
+],
+"all": [
+"okra",
+"chilli",
+"brinjal",
+"vegetable crops"
+]
+},
 
-  "ai_summary": {
-    "short": "Insecticide used to control whitefly and aphids in vegetable crops."
-  },
+"crop_stage": [
+"early vegetative stage",
+"flowering stage",
+"pest infestation stage"
+],
 
-  "metadata": {
-    "created_by": "Sooraj Crop Sciences AI team",
-    "last_updated": "2026",
-    "reviewed_by_agronomist": false
-  },
+"seasonal_relevance": [
+"March",
+"April",
+"summer vegetable season"
+],
 
-  "embedding_priority_fields": [
-    "farmer_problem_queries",
-    "symptom_queries",
-    "vector_tags",
-    "ai_summary",
-    "benefits"
-  ],
+"regions": [
+"Punjab Pakistan",
+"South Punjab vegetable belt"
+],
 
-  "data_version": "1.0"
+"farmer_problem_queries": [
+"tori par whitefly ka spray",
+"tori par tela ka ilaj",
+"ridge gourd insects control",
+"vegetable pest control spray"
+],
+
+"symptom_queries": [
+"tori leaves curling",
+"white insects on vegetable leaves",
+"sticky leaves vegetable crop"
+],
+
+"search_keywords": [
+"vegetable insecticide",
+"acetamiprid lambda spray",
+"whitefly control vegetables"
+],
+
+"language_keywords": {
+"urdu": [
+"سبزیوں کے کیڑوں کا سپرے"
+],
+"roman_urdu": [
+"tori whitefly spray",
+"vegetable insect control"
+],
+"punjabi": [
+"سبزی دے کیڑے دا سپرے"
+],
+"english": [
+"vegetable insecticide",
+"whitefly pesticide"
+]
+},
+
+"vector_tags": [
+"vegetable insecticide",
+"whitefly control",
+"acetamiprid insecticide"
+],
+
+"product_use_cases": [
+"control sucking pests",
+"prevent insect infestation",
+"protect vegetable crops"
+],
+
+"dosage": {
+"per_acre": "80–100 g",
+"water_volume": "100 L",
+"method": "foliar spray",
+"frequency": "every 10–14 days during pest attack"
+},
+
+"spray_conditions": [
+"spray during morning or evening",
+"avoid high temperature spraying"
+],
+
+"application_guidelines": [
+"apply when pests first appear",
+"ensure full leaf coverage"
+],
+
+"compatibility": [
+"compatible with most fungicides",
+"compatible with micronutrients"
+],
+
+"resistance_management": [
+"rotate insecticides with different chemical groups"
+],
+
+"precautions": [
+"use protective equipment",
+"avoid inhalation"
+],
+
+"waiting_period": "5 days",
+
+"benefits": [
+"controls whiteflies and aphids",
+"protects vegetable crops",
+"fast pest knockdown"
+],
+
+"faq": [
+{
+"question": "توری پر سفید مکھی کا علاج کیا ہے؟",
+"answer": "AceIam 26% WDG کا سپرے سفید مکھی اور دیگر چوسنے والے کیڑوں کو کنٹرول کرتا ہے۔"
+}
+],
+
+"recommendation_context": {
+"why_use": "Effective insecticide for vegetable crops",
+"best_use_case": "Whitefly infestation in cucurbit crops",
+"disease_focus": [
+"whitefly",
+"aphids"
+]
+},
+
+"ai_summary": {
+"product_type": "insecticide",
+"primary_use": "control sucking pests in vegetables",
+"key_diseases": [
+"whitefly",
+"aphids"
+],
+"dosage": "80–100 g per acre"
+},
+
+"multilingual_description": {
+"english": "AceIam 26% WDG is a systemic and contact insecticide used to control whiteflies, aphids and thrips in vegetable crops.",
+"urdu": "یہ انسیکٹی سائیڈ سبزیوں کی فصلوں میں سفید مکھی اور دیگر چوسنے والے کیڑوں کو کنٹرول کرتی ہے۔",
+"punjabi": "ایہ سبزی دیاں فصلان وچ کیڑے کنٹرول کرن لئی استعمال ہوندا اے۔"
+},
+
+"knowledge_sources": [
+"Sooraj Crop Sciences product data"
+],
+
+"metadata": {
+"created_by": "Sooraj Crop Sciences AI team",
+"last_updated": "",
+"reviewed_by_agronomist": false
+},
+
+"embedding_priority_fields": [
+"farmer_problem_queries",
+"symptom_queries",
+"vector_tags",
+"ai_summary",
+"benefits"
+],
+
+"data_version": "1.0"
 }
