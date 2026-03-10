@@ -11,12 +11,13 @@ async function run() {
 
   console.log("📦 Total chunks:", chunks.length);
 
+  // ✅ BGE-M3 MODEL
   const embedder = await pipeline(
     "feature-extraction",
-    "Xenova/paraphrase-multilingual-MiniLM-L12-v2"
+    "Xenova/bge-m3"
   );
 
-  console.log("🧠 Model loaded");
+  console.log("🧠 BGE-M3 model loaded");
 
   const db = [];
 

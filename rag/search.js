@@ -52,12 +52,13 @@ async function run() {
 
   console.log("📦 Total vectors loaded:", db.length);
 
+  // ✅ BGE-M3
   const embedder = await pipeline(
     "feature-extraction",
-    "Xenova/paraphrase-multilingual-MiniLM-L12-v2"
+    "Xenova/bge-m3"
   );
 
-  console.log("🧠 Embedding model loaded");
+  console.log("🧠 BGE-M3 model loaded");
 
   const output = await embedder(query, {
     pooling: "mean",
@@ -78,10 +79,8 @@ async function run() {
     const text = item.text.toLowerCase();
     const q = query.toLowerCase();
 
-    // keyword boost
     if (text.includes(q)) score += 0.2;
 
-    // intent boost
     if (
       intent !== "unknown" &&
       item.metadata.intent_tags?.includes(intent)
@@ -89,7 +88,6 @@ async function run() {
       score += 0.15;
     }
 
-    // crop boost
     if (crop && item.metadata.crops?.includes(crop)) {
       score += 0.15;
     }
