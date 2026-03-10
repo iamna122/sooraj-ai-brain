@@ -1,0 +1,91 @@
+{
+  "product_id": "SC-INS-003",
+  "product_code": "IMIDA25WP",
+  "product_name": "Imidacloprid 25% WP",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Insecticide",
+  "type": "Systemic",
+  "product_type_tags": ["insecticide", "sucking pest control"],
+
+  "formulation": "WP",
+  "systemicity": "systemic",
+  "total_ai": "25%",
+
+  "active_ingredients": [
+    "Imidacloprid 25%"
+  ],
+
+  "disease_types": [
+    "insect pest"
+  ],
+
+  "target_diseases": [
+    "whitefly",
+    "aphids",
+    "jassids"
+  ],
+
+  "crop_aliases": {
+    "okra": ["bhindi"]
+  },
+
+  "crops": {
+    "major": ["okra"],
+    "all": ["okra", "vegetables"]
+  },
+
+  "crop_stage": ["vegetative", "fruiting"],
+  "regions": ["Punjab", "Sindh"],
+
+  "farmer_problem_queries": [
+    "bhindi par whitefly ka spray",
+    "okra aphid control",
+    "bhindi par jassid ka ilaj"
+  ],
+
+  "symptom_queries": [
+    "okra leaves curling",
+    "sticky honeydew on leaves"
+  ],
+
+  "vector_tags": [
+    "okra insecticide",
+    "whitefly control",
+    "aphid spray"
+  ],
+
+  "product_use_cases": [
+    "control sucking pests in okra"
+  ],
+
+  "dosage": {
+    "per_acre": "100 gm"
+  },
+
+  "benefits": [
+    "controls whitefly",
+    "controls aphids",
+    "protects crop yield"
+  ],
+
+  "ai_summary": {
+    "short": "Systemic insecticide for controlling sucking pests in okra crops."
+  },
+
+  "metadata": {
+    "created_by": "Sooraj Crop Sciences AI team",
+    "last_updated": "2026",
+    "reviewed_by_agronomist": false
+  },
+
+  "embedding_priority_fields": [
+    "farmer_problem_queries",
+    "symptom_queries",
+    "vector_tags",
+    "ai_summary",
+    "benefits"
+  ],
+
+  "data_version": "1.0"
+}

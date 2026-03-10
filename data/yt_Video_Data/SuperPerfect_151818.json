@@ -1,0 +1,143 @@
+{
+  "product_id": "SC-MICRO-001",
+  "product_code": "SP151818",
+  "product_name": "SuperPerfect 15:18:18",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Micronutrient",
+  "type": "Water Soluble Fertilizer",
+  "product_type_tags": ["npk fertilizer", "vegetable nutrition", "drip fertilizer"],
+
+  "formulation": "WSF",
+  "systemicity": "nutrient uptake",
+  "total_ai": "NPK 15:18:18",
+
+  "active_ingredients": [
+    "Nitrogen 15%",
+    "Phosphorus 18%",
+    "Potassium 18%"
+  ],
+
+  "disease_types": ["nutrient deficiency"],
+
+  "target_diseases": [
+    "poor bulb formation",
+    "weak plant growth"
+  ],
+
+  "disease_symptoms_mapping": {
+    "nutrient deficiency": [
+      "slow onion growth",
+      "thin leaves",
+      "small bulbs"
+    ]
+  },
+
+  "crop_aliases": {
+    "onion": ["pyaz"]
+  },
+
+  "crops": {
+    "major": ["onion"],
+    "all": ["onion", "vegetables"]
+  },
+
+  "crop_stage": ["vegetative", "bulb development"],
+  "seasonal_relevance": ["rabi"],
+  "regions": ["Punjab", "Thal region"],
+
+  "farmer_problem_queries": [
+    "pyaz ka size barhane ki khad",
+    "onion bulb size fertilizer",
+    "pyaz ki growth kam hai kya karein"
+  ],
+
+  "symptom_queries": [
+    "onion small bulb problem",
+    "onion weak leaves"
+  ],
+
+  "search_keywords": [
+    "onion fertilizer",
+    "npk for onion",
+    "onion bulb growth"
+  ],
+
+  "language_keywords": {
+    "urdu": ["پیاز کی کھاد", "پیاز کی افزائش"],
+    "roman_urdu": ["pyaz fertilizer", "pyaz growth"],
+    "punjabi": ["pyaz di khad"],
+    "english": ["onion fertilizer", "npk fertilizer"]
+  },
+
+  "vector_tags": [
+    "onion nutrition",
+    "npk fertilizer vegetables",
+    "bulb growth fertilizer"
+  ],
+
+  "product_use_cases": [
+    "increase onion bulb size",
+    "improve crop growth under drip irrigation"
+  ],
+
+  "dosage": {
+    "per_acre": "1 kg",
+    "fertigation": "500 gm"
+  },
+
+  "spray_conditions": [
+    "apply through drip irrigation",
+    "apply during early morning"
+  ],
+
+  "application_guidelines": [
+    "apply during vegetative stage",
+    "repeat every 10–15 days"
+  ],
+
+  "compatibility": ["compatible with most fertilizers"],
+  "resistance_management": [],
+  "precautions": ["avoid over dosage"],
+  "waiting_period": "",
+
+  "benefits": [
+    "improves onion bulb size",
+    "boosts vegetative growth",
+    "balanced crop nutrition"
+  ],
+
+  "faq": [],
+
+  "recommendation_context": {
+    "crop": "onion",
+    "purpose": "increase yield"
+  },
+
+  "ai_summary": {
+    "short": "Balanced NPK fertilizer to improve onion growth and bulb development."
+  },
+
+  "multilingual_description": {
+    "english": "Balanced NPK fertilizer for onion crop growth.",
+    "urdu": "پیاز کی بہتر نشوونما اور بلب کی بڑھوتری کے لیے این پی کے کھاد"
+  },
+
+  "knowledge_sources": ["youtube transcript"],
+
+  "metadata": {
+    "created_by": "Sooraj Crop Sciences AI team",
+    "last_updated": "2026",
+    "reviewed_by_agronomist": false
+  },
+
+  "embedding_priority_fields": [
+    "farmer_problem_queries",
+    "symptom_queries",
+    "vector_tags",
+    "ai_summary",
+    "benefits"
+  ],
+
+  "data_version": "1.0"
+}

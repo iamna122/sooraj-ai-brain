@@ -1,0 +1,67 @@
+{
+  "product_id": "SC-FUNG-005",
+  "product_code": "FACEUP56",
+  "product_name": "FACEUP 56% SC",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Fungicide",
+  "type": "Systemic + Contact",
+  "product_type_tags": ["fungicide", "vegetable disease control"],
+
+  "formulation": "SC",
+  "systemicity": "systemic",
+
+  "active_ingredients": [
+    "Azoxystrobin",
+    "Chlorothalonil"
+  ],
+
+  "target_diseases": [
+    "downy mildew",
+    "leaf spot"
+  ],
+
+  "crops": {
+    "major": ["watermelon"],
+    "all": ["vegetables"]
+  },
+
+  "farmer_problem_queries": [
+    "tarbooz ki bimaari ka spray",
+    "watermelon fungus control"
+  ],
+
+  "vector_tags": [
+    "watermelon fungicide",
+    "vegetable fungal control"
+  ],
+
+  "dosage": {
+    "per_acre": "200 ml"
+  },
+
+  "benefits": [
+    "controls fungal diseases",
+    "improves crop health"
+  ],
+
+  "ai_summary": {
+    "short": "Broad spectrum fungicide for watermelon and vegetable crops."
+  },
+
+  "metadata": {
+    "created_by": "Sooraj Crop Sciences AI team",
+    "last_updated": "2026",
+    "reviewed_by_agronomist": false
+  },
+
+  "embedding_priority_fields": [
+    "farmer_problem_queries",
+    "symptom_queries",
+    "vector_tags",
+    "ai_summary",
+    "benefits"
+  ],
+
+  "data_version": "1.0"
+}

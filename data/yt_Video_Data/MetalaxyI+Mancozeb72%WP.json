@@ -1,0 +1,279 @@
+{
+"product_id": "SC-FUNG-001",
+"product_code": "SC-MXM-72WP",
+"product_name": "Metalaxyl + Mancozeb 72% WP",
+"brand": "Sooraj Crop Sciences",
+
+"category": "Fungicide",
+"type": "Systemic + Contact Fungicide",
+"product_type_tags": [
+"fungicide",
+"crop_protection",
+"disease_control"
+],
+
+"formulation": "WP",
+"systemicity": "Systemic + Contact",
+"total_ai": "72% WP",
+
+"active_ingredients": [
+{
+"name": "Metalaxyl",
+"percentage": "8%",
+"mode_of_action": "Systemic fungicide that stops fungal growth by inhibiting RNA synthesis."
+},
+{
+"name": "Mancozeb",
+"percentage": "64%",
+"mode_of_action": "Contact fungicide that blocks multiple enzyme systems of fungi."
+}
+],
+
+"disease_types": [
+"fungal"
+],
+
+"target_diseases": [
+{
+"name": "Purple Blotch",
+"key": "purple_blotch",
+"type": "fungal"
+},
+{
+"name": "Downy Mildew",
+"key": "downy_mildew",
+"type": "fungal"
+}
+],
+
+"disease_symptoms_mapping": {
+"purple_blotch": [
+"purple or brown elongated spots on onion leaves",
+"drying leaf tips",
+"reduced bulb size"
+],
+"downy_mildew": [
+"yellow patches on leaves",
+"grey fungal growth under leaf surface",
+"leaf curling and drying"
+]
+},
+
+"disease_aliases": {
+"purple_blotch": [
+"purple spot",
+"pyaz ke patton par baingni daagh",
+"patta jalna"
+],
+"downy_mildew": [
+"white fungus",
+"leaf fungus",
+"patton par fungus"
+]
+},
+
+"crop_aliases": {
+"onion": [
+"pyaz",
+"pyaaz"
+],
+"watermelon": [
+"tarbooz"
+]
+},
+
+"crops": {
+"major": [
+"onion"
+],
+"all": [
+"garlic",
+"watermelon",
+"cucumber",
+"vegetable crops"
+]
+},
+
+"crop_stage": [
+"vegetative stage",
+"bulb formation stage",
+"early disease appearance"
+],
+
+"seasonal_relevance": [
+"November",
+"February",
+"March",
+"high humidity period"
+],
+
+"regions": [
+"Punjab Pakistan",
+"Thal region",
+"South Asia vegetable belt"
+],
+
+"farmer_problem_queries": [
+"pyaz ki bemari ka spray",
+"pyaz par fungus ka ilaj",
+"pyaz ke patton par daagh",
+"onion leaf fungus spray",
+"tarbooz ki bemari ka spray",
+"vegetable crop fungus control",
+"downy mildew onion control",
+"pyaz patta jal raha hai"
+],
+
+"symptom_queries": [
+"pyaz k patton par baingni daagh",
+"brown spots onion leaves",
+"yellow patches on leaves",
+"leaf fungus vegetable crop",
+"onion leaves drying"
+],
+
+"search_keywords": [
+"onion fungicide",
+"metalaxyl mancozeb spray",
+"purple blotch onion treatment",
+"downy mildew fungicide"
+],
+
+"language_keywords": {
+"urdu": [
+"پیاز کی بیماری",
+"پیاز پر فنگس",
+"سبزیوں کی بیماری کا سپرے"
+],
+"roman_urdu": [
+"pyaz ki bemari",
+"pyaz par fungus spray",
+"tarbooz ki bemari"
+],
+"punjabi": [
+"پیاز دیاں بیماریاں",
+"فنگس کنٹرول سپرے"
+],
+"english": [
+"onion disease spray",
+"fungicide for vegetables",
+"downy mildew control"
+]
+},
+
+"vector_tags": [
+"onion fungicide",
+"metalaxyl mancozeb fungicide",
+"purple blotch treatment",
+"downy mildew control"
+],
+
+"product_use_cases": [
+"preventive fungal protection",
+"curative treatment for downy mildew",
+"leaf disease control"
+],
+
+"dosage": {
+"per_acre": "500–600 g",
+"water_volume": "100–120 L",
+"method": "foliar spray",
+"frequency": "every 7–10 days during disease pressure"
+},
+
+"spray_conditions": [
+"spray during morning or evening",
+"avoid spraying in strong sunlight",
+"apply after irrigation for better coverage"
+],
+
+"application_guidelines": [
+"start spraying at early disease symptoms",
+"ensure full leaf coverage",
+"repeat spray during humid weather conditions"
+],
+
+"compatibility": [
+"compatible with most insecticides",
+"compatible with micronutrient sprays"
+],
+
+"resistance_management": [
+"rotate with fungicides from different chemical groups",
+"avoid repeated use of same fungicide"
+],
+
+"precautions": [
+"do not exceed recommended dose",
+"use protective equipment during spraying",
+"store in cool and dry place"
+],
+
+"waiting_period": "7 days",
+
+"benefits": [
+"controls major fungal diseases in onion and vegetable crops",
+"prevents purple blotch and downy mildew",
+"protects foliage during humid conditions",
+"supports healthy crop growth"
+],
+
+"faq": [
+{
+"question": "پیاز پر پرپل بلوچ کا علاج کیا ہے؟",
+"answer": "Metalaxyl + Mancozeb 72% WP کا سپرے فنگس کو کنٹرول کر کے فصل کو محفوظ رکھتا ہے۔"
+},
+{
+"question": "اس فنجی سائیڈ کا سپرے کتنے دن بعد کرنا چاہیے؟",
+"answer": "بیماری کے دباؤ کے دوران ہر 7 سے 10 دن بعد سپرے کرنا بہتر ہے۔"
+}
+],
+
+"recommendation_context": {
+"why_use": "Effective against fungal diseases in onion and cucurbit crops",
+"best_use_case": "High humidity fungal outbreaks",
+"disease_focus": [
+"purple blotch",
+"downy mildew"
+]
+},
+
+"ai_summary": {
+"product_type": "fungicide",
+"primary_use": "control fungal diseases in onion and vegetable crops",
+"key_diseases": [
+"purple blotch",
+"downy mildew"
+],
+"dosage": "500–600 g per acre",
+"spray_interval": "7–10 days"
+},
+
+"multilingual_description": {
+"english": "Metalaxyl + Mancozeb 72% WP is a systemic and contact fungicide used to control fungal diseases such as purple blotch and downy mildew in onion and vegetable crops.",
+"urdu": "میٹالیکسل اور مینکوزیب پر مشتمل یہ فنجی سائیڈ پیاز اور سبزیوں کی فصلوں میں ڈاؤنی ملیو اور پرپل بلوچ جیسی بیماریوں کو کنٹرول کرتی ہے۔",
+"punjabi": "ایہ فنجی سائیڈ پیاز تے سبزیاں وچ فنگس بیماریاں کنٹرول کرن لئی استعمال ہوندا اے۔"
+},
+
+"knowledge_sources": [
+"IR Farm YouTube - Thal Mein Pyaz Ne Hairan Kar Diya",
+"IR Farm YouTube - Thal Mein Tarbooz Tunnel System",
+"IR Farm YouTube - Desi vs Hybrid Pyaz Crop Update"
+],
+
+"metadata": {
+"created_by": "Sooraj Crop Sciences AI team",
+"last_updated": "",
+"reviewed_by_agronomist": false
+},
+
+"embedding_priority_fields": [
+"farmer_problem_queries",
+"symptom_queries",
+"vector_tags",
+"ai_summary",
+"benefits"
+],
+
+"data_version": "1.0"
+}

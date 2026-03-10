@@ -1,0 +1,65 @@
+{
+  "product_id": "SC-BIO-003",
+  "product_code": "IMPOSE",
+  "product_name": "IMPOSE",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Micronutrients",
+  "type": "Bio Stimulant",
+  "product_type_tags": ["humic acid", "soil conditioner"],
+
+  "formulation": "Liquid",
+  "systemicity": "soil uptake",
+  "total_ai": "Humic Acid",
+
+  "active_ingredients": [
+    "Humic Acid"
+  ],
+
+  "target_diseases": ["poor soil fertility"],
+
+  "crops": {
+    "major": ["tinda", "pumpkin", "ridge gourd"],
+    "all": ["vegetables"]
+  },
+
+  "farmer_problem_queries": [
+    "zameen ki taqat barhane wali khad",
+    "soil fertility ka solution"
+  ],
+
+  "vector_tags": [
+    "humic acid fertilizer",
+    "soil conditioner"
+  ],
+
+  "dosage": {
+    "per_acre": "1 liter"
+  },
+
+  "benefits": [
+    "improves soil fertility",
+    "enhances root growth",
+    "improves vegetable yield"
+  ],
+
+  "ai_summary": {
+    "short": "Humic acid bio stimulant improving soil fertility and vegetable crop growth."
+  },
+
+  "metadata": {
+    "created_by": "Sooraj Crop Sciences AI team",
+    "last_updated": "2026",
+    "reviewed_by_agronomist": false
+  },
+
+  "embedding_priority_fields": [
+    "farmer_problem_queries",
+    "symptom_queries",
+    "vector_tags",
+    "ai_summary",
+    "benefits"
+  ],
+
+  "data_version": "1.0"
+}

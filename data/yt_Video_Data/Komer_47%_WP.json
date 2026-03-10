@@ -1,0 +1,161 @@
+{
+  "product_id": "SC-FUN-001",
+  "product_code": "KOMER47WP",
+  "product_name": "Komer 47% WP",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Fungicide",
+  "type": "Protective + Curative",
+  "product_type_tags": ["fungicide", "copper fungicide", "disease control"],
+
+  "formulation": "WP",
+  "systemicity": "contact",
+  "total_ai": "47%",
+
+  "active_ingredients": [
+    "Copper Oxychloride 45%",
+    "Kasugamycin 2%"
+  ],
+
+  "disease_types": [
+    "fungal disease",
+    "bacterial disease"
+  ],
+
+  "target_diseases": [
+    "downy mildew",
+    "damping off",
+    "stem rot",
+    "leaf spot"
+  ],
+
+  "disease_symptoms_mapping": {
+    "downy mildew": ["yellow patches on leaves", "leaf drying", "fungal growth"],
+    "damping off": ["seedling collapse", "stem rot near soil"],
+    "leaf spot": ["brown spots on leaves"]
+  },
+
+  "disease_aliases": {
+    "downy mildew": ["downy", "leaf fungus"],
+    "damping off": ["seedling rot"]
+  },
+
+  "crop_aliases": {
+    "onion": ["pyaz"],
+    "garlic": ["lehsan"]
+  },
+
+  "crops": {
+    "major": ["onion", "garlic"],
+    "all": ["onion", "garlic", "vegetables"]
+  },
+
+  "crop_stage": ["nursery", "vegetative stage"],
+  "seasonal_relevance": ["rabi", "spring"],
+  "regions": ["Punjab Pakistan", "Sindh Pakistan"],
+
+  "farmer_problem_queries": [
+    "pyaz par fungus ka ilaj",
+    "lehsan ki patti par daag ka spray",
+    "onion downy mildew control",
+    "pyaz ki patti pe zard dhabbay ka hal"
+  ],
+
+  "symptom_queries": [
+    "onion leaves yellow spots",
+    "garlic leaves drying",
+    "seedling stem rot"
+  ],
+
+  "search_keywords": [
+    "onion fungicide",
+    "downy mildew control",
+    "garlic disease spray"
+  ],
+
+  "language_keywords": {
+    "urdu": ["پیاز کی بیماری", "لہسن کی فنگس"],
+    "roman_urdu": ["pyaz fungus spray", "lehsan disease control"],
+    "punjabi": ["pyaz di bimaari da ilaaj"],
+    "english": ["onion fungicide", "garlic disease control"]
+  },
+
+  "vector_tags": [
+    "onion disease control",
+    "garlic fungal protection",
+    "downy mildew fungicide"
+  ],
+
+  "product_use_cases": [
+    "control fungal diseases in onion",
+    "prevent damping off in garlic"
+  ],
+
+  "dosage": {
+    "per_acre": "400-500 gm",
+    "per_liter": "2 gm"
+  },
+
+  "spray_conditions": [
+    "spray in morning or evening",
+    "avoid spraying during rain"
+  ],
+
+  "application_guidelines": [
+    "start spray early before disease appears",
+    "repeat spray every 7-10 days"
+  ],
+
+  "compatibility": ["compatible with most insecticides"],
+  "resistance_management": ["rotate fungicides"],
+  "precautions": ["wear protective gloves"],
+  "waiting_period": "7 days",
+
+  "benefits": [
+    "controls downy mildew",
+    "protects seedlings from damping off",
+    "improves crop health"
+  ],
+
+  "faq": [
+    {
+      "question": "Can it control onion fungus?",
+      "answer": "Yes, it controls major fungal diseases."
+    }
+  ],
+
+  "recommendation_context": {
+    "crop": "onion garlic",
+    "problem": "fungal disease"
+  },
+
+  "ai_summary": {
+    "short": "Copper fungicide used to control fungal diseases in onion and garlic crops."
+  },
+
+  "multilingual_description": {
+    "english": "Copper based fungicide for onion and garlic disease control",
+    "urdu": "پیاز اور لہسن کی فنگس کے لیے مؤثر فنگسائڈ"
+  },
+
+  "knowledge_sources": [
+    "youtube transcript",
+    "agronomy knowledge"
+  ],
+
+  "metadata": {
+    "created_by": "Sooraj Crop Sciences AI team",
+    "last_updated": "2026",
+    "reviewed_by_agronomist": false
+  },
+
+  "embedding_priority_fields": [
+    "farmer_problem_queries",
+    "symptom_queries",
+    "vector_tags",
+    "ai_summary",
+    "benefits"
+  ],
+
+  "data_version": "1.0"
+}

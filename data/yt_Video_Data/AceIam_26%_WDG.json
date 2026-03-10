@@ -1,0 +1,67 @@
+{
+  "product_id": "SC-INS-004",
+  "product_code": "ACEIAM26",
+  "product_name": "AceIam 26% WDG",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Insecticide",
+  "type": "Systemic",
+  "product_type_tags": ["insecticide", "sucking pest control"],
+
+  "formulation": "WDG",
+  "systemicity": "systemic",
+
+  "active_ingredients": [
+    "Acetamiprid 23.5%",
+    "Lambda Cyhalothrin 2.5%"
+  ],
+
+  "target_diseases": [
+    "whitefly",
+    "aphids"
+  ],
+
+  "crops": {
+    "major": ["ridge gourd"],
+    "all": ["vegetables"]
+  },
+
+  "farmer_problem_queries": [
+    "tori par whitefly ka spray",
+    "ridge gourd insects control"
+  ],
+
+  "vector_tags": [
+    "tori insecticide",
+    "whitefly control"
+  ],
+
+  "dosage": {
+    "per_acre": "100 gm"
+  },
+
+  "benefits": [
+    "controls sucking pests",
+    "protects vegetable crops"
+  ],
+
+  "ai_summary": {
+    "short": "Insecticide used to control whitefly and aphids in vegetable crops."
+  },
+
+  "metadata": {
+    "created_by": "Sooraj Crop Sciences AI team",
+    "last_updated": "2026",
+    "reviewed_by_agronomist": false
+  },
+
+  "embedding_priority_fields": [
+    "farmer_problem_queries",
+    "symptom_queries",
+    "vector_tags",
+    "ai_summary",
+    "benefits"
+  ],
+
+  "data_version": "1.0"
+}
