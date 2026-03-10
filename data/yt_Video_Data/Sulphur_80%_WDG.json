@@ -1,0 +1,206 @@
+{
+"product_id": "SC-FUNG-004",
+"product_code": "SC-SUL-80WDG",
+"product_name": "Sulphur80%WDG",
+"brand": "Sooraj Crop Sciences",
+
+"category": "Fungicide",
+"type": "Contact Fungicide",
+"product_type_tags": [
+"fungicide",
+"powdery_mildew_control",
+"vegetable_disease_control"
+],
+
+"formulation": "WDG",
+"systemicity": "Contact",
+"total_ai": "80% WDG",
+
+"active_ingredients": [
+{
+"name": "Sulphur",
+"percentage": "80%",
+"mode_of_action": "Contact fungicide that inhibits fungal spore germination and growth."
+}
+],
+
+"disease_types": [
+"fungal"
+],
+
+"target_diseases": [
+{
+"name": "Powdery Mildew",
+"key": "powdery_mildew",
+"type": "fungal"
+}
+],
+
+"disease_symptoms_mapping": {
+"powdery_mildew": [
+"white powdery coating on leaves",
+"leaf curling",
+"reduced plant growth"
+]
+},
+
+"disease_aliases": {
+"powdery_mildew": [
+"leaf fungus",
+"white fungus",
+"patton par safed fungus"
+]
+},
+
+"crop_aliases": {
+"tinda": [
+"tindi"
+]
+},
+
+"crops": {
+"major": [
+"tinda"
+],
+"all": [
+"cucumber",
+"melon",
+"vegetable crops"
+]
+},
+
+"crop_stage": [
+"vegetative stage",
+"flowering stage",
+"fungal appearance stage"
+],
+
+"seasonal_relevance": [
+"February",
+"March",
+"humid weather"
+],
+
+"regions": [
+"Punjab Pakistan",
+"vegetable growing regions"
+],
+
+"farmer_problem_queries": [
+"tindi par fungus ka spray",
+"tinda leaf fungus control",
+"vegetable fungus spray"
+],
+
+"symptom_queries": [
+"white powder on leaves",
+"leaf fungus vegetable crops"
+],
+
+"search_keywords": [
+"sulphur fungicide",
+"powdery mildew control"
+],
+
+"language_keywords": {
+"urdu": [
+"سبزیوں پر فنگس کا سپرے"
+],
+"roman_urdu": [
+"tinda fungus spray"
+],
+"punjabi": [
+"فنگس کنٹرول سپرے"
+],
+"english": [
+"powdery mildew fungicide"
+]
+},
+
+"vector_tags": [
+"sulphur fungicide",
+"powdery mildew treatment"
+],
+
+"product_use_cases": [
+"prevent fungal diseases",
+"control powdery mildew"
+],
+
+"dosage": {
+"per_acre": "500 g",
+"water_volume": "100 L",
+"method": "foliar spray"
+},
+
+"spray_conditions": [
+"spray during morning",
+"avoid hot weather"
+],
+
+"application_guidelines": [
+"spray at early fungal symptoms"
+],
+
+"compatibility": [
+"compatible with most fungicides"
+],
+
+"resistance_management": [
+"alternate fungicides"
+],
+
+"precautions": [
+"avoid overdose"
+],
+
+"waiting_period": "5 days",
+
+"benefits": [
+"controls powdery mildew",
+"protects vegetable crops"
+],
+
+"faq": [
+{
+"question": "سبزیوں پر سفید فنگس کا علاج کیا ہے؟",
+"answer": "Sulphur fungicide فنگل بیماریوں کو کنٹرول کرنے میں مدد دیتا ہے۔"
+}
+],
+
+"recommendation_context": {
+"why_use": "Prevent powdery mildew in vegetable crops"
+},
+
+"ai_summary": {
+"product_type": "fungicide",
+"primary_use": "control fungal diseases in vegetable crops",
+"dosage": "500 g per acre"
+},
+
+"multilingual_description": {
+"english": "Sulphur fungicide used for controlling powdery mildew in vegetable crops.",
+"urdu": "یہ فنجی سائیڈ سبزیوں کی فصلوں میں پاوڈری ملیو کو کنٹرول کرتی ہے۔",
+"punjabi": "ایہ فنگس بیماریاں کنٹرول کرن لئی استعمال ہوندا اے۔"
+},
+
+"knowledge_sources": [
+"IR Farm YouTube - Tindi Ki Fasl Lagane Ka Behtareen Time"
+],
+
+"metadata": {
+"created_by": "Sooraj Crop Sciences AI team",
+"last_updated": "",
+"reviewed_by_agronomist": false
+},
+
+"embedding_priority_fields": [
+"farmer_problem_queries",
+"symptom_queries",
+"vector_tags",
+"ai_summary",
+"benefits"
+],
+
+"data_version": "1.0"
+}

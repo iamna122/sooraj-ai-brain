@@ -1,0 +1,262 @@
+{
+"product_id": "SC-BIO-001",
+"product_code": "SC-TEG-AA",
+"product_name": "TEGAMINT",
+"brand": "Sooraj Crop Sciences",
+
+"category": "Micronutrients",
+"type": "Bio Stimulant",
+"product_type_tags": [
+"plant_growth_promoter",
+"bio_stimulant",
+"yield_booster",
+"vegetable_crop_nutrition"
+],
+
+"formulation": "Liquid",
+"systemicity": "Systemic nutrient uptake",
+"total_ai": "Amino Acid",
+
+"active_ingredients": [
+{
+"name": "Amino Acids",
+"percentage": "Concentrated formulation",
+"mode_of_action": "Enhances plant metabolism, improves nutrient uptake and stimulates root and shoot growth."
+}
+],
+
+"disease_types": [
+"nutrient_deficiency",
+"growth_stress"
+],
+
+"target_diseases": [
+{
+"name": "Weak Plant Growth",
+"key": "weak_growth",
+"type": "nutrient"
+},
+{
+"name": "Low Yield Stress",
+"key": "low_yield_stress",
+"type": "physiological"
+}
+],
+
+"disease_symptoms_mapping": {
+"weak_growth": [
+"slow tomato plant growth",
+"weak stems",
+"reduced branching"
+],
+"low_yield_stress": [
+"less flowering",
+"poor fruit set",
+"small tomato fruits"
+]
+},
+
+"disease_aliases": {
+"weak_growth": [
+"tamatar ki growth slow",
+"kamzor poda",
+"plant development issue"
+],
+"low_yield_stress": [
+"tamatar ki paidawar kam",
+"fruit set kam hona",
+"yield kam hona"
+]
+},
+
+"crop_aliases": {
+"tomato": [
+"tamatar"
+]
+},
+
+"crops": {
+"major": [
+"tomato"
+],
+"all": [
+"chilli",
+"brinjal",
+"okra",
+"vegetable crops"
+]
+},
+
+"crop_stage": [
+"vegetative stage",
+"flowering stage",
+"early fruiting stage"
+],
+
+"seasonal_relevance": [
+"February planting season",
+"spring vegetable season",
+"early summer crop cycle"
+],
+
+"regions": [
+"Punjab Pakistan",
+"Thal region",
+"South Asia vegetable belt"
+],
+
+"farmer_problem_queries": [
+"tamatar ki paidawar kaise barhayein",
+"tamatar ke poday kamzor hain kya karein",
+"tamatar mein phool kam aa rahe hain",
+"tamatar fruit set kam hai",
+"tomato yield increase fertilizer",
+"vegetable crop growth booster"
+],
+
+"symptom_queries": [
+"tamatar ka poda kamzor hai",
+"tomato plant slow growth",
+"tomato flowering kam",
+"tamatar par fruit kam lag raha hai"
+],
+
+"search_keywords": [
+"tomato yield booster",
+"amino acid fertilizer",
+"vegetable crop growth stimulant",
+"tamatar paidawar barhane wali khad"
+],
+
+"language_keywords": {
+"urdu": [
+"ٹماٹر کی پیداوار بڑھانے والی کھاد",
+"پودوں کی گروتھ بوسٹر"
+],
+"roman_urdu": [
+"tamatar paidawar booster",
+"tamatar growth spray"
+],
+"punjabi": [
+"ٹماٹر دی پیداوار ودھاؤن والی کھاد"
+],
+"english": [
+"tomato yield booster",
+"plant growth stimulant"
+]
+},
+
+"vector_tags": [
+"tomato growth booster",
+"amino acid fertilizer",
+"vegetable yield improvement",
+"bio stimulant fertilizer"
+],
+
+"product_use_cases": [
+"improves tomato plant growth",
+"increases flowering and fruit development",
+"supports stronger root system",
+"improves nutrient absorption"
+],
+
+"dosage": {
+"per_acre": "400–500 ml",
+"water_volume": "100–120 L",
+"method": "foliar spray",
+"frequency": "every 10–15 days during growth period"
+},
+
+"spray_conditions": [
+"spray during morning or evening",
+"avoid strong sunlight",
+"apply after irrigation for better absorption"
+],
+
+"application_guidelines": [
+"apply during vegetative growth stage",
+"repeat during flowering stage for better fruit set",
+"ensure full plant coverage"
+],
+
+"compatibility": [
+"compatible with most micronutrients",
+"compatible with fungicides and insecticides"
+],
+
+"resistance_management": [
+"rotate with other plant nutrition products if needed"
+],
+
+"precautions": [
+"avoid excessive dosage",
+"store in cool dry place",
+"keep away from direct sunlight"
+],
+
+"waiting_period": "Not required",
+
+"benefits": [
+"increases tomato plant vigor",
+"improves root development",
+"boosts flowering and fruit set",
+"enhances overall crop yield"
+],
+
+"faq": [
+{
+"question": "ٹماٹر کی پیداوار بڑھانے کے لیے کیا کریں؟",
+"answer": "TEGAMINT امائنو ایسڈ بائیو سٹیمولنٹ پودوں کی نشوونما بہتر بنا کر پیداوار بڑھانے میں مدد دیتا ہے۔"
+},
+{
+"question": "کیا یہ سپرے سبزیوں پر استعمال ہو سکتا ہے؟",
+"answer": "جی ہاں، یہ ٹماٹر، مرچ، بینگن اور دیگر سبزیوں کی فصلوں میں استعمال کیا جا سکتا ہے۔"
+}
+],
+
+"recommendation_context": {
+"why_use": "Improves plant metabolism and growth",
+"best_use_case": "Low growth or weak plant development",
+"disease_focus": [
+"weak growth",
+"low yield stress"
+]
+},
+
+"ai_summary": {
+"product_type": "bio stimulant",
+"primary_use": "increase plant growth and yield in vegetable crops",
+"key_diseases": [
+"weak plant growth",
+"low yield stress"
+],
+"dosage": "400–500 ml per acre",
+"spray_interval": "10–15 days"
+},
+
+"multilingual_description": {
+"english": "TEGAMINT is an amino acid based bio stimulant that enhances plant growth, improves nutrient uptake and increases tomato yield.",
+"urdu": "ٹیگامنٹ ایک امائنو ایسڈ بائیو سٹیمولنٹ ہے جو پودوں کی نشوونما بہتر بنا کر ٹماٹر کی پیداوار بڑھاتا ہے۔",
+"punjabi": "ایہ امائنو ایسڈ بائیو سٹیمولنٹ ٹماٹر دیاں فصلان وچ پیداوار ودھاون لئی استعمال ہوندا اے۔"
+},
+
+"knowledge_sources": [
+"IR Farm YouTube - Tamatar Ki Paidawar Barhane Ka Hidden Formula"
+],
+
+"metadata": {
+"created_by": "Sooraj Crop Sciences AI team",
+"last_updated": "",
+"reviewed_by_agronomist": false
+},
+
+"embedding_priority_fields": [
+"farmer_problem_queries",
+"symptom_queries",
+"vector_tags",
+"ai_summary",
+"benefits"
+],
+
+"data_version": "1.0"
+}

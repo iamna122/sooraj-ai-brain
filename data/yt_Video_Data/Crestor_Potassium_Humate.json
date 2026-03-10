@@ -1,0 +1,235 @@
+{
+"product_id": "SC-BIO-002",
+"product_code": "SC-PH-40",
+"product_name": "Crestor Potassium Humate",
+"brand": "Sooraj Crop Sciences",
+
+"category": "Micronutrients",
+"type": "Soil Conditioner Bio Stimulant",
+"product_type_tags": [
+"soil_conditioner",
+"bio_stimulant",
+"root_growth_promoter",
+"crop_nutrition"
+],
+
+"formulation": "Granular",
+"systemicity": "Soil systemic absorption",
+"total_ai": "Humic Acid 40%",
+
+"active_ingredients": [
+{
+"name": "Humic Acid",
+"percentage": "40%",
+"mode_of_action": "Improves soil structure, increases nutrient availability and stimulates root growth."
+}
+],
+
+"disease_types": [
+"nutrient_deficiency",
+"soil_fertility_issue"
+],
+
+"target_diseases": [
+{
+"name": "Poor Root Development",
+"key": "poor_root_development",
+"type": "nutrient"
+},
+{
+"name": "Weak Vegetative Growth",
+"key": "weak_growth",
+"type": "physiological"
+}
+],
+
+"disease_symptoms_mapping": {
+"poor_root_development": [
+"weak root system",
+"poor plant anchoring",
+"slow nutrient uptake"
+],
+"weak_growth": [
+"short onion leaves",
+"yellowish foliage",
+"reduced plant vigor"
+]
+},
+
+"disease_aliases": {
+"weak_growth": [
+"pyaz ki growth slow",
+"kamzor poda",
+"pattiyan choti rehna"
+]
+},
+
+"crop_aliases": {
+"onion": [
+"pyaz",
+"pyaaz"
+]
+},
+
+"crops": {
+"major": [
+"onion"
+],
+"all": [
+"garlic",
+"vegetable crops",
+"melon crops"
+]
+},
+
+"crop_stage": [
+"early vegetative stage",
+"leaf development stage",
+"bulb formation stage"
+],
+
+"seasonal_relevance": [
+"November",
+"December",
+"January",
+"February"
+],
+
+"regions": [
+"Punjab Pakistan",
+"South Punjab",
+"Thal region"
+],
+
+"farmer_problem_queries": [
+"pyaz ki growth slow hai",
+"pyaz ki pattiyan choti reh rahi hain",
+"pyaz ki paidawar kaise barhayein",
+"onion crop growth booster",
+"soil fertility improve kaise karein"
+],
+
+"symptom_queries": [
+"onion leaves yellow",
+"onion plant weak growth",
+"pyaz ki pattiyan zard ho rahi hain"
+],
+
+"search_keywords": [
+"onion growth fertilizer",
+"humic acid fertilizer",
+"soil conditioner agriculture"
+],
+
+"language_keywords": {
+"urdu": [
+"زمین کی زرخیزی بڑھانے والی کھاد",
+"پیاز کی پیداوار بڑھانے والی کھاد"
+],
+"roman_urdu": [
+"pyaz growth booster",
+"soil conditioner khad"
+],
+"punjabi": [
+"زمین دی زرخیزی والی کھاد"
+],
+"english": [
+"soil conditioner fertilizer",
+"onion growth fertilizer"
+]
+},
+
+"vector_tags": [
+"humic acid fertilizer",
+"onion root growth booster",
+"soil fertility improvement"
+],
+
+"product_use_cases": [
+"improve soil structure",
+"enhance root growth",
+"increase onion plant vigor"
+],
+
+"dosage": {
+"per_acre": "2–3 kg",
+"method": "soil application",
+"frequency": "apply during soil preparation or early crop stage"
+},
+
+"spray_conditions": [
+"apply in moist soil",
+"mix with irrigation water if required"
+],
+
+"application_guidelines": [
+"apply during land preparation",
+"mix with soil near root zone"
+],
+
+"compatibility": [
+"compatible with most fertilizers",
+"compatible with micronutrients"
+],
+
+"resistance_management": [],
+"precautions": [
+"store in dry place",
+"avoid direct moisture exposure"
+],
+
+"waiting_period": "Not required",
+
+"benefits": [
+"improves soil fertility",
+"enhances root development",
+"improves onion crop growth"
+],
+
+"faq": [
+{
+"question": "پیاز کی فصل کی گروتھ کم ہو تو کیا کریں؟",
+"answer": "Humic acid پر مبنی کھاد زمین کی زرخیزی بڑھا کر فصل کی نشوونما بہتر کرتی ہے۔"
+}
+],
+
+"recommendation_context": {
+"why_use": "Improves soil fertility and root development",
+"best_use_case": "Weak soil conditions",
+"disease_focus": [
+"poor root development"
+]
+},
+
+"ai_summary": {
+"product_type": "soil bio stimulant",
+"primary_use": "improve soil fertility and crop growth",
+"dosage": "2–3 kg per acre"
+},
+
+"multilingual_description": {
+"english": "Crestor Potassium Humate improves soil fertility and stimulates root growth in vegetable crops.",
+"urdu": "یہ ہیومک ایسڈ کھاد زمین کی زرخیزی اور جڑوں کی نشوونما بہتر بناتی ہے۔",
+"punjabi": "ایہ زمین دی زرخیزی بہتر کر کے فصل دی گروتھ نوں بہتر کردا اے۔"
+},
+
+"knowledge_sources": [
+"IR Farm YouTube - Black Mulching Shopper Pyaz"
+],
+
+"metadata": {
+"created_by": "Sooraj Crop Sciences AI team",
+"last_updated": "",
+"reviewed_by_agronomist": false
+},
+
+"embedding_priority_fields": [
+"farmer_problem_queries",
+"symptom_queries",
+"vector_tags",
+"ai_summary",
+"benefits"
+],
+
+"data_version": "1.0"
+}

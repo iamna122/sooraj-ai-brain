@@ -1,91 +1,245 @@
 {
-  "product_id": "SC-INS-003",
-  "product_code": "IMIDA25WP",
-  "product_name": "Imidacloprid 25% WP",
-  "brand": "Sooraj Crop Sciences",
+"product_id": "SC-INSECT-003",
+"product_code": "SC-IMI-25WP",
+"product_name": "Imidacloprid 25% WP",
+"brand": "Sooraj Crop Sciences",
 
-  "category": "Insecticide",
-  "type": "Systemic",
-  "product_type_tags": ["insecticide", "sucking pest control"],
+"category": "Insecticide",
+"type": "Systemic Insecticide",
+"product_type_tags": [
+"insecticide",
+"sucking_pest_control",
+"crop_protection"
+],
 
-  "formulation": "WP",
-  "systemicity": "systemic",
-  "total_ai": "25%",
+"formulation": "WP",
+"systemicity": "Systemic",
+"total_ai": "25% WP",
 
-  "active_ingredients": [
-    "Imidacloprid 25%"
-  ],
+"active_ingredients": [
+{
+"name": "Imidacloprid",
+"percentage": "25%",
+"mode_of_action": "Systemic neonicotinoid insecticide that disrupts the nervous system of sucking pests causing paralysis and death."
+}
+],
 
-  "disease_types": [
-    "insect pest"
-  ],
+"disease_types": [
+"insect"
+],
 
-  "target_diseases": [
-    "whitefly",
-    "aphids",
-    "jassids"
-  ],
+"target_diseases": [
+{
+"name": "Whitefly",
+"key": "whitefly",
+"type": "insect"
+},
+{
+"name": "Aphids",
+"key": "aphids",
+"type": "insect"
+}
+],
 
-  "crop_aliases": {
-    "okra": ["bhindi"]
-  },
+"disease_symptoms_mapping": {
+"whitefly": [
+"tiny white insects on underside of leaves",
+"yellowing leaves",
+"sticky honeydew on foliage"
+],
+"aphids": [
+"clusters of small insects on stems",
+"leaf curling",
+"stunted plant growth"
+]
+},
 
-  "crops": {
-    "major": ["okra"],
-    "all": ["okra", "vegetables"]
-  },
+"disease_aliases": {
+"whitefly": [
+"bhindi whitefly",
+"safed makhi",
+"white pest on leaves"
+],
+"aphids": [
+"tela",
+"aphid pest",
+"leaf sucking insects"
+]
+},
 
-  "crop_stage": ["vegetative", "fruiting"],
-  "regions": ["Punjab", "Sindh"],
+"crop_aliases": {
+"okra": [
+"bhindi"
+]
+},
 
-  "farmer_problem_queries": [
-    "bhindi par whitefly ka spray",
-    "okra aphid control",
-    "bhindi par jassid ka ilaj"
-  ],
+"crops": {
+"major": [
+"okra"
+],
+"all": [
+"cotton",
+"vegetable crops",
+"chilli",
+"brinjal"
+]
+},
 
-  "symptom_queries": [
-    "okra leaves curling",
-    "sticky honeydew on leaves"
-  ],
+"crop_stage": [
+"early vegetative stage",
+"flowering stage",
+"pest appearance stage"
+],
 
-  "vector_tags": [
-    "okra insecticide",
-    "whitefly control",
-    "aphid spray"
-  ],
+"seasonal_relevance": [
+"February",
+"March",
+"summer vegetable season"
+],
 
-  "product_use_cases": [
-    "control sucking pests in okra"
-  ],
+"regions": [
+"Punjab Pakistan",
+"South Punjab",
+"vegetable belt Pakistan"
+],
 
-  "dosage": {
-    "per_acre": "100 gm"
-  },
+"farmer_problem_queries": [
+"bhindi par whitefly ka spray",
+"bhindi par tela ka ilaj",
+"okra insect control spray",
+"bhindi ke patton par safed makhi"
+],
 
-  "benefits": [
-    "controls whitefly",
-    "controls aphids",
-    "protects crop yield"
-  ],
+"symptom_queries": [
+"bhindi leaves curling",
+"okra white insects on leaves",
+"bhindi par chipchipa ras"
+],
 
-  "ai_summary": {
-    "short": "Systemic insecticide for controlling sucking pests in okra crops."
-  },
+"search_keywords": [
+"okra insecticide",
+"imidacloprid spray",
+"whitefly control okra"
+],
 
-  "metadata": {
-    "created_by": "Sooraj Crop Sciences AI team",
-    "last_updated": "2026",
-    "reviewed_by_agronomist": false
-  },
+"language_keywords": {
+"urdu": [
+"بھنڈی پر سفید مکھی کا سپرے",
+"کیڑے مار دوا"
+],
+"roman_urdu": [
+"bhindi whitefly spray",
+"okra insect control"
+],
+"punjabi": [
+"بھنڈی دیاں کیڑیاں دا سپرے"
+],
+"english": [
+"okra insecticide",
+"whitefly pesticide"
+]
+},
 
-  "embedding_priority_fields": [
-    "farmer_problem_queries",
-    "symptom_queries",
-    "vector_tags",
-    "ai_summary",
-    "benefits"
-  ],
+"vector_tags": [
+"okra insecticide",
+"whitefly control",
+"aphid treatment"
+],
 
-  "data_version": "1.0"
+"product_use_cases": [
+"control sucking pests",
+"prevent pest infestation",
+"protect vegetable crops"
+],
+
+"dosage": {
+"per_acre": "80–100 g",
+"water_volume": "100 L",
+"method": "foliar spray",
+"frequency": "every 10–14 days during pest attack"
+},
+
+"spray_conditions": [
+"spray in early morning",
+"avoid strong sunlight"
+],
+
+"application_guidelines": [
+"apply when pests first appear",
+"ensure complete leaf coverage"
+],
+
+"compatibility": [
+"compatible with fungicides",
+"compatible with micronutrients"
+],
+
+"resistance_management": [
+"rotate insecticides with different chemical groups"
+],
+
+"precautions": [
+"use protective equipment during spraying",
+"avoid contact with skin"
+],
+
+"waiting_period": "5 days",
+
+"benefits": [
+"controls whiteflies and aphids effectively",
+"protects vegetable crops",
+"improves crop health"
+],
+
+"faq": [
+{
+"question": "بھنڈی پر سفید مکھی کا علاج کیا ہے؟",
+"answer": "Imidacloprid 25% WP کا سپرے سفید مکھی کو مؤثر طریقے سے کنٹرول کرتا ہے۔"
+}
+],
+
+"recommendation_context": {
+"why_use": "Control sucking pests in vegetable crops",
+"best_use_case": "Whitefly infestation in okra",
+"disease_focus": [
+"whitefly",
+"aphids"
+]
+},
+
+"ai_summary": {
+"product_type": "insecticide",
+"primary_use": "control sucking pests in okra crop",
+"key_diseases": [
+"whitefly",
+"aphids"
+],
+"dosage": "80–100 g per acre"
+},
+
+"multilingual_description": {
+"english": "Imidacloprid 25% WP is a systemic insecticide used to control whiteflies and aphids in vegetable crops.",
+"urdu": "یہ سسٹمک انسیکٹی سائیڈ بھنڈی اور دیگر سبزیوں میں سفید مکھی اور افڈز کو کنٹرول کرتی ہے۔",
+"punjabi": "ایہ انسیکٹی سائیڈ بھنڈی دیاں فصلان وچ سفید مکھی کنٹرول کردا اے۔"
+},
+
+"knowledge_sources": [
+"IR Farm YouTube - Bhindi Lagane Ka Sahi Tareeqa"
+],
+
+"metadata": {
+"created_by": "Sooraj Crop Sciences AI team",
+"last_updated": "",
+"reviewed_by_agronomist": false
+},
+
+"embedding_priority_fields": [
+"farmer_problem_queries",
+"symptom_queries",
+"vector_tags",
+"ai_summary",
+"benefits"
+],
+
+"data_version": "1.0"
 }

@@ -1,0 +1,225 @@
+{
+"product_id": "SC-FUNG-002",
+"product_code": "SC-NAR-75WG",
+"product_name": "Nartivo",
+"brand": "Sooraj Crop Sciences",
+
+"category": "Fungicide",
+"type": "Systemic Fungicide",
+"product_type_tags": [
+"fungicide",
+"crop_protection",
+"disease_control"
+],
+
+"formulation": "WG",
+"systemicity": "Systemic",
+"total_ai": "Trifloxystrobin + Tebuconazole",
+
+"active_ingredients": [
+{
+"name": "Trifloxystrobin",
+"percentage": "50%",
+"mode_of_action": "Blocks mitochondrial respiration in fungal pathogens."
+},
+{
+"name": "Tebuconazole",
+"percentage": "25%",
+"mode_of_action": "Inhibits sterol biosynthesis required for fungal cell membrane formation."
+}
+],
+
+"disease_types": [
+"fungal"
+],
+
+"target_diseases": [
+{
+"name": "Early Blight",
+"key": "early_blight",
+"type": "fungal"
+},
+{
+"name": "Late Blight",
+"key": "late_blight",
+"type": "fungal"
+}
+],
+
+"disease_symptoms_mapping": {
+"early_blight": [
+"brown concentric rings on tomato leaves",
+"yellowing leaves",
+"premature leaf drop"
+],
+"late_blight": [
+"dark water soaked lesions",
+"fruit rot",
+"leaf collapse"
+]
+},
+
+"disease_aliases": {
+"early_blight": [
+"tamatar leaf blight",
+"tamatar patta jalna"
+],
+"late_blight": [
+"late fungus",
+"tamatar par fungus"
+]
+},
+
+"crop_aliases": {
+"tomato": [
+"tamatar"
+]
+},
+
+"crops": {
+"major": [
+"tomato"
+],
+"all": [
+"potato",
+"vegetable crops"
+]
+},
+
+"crop_stage": [
+"vegetative stage",
+"flowering stage",
+"disease appearance stage"
+],
+
+"seasonal_relevance": [
+"February",
+"March",
+"April"
+],
+
+"regions": [
+"Punjab Pakistan",
+"South Asia vegetable belt"
+],
+
+"farmer_problem_queries": [
+"tamatar par fungus ka spray",
+"tamatar blight control",
+"tomato fungus treatment",
+"tamatar patton par daagh"
+],
+
+"symptom_queries": [
+"tomato leaf spots",
+"tamatar par kale daagh",
+"tomato leaves drying"
+],
+
+"search_keywords": [
+"tomato fungicide",
+"blight fungicide tomato"
+],
+
+"language_keywords": {
+"urdu": [
+"ٹماٹر کی بیماری کا سپرے"
+],
+"roman_urdu": [
+"tamatar fungus spray"
+],
+"punjabi": [
+"ٹماٹر دی بیماری دا سپرے"
+],
+"english": [
+"tomato fungicide"
+]
+},
+
+"vector_tags": [
+"tomato fungicide",
+"blight disease control"
+],
+
+"product_use_cases": [
+"preventive disease protection",
+"curative fungal treatment"
+],
+
+"dosage": {
+"per_acre": "150–200 g",
+"water_volume": "100 L",
+"method": "foliar spray"
+},
+
+"spray_conditions": [
+"spray during early morning or evening"
+],
+
+"application_guidelines": [
+"apply when disease symptoms appear"
+],
+
+"compatibility": [
+"compatible with insecticides"
+],
+
+"resistance_management": [
+"rotate fungicides with different modes of action"
+],
+
+"precautions": [
+"avoid overdose"
+],
+
+"waiting_period": "7 days",
+
+"benefits": [
+"controls blight diseases",
+"protects tomato foliage"
+],
+
+"faq": [
+{
+"question": "ٹماٹر پر فنگس کا علاج کیا ہے؟",
+"answer": "Trifloxystrobin اور Tebuconazole پر مبنی فنجی سائیڈ مؤثر کنٹرول فراہم کرتی ہے۔"
+}
+],
+
+"recommendation_context": {
+"why_use": "Control fungal diseases in tomato",
+"best_use_case": "High humidity fungal outbreaks"
+},
+
+"ai_summary": {
+"product_type": "fungicide",
+"primary_use": "control fungal diseases in tomato",
+"dosage": "150–200 g per acre"
+},
+
+"multilingual_description": {
+"english": "Systemic fungicide controlling blight diseases in tomato crops.",
+"urdu": "یہ فنجی سائیڈ ٹماٹر کی فصل میں بلائٹ بیماریوں کو کنٹرول کرتی ہے۔",
+"punjabi": "ایہ ٹماٹر دیاں فنگس بیماریاں کنٹرول کردا اے۔"
+},
+
+"knowledge_sources": [
+"IR Farm YouTube - Tamatar Ki Fasl Kyun Zaroori Hai"
+],
+
+"metadata": {
+"created_by": "Sooraj Crop Sciences AI team",
+"last_updated": "",
+"reviewed_by_agronomist": false
+},
+
+"embedding_priority_fields": [
+"farmer_problem_queries",
+"symptom_queries",
+"vector_tags",
+"ai_summary",
+"benefits"
+],
+
+"data_version": "1.0"
+}

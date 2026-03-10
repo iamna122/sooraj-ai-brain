@@ -1,0 +1,206 @@
+{
+"product_id": "SC-NPK-005",
+"product_code": "SC-SK-51545",
+"product_name": "Super-k 5:15:45",
+"brand": "Sooraj Crop Sciences",
+
+"category": "Micronutrients",
+"type": "NPK Fertilizer",
+"product_type_tags": [
+"fertilizer",
+"crop_nutrition",
+"yield_booster"
+],
+
+"formulation": "Water Soluble",
+"systemicity": "Nutrient absorption",
+"total_ai": "NPK 5:15:45",
+
+"active_ingredients": [
+{
+"name": "Nitrogen",
+"percentage": "5%",
+"mode_of_action": "Supports vegetative growth."
+},
+{
+"name": "Phosphorus",
+"percentage": "15%",
+"mode_of_action": "Promotes root development."
+},
+{
+"name": "Potassium",
+"percentage": "45%",
+"mode_of_action": "Improves fruit development and yield."
+}
+],
+
+"disease_types": [
+"nutrient_deficiency"
+],
+
+"target_diseases": [
+{
+"name": "Low Yield",
+"key": "low_yield",
+"type": "nutrient"
+}
+],
+
+"disease_symptoms_mapping": {
+"low_yield": [
+"poor fruit size",
+"slow plant growth"
+]
+},
+
+"disease_aliases": {
+"low_yield": [
+"paidawar kam",
+"crop productivity low"
+]
+},
+
+"crop_aliases": {
+"vegetables": [
+"sabziyan"
+]
+},
+
+"crops": {
+"major": [
+"vegetable crops"
+],
+"all": [
+"tomato",
+"okra",
+"chilli"
+]
+},
+
+"crop_stage": [
+"flowering stage",
+"fruiting stage"
+],
+
+"seasonal_relevance": [
+"spring season",
+"summer vegetables"
+],
+
+"regions": [
+"Punjab Pakistan"
+],
+
+"farmer_problem_queries": [
+"sabziyon ki paidawar kaise barhayein",
+"vegetable crop fertilizer"
+],
+
+"symptom_queries": [
+"plants slow growth",
+"vegetable yield low"
+],
+
+"search_keywords": [
+"vegetable fertilizer",
+"NPK fertilizer vegetables"
+],
+
+"language_keywords": {
+"urdu": [
+"سبزیوں کی کھاد"
+],
+"roman_urdu": [
+"sabzi fertilizer"
+],
+"punjabi": [
+"سبزی دی کھاد"
+],
+"english": [
+"vegetable fertilizer"
+]
+},
+
+"vector_tags": [
+"NPK fertilizer",
+"vegetable nutrition"
+],
+
+"product_use_cases": [
+"increase vegetable crop yield",
+"improve fruit quality"
+],
+
+"dosage": {
+"per_acre": "1 kg",
+"water_volume": "100 L",
+"method": "foliar spray"
+},
+
+"spray_conditions": [
+"spray during morning"
+],
+
+"application_guidelines": [
+"apply during flowering stage"
+],
+
+"compatibility": [
+"compatible with micronutrients"
+],
+
+"resistance_management": [],
+"precautions": [
+"avoid overdose"
+],
+
+"waiting_period": "Not required",
+
+"benefits": [
+"improves fruit size",
+"increases crop productivity"
+],
+
+"faq": [
+{
+"question": "سبزیوں کی پیداوار بڑھانے کے لیے کون سی کھاد استعمال کریں؟",
+"answer": "NPK کھاد پودوں کو ضروری غذائی اجزاء فراہم کر کے پیداوار بڑھاتی ہے۔"
+}
+],
+
+"recommendation_context": {
+"why_use": "Improve vegetable crop productivity"
+},
+
+"ai_summary": {
+"product_type": "fertilizer",
+"primary_use": "increase vegetable crop yield",
+"dosage": "1 kg per acre"
+},
+
+"multilingual_description": {
+"english": "Balanced NPK fertilizer for improving vegetable crop productivity.",
+"urdu": "یہ کھاد سبزیوں کی فصل کی پیداوار بڑھانے کے لیے استعمال ہوتی ہے۔",
+"punjabi": "ایہ سبزی دی پیداوار ودھاون والی کھاد اے۔"
+},
+
+"knowledge_sources": [
+"IR Farm YouTube - 2026 Mein Kon Kon Si Sabzi Lagani Chahiye"
+],
+
+"metadata": {
+"created_by": "Sooraj Crop Sciences AI team",
+"last_updated": "",
+"reviewed_by_agronomist": false
+},
+
+"embedding_priority_fields": [
+"farmer_problem_queries",
+"symptom_queries",
+"vector_tags",
+"ai_summary",
+"benefits"
+],
+
+"data_version": "1.0"
+}
