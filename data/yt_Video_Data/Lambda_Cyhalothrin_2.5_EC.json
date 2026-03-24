@@ -1,0 +1,269 @@
+{
+"product_id": "SC-INS-034",
+"product_code": "SC-LAMBDA-2.5EC",
+"product_name": "Lambda Cyhalothrin 2.5% EC",
+"brand": "Sooraj Crop Sciences",
+
+"category": "Insecticide",
+"type": "Contact + Stomach Insecticide",
+"product_type_tags": [
+"insecticide",
+"vegetable pest control",
+"whitefly control",
+"fruit fly control"
+],
+
+"formulation": "EC",
+"systemicity": "Contact + Stomach",
+"total_ai": "2.5% EC",
+
+"active_ingredients": [
+{
+"name": "Lambda Cyhalothrin",
+"percentage": "2.5%",
+"mode_of_action": "Synthetic pyrethroid insecticide that affects the nervous system of insects causing paralysis and death."
+}
+],
+
+"disease_types": [
+"insect pest"
+],
+
+"target_diseases": [
+{
+"name": "Whitefly",
+"key": "whitefly",
+"type": "insect"
+},
+{
+"name": "Fruit Fly",
+"key": "fruit_fly",
+"type": "insect"
+}
+],
+
+"disease_symptoms_mapping": {
+"whitefly": [
+"tiny white insects flying when leaves are disturbed",
+"yellowing leaves",
+"sticky honeydew on plant surface",
+"reduced fruit production"
+],
+"fruit_fly": [
+"small holes on fruits",
+"fruit rotting from inside",
+"larvae inside karela fruits"
+]
+},
+
+"disease_aliases": {
+"whitefly": [
+"safed makhi",
+"white pest attack",
+"white insect infestation"
+],
+"fruit_fly": [
+"fruit worm",
+"karela ka keera",
+"phal khanay wala keera"
+]
+},
+
+"crop_aliases": {
+"bitter gourd": [
+"karela"
+],
+"cucumber": [
+"kheera"
+],
+"ridge gourd": [
+"tori"
+]
+},
+
+"crops": {
+"major": [
+"bitter gourd"
+],
+"all": [
+"cucumber",
+"ridge gourd",
+"vegetable crops"
+]
+},
+
+"crop_stage": [
+"vegetative stage",
+"flowering stage",
+"fruit formation stage"
+],
+
+"seasonal_relevance": [
+"February",
+"March",
+"July",
+"November"
+],
+
+"regions": [
+"Punjab Pakistan",
+"KPK Pakistan",
+"South Asia vegetable belt"
+],
+
+"farmer_problem_queries": [
+"karela par safed makhi ka spray",
+"karela fruit fly ka ilaj",
+"karela keeron ka best spray",
+"whitefly control in bitter gourd",
+"karela par keera attack solution"
+],
+
+"symptom_queries": [
+"white insects flying from karela leaves",
+"karela fruits mein surakh",
+"fruit rot in bitter gourd",
+"sticky leaves in vegetable crop"
+],
+
+"search_keywords": [
+"lambda cyhalothrin insecticide",
+"karela insect control spray",
+"fruit fly control in vegetables",
+"whitefly insecticide"
+],
+
+"language_keywords": {
+"urdu": [
+"کریلا پر سفید مکھی",
+"کریلا کا کیڑا",
+"سبزیوں کے کیڑے کا سپرے"
+],
+"roman_urdu": [
+"karela safed makhi spray",
+"karela fruit fly control",
+"vegetable insecticide"
+],
+"punjabi": [
+"کریلا تے سفید مکھی",
+"سبزیاں تے کیڑے دا سپرے"
+],
+"english": [
+"bitter gourd insecticide",
+"whitefly control in vegetables",
+"fruit fly control spray"
+]
+},
+
+"vector_tags": [
+"karela insecticide",
+"lambda cyhalothrin spray",
+"vegetable pest control"
+],
+
+"product_use_cases": [
+"control whitefly in vegetable crops",
+"manage fruit fly infestation",
+"protect karela crop yield"
+],
+
+"dosage": {
+"per_acre": "200–250 ml",
+"water_volume": "100–120 L",
+"method": "foliar spray",
+"frequency": "apply at pest appearance"
+},
+
+"spray_conditions": [
+"spray during morning or evening",
+"avoid spraying during strong sunlight",
+"ensure full plant coverage"
+],
+
+"application_guidelines": [
+"apply spray when first pest symptoms appear",
+"spray underside of leaves where pests hide",
+"repeat spray if infestation continues"
+],
+
+"compatibility": [
+"compatible with most fungicides",
+"compatible with micronutrients"
+],
+
+"resistance_management": [
+"rotate insecticides with different chemical groups",
+"avoid repeated use in same crop cycle"
+],
+
+"precautions": [
+"use protective equipment during spraying",
+"avoid overdose",
+"store in cool and dry place"
+],
+
+"waiting_period": "5 days",
+
+"benefits": [
+"controls major vegetable pests",
+"fast knockdown effect on insects",
+"protects crop yield and fruit quality"
+],
+
+"faq": [
+{
+"question": "کریلا پر سفید مکھی کا بہترین سپرے کیا ہے؟",
+"answer": "Lambda Cyhalothrin 2.5% EC سفید مکھی اور دیگر کیڑوں کو مؤثر طریقے سے کنٹرول کرتا ہے۔"
+},
+{
+"question": "اس دوا کا سپرے کب کرنا چاہیے؟",
+"answer": "جب کیڑے کا ابتدائی حملہ نظر آئے تو فوراً سپرے کرنا چاہیے۔"
+}
+],
+
+"recommendation_context": {
+"why_use": "control sucking pests and fruit flies in vegetables",
+"best_use_case": "whitefly and fruit fly infestation in bitter gourd",
+"disease_focus": [
+"whitefly",
+"fruit fly"
+]
+},
+
+"ai_summary": {
+"product_type": "insecticide",
+"primary_use": "control whitefly and fruit fly in vegetable crops",
+"key_pests": [
+"whitefly",
+"fruit fly"
+],
+"dosage": "200–250 ml per acre",
+"spray_interval": "apply when pests appear"
+},
+
+"multilingual_description": {
+"english": "Lambda Cyhalothrin 2.5% EC is a pyrethroid insecticide used to control whiteflies, fruit flies and other insect pests in vegetable crops.",
+"urdu": "لیمبڈا سائہالو تھرین 2.5 فیصد ای سی ایک مؤثر انسیکٹیسائیڈ ہے جو کریلے اور دیگر سبزیوں پر سفید مکھی اور فروٹ فلائی کو کنٹرول کرتا ہے۔",
+"punjabi": "ایہ انسیکٹیسائیڈ کریلا تے ہور سبزیاں وچ کیڑے کنٹرول کرن لئی استعمال ہوندا اے۔"
+},
+
+"knowledge_sources": [
+"IR Farm YouTube - Karela Ki Complete Guide 2026"
+],
+
+"metadata": {
+"created_by": "Sooraj Crop Sciences AI team",
+"last_updated": "",
+"reviewed_by_agronomist": false
+},
+
+"embedding_priority_fields": [
+"farmer_problem_queries",
+"symptom_queries",
+"vector_tags",
+"ai_summary",
+"benefits"
+],
+
+"data_version": "1.0"
+}

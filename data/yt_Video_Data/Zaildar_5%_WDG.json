@@ -1,0 +1,252 @@
+{
+"product_id": "SC-INS-012",
+"product_code": "SC-ZAILDAR-5WDG",
+"product_name": "Zaildar 5% WDG",
+"brand": "Sooraj Crop Sciences",
+
+"category": "Insecticide",
+"type": "Systemic + Stomach Insecticide",
+"product_type_tags": [
+"insecticide",
+"vegetable pest control",
+"caterpillar control"
+],
+
+"formulation": "WDG",
+"systemicity": "Systemic + Translaminar",
+"total_ai": "5% WDG",
+
+"active_ingredients": [
+{
+"name": "Emamectin Benzoate",
+"percentage": "5%",
+"mode_of_action": "Avermectin group insecticide that disrupts nerve transmission in larvae leading to paralysis and death."
+}
+],
+
+"disease_types": [
+"insect pest"
+],
+
+"target_diseases": [
+{
+"name": "Fruit Borer",
+"key": "fruit_borer",
+"type": "insect"
+},
+{
+"name": "Leaf Eating Caterpillar",
+"key": "leaf_caterpillar",
+"type": "insect"
+}
+],
+
+"disease_symptoms_mapping": {
+"fruit_borer": [
+"holes in tinda fruit",
+"fruit rotting from inside",
+"larvae inside vegetables"
+],
+"leaf_caterpillar": [
+"leaves eaten from edges",
+"holes in foliage",
+"caterpillar visible on leaves"
+]
+},
+
+"disease_aliases": {
+"fruit_borer": [
+"fruit worm",
+"tinda ka keera",
+"phal khanay wala keera"
+],
+"leaf_caterpillar": [
+"patti khanay wala keera",
+"caterpillar attack"
+]
+},
+
+"crop_aliases": {
+"tinda": [
+"tindi",
+"apple gourd"
+],
+"ridge gourd": [
+"tori"
+],
+"bitter gourd": [
+"karela"
+]
+},
+
+"crops": {
+"major": [
+"tinda"
+],
+"all": [
+"ridge gourd",
+"bitter gourd",
+"pumpkin",
+"vegetable crops"
+]
+},
+
+"crop_stage": [
+"vegetative stage",
+"flowering stage",
+"fruit formation stage"
+],
+
+"seasonal_relevance": [
+"February",
+"March",
+"April",
+"summer vegetable season"
+],
+
+"regions": [
+"Punjab Pakistan",
+"South Punjab vegetable belt",
+"Thal farming region"
+],
+
+"farmer_problem_queries": [
+"tinda par keera ka spray",
+"apple gourd insect control",
+"tori par caterpillar ka ilaj",
+"vegetable fruit borer spray",
+"tinda fasal par keera attack"
+],
+
+"symptom_queries": [
+"tinda fruit mein surakh",
+"holes in vegetable fruits",
+"caterpillar eating leaves"
+],
+
+"search_keywords": [
+"emamectin benzoate insecticide",
+"tinda pest control",
+"vegetable caterpillar spray"
+],
+
+"language_keywords": {
+"urdu": [
+"ٹنڈی کا کیڑا",
+"سبزیوں پر کیڑے کا سپرے"
+],
+"roman_urdu": [
+"tinda keera spray",
+"vegetable insect control"
+],
+"punjabi": [
+"ٹنڈی دا کیڑا",
+"سبزیاں تے کیڑے دا سپرے"
+],
+"english": [
+"tinda pest control",
+"vegetable caterpillar insecticide"
+]
+},
+
+"vector_tags": [
+"tinda insecticide",
+"emamectin benzoate spray",
+"fruit borer control"
+],
+
+"product_use_cases": [
+"control fruit borers in vegetables",
+"protect cucurbit crops",
+"prevent caterpillar infestation"
+],
+
+"dosage": {
+"per_acre": "75–80 g",
+"water_volume": "100–120 L",
+"method": "foliar spray",
+"frequency": "apply when pest appears"
+},
+
+"spray_conditions": [
+"spray during early morning or evening",
+"avoid strong sunlight spraying"
+],
+
+"application_guidelines": [
+"start spray at early pest appearance",
+"ensure full foliage coverage"
+],
+
+"compatibility": [
+"compatible with most fungicides",
+"compatible with micronutrients"
+],
+
+"resistance_management": [
+"rotate with other insecticide groups",
+"avoid repeated applications"
+],
+
+"precautions": [
+"wear protective clothing",
+"avoid overdose"
+],
+
+"waiting_period": "5 days",
+
+"benefits": [
+"controls fruit borers in vegetables",
+"protects tinda crop yield",
+"fast action against caterpillars"
+],
+
+"faq": [
+{
+"question": "ٹنڈی پر کیڑے کا بہترین سپرے کیا ہے؟",
+"answer": "Zaildar 5% WDG کیڑے خصوصاً فروٹ بورر اور کیٹرپلر کو مؤثر طریقے سے کنٹرول کرتا ہے۔"
+}
+],
+
+"recommendation_context": {
+"why_use": "Best insecticide for vegetable caterpillars",
+"best_use_case": "fruit borer attack in cucurbit crops",
+"disease_focus": [
+"fruit borer",
+"caterpillar"
+]
+},
+
+"ai_summary": {
+"product_type": "insecticide",
+"primary_use": "control caterpillars and fruit borers in vegetable crops",
+"dosage": "75–80 g per acre",
+"spray_interval": "apply when pest appears"
+},
+
+"multilingual_description": {
+"english": "Zaildar 5% WDG is an Emamectin Benzoate based insecticide used to control fruit borers and caterpillars in vegetable crops.",
+"urdu": "یہ ایمامیکٹن بینزوایٹ پر مبنی انسیکٹیسائیڈ سبزیوں میں فروٹ بورر اور کیٹرپلر کو کنٹرول کرتا ہے۔",
+"punjabi": "ایہ سبزیاں وچ کیٹرپلر تے فروٹ بورر کنٹرول کرن لئی استعمال ہوندا اے۔"
+},
+
+"knowledge_sources": [
+"IR Farm YouTube - Tindi Farming High Production Ka Raaz"
+],
+
+"metadata": {
+"created_by": "Sooraj Crop Sciences AI team",
+"last_updated": "",
+"reviewed_by_agronomist": false
+},
+
+"embedding_priority_fields": [
+"farmer_problem_queries",
+"symptom_queries",
+"vector_tags",
+"ai_summary",
+"benefits"
+],
+
+"data_version": "1.0"
+}
