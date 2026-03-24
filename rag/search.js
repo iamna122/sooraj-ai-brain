@@ -5,17 +5,44 @@ const cosine = require("compute-cosine-similarity");
 function detectIntent(q) {
   q = q.toLowerCase();
 
-  if (q.includes("whitefly") || q.includes("کیڑا") || q.includes("thrips"))
-    return "insect";
+  // insect / pests
+  if (
+    q.includes("whitefly") ||
+    q.includes("aphid") ||
+    q.includes("jassid") ||
+    q.includes("thrips") ||
+    q.includes("hopper") ||
+    q.includes("کیڑا") ||
+    q.includes("تیلا") ||
+    q.includes("ہاپر") ||
+    q.includes("sucking") ||
+    q.includes("pest")
+  ) return "insect";
 
-  if (q.includes("rust") || q.includes("blight") || q.includes("پھپھوند"))
-    return "disease";
+  // disease / fungus
+  if (
+    q.includes("rust") ||
+    q.includes("blight") ||
+    q.includes("powdery") ||
+    q.includes("پھپھوند") ||
+    q.includes("بیماری") ||
+    q.includes("fungus")
+  ) return "disease";
 
-  if (q.includes("سوانکی") || q.includes("weed"))
-    return "weed";
+  // weeds
+  if (
+    q.includes("جڑی بوٹیاں") ||
+    q.includes("گھاس") ||
+    q.includes("weed")
+  ) return "weed";
 
-  if (q.includes("کمی") || q.includes("zinc") || q.includes("کھاد"))
-    return "nutrition";
+  // nutrition
+  if (
+    q.includes("کمی") ||
+    q.includes("zinc") ||
+    q.includes("کھاد") ||
+    q.includes("fertilizer")
+  ) return "nutrition";
 
   return "unknown";
 }

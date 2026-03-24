@@ -5,7 +5,10 @@ const PRODUCTS_DIR = path.join(__dirname, "../data/products");
 const OUTPUT = path.join(__dirname, "chunks/product_chunks.json");
 const QUERIES_DIR = path.join(__dirname, "../data/farmer_queries");
 
-// SAFE ARRAY HELPERS
+/*
+SAFE ARRAY HELPERS
+*/
+
 const toArray = value => {
   if (!value) return [];
   if (Array.isArray(value)) return value;
@@ -18,35 +21,82 @@ const unique = value => {
   return [...new Set(arr.filter(Boolean))];
 };
 
-// LOAD FARMER QUERY LIBRARY
+/*
+LOAD FARMER QUERIES BY CATEGORY
+*/
+
 function loadFarmerQueries() {
+
   const files = fs.readdirSync(QUERIES_DIR);
-  const queries = [];
+
+  const queries = {
+    insect: [],
+    disease: [],
+    nutrition: [],
+    weed: []
+  };
 
   files.forEach(file => {
-    const data = JSON.parse(
-      fs.readFileSync(path.join(QUERIES_DIR, file))
-    );
 
-    // your json files are arrays, not {queries:[]}
-    if (Array.isArray(data)) {
-      queries.push(...data);
-    }
+    const filePath = path.join(QUERIES_DIR, file);
+    const data = JSON.parse(fs.readFileSync(filePath));
+
+    const key = Object.keys(data)[0];
+    const list = data[key];
+
+    if (!Array.isArray(list)) return;
+
+    if (file.includes("insect"))
+      queries.insect.push(...list);
+
+    if (file.includes("disease"))
+      queries.disease.push(...list);
+
+    if (file.includes("nutrition"))
+      queries.nutrition.push(...list);
+
+    if (file.includes("weed"))
+      queries.weed.push(...list);
+
   });
 
-  return unique(queries);
+  Object.keys(queries).forEach(k => {
+    queries[k] = unique(queries[k]);
+  });
+
+  return queries;
 }
 
-// BUILD ONE RICH CHUNK PER PRODUCT
-function buildChunk(product, farmerQueries) {
+/*
+MAP PRODUCT CATEGORY → PROBLEM TYPE
+*/
+
+function detectProblemType(category) {
+
+  const c = (category || "").toLowerCase();
+
+  if (c.includes("fungicide")) return "disease";
+  if (c.includes("insecticide")) return "insect";
+  if (c.includes("herbicide")) return "weed";
+  if (c.includes("fertilizer")) return "nutrition";
+
+  return "general";
+}
+
+/*
+BUILD MULTIPLE CHUNKS PER PRODUCT
+*/
+
+function buildChunks(product, farmerQueries) {
+
+  const chunks = [];
+
+  const problemType = detectProblemType(product.category);
 
   const crops = unique(product.crops?.all || product.crops || []);
   const controls = unique(product.target_pests || product.controls);
   const diseases = unique(product.target_diseases || product.diseases);
   const weeds = unique(product.target_weeds || product.weeds);
-  const nutrition = unique(
-    product.target_nutrient_deficiencies || product.nutrient_deficiency
-  );
 
   const symptoms = unique([
     ...(product.symptoms?.english || []),
@@ -58,66 +108,127 @@ function buildChunk(product, farmerQueries) {
   const queries = unique(product.farmer_problem_queries);
   const keywords = unique(product.search_keywords);
 
-  const text = `
+  const relevantQueries = farmerQueries[problemType] || [];
+
+  /*
+  PRODUCT INFO CHUNK
+  */
+
+  const productText = `
 Product: ${product.product_name}
 Category: ${product.category}
-Type: ${product.type || ""}
+Problem Type: ${problemType}
 
 Crops: ${crops.join(", ")}
 
 Controls: ${controls.join(", ")}
 Diseases: ${diseases.join(", ")}
 Weeds: ${weeds.join(", ")}
-Nutrient deficiency: ${nutrition.join(", ")}
-
-Farmer Symptoms:
-${symptoms.join(", ")}
-
-Product Queries:
-${queries.join(", ")}
-
-Search Keywords:
-${keywords.join(", ")}
-
-Farmer Problem Library:
-${farmerQueries.join(", ")}
 
 Description:
 ${product.multilingual_description?.english || product.description || ""}
-
-Urdu:
-${product.multilingual_description?.urdu || ""}
-
-Punjabi:
-${product.multilingual_description?.punjabi || ""}
-
-Recommendation:
-${product.recommendation || ""}
 `;
 
-  return {
-    text,
+  chunks.push({
+    text: productText.trim(),
     metadata: {
       product_name: product.product_name,
       category: product.category,
-      type: product.type || "N/A",
-      crops,
-      controls,
-      diseases,
-      weeds,
-      nutrient_deficiency: nutrition,
-      intent_tags: unique(product.intent_tags)
+      problem_type: problemType,
+      chunk_type: "product"
     }
-  };
+  });
+
+  /*
+  SYMPTOM CHUNKS
+  */
+
+  symptoms.forEach(symptom => {
+
+    chunks.push({
+      text: symptom,
+      metadata: {
+        product_name: product.product_name,
+        category: product.category,
+        problem_type: problemType,
+        chunk_type: "symptom"
+      }
+    });
+
+  });
+
+  /*
+  PRODUCT QUERY CHUNKS
+  */
+
+  queries.forEach(q => {
+
+    chunks.push({
+      text: q,
+      metadata: {
+        product_name: product.product_name,
+        category: product.category,
+        problem_type: problemType,
+        chunk_type: "product_query"
+      }
+    });
+
+  });
+
+  /*
+  FARMER QUERY LIBRARY CHUNKS
+  */
+
+  relevantQueries.forEach(q => {
+
+    chunks.push({
+      text: q,
+      metadata: {
+        category: product.category,
+        problem_type: problemType,
+        chunk_type: "farmer_query"
+      }
+    });
+
+  });
+
+  /*
+  KEYWORD CHUNKS
+  */
+
+  keywords.forEach(k => {
+
+    chunks.push({
+      text: k,
+      metadata: {
+        product_name: product.product_name,
+        category: product.category,
+        problem_type: problemType,
+        chunk_type: "keyword"
+      }
+    });
+
+  });
+
+  return chunks;
 }
+
+/*
+MAIN RUN
+*/
 
 function run() {
 
   const farmerQueries = loadFarmerQueries();
 
-  console.log(`🌾 Loaded farmer queries: ${farmerQueries.length}`);
+  console.log(`🌾 Farmer queries loaded`);
+  console.log(`Insect: ${farmerQueries.insect.length}`);
+  console.log(`Disease: ${farmerQueries.disease.length}`);
+  console.log(`Nutrition: ${farmerQueries.nutrition.length}`);
+  console.log(`Weed: ${farmerQueries.weed.length}`);
 
   const files = fs.readdirSync(PRODUCTS_DIR);
+
   const chunks = [];
 
   files.forEach(file => {
@@ -126,7 +237,7 @@ function run() {
       fs.readFileSync(path.join(PRODUCTS_DIR, file))
     );
 
-    chunks.push(buildChunk(product, farmerQueries));
+    chunks.push(...buildChunks(product, farmerQueries));
 
   });
 

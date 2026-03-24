@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
+
 async function run() {
   const { pipeline } = await import("@xenova/transformers");
 
