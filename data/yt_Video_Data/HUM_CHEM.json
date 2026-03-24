@@ -1,0 +1,219 @@
+{
+"product_id": "SC-BIO-009",
+"product_code": "SC-HUMCHEM",
+"product_name": "HUM CHEM (Humic Acid)",
+"brand": "Sooraj Crop Sciences",
+
+"category": "Micronutrients",
+"type": "Soil Conditioner + Bio Stimulant",
+"product_type_tags": [
+"humic acid fertilizer",
+"soil fertility booster",
+"root growth stimulant"
+],
+
+"formulation": "Granular",
+"systemicity": "Soil absorbed",
+"total_ai": "Humic Acid",
+
+"active_ingredients": [
+{
+"name": "Humic Acid",
+"percentage": "High concentration",
+"mode_of_action": "Improves soil structure, increases microbial activity and enhances nutrient uptake."
+}
+],
+
+"disease_types": [
+"soil fertility problem"
+],
+
+"target_diseases": [
+{
+"name": "Poor Soil Fertility",
+"key": "poor_soil_fertility",
+"type": "nutrient"
+}
+],
+
+"disease_symptoms_mapping": {
+"poor_soil_fertility": [
+"slow crop growth",
+"weak root development",
+"low yield"
+]
+},
+
+"disease_aliases": {
+"poor_soil_fertility": [
+"zameen kamzor",
+"soil nutrient deficiency"
+]
+},
+
+"crop_aliases": {
+"onion": [
+"pyaz"
+],
+"melon": [
+"kharboza"
+],
+"watermelon": [
+"tarbooz"
+]
+},
+
+"crops": {
+"major": [
+"onion",
+"melon"
+],
+"all": [
+"watermelon",
+"tomato",
+"vegetables",
+"fruit crops"
+]
+},
+
+"crop_stage": [
+"land preparation stage",
+"early vegetative stage"
+],
+
+"seasonal_relevance": [
+"Rabi season",
+"vegetable season"
+],
+
+"regions": [
+"Punjab Pakistan",
+"Thal region",
+"South Punjab farming belt"
+],
+
+"farmer_problem_queries": [
+"thal ki zameen ki zarkhaizi kaise barhayein",
+"soil fertility ka solution",
+"zameen kamzor hai kya karein",
+"vegetable crop growth booster"
+],
+
+"symptom_queries": [
+"slow plant growth",
+"weak roots in crop"
+],
+
+"search_keywords": [
+"humic acid fertilizer",
+"soil conditioner agriculture",
+"humic acid soil improvement"
+],
+
+"language_keywords": {
+"urdu": [
+"زمین کی زرخیزی بڑھانے والی کھاد",
+"ہیومک ایسڈ کھاد"
+],
+"roman_urdu": [
+"humic acid fertilizer",
+"zameen ki taqat barhane wali khad"
+],
+"punjabi": [
+"زمین دی زرخیزی والی کھاد"
+],
+"english": [
+"humic acid fertilizer",
+"soil conditioner"
+]
+},
+
+"vector_tags": [
+"humic acid fertilizer",
+"soil fertility improvement",
+"thal soil farming"
+],
+
+"product_use_cases": [
+"improve soil fertility",
+"boost root development",
+"increase vegetable yield"
+],
+
+"dosage": {
+"per_acre": "8 kg",
+"method": "soil application"
+},
+
+"spray_conditions": [
+"apply during land preparation",
+"mix in soil evenly"
+],
+
+"application_guidelines": [
+"apply before planting crops",
+"mix with soil during land preparation"
+],
+
+"compatibility": [
+"compatible with fertilizers",
+"compatible with micronutrients"
+],
+
+"resistance_management": [],
+
+"precautions": [
+"store in cool dry place"
+],
+
+"waiting_period": "Not required",
+
+"benefits": [
+"improves soil fertility",
+"enhances root growth",
+"increases crop yield"
+],
+
+"faq": [
+{
+"question": "کمزور زمین کا بہترین حل کیا ہے؟",
+"answer": "Humic Acid والی کھاد زمین کی زرخیزی بڑھا کر فصل کی نشوونما بہتر بناتی ہے۔"
+}
+],
+
+"recommendation_context": {
+"why_use": "Improve soil fertility and root development",
+"best_use_case": "poor sandy soil conditions"
+},
+
+"ai_summary": {
+"product_type": "soil conditioner",
+"primary_use": "improve soil fertility and crop growth"
+},
+
+"multilingual_description": {
+"english": "HUM CHEM is a humic acid soil conditioner used to improve soil fertility and crop growth.",
+"urdu": "یہ ہیومک ایسڈ پر مبنی کھاد زمین کی زرخیزی بہتر بناتی ہے۔",
+"punjabi": "ایہ زمین دی زرخیزی بہتر کردا اے۔"
+},
+
+"knowledge_sources": [
+"IR Farm YouTube - Thal Ki Zameen Ne Heran Kar Diya"
+],
+
+"metadata": {
+"created_by": "Sooraj Crop Sciences AI team",
+"last_updated": "",
+"reviewed_by_agronomist": false
+},
+
+"embedding_priority_fields": [
+"farmer_problem_queries",
+"symptom_queries",
+"vector_tags",
+"ai_summary",
+"benefits"
+],
+
+"data_version": "1.0"
+}

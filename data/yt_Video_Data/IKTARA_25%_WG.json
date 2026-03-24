@@ -1,0 +1,301 @@
+{
+"product_id": "SC-INS-021",
+"product_code": "SC-IMI-25WP",
+"product_name": "Imidacloprid 25% WP",
+"brand": "Sooraj Crop Sciences",
+
+"category": "Insecticide",
+"type": "Systemic Insecticide",
+"product_type_tags": [
+"insecticide",
+"sucking pest control",
+"whitefly control",
+"vegetable pest management"
+],
+
+"formulation": "WP",
+"systemicity": "Systemic",
+"total_ai": "25% WP",
+
+"active_ingredients": [
+{
+"name": "Imidacloprid",
+"percentage": "25%",
+"mode_of_action": "Neonicotinoid insecticide that disrupts the nervous system of sucking pests causing paralysis and death."
+}
+],
+
+"disease_types": [
+"insect pest",
+"virus vector pest"
+],
+
+"target_diseases": [
+{
+"name": "Whitefly",
+"key": "whitefly",
+"type": "insect"
+},
+{
+"name": "Aphids",
+"key": "aphids",
+"type": "insect"
+},
+{
+"name": "Jassids",
+"key": "jassids",
+"type": "insect"
+}
+],
+
+"disease_symptoms_mapping": {
+"whitefly": [
+"white insects flying from leaves when plant is disturbed",
+"yellowing of leaves",
+"sticky honeydew on leaf surface",
+"sooty mold formation",
+"virus infection in crops"
+],
+"aphids": [
+"small green or black insects on underside of leaves",
+"leaf curling",
+"slow plant growth"
+],
+"jassids": [
+"leaf edges turning yellow",
+"hopper burn symptoms",
+"leaf drying"
+]
+},
+
+"disease_aliases": {
+"whitefly": [
+"safed makhi",
+"white pest",
+"white insect attack"
+],
+"aphids": [
+"mahu",
+"green aphid",
+"sucking pest"
+],
+"jassids": [
+"leaf hopper",
+"jassid pest"
+]
+},
+
+"crop_aliases": {
+"cotton": [
+"kapas"
+],
+"chilli": [
+"mirch"
+],
+"tomato": [
+"tamatar"
+],
+"bitter gourd": [
+"karela"
+]
+},
+
+"crops": {
+"major": [
+"cotton",
+"vegetable crops"
+],
+"all": [
+"tomato",
+"chilli",
+"cucumber",
+"bitter gourd",
+"cotton",
+"vegetables"
+]
+},
+
+"crop_stage": [
+"vegetative stage",
+"flowering stage",
+"early pest appearance"
+],
+
+"seasonal_relevance": [
+"March",
+"April",
+"May",
+"June",
+"July",
+"August"
+],
+
+"regions": [
+"Punjab Pakistan",
+"Sindh Pakistan",
+"South Asia farming regions"
+],
+
+"farmer_problem_queries": [
+"safed makhi ka best spray",
+"whitefly control in crops",
+"whitefly attack in cotton",
+"whitefly ka ilaj kya hai",
+"vegetable crop whitefly spray",
+"mirch par safed makhi ka control",
+"tamatar par whitefly attack",
+"whitefly virus problem solution"
+],
+
+"symptom_queries": [
+"leaves turning yellow with white insects",
+"sticky honeydew on crop leaves",
+"white insects flying from plants",
+"whitefly virus symptoms in crops"
+],
+
+"search_keywords": [
+"imidacloprid insecticide",
+"whitefly control spray",
+"systemic insecticide for vegetables",
+"best insecticide for whitefly"
+],
+
+"language_keywords": {
+"urdu": [
+"سفید مکھی کا سپرے",
+"فصل پر سفید مکھی کا علاج",
+"سفید مکھی کنٹرول"
+],
+"roman_urdu": [
+"safed makhi ka spray",
+"whitefly control in crops",
+"safed makhi ka ilaj"
+],
+"punjabi": [
+"سفید مکھی دا سپرے",
+"فصل تے سفید مکھی دا کنٹرول"
+],
+"english": [
+"whitefly control insecticide",
+"systemic insecticide for crops",
+"imidacloprid spray"
+]
+},
+
+"vector_tags": [
+"whitefly insecticide",
+"imidacloprid spray",
+"sucking pest control",
+"cotton whitefly control"
+],
+
+"product_use_cases": [
+"control whitefly infestation",
+"prevent virus transmission in crops",
+"manage sucking pests in vegetables and cotton"
+],
+
+"dosage": {
+"per_acre": "100–120 g",
+"water_volume": "100–120 L",
+"method": "foliar spray",
+"frequency": "repeat after 10–14 days if infestation persists"
+},
+
+"spray_conditions": [
+"spray during early morning or evening",
+"avoid spraying during strong sunlight",
+"ensure uniform coverage on leaves"
+],
+
+"application_guidelines": [
+"apply at first sign of whitefly infestation",
+"spray underside of leaves where pests hide",
+"maintain recommended dosage"
+],
+
+"compatibility": [
+"compatible with most fungicides",
+"compatible with micronutrients"
+],
+
+"resistance_management": [
+"rotate with insecticides of different chemical groups",
+"avoid repeated use in same season"
+],
+
+"precautions": [
+"wear protective equipment during spraying",
+"do not exceed recommended dose",
+"store in cool dry place"
+],
+
+"waiting_period": "7 days",
+
+"benefits": [
+"effective control of whitefly and sucking pests",
+"systemic action protects entire plant",
+"reduces virus spread caused by whiteflies",
+"long lasting pest protection"
+],
+
+"faq": [
+{
+"question": "سفید مکھی کا بہترین سپرے کیا ہے؟",
+"answer": "Imidacloprid 25% WP سفید مکھی اور دوسرے سکنگ پیسٹ کو مؤثر طریقے سے کنٹرول کرتا ہے۔"
+},
+{
+"question": "اس دوا کا سپرے کب کرنا چاہیے؟",
+"answer": "جب سفید مکھی کا ابتدائی حملہ نظر آئے تو فوراً سپرے کرنا چاہیے۔"
+}
+],
+
+"recommendation_context": {
+"why_use": "Control whitefly infestation before virus spread",
+"best_use_case": "early whitefly attack in vegetable and cotton crops",
+"disease_focus": [
+"whitefly",
+"virus transmission"
+]
+},
+
+"ai_summary": {
+"product_type": "systemic insecticide",
+"primary_use": "control whitefly and sucking pests in crops",
+"key_pests": [
+"whitefly",
+"aphids",
+"jassids"
+],
+"dosage": "100–120 g per acre",
+"spray_interval": "10–14 days"
+},
+
+"multilingual_description": {
+"english": "Imidacloprid 25% WP is a systemic insecticide used to control whiteflies, aphids and other sucking pests in cotton and vegetable crops.",
+"urdu": "امیڈاکلوپرڈ 25٪ ڈبلیو پی ایک سسٹمک انسیکٹیسائیڈ ہے جو سفید مکھی، افڈز اور دیگر سکنگ پیسٹ کو کنٹرول کرتا ہے۔",
+"punjabi": "ایہ انسیکٹیسائیڈ سفید مکھی تے ہور سکنگ پیسٹ کنٹرول کرن لئی استعمال ہوندا اے۔"
+},
+
+"knowledge_sources": [
+"IR Farm YouTube - White fly attack on crops | Best spray",
+"IR Farm YouTube - Whitefly control guide"
+],
+
+"metadata": {
+"created_by": "Sooraj Crop Sciences AI team",
+"last_updated": "",
+"reviewed_by_agronomist": false
+},
+
+"embedding_priority_fields": [
+"farmer_problem_queries",
+"symptom_queries",
+"vector_tags",
+"ai_summary",
+"benefits"
+],
+
+"data_version": "1.0"
+}
