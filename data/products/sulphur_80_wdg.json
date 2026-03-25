@@ -4,63 +4,210 @@
   "brand": "Sooraj Crop Sciences",
 
   "category": "Fungicide",
-  "product_type": "Contact fungicide",
-  "formulation": "WDG",
+  "type": "Contact fungicide + miticide (Multi-site)",
+
+  "formulation": "WDG (Water Dispersible Granules)",
   "systemicity": "Contact",
+
+  "mode_of_action_summary": "Sulphur acts as a multi-site contact fungicide disrupting fungal respiration and inhibiting spore germination. It also works as a miticide by affecting mite metabolism.",
 
   "active_ingredients": [
     {
       "name": "Sulphur",
       "percentage": "80%",
-      "mode_of_action": "Disrupts fungal respiration"
+      "chemical_group": "Inorganic multi-site",
+      "mode_of_action": "Disrupts fungal respiration and controls mites"
     }
   ],
 
-  "targets": {
-    "insects": ["mites"],
-    "diseases": ["powdery mildew"],
-    "weeds": [],
-    "nutrient_deficiencies": []
-  },
-
-  "crop_applicability": {
-    "major_crops": ["vegetables", "fruits"],
-    "all_supported_crops": ["cucurbits", "mango", "grapes", "chilli"]
-  },
-
-  "dosage": { "per_acre": "800 g" },
-
-  "application_details": {
-    "application_method": "Foliar spray",
-    "spray_interval": "10 days"
-  },
-
-  "farmer_symptoms": [
-    "سفید پھپھوند",
-    "powdery mildew on leaves",
-    "mites on crop"
+  "target_pests": [
+    "mites",
+    "red spider mite",
+    "yellow mite"
   ],
 
-  "farmer_queries": [
-    "powdery mildew spray",
-    "sulphur for mites"
+  "target_diseases": [
+    "powdery mildew"
+  ],
+
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "mites": [
+      "red spider mite",
+      "yellow mite"
+    ]
+  },
+
+  "disease_categories": {
+    "powdery_disease": [
+      "powdery mildew"
+    ]
+  },
+
+  "disease_behavior": {
+    "powdery_mildew": "Appears as white powder on leaves and spreads rapidly in moderate temperature and low humidity"
+  },
+
+  "crops": {
+    "major": ["vegetables", "fruits"],
+    "all": [
+      "cucurbits",
+      "mango",
+      "grapes",
+      "chilli",
+      "okra",
+      "apple"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "tamatar",
+    "mirch",
+    "bhindi",
+    "kheera",
+    "angoor"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتوں پر سفید پھپھوند",
+      "پتیاں سفید ہو گئی ہیں",
+      "پتے کمزور ہو رہے ہیں",
+      "مائیٹس کی وجہ سے پتیاں خراب ہو رہی ہیں"
+    ],
+    "punjabi": [
+      "پتیاں تے سفید سفیدی اے",
+      "پتے خراب ہو رہے نیں",
+      "مائیٹس دا حملہ اے"
+    ],
+    "roman_urdu": [
+      "white powder leaves par aa gaya",
+      "powdery mildew aa gaya",
+      "mites attack ho gaya",
+      "leaves weak ho rahi hain"
+    ],
+    "english": [
+      "white powder on leaves",
+      "powdery mildew",
+      "mite infestation",
+      "leaf damage due to mites"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "powdery mildew control",
+    "white fungus on leaves",
+    "mites control spray",
+    "sulphur spray for mildew",
+    "white powder leaves treatment"
   ],
 
   "search_keywords": [
+    "sulphur fungicide",
+    "powdery mildew spray",
+    "mites control sulphur",
+    "contact fungicide",
     "پھپھوندی دا سپرے",
-    "sulphur fungicide"
+    "مائیٹس دی دوا"
+  ],
+
+  "intent_tags": ["disease", "fungicide", "insect", "miticide"],
+
+  "dosage": {
+    "per_acre": "600–800 g",
+    "per_100_litre": "250–300 g",
+    "water_volume": "100–120 liters per acre",
+    "method": "Foliar spray",
+    "frequency": "Every 7–10 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform spray on both sides of leaves",
+    "coverage": "Essential for contact fungicide effectiveness"
+  },
+
+  "crop_stage_recommendation": [
+    "Early disease stage",
+    "Preventive stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature (20–30°C)",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "High temperature above 32°C (risk of leaf burn)",
+      "Rain after spray",
+      "Strong sunlight"
+    ]
+  },
+
+  "temperature_sensitivity": {
+    "safe_range": "20–30°C",
+    "risk": "Above 32°C may cause phytotoxicity (leaf burn)"
+  },
+
+  "compatibility": {
+    "recommended_with": [
+      "most fungicides"
+    ],
+    "not_recommended_with": [
+      "oil sprays",
+      "alkaline pesticides"
+    ]
+  },
+
+  "resistance_management": {
+    "type": "Multi-site",
+    "advantage": "Very low resistance risk",
+    "advice": "Can be used in rotation programs"
+  },
+
+  "safety": [
+    "Avoid spraying in high temperature",
+    "Wear PPE",
+    "Avoid inhalation of dust"
+  ],
+
+  "benefits": [
+    "Controls powdery mildew effectively",
+    "Controls mites",
+    "Low cost solution",
+    "Low resistance risk",
+    "Suitable for preventive spray"
   ],
 
   "farmer_benefits": [
-    "Stops fungal spread",
-    "Controls mites"
+    "پھپھوند جلدی رک جاندی اے",
+    "مائیٹس ختم ہو جاندے نیں",
+    "کم خرچ وچ کنٹرول ہو جاندا اے",
+    "فصل محفوظ رہندی اے"
   ],
 
-  "intent_tags": ["disease", "insect"],
+  "multilingual_description": {
+    "english": "Contact fungicide and miticide for powdery mildew and mite control.",
+    "urdu": "پھپھوندی اور مائیٹس کے لیے مؤثر دوا۔",
+    "punjabi": "پھپھوندی تے مائیٹس لئی زبردست دوا۔"
+  },
 
-  "master_descriptions": {
-    "english": "Multi-purpose sulphur for fungal and mite control.",
-    "urdu": "پھپھوندی اور مائیٹس کا مؤثر علاج۔",
-    "punjabi_shahmukhi": "پھپھوندی تے مائیٹس دا علاج۔"
-  }
+  "problem_solution_map": [
+    {
+      "problem": "powdery mildew",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "mite infestation",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "early fungal infection",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Sulphur 80 WDG is a contact fungicide and miticide used for control of powdery mildew and mites in vegetables and fruits. It works best at early stage and moderate temperature and provides low cost preventive disease control."
 }

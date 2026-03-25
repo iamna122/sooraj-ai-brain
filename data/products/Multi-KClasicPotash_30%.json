@@ -2,51 +2,54 @@
   "product_id": "sooraj_multi_kclasic_potash_30",
   "product_name": "Multi-KClasic Potash 30%",
   "brand": "Sooraj Crop Sciences",
-  "product_type": "Fertilizer",
-  "category": "Micronutrient",
+
+  "category": "Crop Nutrition",
+  "type": "Potassium nitrate fertilizer (Quality booster)",
+
+  "formulation": "Liquid",
+  "systemicity": "Systemic nutrient mobility",
+
+  "mode_of_action_summary": "Provides highly soluble potassium and nitrate nitrogen that regulate water balance, enhance sugar transport, improve fruit size, grain filling and crop quality while increasing stress tolerance.",
 
   "active_ingredients": [
     {
       "name": "Potassium (K2O)",
       "percentage": "30%",
-      "mode_of_action": "Regulates water balance, activates enzymes, improves sugar transport and fruit/grain filling"
+      "mode_of_action": "Improves fruit size, grain filling, sugar transport and plant strength"
     },
     {
       "name": "Nitrate Nitrogen (NO3-N)",
       "percentage": "Available",
-      "mode_of_action": "Enhances potassium uptake and supports rapid plant growth and protein synthesis"
+      "mode_of_action": "Enhances potassium uptake and supports rapid plant growth"
     }
   ],
 
-  "chemical_group": "Potassium Nitrate based nutrition",
-  "formulation_type": "Liquid",
-  "systemicity": "Systemic nutrient mobility",
-  "mode_of_action_summary": "Provides rapidly absorbable potassium and nitrate nitrogen that improve fruit size, grain filling, plant strength and stress tolerance.",
+  "target_pests": [],
+  "target_diseases": [],
+  "target_weeds": [],
 
-  "targets": {
-    "weeds": [],
-    "diseases": [],
-    "insects": [],
-    "nutrient_deficiencies": [
-      "potassium deficiency"
-    ]
-  },
-
-  "farmer_symptoms": [
-    "پھل چھوٹا رہ گیا اے",
-    "پھل دا رنگ ہلکا اے",
-    "دانا نہیں بھر رہیا",
-    "وزن کم اے",
-    "پتے دے کنارے جل گئے نیں",
-    "پودا کمزور اے",
-    "ٹینڈے ٹھیک نہیں بن رہے",
-    "بالیاں ہلکیاں نیں",
-    "کپاس دے پتے لال ہو رہے نیں",
-    "مارکیٹ والی کوالٹی نہیں بن رہی"
+  "target_nutrient_deficiencies": [
+    "potassium deficiency"
   ],
 
-  "crop_applicability": {
-    "major_crops": [
+  "crop_stage_targets": [
+    "pre-flowering",
+    "fruit setting",
+    "fruit development",
+    "grain filling",
+    "boll development"
+  ],
+
+  "quality_targets": [
+    "fruit size",
+    "fruit weight",
+    "grain filling",
+    "color improvement",
+    "market quality"
+  ],
+
+  "crops": {
+    "major": [
       "wheat",
       "rice",
       "cotton",
@@ -54,11 +57,9 @@
       "potato",
       "tomato",
       "chilli",
-      "onion",
-      "citrus",
-      "mango"
+      "onion"
     ],
-    "all_supported_crops": [
+    "all": [
       "all vegetables",
       "all fruits",
       "field crops",
@@ -70,148 +71,165 @@
     ]
   },
 
+  "farmer_crop_terms": [
+    "gandum",
+    "dhan",
+    "kapas",
+    "tamatar",
+    "mirch",
+    "pyaaz"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پھل چھوٹا رہ گیا ہے",
+      "دانا نہیں بھر رہا",
+      "پتے کے کنارے جل رہے ہیں",
+      "پودا کمزور ہے",
+      "فصل کی کوالٹی کم ہے"
+    ],
+    "punjabi": [
+      "پھل چھوٹا اے",
+      "دانا نہیں بھر رہیا",
+      "پتے دے کنارے جل گئے نیں",
+      "پودا کمزور اے",
+      "کوالٹی نہیں بن رہی"
+    ],
+    "roman_urdu": [
+      "fruit size chhota hai",
+      "dana fill nahi ho raha",
+      "leaf edges burn ho rahe hain",
+      "weight kam hai",
+      "market quality achi nahi hai"
+    ],
+    "english": [
+      "small fruit size",
+      "poor grain filling",
+      "leaf edge burn",
+      "low weight",
+      "poor crop quality"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "fruit size increase ka spray",
+    "dana bharne wali dawa",
+    "weight increase fertilizer",
+    "potash deficiency treatment",
+    "kapas boll size kaise badhayein",
+    "tamatar size nahi badh raha",
+    "market quality improve karni hai"
+  ],
+
+  "search_keywords": [
+    "potassium nitrate fertilizer",
+    "fruit size increase fertilizer",
+    "grain filling spray",
+    "quality booster fertilizer",
+    "پوٹاش کھاد",
+    "دانا بھرن والی دوا",
+    "پھل دا سائز ودھاؤ"
+  ],
+
+  "intent_tags": ["nutrition", "yield_improvement", "quality_boost"],
+
   "dosage": {
-    "per_acre": "500 ml – 1 liter (fertigation)",
+    "per_acre": "500 ml – 1 liter",
     "per_100_litre": "250 – 500 ml",
-    "spray_volume_per_acre": "100 – 120 litres",
-    "application_coverage": "1 liter covers multiple acres depending on dose"
+    "water_volume": "100–120 liters per acre",
+    "method": "Foliar spray / fertigation",
+    "frequency": "2–3 applications",
+    "best_time": ["Morning", "Evening"]
   },
 
   "application_details": {
-    "application_method": "Foliar spray or fertigation",
-    "equipment": [
-      "knapsack sprayer",
-      "drip irrigation system",
-      "fertilizer tank"
+    "method": [
+      "Foliar spray",
+      "Fertigation through drip system"
     ],
-    "number_of_applications": "2 – 3 applications at critical growth stages",
-    "coverage_requirement": "Uniform spray on both sides of leaves"
+    "coverage": "Uniform spray on both leaf surfaces"
   },
 
   "crop_stage_recommendation": [
-    "pre-flowering stage",
-    "fruit setting stage",
-    "fruit development stage",
-    "grain filling stage",
-    "boll development stage"
+    "Pre-flowering stage",
+    "Fruit setting stage",
+    "Grain filling stage",
+    "Boll development stage"
   ],
 
-  "water_management": {
-    "before_spray": "Normal soil moisture required",
-    "after_spray": "Avoid irrigation for a few hours after foliar spray",
-    "water_level": "Suitable for fertigation with irrigation water"
-  },
-
-  "best_time_to_apply": [
-    "Morning",
-    "Evening"
-  ],
-
-  "weather_conditions": {
-    "ideal_condition": "Moderate temperature with good humidity",
-    "avoid": [
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Good humidity"
+    ],
+    "avoid_conditions": [
       "High temperature",
-      "Rain immediately after spray",
+      "Rain after spray",
       "Strong wind",
       "Midday sunlight"
     ]
   },
 
-  "tank_mix_compatibility": [
-    "Compatible with most fertilizers",
-    "Compatible with fungicides",
-    "Compatible with insecticides"
-  ],
-
-  "incompatible_with": [
-    "Calcium nitrate (direct mix)",
-    "Strong acidic products",
-    "Strong alkaline products"
-  ],
-
-  "crop_safety": {
-    "selectivity_reason": "Essential plant nutrient safe for all crops at recommended dose",
-    "overdose_effect": "Leaf scorch due to salt burn"
-  },
-
-  "resistance_management": {
-    "mode_of_action_group": "Plant nutrition",
-    "rotation_advice": "Can be used multiple times based on crop requirement"
-  },
-
-  "safety": {
-    "re_entry_interval": "Not applicable",
-    "pre_harvest_interval": "Not applicable",
-    "toxicity_class": "Low toxicity",
-    "protective_measures": [
-      "Wear gloves while handling concentrate",
-      "Avoid contact with eyes",
-      "Store away from children"
+  "compatibility": {
+    "recommended_with": [
+      "most fertilizers",
+      "fungicides",
+      "insecticides"
+    ],
+    "not_recommended_with": [
+      "calcium nitrate",
+      "strong acids",
+      "strong alkaline products"
     ]
   },
 
-  "storage": {
-    "storage_conditions": "Store in cool and dry place away from direct sunlight",
-    "keep_away_from": [
-      "Children",
-      "Heat sources",
-      "Food items"
-    ],
-    "shelf_life": "2 years"
-  },
-
-  "packaging": {
-    "pack_sizes": [
-      "1 liter"
-    ],
-    "form": "Liquid"
-  },
-
-  "farmer_benefits": [
-    "Increases fruit size and weight",
-    "Improves color and shine",
-    "Enhances grain filling",
-    "Improves crop strength",
-    "Increases drought tolerance",
-    "Improves market value",
-    "Corrects potash deficiency quickly"
+  "safety": [
+    "Wear gloves",
+    "Avoid contact with eyes",
+    "Store safely"
   ],
 
-  "frequently_asked_questions": [
+  "benefits": [
+    "Increases fruit size and weight",
+    "Improves grain filling",
+    "Enhances color and shine",
+    "Improves crop strength",
+    "Boosts drought tolerance",
+    "Improves market value"
+  ],
+
+  "farmer_benefits": [
+    "پھل دا سائز ودھ جاندا اے",
+    "دانا پورا بھر جاندا اے",
+    "کوالٹی بہتر ہو جاندی اے",
+    "وزن ودھ جاندا اے",
+    "مارکیٹ ریٹ اچھا ملدا اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Potassium fertilizer for improving fruit size, grain filling and crop quality.",
+    "urdu": "پھل کے سائز اور دانہ بھراؤ کے لیے بہترین پوٹاش کھاد۔",
+    "punjabi": "پھل دا سائز تے دانہ بھرن لئی زبردست پوٹاش کھاد۔"
+  },
+
+  "problem_solution_map": [
     {
-      "question": "When should we apply Multi-KClasic?",
-      "answer": "Apply at flowering, fruit setting and grain filling stages for best results."
+      "problem": "small fruit size",
+      "solution_strength": "high"
     },
     {
-      "question": "Can we mix it with pesticides?",
-      "answer": "Yes, it is compatible with most pesticides but avoid mixing with calcium nitrate."
+      "problem": "poor grain filling",
+      "solution_strength": "high"
     },
     {
-      "question": "Does it control insects or diseases?",
-      "answer": "No, it is a fertilizer used to improve crop quality and correct potassium deficiency."
+      "problem": "low crop weight",
+      "solution_strength": "high"
     },
     {
-      "question": "How fast does it work?",
-      "answer": "It is rapidly absorbed and visible improvement in crop quality appears within a few days."
+      "problem": "poor crop quality",
+      "solution_strength": "high"
     }
   ],
 
-  "search_keywords": [
-    "fruit size increase fertilizer",
-    "potash deficiency treatment",
-    "grain filling spray",
-    "weight increase spray",
-    "پوٹاش کھاد",
-    "پھل دا سائز ودھاؤن والی کھاد",
-    "دانا بھرن والی سپرے",
-    "کوالٹی بہتر کرنے والی کھاد"
-  ],
-
-  "llm_usage_hint": "Recommend at fruiting and grain filling stages when farmer demands size, weight, color or potassium deficiency correction.",
-
-  "master_descriptions": {
-    "english": "Multi-KClasic Potash 30% is a chloride-free liquid potassium nitrate fertilizer that improves fruit size, grain filling, crop strength and overall produce quality.",
-    "urdu": "ملٹی کے کلاسک پوٹاش 30٪ ایک کلورائیڈ فری لیکوئڈ پوٹاشیم کھاد ہے جو پھل کا سائز، دانہ بھراؤ، فصل کی مضبوطی اور مجموعی پیداوار کی کوالٹی بہتر کرتی ہے۔",
-    "punjabi_shahmukhi": "ملٹی کے کلاسک پوٹاش 30٪ اک کلورائیڈ فری لیکوئڈ پوٹاش کھاد اے جو پھل دا سائز، دانہ بھرن، فصل دی مضبوطی تے کوالٹی نوں بہتر کردا اے۔"
-  }
+  "embedding_text": "Multi KClasic Potash 30 is a potassium nitrate fertilizer used for improving fruit size grain filling and crop quality in crops like wheat rice cotton vegetables and fruits. It corrects potassium deficiency and increases weight color and market value of produce."
 }

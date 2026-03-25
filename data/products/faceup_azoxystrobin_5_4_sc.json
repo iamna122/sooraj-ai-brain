@@ -1,130 +1,227 @@
 {
-  "product_id": "sooraj_faceup_azoxystrobin_5_4_sc",
+  "product_id": "sooraj_faceup_56_sc",
   "product_name": "FACEUP 56% SC",
   "brand": "Sooraj Crop Sciences",
-  "product_type": "Fungicide",
+
   "category": "Fungicide",
+  "type": "Systemic strobilurin fungicide (QoI)",
+
+  "formulation": "SC (Suspension Concentrate)",
+  "systemicity": "Systemic + translaminar",
+
+  "mode_of_action_summary": "Azoxystrobin inhibits mitochondrial respiration in fungi by blocking electron transport at Qo site, stopping energy production and preventing spore germination and fungal growth. Provides preventive and early curative control with protection of new growth.",
 
   "active_ingredients": [
     {
       "name": "Azoxystrobin",
       "percentage": "5.4%",
-      "mode_of_action": "QoI fungicide that blocks mitochondrial respiration in fungi and stops energy production"
+      "chemical_group": "Strobilurin (QoI)",
+      "mode_of_action": "Blocks mitochondrial respiration in fungi"
     }
   ],
 
-  "chemical_group": "Strobilurin (QoI)",
-  "formulation_type": "SC (Suspension Concentrate)",
-  "systemicity": "Systemic and translaminar",
+  "target_pests": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
 
-  "mode_of_action_summary": "Systemic fungicide with preventive and early curative action that stops fungal growth, protects new leaves and gives long lasting control.",
-
-  "targets": {
-    "diseases": [
-      "powdery mildew",
-      "downy mildew",
-      "rust",
-      "leaf spot",
-      "early blight",
-      "late blight",
-      "anthracnose",
-      "rice blast",
-      "sheath blight"
-    ],
-    "insects": [],
-    "weeds": [],
-    "nutrient_deficiencies": []
-  },
-
-  "farmer_symptoms": [
-    "پتیاں تے داغ بن رہے نیں",
-    "پتیاں جل رہیاں نیں",
-    "پتیاں سڑ رہیاں نیں",
-    "پھپھوند لگ گئی اے",
-    "بیماری تیزی نال پھیل رہی اے",
-    "پتے تے سفیدی آ گئی اے",
-    "چاول دا بلاست",
-    "شیٹھ بلائٹ دا حملہ",
-    "گندم نوں رسٹ لگ گیا اے",
-    "ٹماٹر تے جھلساؤ",
-    "آلو تے لیٹ بلائٹ",
-    "پتے سوکھ رہے نیں داغاں نال",
-    "leaf spot in crop",
-    "blight attack",
-    "rice blast symptoms",
-    "fungus attack in vegetables"
+  "target_diseases": [
+    "powdery mildew",
+    "downy mildew",
+    "rust",
+    "leaf spot",
+    "early blight",
+    "late blight",
+    "anthracnose",
+    "rice blast",
+    "sheath blight"
   ],
 
-  "crop_applicability": {
-    "major_crops": ["rice", "wheat", "maize", "cotton", "dhan", "gandum"],
-    "vegetables": ["tomato", "chilli", "okra", "potato", "cucurbits"],
-    "fruits": ["mango", "citrus", "grapes", "apple"],
-    "all_supported_crops": [
-      "rice", "wheat", "maize", "cotton",
-      "tomato", "chilli", "okra", "potato", "cucurbits",
-      "mango", "citrus", "grapes", "apple",
-      "vegetables", "fruits"
+  "disease_categories": {
+    "foliar_diseases": [
+      "leaf spot",
+      "blight",
+      "anthracnose"
+    ],
+    "airborne_diseases": [
+      "powdery mildew",
+      "rust"
+    ],
+    "water_related_diseases": [
+      "downy mildew"
+    ],
+    "major_crop_diseases": [
+      "rice blast",
+      "sheath blight",
+      "early blight",
+      "late blight"
     ]
   },
+
+  "crops": {
+    "major": ["rice", "wheat", "maize", "cotton"],
+    "all": [
+      "rice",
+      "wheat",
+      "maize",
+      "cotton",
+      "tomato",
+      "chilli",
+      "okra",
+      "potato",
+      "cucurbits",
+      "mango",
+      "citrus",
+      "grapes",
+      "apple"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "dhan",
+    "gandum",
+    "makai",
+    "kapas",
+    "tamatar",
+    "aloo"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتوں پر دھبے بن رہے ہیں",
+      "پتے جل رہے ہیں",
+      "پتے سڑ رہے ہیں",
+      "پھپھوند لگ گئی ہے",
+      "بیماری تیزی سے پھیل رہی ہے",
+      "پتوں پر سفیدی آ گئی ہے"
+    ],
+    "punjabi": [
+      "پتیاں تے داغ نیں",
+      "پتے جل رہے نیں",
+      "بیماری تیزی نال پھیل رہی اے",
+      "پھپھوند لگ گئی اے"
+    ],
+    "roman_urdu": [
+      "leaf spot aa gaya hai",
+      "blight attack ho gaya",
+      "fungus lag gaya hai",
+      "white powder leaves par aa gaya",
+      "disease spread ho rahi hai"
+    ],
+    "english": [
+      "leaf spots",
+      "blight symptoms",
+      "fungal infection",
+      "white powder on leaves",
+      "rapid disease spread",
+      "leaf burning and drying"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "leaf spot control",
+    "blight control spray",
+    "fungus attack in crops",
+    "rice blast treatment",
+    "sheath blight control",
+    "tamatar blight spray",
+    "disease spread ho rahi hai kya karein"
+  ],
+
+  "search_keywords": [
+    "azoxystrobin fungicide",
+    "systemic fungicide",
+    "blight control",
+    "rice blast fungicide",
+    "preventive fungicide spray",
+    "فنگس کش دوا",
+    "بلاست کنٹرول",
+    "جھلساؤ کا علاج"
+  ],
+
+  "intent_tags": ["disease", "fungicide"],
 
   "dosage": {
     "per_acre": "200–250 ml",
     "per_100_litre": "60–80 ml",
-    "spray_volume_per_acre": "100–120 litres"
+    "water_volume": "100–120 liters per acre",
+    "method": "Foliar spray",
+    "frequency": "1–2 sprays",
+    "interval": "10–14 days",
+    "best_time": ["Morning", "Evening"]
   },
 
   "application_details": {
-    "application_method": "Foliar spray",
-    "number_of_applications": "1–2 consecutive sprays maximum",
-    "spray_interval": "10–14 days",
-    "coverage_requirement": "Uniform coverage on both sides of leaves"
+    "method": "Uniform foliar spray covering both sides of leaves",
+    "coverage": "Ensure complete leaf coverage"
   },
 
   "crop_stage_recommendation": [
-    "Preventive spray before disease",
+    "Preventive stage before disease",
     "Early disease appearance"
   ],
 
-  "best_time_to_apply": ["Morning", "Evening"],
-
-  "resistance_management": {
-    "mode_of_action_group": "QoI fungicide",
-    "rotation_advice": "Do not use continuously. Rotate with triazole, mancozeb or sulphur fungicides."
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Low humidity for spray application"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after spray",
+      "High wind",
+      "Extreme heat"
+    ]
   },
 
-  "plant_health_benefits": [
-    "Greening effect",
-    "Stronger plant growth",
-    "Better stress tolerance",
-    "Improved fruit quality",
-    "Longer shelf life"
+  "resistance_management": {
+    "group": "QoI (Strobilurin)",
+    "advice": "Rotate with triazoles, mancozeb or sulphur fungicides"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid spray drift",
+    "Follow recommended dose"
+  ],
+
+  "benefits": [
+    "Broad spectrum disease control",
+    "Preventive and early curative action",
+    "Long lasting protection",
+    "Systemic movement protects new leaves",
+    "Reduces disease spread quickly"
   ],
 
   "farmer_benefits": [
-    "Broad spectrum disease control",
-    "Long lasting protection",
-    "Systemic action protects new growth",
-    "Stops disease spread fast",
-    "Reduces number of sprays"
+    "بیماری جلدی رک جاندی اے",
+    "پتے صاف تے ہرے رہندے نیں",
+    "فصل محفوظ رہندی اے",
+    "سپرے کم لگدا اے"
   ],
 
-  "search_keywords": [
-    "rice blast fungicide",
-    "blight control spray",
-    "systemic fungicide",
-    "preventive fungicide spray",
-    "چاول دا بلاست سپرے",
-    "جھلساؤ دی دوا",
-    "فنگس کش سپرے",
-    "پھپھوندی دی دوا",
-    "بیماری تیزی نال پھیل رہی اے علاج"
+  "multilingual_description": {
+    "english": "Systemic fungicide for preventive and early control of major fungal diseases.",
+    "urdu": "فنگس بیماریوں کے لیے بہترین سسٹمک دوا۔",
+    "punjabi": "فنگس بیماری لئی زبردست سسٹمک سپرے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "leaf spot disease",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "blight attack",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "rice blast",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "powdery mildew",
+      "solution_strength": "medium"
+    }
   ],
 
-  "llm_usage_hint": "Best when disease is spreading fast, for preventive spray and when systemic long lasting control is required.",
-
-  "master_descriptions": {
-    "english": "FACEUP 56% SC is a systemic strobilurin fungicide that provides long lasting preventive and early curative control of major fungal diseases.",
-    "urdu": "فیس اپ 56٪ ایس سی ایک سسٹمک فنگس کش دوا ہے جو بیماری کے ابتدائی مرحلے میں بہترین کنٹرول دیتی ہے۔",
-    "punjabi_shahmukhi": "فیس اپ 56٪ ایس سی اک سسٹمک فنگس کش اے جو بیماری نوں شروع وچ ہی روک کے لمبے سمے تک حفاظت فراہم کردا اے۔"
-  }
+  "embedding_text": "Faceup 56 SC fungicide contains azoxystrobin and is used for control of fungal diseases like rice blast blight leaf spot and mildew in crops like rice wheat vegetables and fruits. It provides systemic action with preventive and early curative control and long lasting protection."
 }

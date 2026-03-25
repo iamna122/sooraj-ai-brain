@@ -1,219 +1,245 @@
 {
-  "product_id": "duo_star_11od_48sl",
+  "product_id": "sooraj_duo_star",
   "product_name": "Duo + Star",
-  "brand": "Unknown",
-  "product_type": "Herbicide",
+  "brand": "Generic / Combination product",
+
   "category": "Herbicide",
+  "type": "Selective post-emergence herbicide (Triple mode)",
+
+  "formulation": "OD + SL (Combination pack)",
+  "systemicity": "Systemic + contact",
+
+  "mode_of_action_summary": "Combination herbicide with ALS inhibition, ACCase inhibition and Photosystem II disruption providing broad-spectrum control of grassy weeds, broadleaf weeds and sedges through both systemic and contact action.",
 
   "active_ingredients": [
     {
       "name": "Rimsulfuron",
-      "percentage": "Included in 11% OD",
-      "mode_of_action": "ALS inhibitor absorbed through leaves and roots, stops amino acid synthesis and cell division in susceptible weeds"
+      "percentage": "Part of 11% OD",
+      "chemical_group": "Sulfonylurea",
+      "mode_of_action": "ALS inhibitor blocking amino acid synthesis"
     },
     {
       "name": "Quizalofop-P-Ethyl",
-      "percentage": "Included in 11% OD",
-      "mode_of_action": "ACCase inhibitor absorbed through foliage, stops fatty acid synthesis in grassy weeds leading to death of growing points"
+      "percentage": "Part of 11% OD",
+      "chemical_group": "Aryloxyphenoxypropionate",
+      "mode_of_action": "ACCase inhibitor blocking fatty acid synthesis in grasses"
     },
     {
       "name": "Bentazone",
       "percentage": "48% SL",
-      "mode_of_action": "Photosystem II inhibitor, contact herbicide that disrupts photosynthesis causing rapid leaf burn in broadleaf weeds and sedges"
+      "chemical_group": "Benzothiadiazole",
+      "mode_of_action": "Photosystem II inhibitor causing rapid leaf burn"
     }
   ],
 
-  "chemical_group": "ALS inhibitor (Sulfonylurea) + ACCase inhibitor (Aryloxyphenoxypropionate) + Photosystem II inhibitor (Benzothiadiazole)",
-  "formulation_type": "OD (Oil Dispersion) + SL (Soluble Liquid)",
-  "systemicity": "Systemic + Contact",
-  "mode_of_action_summary": "Triple mode herbicide combining ALS inhibition, ACCase inhibition and Photosystem II disruption to control grassy weeds, broadleaf weeds and sedges through systemic and contact activity.",
+  "target_pests": [],
+  "target_diseases": [],
+  "target_nutrient_deficiencies": [],
 
-  "targets": {
-    "weeds": [
+  "target_weeds": [
+    "barnyard grass",
+    "wild oats",
+    "johnson grass",
+    "foxtail",
+    "crabgrass",
+    "chenopodium",
+    "amaranthus",
+    "bindweed",
+    "purslane",
+    "black nightshade",
+    "cyperus rotundus",
+    "cyperus difformis"
+  ],
+
+  "weed_categories": {
+    "grassy": [
       "barnyard grass",
       "wild oats",
       "johnson grass",
       "foxtail",
-      "crabgrass",
+      "crabgrass"
+    ],
+    "broadleaf": [
       "chenopodium",
       "amaranthus",
       "bindweed",
       "purslane",
-      "black nightshade",
+      "black nightshade"
+    ],
+    "sedges": [
       "cyperus rotundus",
       "cyperus difformis"
-    ],
-    "diseases": [],
-    "insects": [],
-    "nutrient_deficiencies": []
+    ]
   },
 
-  "farmer_symptoms": [
-  "کھیت وچ گھاس بہت اے",
-  "چوڑی پتی والی جڑی بوٹی بہت زیادہ ہو گئی اے",
-  "موتھا یا ڈیلا پورے کھیت وچ پھیل گیا اے",
-  "فصل دی بڑھوتری رک گئی اے گھاس دی وجہ نال",
-  "جڑی بوٹی فصل نوں دبا رہی اے",
-  "کھیت صاف نہیں ہو رہا",
-  "گھاس پانی تے کھاد نوں استعمال کر رہی اے",
-  "مکس جڑی بوٹی دا حملہ اے"
-],
-
-
-  "crop_applicability": {
-    "major_crops": [
+  "crops": {
+    "major": ["potato", "soybean", "groundnut"],
+    "all": [
       "potato",
       "soybean",
       "groundnut",
       "peas",
       "beans",
-      "maize"
-    ],
-    "all_supported_crops": [
-      "potato",
-      "soybean",
-      "groundnut",
-      "field peas",
-      "vegetable crops (where label permits)"
+      "maize (label dependent)"
     ]
   },
 
-  "dosage": {
-    "per_acre": "600 ml pack per acre",
-    "per_100_litre": "200 ml",
-    "spray_volume_per_acre": "100–150 litres",
-    "application_coverage": "1 acre (600 ml pack)"
-  },
+  "unsafe_crops": [
+    "wheat",
+    "rice"
+  ],
 
-  "application_details": {
-    "application_method": "Post-emergence foliar spray",
-    "equipment": [
-      "knapsack sprayer",
-      "boom sprayer"
+  "farmer_crop_terms": [
+    "aloo",
+    "soybean",
+    "mungphali",
+    "makai"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "کھیت میں ہر قسم کی جڑی بوٹی ہے",
+      "چوڑی پتی اور گھاس دونوں موجود ہیں",
+      "موتھا بہت زیادہ ہو گیا ہے",
+      "جڑی بوٹی فصل کو دبا رہی ہے",
+      "کھیت صاف نہیں ہو رہا"
     ],
-    "number_of_applications": "Single application",
-    "coverage_requirement": "Uniform coverage on actively growing weeds"
-  },
-
-  "crop_stage_recommendation": [
-    "Apply after crop establishment",
-    "2–4 leaf stage of weeds",
-    "Weeds should be actively growing"
-  ],
-
-  "water_management": {
-    "before_spray": "Ensure no water stress condition",
-    "after_spray": "Avoid irrigation for 24 hours",
-    "water_level": "Normal soil moisture preferred"
-  },
-
-  "best_time_to_apply": [
-    "Morning",
-    "Evening"
-  ],
-
-  "weather_conditions": {
-    "ideal_condition": "Moderate temperature with adequate soil moisture",
-    "avoid": [
-      "Strong wind",
-      "Heavy rain after spray",
-      "Extreme heat above 35°C",
-      "Drought stressed crops"
+    "punjabi": [
+      "کھیت وچ مکس جڑی بوٹی اے",
+      "گھاس تے چوڑی پتی دونوں نیں",
+      "موتھا پورے کھیت وچ اے",
+      "فصل نوں گھاس دبا رہی اے"
+    ],
+    "roman_urdu": [
+      "mixed weeds aa gaye hain",
+      "grass aur broadleaf dono hain",
+      "motha control nahi ho raha",
+      "field clean nahi ho raha"
+    ],
+    "english": [
+      "mixed weed infestation",
+      "grassy and broadleaf weeds together",
+      "sedge infestation",
+      "heavy weed pressure"
     ]
   },
 
-  "tank_mix_compatibility": [
-    "Avoid mixing with strong alkaline pesticides",
-    "Jar test recommended before tank mixing"
-  ],
-
-  "incompatible_with": [
-    "Organophosphate insecticides within 7 days",
-    "Unknown tank mix combinations"
-  ],
-
-  "crop_safety": {
-    "selectivity_reason": "Broadleaf crops tolerate recommended dose while susceptible weeds are controlled",
-    "overdose_effect": "Temporary yellowing or growth suppression may occur"
-  },
-
-  "resistance_management": {
-    "mode_of_action_group": "Group 1 (ACCase) + Group 2 (ALS) + Group 6 (Photosystem II)",
-    "rotation_advice": "Do not use repeatedly season after season. Rotate with herbicides having different mode of action."
-  },
-
-  "safety": {
-    "re_entry_interval": "24 hours",
-    "pre_harvest_interval": "As per crop label",
-    "toxicity_class": "Moderate toxicity",
-    "protective_measures": [
-      "Wear gloves",
-      "Wear mask",
-      "Avoid spray drift",
-      "Wash hands after handling"
-    ]
-  },
-
-  "storage": {
-    "storage_conditions": "Store in cool and dry place away from sunlight",
-    "keep_away_from": [
-      "Children",
-      "Food items",
-      "Moisture"
-    ],
-    "shelf_life": "2 years"
-  },
-
-  "packaging": {
-    "pack_sizes": [
-      "600 ml"
-    ],
-    "form": "Liquid (OD + SL combination pack)"
-  },
-
-  "farmer_benefits": [
-    "Controls grass, broadleaf and sedge weeds in one spray",
-    "Reduces manual weeding cost",
-    "Triple mode action reduces resistance risk",
-    "Improves crop growth and yield potential",
-    "Effective against mixed weed infestation"
-  ],
-
-  "frequently_asked_questions": [
-    {
-      "question": "When should we apply Duo + Star?",
-      "answer": "Apply post-emergence when weeds are at 2–4 leaf stage and actively growing."
-    },
-    {
-      "question": "Can it control both grass and broadleaf weeds?",
-      "answer": "Yes, it controls grasses through ACCase inhibition and broadleaf weeds and sedges through ALS and Photosystem II inhibition."
-    },
-    {
-      "question": "Is one spray enough?",
-      "answer": "Yes, generally one spray is sufficient if applied at correct weed stage."
-    },
-    {
-      "question": "Can it be used in wheat or rice?",
-      "answer": "No, it is not safe for cereal crops like wheat or rice."
-    }
+  "farmer_problem_queries": [
+    "mixed weed control",
+    "grass aur broadleaf dono control",
+    "motha control spray",
+    "post emergence herbicide for potato",
+    "soybean weed control",
+    "aloo mein ghas control",
+    "field clean nahi ho raha kya karein"
   ],
 
   "search_keywords": [
     "post emergence herbicide",
-    "mixed weed control",
-    "grass and broadleaf control",
-    "potato weed medicine",
-    "soybean weed control",
+    "mixed weed killer",
+    "grass broadleaf sedge control",
+    "potato weed spray",
+    "soybean herbicide",
     "گھاس مار دوا",
-    "چوڑی پتی جڑی بوٹی کنٹرول",
-    "motha control"
+    "موتھا کنٹرول"
   ],
 
-  "llm_usage_hint": "When recommending this product, emphasize triple mode action, mixed weed control and correct post-emergence timing.",
+  "intent_tags": ["weed", "herbicide"],
 
-  "master_descriptions": {
-    "english": "Duo + Star is a selective post-emergence herbicide combination containing Rimsulfuron, Quizalofop-P-Ethyl and Bentazone that controls grasses, broadleaf weeds and sedges through triple mode of action.",
-    "urdu": "ڈیو پلس اسٹار ایک سلیکٹو پوسٹ ایمرجنس جڑی بوٹی مار دوا ہے جو رِمزلفیوران، کوئزالوفوپ اور بینٹازون پر مشتمل ہے اور گھاس نما، چوڑی پتی اور ڈیلا جڑی بوٹیوں کو کنٹرول کرتی ہے۔",
-    "punjabi_shahmukhi": "ڈیو پلس اسٹار اک پوسٹ ایمرجنس جڑی بوٹی مار اے جس وچ رِمزلفیوران، کوئزالوفوپ تے بینٹازون شامل نیں جو گھاس، چوڑی پتی تے موتھا نوں اک ہی سپرے نال کنٹرول کردا اے۔"
-  }
+  "dosage": {
+    "per_acre": "600 ml pack",
+    "per_100_litre": "200 ml",
+    "water_volume": "100–150 liters per acre",
+    "method": "Foliar spray",
+    "frequency": "Single application",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Post-emergence spray on actively growing weeds",
+    "equipment": ["knapsack sprayer", "boom sprayer"]
+  },
+
+  "crop_stage_recommendation": [
+    "After crop establishment",
+    "Weeds at 2–4 leaf stage",
+    "Active weed growth stage"
+  ],
+
+  "water_management": {
+    "before_spray": "No water stress",
+    "after_spray": "Avoid irrigation for 24 hours"
+  },
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Moist soil"
+    ],
+    "avoid_conditions": [
+      "Strong wind",
+      "Heavy rain",
+      "Extreme heat",
+      "Drought stress"
+    ]
+  },
+
+  "compatibility": {
+    "recommended_with": [],
+    "not_recommended_with": [
+      "strong alkaline pesticides",
+      "organophosphates within 7 days"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": ["Group 1", "Group 2", "Group 6"],
+    "advantage": "Triple mode reduces resistance risk",
+    "advice": "Rotate herbicides across seasons"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid spray drift",
+    "Follow recommended dose"
+  ],
+
+  "benefits": [
+    "Controls grass, broadleaf and sedge weeds",
+    "Single spray solution",
+    "Reduces manual weeding cost",
+    "Triple mode action",
+    "Effective on mixed weed infestation",
+    "Improves crop growth and yield"
+  ],
+
+  "farmer_benefits": [
+    "اک سپرے نال ساری جڑی بوٹی ختم",
+    "کھیت صاف ہو جاندا اے",
+    "گوڈی دا خرچہ بچدا اے",
+    "فصل نوں کھلی جگہ ملدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Post-emergence herbicide for controlling mixed weeds including grasses, broadleaf weeds and sedges.",
+    "urdu": "ہر قسم کی جڑی بوٹی کے خاتمے کے لیے بہترین دوا۔",
+    "punjabi": "ہر قسم دی جڑی بوٹی ختم کرن لئی زبردست سپرے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "mixed weed infestation",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "grass + broadleaf weeds",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "sedge (motha) problem",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Duo plus Star is a post emergence herbicide combination of rimsulfuron quizalofop and bentazone used for control of mixed weeds including grasses broadleaf weeds and sedges in crops like potato soybean and groundnut. It provides triple mode action and effective weed control in one spray."
 }

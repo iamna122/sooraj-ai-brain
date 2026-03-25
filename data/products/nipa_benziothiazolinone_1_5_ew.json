@@ -2,61 +2,65 @@
   "product_id": "sooraj_nipa_benziothiazolinone_1_5_ew",
   "product_name": "NIPA",
   "brand": "Sooraj Crop Sciences",
-  "product_type": "Fungicide / Bactericide",
+
   "category": "Fungicide",
+  "type": "Contact fungicide + bactericide (Multi-site)",
+
+  "formulation": "EW (Emulsion in Water)",
+  "systemicity": "Contact",
+
+  "mode_of_action_summary": "Benziothiazolinone acts as a multi-site contact fungicide and bactericide, disrupting cell metabolism and structure of pathogens. It provides protective control and reduces resistance risk.",
 
   "active_ingredients": [
     {
       "name": "Benziothiazolinone",
       "percentage": "1.5%",
-      "mode_of_action": "Multi-site contact action that disrupts pathogen cell metabolism and structure"
+      "mode_of_action": "Multi-site contact action disrupting pathogen cell metabolism"
     }
   ],
 
-  "formulation_type": "EW (Emulsion in Water)",
-  "systemicity": "Contact",
+  "target_pests": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
 
-  "targets": {
-    "diseases": [
-      "bacterial leaf spot",
-      "bacterial blight",
-      "bacterial streak",
-      "leaf spot",
-      "early blight",
-      "head blight",
-      "scab",
-      "powdery mildew",
-      "rice blast"
-    ]
-  },
-
-  "farmer_symptoms": [
-    "پتیاں تے پانی والے داغ",
-    "پتیاں تے بھورے یا کالے دھبے",
-    "پتے جل رہے نیں",
-    "پتیاں سڑ رہی نیں",
-    "پتیاں وچ سوراخ ورگے نشان",
-    "بیماری تیزی نال پھیل رہی اے",
-    "چاول دا بلاست",
-    "دھان دیاں پتیاں تے داغ",
-    "گندم دا ہیڈ بلائٹ",
-    "ٹماٹر تے جھلساؤ",
-    "مرچ تے پتیاں خراب",
-    "بیکٹیریا دا حملہ",
-    "پتیاں تے چکنے داغ",
-    "leaf spot in crop",
-    "blight attack",
-    "bacterial disease in crop"
+  "target_diseases": [
+    "bacterial leaf spot",
+    "bacterial blight",
+    "bacterial streak",
+    "leaf spot",
+    "early blight",
+    "head blight",
+    "scab",
+    "powdery mildew",
+    "rice blast"
   ],
 
-  "crop_applicability": {
-    "major_crops": [
-      "wheat",
-      "rice",
-      "citrus",
-      "apple"
+  "disease_categories": {
+    "bacterial_diseases": [
+      "bacterial leaf spot",
+      "bacterial blight",
+      "bacterial streak"
     ],
-    "all_supported_crops": [
+    "fungal_diseases": [
+      "leaf spot",
+      "early blight",
+      "powdery mildew",
+      "rice blast",
+      "scab",
+      "head blight"
+    ],
+    "mixed_infection_cases": "Useful where farmer cannot clearly differentiate between fungal and bacterial infection"
+  },
+
+  "disease_behavior": {
+    "spread_pattern": "Spreads rapidly under humid conditions",
+    "infection_type": "Surface infection (contact control effective)",
+    "risk": "High in wet and humid weather"
+  },
+
+  "crops": {
+    "major": ["wheat", "rice", "citrus", "apple"],
+    "all": [
       "wheat",
       "rice",
       "citrus",
@@ -66,44 +70,157 @@
       "tomato",
       "potato",
       "vegetables",
-      "fruits",
-      "field crops"
+      "fruits"
     ]
   },
 
-  "dosage": {
-    "per_acre": "As per label recommendation"
-  },
-
-  "application_details": {
-    "application_method": "Foliar spray"
-  },
-
-  "best_time_to_apply": [
-    "Morning",
-    "Evening"
+  "farmer_crop_terms": [
+    "gandum",
+    "dhan",
+    "tamatar",
+    "mirch"
   ],
 
-  "farmer_benefits": [
-    "Controls both bacterial and fungal diseases",
-    "Low resistance risk",
-    "Protective action on leaves",
-    "Stops disease spread quickly",
-    "Improves plant health"
+  "symptoms": {
+    "urdu": [
+      "پتوں پر پانی جیسے دھبے",
+      "پتوں پر بھورے یا کالے دھبے",
+      "پتے جل رہے ہیں",
+      "پتے سڑ رہے ہیں",
+      "بیماری تیزی سے پھیل رہی ہے"
+    ],
+    "punjabi": [
+      "پتیاں تے پانی والے داغ",
+      "پتیاں تے کالے داغ",
+      "پتے جل رہے نیں",
+      "بیماری تیزی نال پھیل رہی اے"
+    ],
+    "roman_urdu": [
+      "leaf spot aa gaya hai",
+      "bacterial infection ho gaya",
+      "blight attack ho gaya",
+      "disease fast spread ho rahi hai"
+    ],
+    "english": [
+      "water soaked spots",
+      "brown or black lesions",
+      "leaf burn",
+      "rapid disease spread",
+      "blight symptoms"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "leaf spot control",
+    "bacterial disease spray",
+    "blight control",
+    "rice blast treatment",
+    "tamatar par daag ka ilaj",
+    "bacterial infection in crops",
+    "disease fast spread ho rahi hai"
   ],
 
   "search_keywords": [
-    "bacterial disease control spray",
-    "fungicide for blight",
-    "rice blast control",
-    "wheat head blight spray",
-    "بیکٹیریا دی دوا",
-    "بلائٹ دا سپرے",
-    "چاول دا بلاست سپرے",
-    "پتیاں تے داغ دی دوا"
+    "bactericide spray",
+    "fungicide for leaf spot",
+    "blight control spray",
+    "rice blast fungicide",
+    "بیکٹیریا کی دوا",
+    "بلائٹ کنٹرول",
+    "پتوں کے داغ کی دوا"
   ],
 
-  "master_descriptions": {
-    "punjabi_shahmukhi": "نیپا اک رابطہ والی فنگس کش تے بیکٹیریا کش اے جو پتیاں تے داغ، بلاست، بلائٹ تے بیکٹیریا والیاں بیماریوں نوں شروع وچ ہی کنٹرول کردا اے۔"
-  }
+  "intent_tags": ["disease", "fungicide", "bactericide"],
+
+  "dosage": {
+    "per_acre": "As per label (typically 200–300 ml depending on crop)",
+    "method": "Foliar spray",
+    "frequency": "1–2 sprays",
+    "interval": "7–10 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform foliar spray covering full leaf surface",
+    "coverage": "Important for contact fungicide effectiveness"
+  },
+
+  "crop_stage_recommendation": [
+    "Preventive stage",
+    "Early disease appearance"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "High humidity (disease stage)"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after spray",
+      "Strong wind"
+    ]
+  },
+
+  "compatibility": {
+    "recommended_with": [
+      "systemic fungicides (for combination control)"
+    ],
+    "not_recommended_with": [
+      "strong alkaline products"
+    ]
+  },
+
+  "resistance_management": {
+    "type": "Multi-site fungicide",
+    "advantage": "Low resistance risk",
+    "advice": "Can be rotated or combined with systemic fungicides"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid spray drift",
+    "Follow recommended dose"
+  ],
+
+  "benefits": [
+    "Controls both bacterial and fungal diseases",
+    "Low resistance risk",
+    "Good protective action",
+    "Stops disease spread",
+    "Useful in mixed infections"
+  ],
+
+  "farmer_benefits": [
+    "بیکٹیریا تے فنگس دونوں ختم",
+    "بیماری رک جاندی اے",
+    "پتے صاف رہندے نیں",
+    "فصل محفوظ رہندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Contact fungicide and bactericide for controlling leaf spots, blight and bacterial diseases.",
+    "urdu": "فنگس اور بیکٹیریا دونوں بیماریوں کے لیے بہترین دوا۔",
+    "punjabi": "فنگس تے بیکٹیریا دونوں لئی زبردست دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "bacterial leaf spot",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "blight disease",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "mixed infection",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "powdery mildew",
+      "solution_strength": "medium"
+    }
+  ],
+
+  "embedding_text": "NIPA fungicide contains benziothiazolinone and is used for control of both bacterial and fungal diseases like leaf spot blight and rice blast in crops like wheat rice vegetables and fruits. It provides contact protective action and is useful when disease is spreading quickly."
 }

@@ -1,58 +1,61 @@
 {
-  "product_id": "ceedo_20_sc",
+  "product_id": "sooraj_ceedo_20_sc",
   "product_name": "Ceedo 20% SC",
   "brand": "Sooraj Crop Sciences",
-  "product_type": "Insecticide",
+
   "category": "Insecticide",
+  "type": "Systemic neonicotinoid insecticide",
+
+  "formulation": "SC (Suspension Concentrate)",
+  "systemicity": "Systemic + translaminar + contact",
+
+  "mode_of_action_summary": "Clothianidin acts as a nicotinic acetylcholine receptor agonist, overstimulating insect nervous system, stopping feeding within hours and causing paralysis and death within 24–48 hours. It is absorbed by leaves and roots and moves through xylem to protect entire plant including new growth.",
 
   "active_ingredients": [
     {
       "name": "Clothianidin",
       "percentage": "20%",
-      "mode_of_action": "nAChR agonist that disrupts the insect nervous system causing feeding cessation, paralysis and death"
+      "chemical_group": "Neonicotinoid",
+      "irac_group": "Group 4A",
+      "mode_of_action": "nAChR agonist causing nervous system disruption"
     }
   ],
 
-  "chemical_group": "Neonicotinoid (IRAC Group 4A)",
-  "formulation_type": "SC (Suspension Concentrate)",
-  "systemicity": "Systemic + Translaminar + Contact",
-  "mode_of_action_summary": "Absorbed by leaves and roots and moves through xylem to entire plant. Overstimulates nicotinic acetylcholine receptors in insects, stopping feeding within hours and killing them within 24–48 hours.",
+  "target_pests": [
+    "aphid",
+    "whitefly",
+    "jassid",
+    "thrips",
+    "brown planthopper",
+    "green leafhopper",
+    "white backed planthopper",
+    "mealybug",
+    "scale insects",
+    "psyllid"
+  ],
 
-  "targets": {
-    "weeds": [],
-    "diseases": [],
-    "insects": [
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "sucking_pests": [
       "aphid",
       "whitefly",
       "jassid",
       "thrips",
-      "brown planthopper",
-      "green leafhopper",
-      "white backed planthopper",
-      "mealybug",
-      "scale insects",
+      "planthoppers",
       "psyllid"
     ],
-    "nutrient_deficiencies": []
+    "hidden_pests": [
+      "mealybug",
+      "scale insects"
+    ]
   },
 
-  "farmer_symptoms": [
-    "پتیاں مڑ رہیاں نیں تے رس چوسیا جا ریا اے",
-    "سفید مکھی بہت زیادہ اے",
-    "ٹیلہ فصل نوں کمزور کر ریا اے",
-    "مہو دی کالونیاں بن گئیاں نیں",
-    "پتیاں پیلیاں تے چپچپی ہو گئیاں نیں",
-    "چاول وچ تہسین دا حملہ اے",
-    "پتیاں تھلے کیڑے لُکے ہوئے نیں",
-    "پودا ہرا نہیں رہیا تے بڑھوتری رک گئی اے"
-  ],
-
-  "crop_applicability": {
-    "major_crops": [
-      "rice",
-      "cotton"
-    ],
-    "all_supported_crops": [
+  "crops": {
+    "major": ["rice", "cotton"],
+    "all": [
       "rice",
       "cotton",
       "wheat",
@@ -65,21 +68,80 @@
     ]
   },
 
+  "farmer_crop_terms": [
+    "dhaan",
+    "chawal",
+    "kapas",
+    "makai",
+    "ganna"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتیاں مڑ رہی ہیں",
+      "چپچپا مادہ آ رہا ہے",
+      "پودا کمزور ہو رہا ہے",
+      "سفید مکھی کا حملہ",
+      "مہو کی کالونیاں بن گئی ہیں"
+    ],
+    "punjabi": [
+      "پتیاں مڑ گئیاں نیں",
+      "تیلا بہت زیادہ اے",
+      "پودا کمزور ہو گیا اے",
+      "پتے چپچپے ہو گئے نیں"
+    ],
+    "roman_urdu": [
+      "whitefly attack",
+      "pattay mur gaye",
+      "chipchipa madah aa raha hai",
+      "aphid attack ho gaya",
+      "thrips damage ho raha hai"
+    ],
+    "english": [
+      "leaf curling",
+      "sticky honeydew",
+      "yellowing leaves",
+      "stunted growth",
+      "sucking pest infestation"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "whitefly on cotton",
+    "jassid attack in cotton",
+    "rice hopper control",
+    "aphid attack spray",
+    "thrips in vegetables",
+    "kapas par teela",
+    "dhaan mein hopper attack",
+    "sucking pest control spray"
+  ],
+
+  "search_keywords": [
+    "clothianidin insecticide",
+    "sucking pest control",
+    "whitefly medicine",
+    "jassid spray",
+    "rice hopper control",
+    "systemic insecticide",
+    "تیلا کنٹرول",
+    "مہو دا علاج"
+  ],
+
+  "intent_tags": ["insect"],
+
   "dosage": {
     "per_acre": "100–200 ml",
     "per_100_litre": "80–100 ml",
-    "spray_volume_per_acre": "80–120 litres",
-    "application_coverage": "Depends on crop and dose"
+    "water_volume": "80–120 liters per acre",
+    "method": "Foliar spray",
+    "frequency": "Based on pest threshold",
+    "best_time": ["Morning", "Evening"]
   },
 
   "application_details": {
-    "application_method": "Foliar spray",
-    "equipment": [
-      "knapsack sprayer",
-      "boom sprayer"
-    ],
-    "number_of_applications": "Apply at economic threshold level",
-    "coverage_requirement": "Uniform spray on upper and lower leaf surface"
+    "method": "Uniform foliar spray covering upper and lower leaf surface",
+    "equipment": ["knapsack sprayer", "boom sprayer"]
   },
 
   "crop_stage_recommendation": [
@@ -87,14 +149,12 @@
     "Vegetative stage"
   ],
 
-  "best_time_to_apply": [
-    "Morning",
-    "Evening"
-  ],
-
-  "weather_conditions": {
-    "ideal_condition": "Mild temperature with low wind",
-    "avoid": [
+  "weather_guidelines": {
+    "best_conditions": [
+      "Mild temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
       "Spray during flowering",
       "Strong wind",
       "Rain within 2 hours",
@@ -102,100 +162,70 @@
     ]
   },
 
-  "tank_mix_compatibility": [
-    "Most fungicides",
-    "Foliar fertilizers",
-    "Pyrethroids"
-  ],
-
-  "incompatible_with": [
-    "Strong alkaline products",
-    "Other neonicotinoids"
-  ],
-
-  "crop_safety": {
-    "selectivity_reason": "Rapid metabolism and recommended dose safety",
-    "overdose_effect": "Temporary leaf stress or phytotoxicity"
-  },
-
-  "resistance_management": {
-    "mode_of_action_group": "IRAC Group 4A",
-    "rotation_advice": "Rotate with insecticides of different mode of action to avoid resistance"
-  },
-
-  "safety": {
-    "re_entry_interval": "24 hours",
-    "pre_harvest_interval": "3–14 days depending on crop",
-    "toxicity_class": "Moderate toxicity",
-    "protective_measures": [
-      "Wear gloves",
-      "Wear mask",
-      "Avoid spray during pollinator activity",
-      "Avoid drift to water bodies"
+  "compatibility": {
+    "recommended_with": [
+      "fungicides",
+      "foliar fertilizers",
+      "pyrethroids"
+    ],
+    "not_recommended_with": [
+      "strong alkaline products",
+      "other neonicotinoids"
     ]
   },
 
-  "storage": {
-    "storage_conditions": "Store in cool and dry place",
-    "keep_away_from": [
-      "Children",
-      "Food",
-      "Direct sunlight"
-    ],
-    "shelf_life": "2 years"
+  "resistance_management": {
+    "group": "IRAC 4A",
+    "advice": "Rotate with different mode of action insecticides"
   },
 
-  "packaging": {
-    "pack_sizes": [
-      "150 ml",
-      "250 ml"
-    ],
-    "form": "Liquid"
-  },
-
-  "farmer_benefits": [
-    "Fast feeding stop within hours",
-    "Long residual control",
-    "Systemic protection for new growth",
-    "Controls major sucking pests",
-    "Improves crop vigor and greenness",
-    "Low dose effective"
+  "safety": [
+    "Avoid spray during flowering (bee toxicity)",
+    "Wear PPE",
+    "Avoid drift to water bodies",
+    "Follow recommended dose"
   ],
 
-  "frequently_asked_questions": [
+  "benefits": [
+    "Fast feeding stop within hours",
+    "Kills pests within 24–48 hours",
+    "Long residual control",
+    "Systemic protection for new growth",
+    "Effective on major sucking pests",
+    "Low dose required"
+  ],
+
+  "farmer_benefits": [
+    "تیلا فوراً ختم ہو جاندا اے",
+    "پودا ہرا بھرا ہو جاندا اے",
+    "لمبے ٹائم تک تحفظ ملدا اے",
+    "نواں اگن والا حصہ وی محفوظ رہندا اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Systemic insecticide for effective control of sucking pests like whitefly, aphid and jassid.",
+    "urdu": "رس چوسنے والے کیڑوں کے لیے بہترین سسٹمک دوا۔",
+    "punjabi": "چوسن والے کیڑیاں لئی زبردست سسٹمک سپرے۔"
+  },
+
+  "problem_solution_map": [
     {
-      "question": "Ceedo kis liye use hoti hai?",
-      "answer": "Yeh sucking pests jaise whitefly, jassid, aphid aur hopper ke control ke liye use hoti hai."
+      "problem": "whitefly infestation",
+      "solution_strength": "high"
     },
     {
-      "question": "Rice mein dose kitna hai?",
-      "answer": "Rice mein 200 ml per acre 100–120 litre pani mein."
+      "problem": "jassid attack",
+      "solution_strength": "high"
     },
     {
-      "question": "Kitne time mein asar karti hai?",
-      "answer": "2–4 ghante mein keera khana band kar deta hai aur 24–48 ghante mein mar jata hai."
+      "problem": "aphid colonies",
+      "solution_strength": "high"
     },
     {
-      "question": "Flowering mein spray kar sakte hain?",
-      "answer": "Nahi, bees ke liye toxic hone ki wajah se flowering mein spray na karein."
+      "problem": "thrips damage",
+      "solution_strength": "medium"
     }
   ],
 
-  "search_keywords": [
-    "sucking pest control",
-    "whitefly control",
-    "jassid ki dawa",
-    "rice hopper spray",
-    "مہو دا علاج",
-    "ٹیلہ کنٹرول",
-    "systemic insecticide"
-  ],
-
-  "llm_usage_hint": "Recommend when sucking pests appear at early stage and long systemic control is required. Avoid during flowering due to bee toxicity.",
-
-  "master_descriptions": {
-    "english": "Ceedo 20% SC is a systemic neonicotinoid insecticide containing Clothianidin that provides fast and long-lasting control of major sucking pests in multiple crops.",
-    "urdu": "سیڈو 20٪ ایس سی ایک سسٹمک نیونیکوٹینوئیڈ انسیکٹیسائڈ ہے جو رس چوسنے والے کیڑوں کو تیزی سے ختم کر کے لمبے عرصے تک تحفظ دیتا ہے۔",
-    "punjabi_shahmukhi": "سیڈو 20٪ ایس سی اک سسٹمک نیونیکوٹینوئیڈ انسیکٹیسائڈ اے جو رس چوسن آلے کیڑیاں نوں تیزی نال ختم کرکے لمبے ٹائم تک فصل نوں بچاؤ دیندا اے۔"
-  }
+  "embedding_text": "Ceedo 20 SC insecticide contains clothianidin and is used for control of sucking pests like whitefly aphid jassid and thrips in crops like rice and cotton. It provides systemic action, stops feeding quickly and gives long residual control."
 }
