@@ -1,0 +1,203 @@
+{
+  "product_id": "zaildar_5_wdg",
+  "product_name": "Zaildar 5% WDG",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Insecticide",
+  "type": "Larvicide insecticide (Caterpillar specialist)",
+
+  "formulation": "WDG (Water Dispersible Granules)",
+  "systemicity": "Translaminar (partial systemic)",
+
+  "mode_of_action_summary": "Emamectin benzoate activates chloride channels in insect nerve cells, causing paralysis and stopping feeding immediately. It is highly effective against caterpillars and larvae stages.",
+
+  "active_ingredients": [
+    {
+      "name": "Emamectin Benzoate",
+      "percentage": "5%",
+      "chemical_group": "Avermectin (IRAC Group 6)",
+      "mode_of_action": "Chloride channel activator causing paralysis and feeding cessation"
+    }
+  ],
+
+  "target_pests": [
+    "bollworms",
+    "helicoverpa",
+    "spodoptera (armyworm)",
+    "fruit borer",
+    "leaf folder",
+    "caterpillars"
+  ],
+
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "larvae_pests": [
+      "bollworms",
+      "helicoverpa",
+      "spodoptera",
+      "fruit borer",
+      "leaf folder"
+    ],
+    "sucking_pests": []
+  },
+
+  "pest_behavior": {
+    "leaf_feeding": "Larvae feed on leaves and reduce photosynthesis",
+    "fruit_damage": "Borers damage fruits reducing quality",
+    "hidden_feeding": "Larvae feed inside plant parts making control difficult"
+  },
+
+  "crops": {
+    "major": ["cotton", "vegetables"],
+    "all": [
+      "cotton",
+      "chilli",
+      "tomato",
+      "okra",
+      "brinjal"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "kapas",
+    "mirch",
+    "tamatar",
+    "bhindi",
+    "baingan"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "سنڈی پتیاں کھا رہی ہے",
+      "پھل میں سوراخ ہو گیا ہے",
+      "پودا خراب ہو رہا ہے",
+      "کیڑا اندر چھپا ہوا ہے"
+    ],
+    "punjabi": [
+      "سنڈی پتے کھا رہی اے",
+      "پھل وچ سوراخ اے",
+      "پودا خراب ہو رہا اے"
+    ],
+    "roman_urdu": [
+      "sundi pattay kha rahi hai",
+      "fruit mein hole ho gaya hai",
+      "keera andar hai",
+      "bollworm attack"
+    ],
+    "english": [
+      "caterpillar damage",
+      "fruit borer holes",
+      "leaf feeding damage",
+      "larvae infestation"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "bollworm control",
+    "caterpillar spray",
+    "sundi ka ilaj",
+    "fruit borer control",
+    "armyworm control"
+  ],
+
+  "search_keywords": [
+    "emamectin benzoate insecticide",
+    "caterpillar control",
+    "bollworm spray",
+    "larvicide insecticide",
+    "سنڈی مار دوا"
+  ],
+
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "80–100 g",
+    "method": "Foliar spray",
+    "frequency": "7–10 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Spray on early larval stage",
+    "coverage": "Ensure deep penetration into foliage",
+    "water_volume": "100–120 liters per acre"
+  },
+
+  "crop_stage_recommendation": [
+    "Early larval stage",
+    "At pest appearance"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Active pest feeding"
+    ],
+    "avoid_conditions": [
+      "Rain after spray",
+      "Extreme heat"
+    ]
+  },
+
+  "resistance_management": {
+    "group": "IRAC Group 6",
+    "risk": "Moderate resistance risk",
+    "advice": "Rotate with other insecticide groups"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid inhalation",
+    "Follow label instructions"
+  ],
+
+  "benefits": [
+    "Highly effective against caterpillars",
+    "Stops feeding quickly",
+    "Works on hidden larvae",
+    "Improves crop protection"
+  ],
+
+  "farmer_benefits": [
+    "سنڈی فوراً کھانا چھوڑ دی اے",
+    "پھل محفوظ رہندا اے",
+    "پودا بچ جاندا اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Specialized insecticide for control of caterpillars and borers.",
+    "urdu": "سنڈی اور بورر کے لیے خاص دوا۔",
+    "punjabi": "سنڈی تے بورر لئی زبردست دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "bollworm attack",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "caterpillar infestation",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Caterpillars present",
+      "Larval stage detected",
+      "Fruit or leaf damage visible",
+      "Hidden pest problem"
+    ],
+    "do_not_recommend_when": [
+      "Only sucking pests present",
+      "Late stage severe infestation",
+      "Need broad-spectrum insecticide"
+    ]
+  },
+
+  "embedding_text": "Emamectin benzoate 5 WDG insecticide is used for control of caterpillars bollworms and borers. It stops feeding quickly and provides strong control of larvae in crops like cotton and vegetables."
+}

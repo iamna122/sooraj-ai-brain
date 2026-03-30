@@ -1,0 +1,195 @@
+{
+  "product_id": "clodinafop_15_wp",
+  "product_name": "Clodinafop 15% WP",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Herbicide",
+  "type": "Selective post-emergence herbicide (Grass-specific for wheat)",
+
+  "formulation": "WP (Wettable Powder)",
+  "systemicity": "Systemic",
+
+  "mode_of_action_summary": "Clodinafop inhibits ACCase enzyme in grassy weeds, blocking lipid synthesis and stopping growth, leading to effective control of grass weeds in wheat.",
+
+  "active_ingredients": [
+    {
+      "name": "Clodinafop-propargyl",
+      "percentage": "15%",
+      "chemical_group": "ACCase inhibitor (HRAC Group 1)",
+      "mode_of_action": "Stops lipid synthesis in grasses"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_nutrient_deficiencies": [],
+
+  "target_weeds": [
+    "phalaris minor (gulli danda)",
+    "wild oats (jangli jai)"
+  ],
+
+  "weed_categories": {
+    "grassy": [
+      "phalaris minor",
+      "wild oats"
+    ],
+    "broadleaf": [],
+    "sedges": []
+  },
+
+  "weed_behavior": {
+    "stage": "2–4 leaf stage",
+    "control_window": "Post-emergence",
+    "effect": "Stops growth and kills grasses"
+  },
+
+  "crops": {
+    "major": ["wheat"],
+    "all": [
+      "wheat"
+    ]
+  },
+
+  "unsafe_crops": [
+    "rice",
+    "maize",
+    "cotton",
+    "vegetables"
+  ],
+
+  "farmer_crop_terms": [
+    "gandum"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "گندم میں گلی ڈنڈا آ گیا ہے",
+      "جنگلی جئی نکل آئی ہے",
+      "گھاس فصل کو دبا رہی ہے"
+    ],
+    "punjabi": [
+      "گندم وچ گلی ڈنڈا اے",
+      "جنگلی جئی اے"
+    ],
+    "roman_urdu": [
+      "gandum mein gulli danda aa gaya",
+      "jangli jai aa gayi hai",
+      "grass problem hai"
+    ],
+    "english": [
+      "phalaris minor in wheat",
+      "wild oats in wheat",
+      "grass infestation in wheat"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "gulli danda control",
+    "wild oats control",
+    "grass control in wheat",
+    "wheat herbicide grass"
+  ],
+
+  "search_keywords": [
+    "clodinafop herbicide",
+    "wheat grass control",
+    "phalaris minor control",
+    "wild oats control",
+    "گندم دی گھاس دی دوا"
+  ],
+
+  "intent_tags": ["weed", "herbicide", "post_emergence", "grass_specific", "wheat_specific"],
+
+  "dosage": {
+    "per_acre": "120–160 g",
+    "water_volume": "100–120 liters per acre",
+    "method": "Foliar spray",
+    "frequency": "Single application",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform spray on actively growing weeds",
+    "coverage": "Full weed coverage required"
+  },
+
+  "crop_stage_recommendation": [
+    "25–35 days after sowing",
+    "Weeds at 2–4 leaf stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Active weed growth",
+      "Moderate temperature"
+    ],
+    "avoid_conditions": [
+      "Rain after spray",
+      "Stress conditions"
+    ]
+  },
+
+  "critical_usage_notes": [
+    "Controls only grassy weeds",
+    "Use only in wheat",
+    "Not effective on broadleaf weeds"
+  ],
+
+  "resistance_management": {
+    "group": "HRAC Group 1",
+    "risk": "High resistance risk",
+    "advice": "Rotate with different herbicides"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid drift",
+    "Follow label dose"
+  ],
+
+  "benefits": [
+    "Effective control of phalaris minor",
+    "Selective for wheat",
+    "Systemic action",
+    "Improves crop growth"
+  ],
+
+  "farmer_benefits": [
+    "گلی ڈنڈا ختم ہو جاندا اے",
+    "گندم مضبوط ہو جاندی اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Selective herbicide for controlling grassy weeds in wheat.",
+    "urdu": "گندم میں گھاس کو ختم کرنے والی دوا۔",
+    "punjabi": "گندم وچ گھاس ختم کرن والی دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "gulli danda",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "wild oats",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Crop is wheat",
+      "Only grassy weeds present",
+      "Post-emergence stage"
+    ],
+    "do_not_recommend_when": [
+      "Crop is rice or cotton",
+      "Mixed weeds present",
+      "Pre-emergence stage"
+    ]
+  },
+
+  "embedding_text": "Clodinafop 15 WP herbicide is used in wheat for post emergence control of grassy weeds like phalaris minor and wild oats. It is a selective ACCase inhibitor that controls only grasses."
+}

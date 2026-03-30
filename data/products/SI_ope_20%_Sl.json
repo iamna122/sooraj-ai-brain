@@ -1,0 +1,187 @@
+{
+  "product_id": "paraquat_20_sl",
+  "product_name": "SIope 20% SL (Paraquat 20% SL)",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Herbicide",
+  "type": "Non-selective contact herbicide",
+
+  "formulation": "SL (Soluble Liquid)",
+  "systemicity": "Contact (non-systemic)",
+
+  "mode_of_action_summary": "Paraquat produces reactive oxygen species that destroy cell membranes in plant tissue, leading to rapid desiccation and burning of green parts of weeds.",
+
+  "active_ingredients": [
+    {
+      "name": "Paraquat dichloride",
+      "percentage": "20%",
+      "chemical_group": "Bipyridylium (HRAC Group 22)",
+      "mode_of_action": "Disrupts cell membranes via oxidative damage"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_nutrient_deficiencies": [],
+
+  "target_weeds": [
+    "all grasses",
+    "all broadleaf weeds"
+  ],
+
+  "weed_categories": {
+    "grassy": ["all grasses"],
+    "broadleaf": ["all broadleaf weeds"]
+  },
+
+  "weed_behavior": {
+    "stage": "Active growth stage",
+    "control_window": "Post-emergence",
+    "effect": "Rapid burn of green tissue"
+  },
+
+  "crops": {
+    "major": [],
+    "all": [
+      "non-crop areas",
+      "orchards (directed spray)",
+      "inter-row application"
+    ]
+  },
+
+  "unsafe_crops": [
+    "all crops (if sprayed directly)"
+  ],
+
+  "farmer_crop_terms": [
+    "ghaas jalani hai",
+    "jaldi safai",
+    "fast spray"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "گھاس کو فوراً جلانا ہے",
+      "جلدی کھیت صاف کرنا ہے"
+    ],
+    "punjabi": [
+      "گھاس نوں فوراً جلانا اے",
+      "جلدی صفائی کرنی اے"
+    ],
+    "roman_urdu": [
+      "jaldi ghaas jalani hai",
+      "fast weed killer chahiye",
+      "turant effect chahiye"
+    ],
+    "english": [
+      "rapid weed kill",
+      "fast acting herbicide",
+      "burn weeds quickly"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "fast weed killer",
+    "paraquat spray",
+    "weed burning spray",
+    "jaldi ghaas khatam"
+  ],
+
+  "search_keywords": [
+    "paraquat herbicide",
+    "fast weed killer",
+    "contact herbicide",
+    "weed burn spray",
+    "گھاس جلانے والی دوا"
+  ],
+
+  "intent_tags": ["weed", "herbicide", "contact", "fast_action"],
+
+  "dosage": {
+    "per_acre": "500–800 ml",
+    "water_volume": "100–150 liters per acre",
+    "method": "Foliar spray",
+    "frequency": "Single application",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Directed spray on weeds",
+    "coverage": "Full leaf coverage required"
+  },
+
+  "crop_stage_recommendation": [
+    "Non-crop stage",
+    "Inter-row use"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Sunny weather",
+      "Active weed growth"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after spray",
+      "Strong wind"
+    ]
+  },
+
+  "critical_usage_notes": [
+    "Kills only green parts",
+    "Roots may regrow",
+    "Do not spray on crop"
+  ],
+
+  "resistance_management": {
+    "group": "HRAC Group 22",
+    "risk": "Low resistance risk"
+  },
+
+  "safety": [
+    "Highly toxic - use PPE",
+    "Avoid skin and inhalation exposure",
+    "Keep away from children",
+    "Follow safety guidelines strictly"
+  ],
+
+  "benefits": [
+    "Very fast action",
+    "Quick field cleaning",
+    "Effective on all green weeds",
+    "Useful in inter-row and orchards"
+  ],
+
+  "farmer_benefits": [
+    "گھاس فوراً جل جاندی اے",
+    "کھیت جلدی صاف ہو جاندا اے",
+    "فوری اثر نظر آندا اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Fast acting contact herbicide for quick weed burn.",
+    "urdu": "گھاس کو فوراً جلانے والی دوا۔",
+    "punjabi": "گھاس نوں فوراً جلاؤن والی دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "fast weed removal",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Farmer needs quick weed removal",
+      "Non-crop area",
+      "Inter-row application"
+    ],
+    "do_not_recommend_when": [
+      "Crop present (direct spray)",
+      "Need root kill",
+      "Selective control needed"
+    ]
+  },
+
+  "embedding_text": "Paraquat 20 SL herbicide is a fast acting contact herbicide used for quick weed burn in non crop areas and inter row application. It kills green parts of weeds but does not kill roots completely."
+}

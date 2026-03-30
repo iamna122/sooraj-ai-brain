@@ -1,0 +1,204 @@
+{
+  "product_id": "iktara_25_wg",
+  "product_name": "IKTARA 25% WG",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Insecticide",
+  "type": "Systemic insecticide (Neonicotinoid)",
+
+  "formulation": "WG (Water Dispersible Granules)",
+  "systemicity": "Systemic",
+
+  "mode_of_action_summary": "Thiamethoxam is a systemic neonicotinoid insecticide that acts on nicotinic acetylcholine receptors in insects, causing paralysis and death. It is rapidly absorbed and translocated within the plant, providing strong and long-lasting control.",
+
+  "active_ingredients": [
+    {
+      "name": "Thiamethoxam",
+      "percentage": "25%",
+      "chemical_group": "Neonicotinoid (IRAC Group 4A)",
+      "mode_of_action": "nAChR agonist causing nervous system disruption"
+    }
+  ],
+
+  "target_pests": [
+    "whitefly",
+    "aphid",
+    "jassid",
+    "thrips",
+    "leaf hopper"
+  ],
+
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "sucking_pests": [
+      "whitefly",
+      "aphid",
+      "jassid",
+      "thrips",
+      "leaf hopper"
+    ],
+    "chewing_pests": []
+  },
+
+  "pest_behavior": {
+    "sap_sucking": "Pests suck plant sap causing yellowing and curling",
+    "virus_spread": "Sucking pests spread viral diseases",
+    "rapid_growth": "Pests multiply quickly under favorable conditions"
+  },
+
+  "crops": {
+    "major": ["cotton", "rice"],
+    "all": [
+      "cotton",
+      "rice",
+      "wheat",
+      "maize",
+      "vegetables"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "kapas",
+    "dhan",
+    "gandum",
+    "makai"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "سفید مکھی کا حملہ",
+      "پتیاں سکڑ رہی ہیں",
+      "پودا کمزور ہو رہا ہے",
+      "چپچپا مادہ بن رہا ہے"
+    ],
+    "punjabi": [
+      "تیلا لگ گیا اے",
+      "پتے مڑ گئے نیں",
+      "پودا کمزور ہو گیا اے"
+    ],
+    "roman_urdu": [
+      "whitefly attack",
+      "pattay mur gaye",
+      "plant weak ho raha hai",
+      "chipchipa madah"
+    ],
+    "english": [
+      "whitefly infestation",
+      "leaf curling",
+      "sap sucking damage",
+      "sticky honeydew"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "whitefly control",
+    "aphid control spray",
+    "jassid control cotton",
+    "thrips control",
+    "leaf hopper control",
+    "sucking pest insecticide"
+  ],
+
+  "search_keywords": [
+    "thiamethoxam insecticide",
+    "systemic insecticide",
+    "whitefly control",
+    "aphid spray",
+    "neonicotinoid insecticide",
+    "تیلا کنٹرول دوا"
+  ],
+
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "60–80 g",
+    "method": "Foliar spray or seed/soil treatment",
+    "frequency": "10–14 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform spray or seed treatment",
+    "coverage": "Ensure full plant absorption",
+    "water_volume": "100–120 liters per acre"
+  },
+
+  "crop_stage_recommendation": [
+    "Early infestation",
+    "Vegetative stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "Rain after spray",
+      "Extreme heat"
+    ]
+  },
+
+  "resistance_management": {
+    "group": "IRAC Group 4A",
+    "risk": "High resistance risk",
+    "advice": "Rotate with non-neonicotinoid insecticides"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid overuse",
+    "Protect pollinators",
+    "Follow label instructions"
+  ],
+
+  "benefits": [
+    "Strong systemic action",
+    "Effective against sucking pests",
+    "Long residual protection",
+    "Prevents virus transmission"
+  ],
+
+  "farmer_benefits": [
+    "تیلا ختم ہو جاندا اے",
+    "پودا مضبوط ہو جاندا اے",
+    "بیماری رک جاندی اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Systemic insecticide for effective control of sucking pests.",
+    "urdu": "چوسنے والے کیڑوں کے لیے مؤثر سسٹمک دوا۔",
+    "punjabi": "چوسن والے کیڑیاں لئی زبردست سسٹمک سپرے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "whitefly infestation",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "jassid attack",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Sucking pests present",
+      "Early infestation",
+      "Need systemic protection",
+      "Virus risk present"
+    ],
+    "do_not_recommend_when": [
+      "Chewing pests dominant",
+      "Repeated neonicotinoid use",
+      "Resistance present"
+    ]
+  },
+
+  "embedding_text": "Thiamethoxam 25 WG insecticide is used for control of sucking pests like whitefly aphid jassid thrips and leaf hopper. It is a systemic neonicotinoid insecticide providing strong and long lasting protection."
+}

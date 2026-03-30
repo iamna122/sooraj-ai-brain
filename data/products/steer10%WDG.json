@@ -1,0 +1,208 @@
+{
+  "product_id": "steer_10_wdg",
+  "product_name": "Steer 10% WDG",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Insecticide",
+  "type": "Pro-insecticide (Energy disruptor)",
+
+  "formulation": "WDG (Water Dispersible Granules)",
+  "systemicity": "Contact + translaminar",
+
+  "mode_of_action_summary": "Chlorfenapyr is a pro-insecticide that disrupts ATP production in insect mitochondria. It collapses energy generation leading to slow paralysis and death, making it highly effective against resistant pests.",
+
+  "active_ingredients": [
+    {
+      "name": "Chlorfenapyr",
+      "percentage": "10%",
+      "chemical_group": "Pyrrole (IRAC Group 13)",
+      "mode_of_action": "Disrupts ATP production in mitochondria"
+    }
+  ],
+
+  "target_pests": [
+    "thrips",
+    "mites",
+    "whitefly (partial)",
+    "caterpillars"
+  ],
+
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "sucking_pests": [
+      "thrips",
+      "whitefly"
+    ],
+    "mites": [
+      "spider mites"
+    ],
+    "chewing_pests": [
+      "caterpillars (moderate control)"
+    ]
+  },
+
+  "pest_behavior": {
+    "resistant_pests": "Effective against pests resistant to other insecticides",
+    "energy_disruption": "Insects lose energy and stop feeding",
+    "slow_action": "Death occurs gradually after energy depletion"
+  },
+
+  "crops": {
+    "major": ["cotton", "vegetables"],
+    "all": [
+      "cotton",
+      "chilli",
+      "tomato",
+      "okra",
+      "brinjal"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "kapas",
+    "mirch",
+    "tamatar",
+    "bhindi",
+    "baingan"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "تریپس کا شدید حملہ",
+      "پتے چمک رہے ہیں یا خراب ہو رہے ہیں",
+      "مکڑی نما کیڑے لگ گئے ہیں",
+      "دوا اثر نہیں کر رہی"
+    ],
+    "punjabi": [
+      "تریپس بہت زیادہ اے",
+      "پتے خراب ہو رہے نیں",
+      "مکڑی والے کیڑے لگ گئے نیں"
+    ],
+    "roman_urdu": [
+      "thrips attack heavy hai",
+      "mites lag gaye hain",
+      "dawai ka asar nahi ho raha",
+      "resistance ho gaya hai"
+    ],
+    "english": [
+      "thrips infestation",
+      "mite attack",
+      "resistant pest problem",
+      "leaf damage and discoloration"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "thrips control",
+    "mite control spray",
+    "resistant pest solution",
+    "whitefly control strong spray",
+    "strong insecticide for resistant pests"
+  ],
+
+  "search_keywords": [
+    "chlorfenapyr insecticide",
+    "thrips control",
+    "mite control",
+    "resistance insecticide",
+    "energy disruptor insecticide",
+    "تریپس کنٹرول دوا"
+  ],
+
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "150–200 g",
+    "method": "Foliar spray",
+    "frequency": "10–14 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Apply on active pest population",
+    "coverage": "Ensure full coverage including underside of leaves",
+    "water_volume": "100–120 liters per acre"
+  },
+
+  "crop_stage_recommendation": [
+    "Moderate to heavy infestation",
+    "Vegetative to flowering stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Active pest movement"
+    ],
+    "avoid_conditions": [
+      "Rain after spray",
+      "Extreme heat"
+    ]
+  },
+
+  "resistance_management": {
+    "group": "IRAC Group 13",
+    "advantage": "Different mode of action breaks resistance",
+    "advice": "Use in rotation with other insecticides"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid inhalation",
+    "Follow label instructions"
+  ],
+
+  "benefits": [
+    "Effective against resistant pests",
+    "Controls thrips and mites",
+    "Unique mode of action",
+    "Improves crop recovery"
+  ],
+
+  "farmer_benefits": [
+    "تریپس ختم ہو جاندے نیں",
+    "مکڑی والے کیڑے ختم ہو جاندے نیں",
+    "دوا اثر کرنا شروع ہو جاندی اے",
+    "فصل بچ جاندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Advanced insecticide for control of resistant pests, thrips and mites.",
+    "urdu": "مزاحم کیڑوں، تریپس اور مائیٹس کے لیے جدید دوا۔",
+    "punjabi": "تریپس تے مائیٹس لئی زبردست جدید دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "thrips infestation",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "mite attack",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "resistant pest issue",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Thrips or mites present",
+      "Resistance observed",
+      "Other insecticides failed",
+      "Moderate to heavy infestation"
+    ],
+    "do_not_recommend_when": [
+      "Very early infestation",
+      "Only simple sucking pest problem",
+      "Need immediate knockdown"
+    ]
+  },
+
+  "embedding_text": "Chlorfenapyr 10 WDG insecticide is used for control of thrips mites and resistant pests. It works by disrupting energy production in insects and is effective when other insecticides fail."
+}

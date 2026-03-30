@@ -1,0 +1,197 @@
+{
+  "product_id": "butachlor_60_ec",
+  "product_name": "Butachlor 60% EC",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Herbicide",
+  "type": "Selective pre-emergence herbicide",
+
+  "formulation": "EC (Emulsifiable Concentrate)",
+  "systemicity": "Soil active (absorbed by emerging shoots)",
+
+  "mode_of_action_summary": "Butachlor inhibits cell division in germinating weed seedlings by affecting lipid synthesis, preventing early weed growth. It provides effective pre-emergence control in rice fields.",
+
+  "active_ingredients": [
+    {
+      "name": "Butachlor",
+      "percentage": "60%",
+      "chemical_group": "Chloroacetamide (HRAC Group 15)",
+      "mode_of_action": "Inhibits cell division and shoot growth in emerging weeds"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_nutrient_deficiencies": [],
+
+  "target_weeds": [
+    "echinochloa (swanki)",
+    "barnyard grass",
+    "jungle rice",
+    "cyperus (partial)"
+  ],
+
+  "weed_categories": {
+    "grassy": [
+      "echinochloa",
+      "barnyard grass",
+      "jungle rice",
+      "swanki"
+    ],
+    "sedges": [
+      "cyperus (partial control)"
+    ]
+  },
+
+  "weed_behavior": {
+    "stage": "Germination stage",
+    "control_window": "Before weed emergence",
+    "effect": "Prevents weed establishment"
+  },
+
+  "crops": {
+    "major": ["rice"],
+    "all": [
+      "transplanted rice",
+      "direct seeded rice"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "dhan",
+    "chawal"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "بوائی کے بعد گھاس نکل آتی ہے",
+      "شروع سے جڑی بوٹی روکنی ہے",
+      "کھیت صاف رکھنا ہے"
+    ],
+    "punjabi": [
+      "بوائی توں بعد گھاس نکل آندی اے",
+      "شروع توں کھیت صاف رکھنا اے"
+    ],
+    "roman_urdu": [
+      "starting se ghaas rokni hai",
+      "weed control at early stage",
+      "field clean rakhna hai"
+    ],
+    "english": [
+      "early weed emergence",
+      "grass weeds in rice",
+      "prevent weed growth"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "pre emergence herbicide for rice",
+    "dhaan ki ghaas rokni hai",
+    "weed control after sowing",
+    "swanki control early stage"
+  ],
+
+  "search_keywords": [
+    "butachlor herbicide",
+    "pre emergence herbicide",
+    "rice weed control",
+    "swanki control",
+    "دھان دی گھاس دی دوا"
+  ],
+
+  "intent_tags": ["weed", "herbicide", "pre_emergence", "rice_specific"],
+
+  "dosage": {
+    "per_acre": "800–1200 ml",
+    "water_volume": "100–150 liters per acre",
+    "method": "Soil application / spray",
+    "frequency": "Single application",
+    "best_time": ["Immediately after sowing or transplanting"]
+  },
+
+  "application_details": {
+    "method": "Apply on moist soil",
+    "coverage": "Uniform application on soil surface"
+  },
+
+  "crop_stage_recommendation": [
+    "0–3 days after sowing",
+    "Immediately after transplanting"
+  ],
+
+  "water_management": {
+    "condition": "Moist soil required",
+    "irrigation": "Light irrigation after application improves effectiveness"
+  },
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moist soil",
+      "Calm weather"
+    ],
+    "avoid_conditions": [
+      "Dry soil",
+      "Heavy rain after application"
+    ]
+  },
+
+  "critical_usage_notes": [
+    "Use only before weed emergence",
+    "Not effective on established weeds",
+    "Proper timing is essential"
+  ],
+
+  "safety": [
+    "Wear PPE",
+    "Avoid overdose",
+    "Follow label instructions"
+  ],
+
+  "benefits": [
+    "Controls weeds at early stage",
+    "Prevents weed emergence",
+    "Reduces manual weeding",
+    "Improves crop establishment",
+    "Cost effective solution"
+  ],
+
+  "farmer_benefits": [
+    "شروع توں گھاس ختم ہو جاندی اے",
+    "کھیت صاف رہندا اے",
+    "گوڈی دا خرچہ بچدا اے",
+    "فصل مضبوط ہندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Pre-emergence herbicide for controlling weeds in rice at early stage.",
+    "urdu": "دھان میں بوائی کے فوراً بعد جڑی بوٹیوں کو روکنے والی دوا۔",
+    "punjabi": "دھان وچ شروع توں گھاس روکڻ والی دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "early weed emergence in rice",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "swanki early stage",
+      "solution_strength": "high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Crop is rice",
+      "Pre-emergence stage",
+      "Weeds not yet emerged",
+      "Farmer wants early control"
+    ],
+    "do_not_recommend_when": [
+      "Weeds already visible",
+      "Late stage crop",
+      "Farmer needs post-emergence herbicide"
+    ]
+  },
+
+  "embedding_text": "Butachlor 60 EC herbicide is used in rice as a pre emergence herbicide to control grassy weeds like swanki and echinochloa. It works best when applied immediately after sowing or transplanting on moist soil."
+}

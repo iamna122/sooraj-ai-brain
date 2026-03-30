@@ -1,0 +1,208 @@
+{
+  "product_id": "fulcontrol_50_wp",
+  "product_name": "Fulcontrol 50% WP",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Herbicide",
+  "type": "Selective herbicide (Maize premium dual action)",
+
+  "formulation": "WP (Wettable Powder)",
+  "systemicity": "Systemic + soil activity",
+
+  "mode_of_action_summary": "Atrazine inhibits photosystem II disrupting photosynthesis, while mesotrione inhibits HPPD enzyme causing bleaching of weeds. The combination provides strong control of broadleaf and some grassy weeds in maize.",
+
+  "active_ingredients": [
+    {
+      "name": "Atrazine",
+      "percentage": "40%",
+      "chemical_group": "Triazine (HRAC Group 5)",
+      "mode_of_action": "Photosystem II inhibitor"
+    },
+    {
+      "name": "Mesotrione",
+      "percentage": "10%",
+      "chemical_group": "HPPD inhibitor (HRAC Group 27)",
+      "mode_of_action": "Blocks carotenoid biosynthesis causing bleaching"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_nutrient_deficiencies": [],
+
+  "target_weeds": [
+    "bathua",
+    "cholai",
+    "makoh",
+    "parthenium",
+    "wild mustard",
+    "some grasses (early stage)"
+  ],
+
+  "weed_categories": {
+    "broadleaf": [
+      "bathua",
+      "cholai",
+      "makoh",
+      "parthenium",
+      "wild mustard"
+    ],
+    "grassy": [
+      "early stage grasses (partial control)"
+    ]
+  },
+
+  "weed_behavior": {
+    "stage": "Germination to early stage",
+    "control_window": "Pre and early post-emergence",
+    "effect": "Causes bleaching and stops growth"
+  },
+
+  "crops": {
+    "major": ["maize"],
+    "all": [
+      "maize"
+    ]
+  },
+
+  "unsafe_crops": [
+    "wheat",
+    "rice",
+    "vegetables",
+    "pulses"
+  ],
+
+  "farmer_crop_terms": [
+    "makai"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "مکئی میں جڑی بوٹی زیادہ ہے",
+      "مکس جڑی بوٹی ہے",
+      "کھیت صاف نہیں ہو رہا"
+    ],
+    "punjabi": [
+      "مکئی وچ مکس گھاس اے",
+      "چوڑے پتے والی گھاس اے"
+    ],
+    "roman_urdu": [
+      "makai mein mixed weeds hain",
+      "broadleaf weeds hain",
+      "strong spray chahiye"
+    ],
+    "english": [
+      "mixed weeds in maize",
+      "broadleaf weed infestation",
+      "early weed growth"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "maize weed control",
+    "mixed weeds control maize",
+    "broadleaf weeds control",
+    "strong herbicide for maize"
+  ],
+
+  "search_keywords": [
+    "atrazine mesotrione",
+    "maize herbicide",
+    "broadleaf weed control",
+    "HPPD herbicide",
+    "مکئی دی گھاس دی دوا"
+  ],
+
+  "intent_tags": ["weed", "herbicide", "maize_specific", "premium"],
+
+  "dosage": {
+    "per_acre": "300–500 g",
+    "water_volume": "100–150 liters per acre",
+    "method": "Soil or foliar spray",
+    "frequency": "Single application",
+    "best_time": ["Early stage"]
+  },
+
+  "application_details": {
+    "method": "Apply on moist soil or early weeds",
+    "coverage": "Uniform application required"
+  },
+
+  "crop_stage_recommendation": [
+    "0–7 days after sowing",
+    "Early weed stage"
+  ],
+
+  "soil_requirements": [
+    "Moist soil improves performance"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Moist soil"
+    ],
+    "avoid_conditions": [
+      "Heavy rain",
+      "Dry soil"
+    ]
+  },
+
+  "critical_usage_notes": [
+    "Use only in maize",
+    "Avoid sensitive crops",
+    "Apply at early stage"
+  ],
+
+  "resistance_management": {
+    "groups": ["HRAC 5", "HRAC 27"],
+    "risk": "Moderate resistance risk",
+    "advice": "Rotate herbicides"
+  },
+
+  "safety": [
+    "Avoid drift",
+    "Wear PPE",
+    "Follow label dose"
+  ],
+
+  "benefits": [
+    "Strong control of broadleaf weeds",
+    "Dual mode of action",
+    "Pre and early post control",
+    "Improves crop establishment"
+  ],
+
+  "farmer_benefits": [
+    "مکئی وچ ساری گھاس ختم ہو جاندی اے",
+    "کھیت صاف ہو جاندا اے",
+    "فصل مضبوط ہندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Premium herbicide for controlling mixed weeds in maize.",
+    "urdu": "مکئی میں جڑی بوٹیوں کے لیے طاقتور دوا۔",
+    "punjabi": "مکئی وچ مکس گھاس ختم کرن لئی زبردست دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "mixed weeds in maize",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Crop is maize",
+      "Mixed weeds present",
+      "Early stage weeds"
+    ],
+    "do_not_recommend_when": [
+      "Crop is wheat or rice",
+      "Weeds are mature"
+    ]
+  },
+
+  "embedding_text": "Fulcontrol herbicide contains atrazine and mesotrione and is used in maize for control of broadleaf and mixed weeds. It works at pre emergence and early post emergence stages and causes bleaching of weeds."
+}

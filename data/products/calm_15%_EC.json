@@ -1,0 +1,200 @@
+{
+  "product_id": "quizalofop_15_ec",
+  "product_name": "Calm 15% EC (Quizalofop 15% EC)",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Herbicide",
+  "type": "Selective post-emergence herbicide (Grass-specific)",
+
+  "formulation": "EC (Emulsifiable Concentrate)",
+  "systemicity": "Systemic",
+
+  "mode_of_action_summary": "Quizalofop inhibits ACCase enzyme in grassy weeds, blocking lipid synthesis and stopping growth, leading to effective control of narrow leaf weeds in broadleaf crops.",
+
+  "active_ingredients": [
+    {
+      "name": "Quizalofop-ethyl",
+      "percentage": "15%",
+      "chemical_group": "ACCase inhibitor (HRAC Group 1)",
+      "mode_of_action": "Stops lipid synthesis in grasses"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_nutrient_deficiencies": [],
+
+  "target_weeds": [
+    "echinochloa",
+    "barnyard grass",
+    "foxtail",
+    "wild oats",
+    "crabgrass"
+  ],
+
+  "weed_categories": {
+    "grassy": [
+      "echinochloa",
+      "barnyard grass",
+      "foxtail",
+      "wild oats",
+      "crabgrass"
+    ],
+    "broadleaf": [],
+    "sedges": []
+  },
+
+  "weed_behavior": {
+    "stage": "2–4 leaf stage",
+    "control_window": "Post-emergence",
+    "effect": "Stops growth and kills grassy weeds"
+  },
+
+  "crops": {
+    "major": ["cotton", "soybean"],
+    "all": [
+      "cotton",
+      "soybean",
+      "vegetables",
+      "pulses"
+    ]
+  },
+
+  "unsafe_crops": [
+    "wheat",
+    "rice",
+    "maize"
+  ],
+
+  "farmer_crop_terms": [
+    "kapas",
+    "soybean"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "کپاس میں گھاس آ گئی ہے",
+      "صرف باریک پتے والی گھاس ہے",
+      "گھاس فصل کو دبا رہی ہے"
+    ],
+    "punjabi": [
+      "کپاس وچ گھاس اے",
+      "صرف باریک پتیاں والی گھاس اے"
+    ],
+    "roman_urdu": [
+      "kapas mein ghaas aa gayi hai",
+      "sirf grass hai",
+      "narrow leaf weeds hain"
+    ],
+    "english": [
+      "grassy weeds in cotton",
+      "narrow leaf weeds",
+      "grass competition"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "grass control in cotton",
+    "narrow leaf weed control",
+    "post emergence herbicide for grass",
+    "kapas mein ghaas ka ilaj"
+  ],
+
+  "search_keywords": [
+    "quizalofop herbicide",
+    "grass killer herbicide",
+    "ACCase herbicide",
+    "narrow leaf weed control",
+    "گھاس ختم کرنے والی دوا"
+  ],
+
+  "intent_tags": ["weed", "herbicide", "post_emergence", "grass_specific"],
+
+  "dosage": {
+    "per_acre": "200–300 ml",
+    "water_volume": "100–120 liters per acre",
+    "method": "Foliar spray",
+    "frequency": "Single application",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Spray on actively growing weeds",
+    "coverage": "Full leaf coverage required"
+  },
+
+  "crop_stage_recommendation": [
+    "Early crop stage",
+    "Weeds at 2–4 leaf stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Active weed growth",
+      "Moderate temperature"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after spray",
+      "Stress conditions"
+    ]
+  },
+
+  "critical_usage_notes": [
+    "Controls only grassy weeds",
+    "Not effective on broadleaf or sedges",
+    "Use only in broadleaf crops"
+  ],
+
+  "resistance_management": {
+    "group": "HRAC Group 1",
+    "risk": "High resistance risk",
+    "advice": "Rotate with other herbicides"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid drift",
+    "Follow label instructions"
+  ],
+
+  "benefits": [
+    "Selective control of grasses",
+    "Safe for broadleaf crops",
+    "Systemic action",
+    "Improves crop growth"
+  ],
+
+  "farmer_benefits": [
+    "کپاس وچ گھاس ختم ہو جاندی اے",
+    "فصل نوں نقصان نہیں ہندا",
+    "پودا مضبوط ہندا اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Selective herbicide for controlling grassy weeds in broadleaf crops.",
+    "urdu": "باریک پتے والی گھاس کو ختم کرنے والی دوا۔",
+    "punjabi": "باریک پتیاں والی گھاس ختم کرن والی دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "grassy weeds in cotton",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Broadleaf crop",
+      "Only grassy weeds present",
+      "Post-emergence stage"
+    ],
+    "do_not_recommend_when": [
+      "Crop is wheat or rice",
+      "Mixed weeds present",
+      "Pre-emergence stage"
+    ]
+  },
+
+  "embedding_text": "Quizalofop 15 EC herbicide is used for post emergence control of grassy weeds in broadleaf crops like cotton and soybean. It is a selective ACCase inhibitor that kills only grasses."
+}

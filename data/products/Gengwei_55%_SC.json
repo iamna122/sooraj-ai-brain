@@ -1,0 +1,194 @@
+{
+  "product_id": "gengwei_55_sc",
+  "product_name": "Gengwei 55% SC",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Herbicide",
+  "type": "Non-selective systemic herbicide",
+
+  "formulation": "SC / SL (Suspension / Soluble Concentrate)",
+  "systemicity": "Fully systemic",
+
+  "mode_of_action_summary": "Glyphosate inhibits EPSP synthase enzyme, blocking amino acid synthesis in plants, leading to complete plant death including roots and shoots.",
+
+  "active_ingredients": [
+    {
+      "name": "Glyphosate",
+      "percentage": "Approx. 41–55%",
+      "chemical_group": "Glycine derivative (HRAC Group 9)",
+      "mode_of_action": "Inhibits EPSP synthase enzyme"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_nutrient_deficiencies": [],
+
+  "target_weeds": [
+    "all grasses",
+    "all broadleaf weeds",
+    "all sedges"
+  ],
+
+  "weed_categories": {
+    "grassy": ["all grasses"],
+    "broadleaf": ["all broadleaf weeds"],
+    "sedges": ["all sedges"]
+  },
+
+  "weed_behavior": {
+    "stage": "Active growth stage",
+    "control_window": "Post-emergence",
+    "effect": "Kills entire plant including roots"
+  },
+
+  "crops": {
+    "major": [],
+    "all": [
+      "non-crop areas",
+      "field preparation stage"
+    ]
+  },
+
+  "unsafe_crops": [
+    "all crops (non-selective)"
+  ],
+
+  "farmer_crop_terms": [
+    "khet saaf karna",
+    "zamin tayar karni",
+    "sab ghaas khatam"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پورا کھیت صاف کرنا ہے",
+      "تمام گھاس ختم کرنی ہے",
+      "زمین تیار کرنی ہے"
+    ],
+    "punjabi": [
+      "پورا کھیت صاف کرنا اے",
+      "ساری گھاس ختم کرنی اے"
+    ],
+    "roman_urdu": [
+      "poora khet saaf karna hai",
+      "sab ghaas khatam karni hai",
+      "total weed control chahiye"
+    ],
+    "english": [
+      "total weed removal",
+      "land clearing",
+      "complete weed control"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "total weed killer",
+    "glyphosate spray",
+    "land clearing herbicide",
+    "sab ghaas ka ilaj",
+    "non selective herbicide"
+  ],
+
+  "search_keywords": [
+    "glyphosate herbicide",
+    "total weed killer",
+    "non selective herbicide",
+    "land clearing spray",
+    "گھاس ختم کرنے والی دوا"
+  ],
+
+  "intent_tags": ["weed", "herbicide", "non_selective", "total_control"],
+
+  "dosage": {
+    "per_acre": "800–1500 ml",
+    "water_volume": "100–150 liters per acre",
+    "method": "Foliar spray",
+    "frequency": "Single application",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Spray on actively growing weeds",
+    "coverage": "Full leaf coverage required"
+  },
+
+  "crop_stage_recommendation": [
+    "Before sowing",
+    "Fallow land",
+    "Non-crop areas"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Active weed growth",
+      "No rain for 6 hours"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after spray",
+      "Dusty leaves"
+    ]
+  },
+
+  "critical_usage_notes": [
+    "Kills all plants including crops",
+    "Use only in non-crop areas",
+    "Do not spray on standing crops"
+  ],
+
+  "resistance_management": {
+    "group": "HRAC Group 9",
+    "risk": "Low to moderate resistance risk",
+    "advice": "Avoid repeated use"
+  },
+
+  "safety": [
+    "Avoid drift to crops",
+    "Wear PPE",
+    "Follow label instructions"
+  ],
+
+  "benefits": [
+    "Total weed control",
+    "Kills roots and shoots",
+    "Effective on all weed types",
+    "Useful for land preparation"
+  ],
+
+  "farmer_benefits": [
+    "ساری گھاس ختم ہو جاندی اے",
+    "کھیت صاف ہو جاندا اے",
+    "زمین تیار ہو جاندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Non-selective herbicide for total weed control and land preparation.",
+    "urdu": "تمام جڑی بوٹیوں کو ختم کرنے والی دوا۔",
+    "punjabi": "ساری گھاس ختم کرن والی دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "total weed infestation",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "land clearing",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Farmer wants total weed control",
+      "Before sowing stage",
+      "Non-crop area"
+    ],
+    "do_not_recommend_when": [
+      "Crop is present",
+      "Selective control needed"
+    ]
+  },
+
+  "embedding_text": "Gengwei herbicide is a glyphosate based non selective herbicide used for total weed control in fields and land preparation. It kills all types of weeds including grasses broadleaf and sedges."
+}

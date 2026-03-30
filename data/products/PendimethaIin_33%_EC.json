@@ -1,0 +1,204 @@
+{
+  "product_id": "pendimethalin_33_ec",
+  "product_name": "Pendimethalin 33% EC",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Herbicide",
+  "type": "Selective pre-emergence herbicide",
+
+  "formulation": "EC (Emulsifiable Concentrate)",
+  "systemicity": "Soil active (root and shoot inhibition)",
+
+  "mode_of_action_summary": "Pendimethalin inhibits microtubule formation in weed cells, preventing cell division and root development, leading to failure of weed establishment in early stages.",
+
+  "active_ingredients": [
+    {
+      "name": "Pendimethalin",
+      "percentage": "33%",
+      "chemical_group": "Dinitroaniline (HRAC Group 3)",
+      "mode_of_action": "Inhibits cell division and root growth"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_nutrient_deficiencies": [],
+
+  "target_weeds": [
+    "echinochloa",
+    "barnyard grass",
+    "foxtail",
+    "crabgrass",
+    "bathua",
+    "amaranthus",
+    "portulaca"
+  ],
+
+  "weed_categories": {
+    "grassy": [
+      "echinochloa",
+      "barnyard grass",
+      "foxtail",
+      "crabgrass"
+    ],
+    "broadleaf": [
+      "bathua",
+      "amaranthus",
+      "portulaca"
+    ]
+  },
+
+  "weed_behavior": {
+    "stage": "Germination stage",
+    "control_window": "Pre-emergence",
+    "effect": "Prevents root and shoot development"
+  },
+
+  "crops": {
+    "major": ["wheat", "cotton", "soybean"],
+    "all": [
+      "wheat",
+      "cotton",
+      "soybean",
+      "vegetables",
+      "pulses"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "gandum",
+    "kapas",
+    "soybean"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "بوائی کے بعد گھاس نکل آتی ہے",
+      "شروع سے جڑی بوٹی روکنی ہے",
+      "کھیت صاف رکھنا ہے"
+    ],
+    "punjabi": [
+      "بوائی توں بعد گھاس نکل آندی اے",
+      "شروع توں کھیت صاف رکھنا اے"
+    ],
+    "roman_urdu": [
+      "starting se ghaas rokni hai",
+      "weed control early stage",
+      "field clean rakhna hai"
+    ],
+    "english": [
+      "early weed emergence",
+      "grass weeds in crop",
+      "prevent weed growth"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "pre emergence herbicide",
+    "weed control after sowing",
+    "grass control early stage",
+    "broadleaf weed control early"
+  ],
+
+  "search_keywords": [
+    "pendimethalin herbicide",
+    "pre emergence herbicide",
+    "soil herbicide",
+    "weed control spray",
+    "گھاس روکنے والی دوا"
+  ],
+
+  "intent_tags": ["weed", "herbicide", "pre_emergence", "multi_crop"],
+
+  "dosage": {
+    "per_acre": "800–1200 ml",
+    "water_volume": "100–150 liters per acre",
+    "method": "Soil spray",
+    "frequency": "Single application",
+    "best_time": ["Immediately after sowing"]
+  },
+
+  "application_details": {
+    "method": "Uniform soil application",
+    "coverage": "Even distribution required"
+  },
+
+  "crop_stage_recommendation": [
+    "0–3 days after sowing"
+  ],
+
+  "soil_requirements": [
+    "Moist soil required",
+    "Light irrigation improves performance"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moist soil",
+      "Moderate temperature"
+    ],
+    "avoid_conditions": [
+      "Dry soil",
+      "Heavy rain",
+      "Strong wind"
+    ]
+  },
+
+  "critical_usage_notes": [
+    "Apply before weed emergence",
+    "Not effective on large weeds",
+    "Uniform soil coverage required"
+  ],
+
+  "resistance_management": {
+    "group": "HRAC Group 3",
+    "risk": "Low to moderate resistance risk"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid overdose",
+    "Follow label instructions"
+  ],
+
+  "benefits": [
+    "Controls weeds at early stage",
+    "Provides soil barrier",
+    "Reduces manual weeding",
+    "Improves crop establishment"
+  ],
+
+  "farmer_benefits": [
+    "شروع توں گھاس ختم ہو جاندی اے",
+    "کھیت صاف رہندا اے",
+    "گوڈی دا خرچہ بچدا اے",
+    "فصل مضبوط ہندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Pre-emergence herbicide for controlling weeds in multiple crops.",
+    "urdu": "بوائی کے بعد جڑی بوٹیوں کو روکنے والی دوا۔",
+    "punjabi": "بوائی توں بعد گھاس روکڻ والی دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "early weed emergence",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Pre-emergence stage",
+      "Weeds not emerged",
+      "Multiple crops"
+    ],
+    "do_not_recommend_when": [
+      "Weeds already visible",
+      "Late stage crop"
+    ]
+  },
+
+  "embedding_text": "Pendimethalin 33 EC herbicide is used as a pre emergence herbicide to control grassy and broadleaf weeds in crops like wheat cotton and soybean. It works by preventing weed germination in soil."
+}

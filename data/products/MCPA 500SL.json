@@ -1,0 +1,206 @@
+{
+  "product_id": "mcpa_500_sl",
+  "product_name": "MCPA 500 SL",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Herbicide",
+  "type": "Selective post-emergence herbicide (Broadleaf specific)",
+
+  "formulation": "SL (Soluble Liquid)",
+  "systemicity": "Systemic",
+
+  "mode_of_action_summary": "MCPA is a synthetic auxin herbicide that mimics plant growth hormones, causing uncontrolled cell division and abnormal growth in broadleaf weeds, leading to twisting, deformation and death.",
+
+  "active_ingredients": [
+    {
+      "name": "MCPA (2-methyl-4-chlorophenoxyacetic acid)",
+      "percentage": "500 g/L (~42.5% w/w)",
+      "chemical_group": "Synthetic auxin (HRAC Group 4)",
+      "mode_of_action": "Disrupts normal plant growth by hormone mimicry"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_weeds": [
+    "bathua (Chenopodium album)",
+    "wild mustard",
+    "senji",
+    "lambsquarters",
+    "amaranthus",
+    "broadleaf weeds"
+  ],
+  "target_nutrient_deficiencies": [],
+
+  "weed_categories": {
+    "broadleaf_weeds": [
+      "bathua",
+      "wild mustard",
+      "senji",
+      "amaranthus"
+    ],
+    "grassy_weeds": []
+  },
+
+  "weed_behavior": {
+    "hormonal_disruption": "Weeds show twisting, bending and abnormal growth",
+    "growth_stage": "Most effective at early post-emergence stage",
+    "symptom_progression": "Twisting → curling → plant death"
+  },
+
+  "crops": {
+    "major": ["wheat", "barley"],
+    "all": ["wheat", "barley", "oats", "maize (label dependent)"]
+  },
+
+  "unsafe_crops": [
+    "cotton",
+    "vegetables",
+    "pulses",
+    "sensitive broadleaf crops"
+  ],
+
+  "farmer_crop_terms": [
+    "gandum",
+    "jo",
+    "jai"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "گندم میں باتھو اور چوڑے پتے والی گھاس ہے",
+      "پودا دب رہا ہے جڑی بوٹی سے",
+      "کھیت میں صرف چوڑی پتی والی گھاس ہے"
+    ],
+    "punjabi": [
+      "گندم وچ باتھو اے",
+      "چوڑے پتے والی گھاس اے",
+      "فصل دب رہی اے"
+    ],
+    "roman_urdu": [
+      "gandum mein bathu hai",
+      "broadleaf weeds hain",
+      "sirf chowri patti wali ghaas hai"
+    ],
+    "english": [
+      "broadleaf weeds in wheat",
+      "bathua infestation",
+      "weed competition reducing crop growth"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "bathua control in wheat",
+    "broadleaf weed control wheat",
+    "gandum mein chowri patti wali ghaas ka ilaj",
+    "senji control",
+    "post emergence herbicide wheat"
+  ],
+
+  "search_keywords": [
+    "mcpa herbicide",
+    "broadleaf weed killer",
+    "wheat weed control",
+    "bathua control spray",
+    "synthetic auxin herbicide",
+    "گندم دی چوڑی پتی والی گھاس دی دوا"
+  ],
+
+  "intent_tags": ["weed"],
+
+  "dosage": {
+    "per_acre": "400–600 ml",
+    "method": "Foliar spray",
+    "frequency": "Single application",
+    "best_time": ["Early post-emergence", "Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Spray on actively growing weeds",
+    "coverage": "Uniform leaf coverage required",
+    "water_volume": "100–120 liters per acre"
+  },
+
+  "crop_stage_recommendation": [
+    "25–35 days after sowing",
+    "Early weed stage"
+  ],
+
+  "soil_requirements": [
+    "Normal field conditions",
+    "No water stress"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Active weed growth"
+    ],
+    "avoid_conditions": [
+      "High temperature",
+      "Strong wind",
+      "Rain immediately after spray"
+    ]
+  },
+
+  "resistance_management": {
+    "group": "HRAC Group 4",
+    "risk": "Moderate resistance risk",
+    "advice": "Rotate with other herbicides"
+  },
+
+  "safety": [
+    "Avoid spray drift to sensitive crops",
+    "Wear PPE",
+    "Do not overdose",
+    "Follow label instructions"
+  ],
+
+  "benefits": [
+    "Effective control of broadleaf weeds",
+    "Selective for cereal crops",
+    "Improves crop growth",
+    "Reduces weed competition",
+    "Cost-effective solution"
+  ],
+
+  "farmer_benefits": [
+    "باتھو ختم ہو جاندا اے",
+    "چوڑے پتے والی گھاس ختم ہو جاندی اے",
+    "گندم مضبوط ہو جاندی اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Selective herbicide for controlling broadleaf weeds in wheat and cereal crops.",
+    "urdu": "گندم میں چوڑے پتے والی جڑی بوٹیوں کو ختم کرنے والی دوا۔",
+    "punjabi": "گندم وچ چوڑی پتی والی گھاس ختم کرن والی دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "bathua infestation",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "broadleaf weeds in wheat",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Broadleaf weeds present",
+      "Crop is wheat or cereals",
+      "Post-emergence stage",
+      "Grass weeds not dominant"
+    ],
+    "do_not_recommend_when": [
+      "Grassy weeds present",
+      "Sensitive crops nearby",
+      "Mixed weeds requiring broad-spectrum control"
+    ]
+  },
+
+  "embedding_text": "MCPA 500 SL herbicide is used in wheat and cereal crops for post emergence control of broadleaf weeds like bathua and mustard. It works as a synthetic auxin causing abnormal growth and death of weeds."
+}

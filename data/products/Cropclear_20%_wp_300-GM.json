@@ -1,0 +1,214 @@
+{
+  "product_id": "crop_clear_atrazine",
+  "product_name": "Crop Clear (Atrazine Based Herbicide)",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Herbicide",
+  "type": "Selective pre-emergence and early post-emergence herbicide",
+
+  "formulation": "SC (Suspension Concentrate)",
+  "systemicity": "Systemic (absorbed through roots and leaves)",
+
+  "mode_of_action_summary": "Atrazine inhibits photosystem II in weeds, blocking photosynthesis and causing chlorosis followed by plant death. It provides effective control of broadleaf weeds and some grasses.",
+
+  "active_ingredients": [
+    {
+      "name": "Atrazine",
+      "percentage": "38%",
+      "chemical_group": "Triazine (HRAC Group 5)",
+      "mode_of_action": "Photosystem II inhibitor"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_nutrient_deficiencies": [],
+
+  "target_weeds": [
+    "bathua",
+    "cholai",
+    "makoh",
+    "kulfa",
+    "wild mustard",
+    "parthenium (early stage)",
+    "echinochloa (partial)"
+  ],
+
+  "weed_categories": {
+    "broadleaf": [
+      "bathua",
+      "cholai",
+      "makoh",
+      "kulfa",
+      "wild mustard"
+    ],
+    "grassy": [
+      "echinochloa (partial)"
+    ]
+  },
+
+  "weed_behavior": {
+    "stage": "Germination to early growth",
+    "control_window": "Pre-emergence to early post-emergence",
+    "effect": "Stops photosynthesis causing yellowing and death"
+  },
+
+  "crops": {
+    "major": ["maize", "sugarcane"],
+    "all": [
+      "maize",
+      "sugarcane"
+    ]
+  },
+
+  "unsafe_crops": [
+    "wheat",
+    "rice",
+    "cotton",
+    "vegetables",
+    "pulses"
+  ],
+
+  "farmer_crop_terms": [
+    "makai",
+    "ganna"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "مکئی میں جڑی بوٹی زیادہ ہے",
+      "باتھو اور چوڑیل نکل آئے ہیں",
+      "کھیت صاف رکھنا ہے"
+    ],
+    "punjabi": [
+      "مکئی وچ باتھو نکل آیا اے",
+      "چوڑے پتوں والی گھاس اے"
+    ],
+    "roman_urdu": [
+      "makai mein bathu aa gaya",
+      "broadleaf weeds hain",
+      "field clean rakhna hai"
+    ],
+    "english": [
+      "broadleaf weeds in maize",
+      "early weed emergence",
+      "field needs early weed control"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "maize weed control",
+    "broadleaf weeds control",
+    "pre emergence herbicide maize",
+    "makai mein ghaas ka ilaj"
+  ],
+
+  "search_keywords": [
+    "atrazine herbicide",
+    "maize weed control",
+    "pre emergence herbicide",
+    "broadleaf weed control",
+    "مکئی دی گھاس دی دوا"
+  ],
+
+  "intent_tags": ["weed", "herbicide", "pre_emergence", "maize_specific"],
+
+  "dosage": {
+    "per_acre": "500–800 ml",
+    "water_volume": "100–150 liters per acre",
+    "method": "Soil spray",
+    "frequency": "Single application",
+    "best_time": ["After sowing", "Early stage"]
+  },
+
+  "application_details": {
+    "method": "Apply uniformly on moist soil",
+    "coverage": "Even soil coverage required"
+  },
+
+  "crop_stage_recommendation": [
+    "0–3 days after sowing",
+    "Early weed stage"
+  ],
+
+  "soil_requirements": [
+    "Moist soil required",
+    "Light irrigation improves performance"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moist soil",
+      "Moderate temperature"
+    ],
+    "avoid_conditions": [
+      "Dry soil",
+      "Heavy rain",
+      "Strong wind"
+    ]
+  },
+
+  "critical_usage_notes": [
+    "Use only in recommended crops",
+    "Avoid sensitive crops",
+    "Apply at correct stage"
+  ],
+
+  "resistance_management": {
+    "group": "HRAC Group 5",
+    "risk": "Moderate resistance risk",
+    "advice": "Rotate with other herbicides"
+  },
+
+  "safety": [
+    "Avoid drift to nearby crops",
+    "Wear PPE",
+    "Follow recommended dose"
+  ],
+
+  "benefits": [
+    "Controls broadleaf weeds effectively",
+    "Early weed suppression",
+    "Improves crop establishment",
+    "Reduces manual weeding cost"
+  ],
+
+  "farmer_benefits": [
+    "باتھو ختم ہو جاندا اے",
+    "کھیت صاف رہندا اے",
+    "گوڈی دا خرچہ بچدا اے",
+    "فصل مضبوط ہندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Pre-emergence herbicide for controlling broadleaf weeds in maize.",
+    "urdu": "مکئی میں جڑی بوٹیوں کو ختم کرنے والی دوا۔",
+    "punjabi": "مکئی وچ گھاس ختم کرن والی دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "broadleaf weeds in maize",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "early weed emergence",
+      "solution_strength": "high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Crop is maize or sugarcane",
+      "Pre-emergence stage",
+      "Broadleaf weeds expected"
+    ],
+    "do_not_recommend_when": [
+      "Crop is wheat or rice",
+      "Weeds already mature",
+      "Sensitive crops present"
+    ]
+  },
+
+  "embedding_text": "Atrazine herbicide is used in maize and sugarcane for control of broadleaf weeds at pre emergence stage. It works by stopping photosynthesis and is most effective on moist soil."
+}

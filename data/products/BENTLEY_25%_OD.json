@@ -1,0 +1,205 @@
+{
+  "product_id": "bentley_25_od",
+  "product_name": "Bentley 25% OD",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Herbicide",
+  "type": "Selective post-emergence herbicide (Grassy weeds specialist)",
+
+  "formulation": "OD (Oil Dispersion)",
+  "systemicity": "Systemic",
+
+  "mode_of_action_summary": "Cyhalofop and metamifop inhibit ACCase enzyme in grassy weeds, stopping lipid synthesis and growth, leading to effective post-emergence control of grasses in rice.",
+
+  "active_ingredients": [
+    {
+      "name": "Cyhalofop-butyl",
+      "percentage": "15%",
+      "chemical_group": "ACCase inhibitor (HRAC Group 1)",
+      "mode_of_action": "Controls grassy weeds by inhibiting lipid synthesis"
+    },
+    {
+      "name": "Metamifop",
+      "percentage": "10%",
+      "chemical_group": "ACCase inhibitor",
+      "mode_of_action": "Stops growth of grassy weeds"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_nutrient_deficiencies": [],
+
+  "target_weeds": [
+    "echinochloa (swanki)",
+    "barnyard grass",
+    "jungle rice"
+  ],
+
+  "weed_categories": {
+    "grassy": [
+      "echinochloa",
+      "barnyard grass",
+      "swanki",
+      "jungle rice"
+    ],
+    "sedges": [],
+    "broadleaf": []
+  },
+
+  "weed_behavior": {
+    "stage": "2–4 leaf stage",
+    "control_window": "Post-emergence",
+    "effect": "Stops growth and kills grassy weeds"
+  },
+
+  "crops": {
+    "major": ["rice"],
+    "all": [
+      "transplanted rice",
+      "direct seeded rice"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "dhan",
+    "chawal"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "دھان میں صرف گھاس ہے",
+      "سوانکی بہت زیادہ ہے",
+      "گھاس فصل کو دبا رہی ہے"
+    ],
+    "punjabi": [
+      "دھان وچ سوانکی اے",
+      "صرف گھاس اے کھیت وچ"
+    ],
+    "roman_urdu": [
+      "sirf swanki hai",
+      "grass hi grass hai",
+      "sirf ghaas ka masla hai"
+    ],
+    "english": [
+      "grassy weeds in rice",
+      "barnyard grass infestation",
+      "grass competition"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "swanki control",
+    "grass control in rice",
+    "post emergence herbicide rice",
+    "dhaan mein ghaas ka ilaj"
+  ],
+
+  "search_keywords": [
+    "cyhalofop herbicide",
+    "metamifop herbicide",
+    "grass killer rice",
+    "swanki control",
+    "دھان دی گھاس دی دوا"
+  ],
+
+  "intent_tags": ["weed", "herbicide", "post_emergence", "grass_specific", "rice_specific"],
+
+  "dosage": {
+    "per_acre": "200–300 ml",
+    "water_volume": "100–120 liters per acre",
+    "method": "Foliar spray",
+    "frequency": "Single application",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform spray on actively growing weeds",
+    "coverage": "Full weed coverage required"
+  },
+
+  "crop_stage_recommendation": [
+    "15–25 days after transplanting",
+    "Weeds at 2–4 leaf stage"
+  ],
+
+  "water_management": {
+    "before_spray": "Drain standing water",
+    "after_spray": "Reflood after 24–48 hours"
+  },
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moist soil",
+      "Moderate temperature"
+    ],
+    "avoid_conditions": [
+      "Heavy rain",
+      "Strong wind",
+      "Dry stress"
+    ]
+  },
+
+  "critical_usage_notes": [
+    "Controls only grassy weeds",
+    "Not effective on sedges or broadleaf weeds",
+    "Apply at early weed stage"
+  ],
+
+  "resistance_management": {
+    "group": "HRAC Group 1",
+    "risk": "High resistance risk",
+    "advice": "Rotate with different herbicide groups"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid drift",
+    "Follow recommended dose"
+  ],
+
+  "benefits": [
+    "Strong control of grassy weeds",
+    "Selective for rice",
+    "Improves crop growth",
+    "Reduces competition"
+  ],
+
+  "farmer_benefits": [
+    "سوانکی مکمل ختم ہو جاندی اے",
+    "گھاس ختم ہو جاندی اے",
+    "فصل مضبوط ہندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Selective herbicide for controlling grassy weeds in rice.",
+    "urdu": "دھان میں گھاس کو ختم کرنے والی مخصوص دوا۔",
+    "punjabi": "دھان وچ صرف گھاس ختم کرن والی دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "swanki",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "grassy weeds in rice",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Crop is rice",
+      "Only grassy weeds present",
+      "Post-emergence stage"
+    ],
+    "do_not_recommend_when": [
+      "Mixed weeds present",
+      "Sedges or broadleaf weeds present",
+      "Pre-emergence stage"
+    ]
+  },
+
+  "embedding_text": "Bentley 25 OD herbicide contains cyhalofop and metamifop and is used in rice for post emergence control of grassy weeds like swanki and barnyard grass. It is effective only on grasses and not on sedges or broadleaf weeds."
+}
