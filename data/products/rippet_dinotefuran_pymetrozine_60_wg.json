@@ -4,23 +4,25 @@
   "brand": "Sooraj Crop Sciences",
 
   "category": "Insecticide",
-  "type": "Systemic insecticide",
+  "type": "Systemic dual-action insecticide (Feeding blocker + neurotoxin)",
 
-  "formulation": "WDG",
-  "systemicity": "Systemic and contact",
+  "formulation": "WDG (Water Dispersible Granules)",
+  "systemicity": "Systemic + contact",
 
-  "mode_of_action_summary": "Dual action insecticide that stops feeding and kills sucking pests through nervous system disruption.",
+  "mode_of_action_summary": "Combination of dinotefuran and pymetrozine provides dual action control of sucking pests. Dinotefuran disrupts insect nervous system causing paralysis, while pymetrozine blocks feeding, preventing further crop damage and virus transmission.",
 
   "active_ingredients": [
     {
       "name": "Dinotefuran",
       "percentage": "20%",
-      "mode_of_action": "Neonicotinoid that disrupts insect nervous system"
+      "chemical_group": "Neonicotinoid (IRAC Group 4A)",
+      "mode_of_action": "nAChR agonist causing nervous system disruption"
     },
     {
       "name": "Pymetrozine",
       "percentage": "40%",
-      "mode_of_action": "Feeding blocker for sap sucking pests"
+      "chemical_group": "Pyridine azomethine",
+      "mode_of_action": "Feeding blocker affecting insect stylet movement"
     }
   ],
 
@@ -37,6 +39,22 @@
   "target_weeds": [],
   "target_nutrient_deficiencies": [],
 
+  "pest_categories": {
+    "sucking_pests": [
+      "whitefly",
+      "aphid",
+      "jassid",
+      "thrips",
+      "planthoppers"
+    ]
+  },
+
+  "pest_behavior": {
+    "sap_sucking": "Pests suck plant sap and reduce vigor",
+    "virus_transmission": "Whitefly and aphids transmit viral diseases",
+    "feeding_damage": "Continuous feeding causes leaf curling and honeydew formation"
+  },
+
   "crops": {
     "major": ["cotton", "rice"],
     "all": ["cotton", "rice", "vegetables", "okra", "tomato"]
@@ -44,40 +62,55 @@
 
   "farmer_crop_terms": [
     "kapas",
-    "dhaan",
-    "chawal"
+    "dhan",
+    "chawal",
+    "bhindi",
+    "tamatar"
   ],
 
   "symptoms": {
     "urdu": [
-      "کپاس پر سفید مکھی",
+      "سفید مکھی کا حملہ",
       "پتیاں سکڑ رہی ہیں",
-      "چپچپا مادہ"
+      "چپچپا مادہ آ رہا ہے",
+      "پودا کمزور ہو رہا ہے"
     ],
     "punjabi": [
       "کپاس تے تیلا",
-      "پتے مڑ گئے نیں"
+      "پتے مڑ گئے نیں",
+      "پتے چپچپے ہو گئے نیں"
     ],
     "roman_urdu": [
-      "safed makhi attack",
-      "pattay mur gaye"
+      "whitefly attack",
+      "pattay mur gaye",
+      "chipchipa madah aa raha hai",
+      "plant weak ho raha hai"
     ],
     "english": [
       "whitefly infestation",
-      "leaf curling"
+      "leaf curling",
+      "sticky honeydew",
+      "stunted growth"
     ]
   },
 
   "farmer_problem_queries": [
-    "whitefly on cotton",
+    "whitefly control in cotton",
     "kapas par teela",
-    "sucking pest attack"
+    "jassid attack spray",
+    "sucking pest control",
+    "virus spread ho raha hai whitefly se",
+    "rice hopper control"
   ],
 
   "search_keywords": [
     "whitefly control",
     "jassid spray",
-    "sucking pest medicine"
+    "sucking pest insecticide",
+    "hopper control rice",
+    "systemic insecticide",
+    "تیلا کنٹرول",
+    "مہو دی دوا"
   ],
 
   "intent_tags": ["insect"],
@@ -89,15 +122,79 @@
     "best_time": ["Morning", "Evening"]
   },
 
+  "application_details": {
+    "method": "Uniform spray covering upper and lower leaf surfaces",
+    "coverage": "Ensure full leaf coverage for systemic absorption"
+  },
+
+  "crop_stage_recommendation": [
+    "Early pest appearance",
+    "Vegetative stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after spray",
+      "Strong wind",
+      "Extreme heat"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": ["Group 4A", "Feeding blocker"],
+    "advantage": "Dual mode reduces resistance risk",
+    "advice": "Rotate with other insecticide groups"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid spray drift",
+    "Follow recommended dose"
+  ],
+
   "benefits": [
-    "Fast knockdown",
+    "Stops pest feeding immediately",
+    "Kills pests effectively",
+    "Reduces virus transmission",
     "Long residual control",
-    "Stops virus transmission"
+    "Improves crop recovery"
+  ],
+
+  "farmer_benefits": [
+    "تیلا فوراً کھانا چھوڑ دیندا اے",
+    "پودا جلدی ٹھیک ہو جاندا اے",
+    "بیماری پھیلنا رک جاندی اے",
+    "فصل محفوظ رہندی اے"
   ],
 
   "multilingual_description": {
-    "english": "Systemic insecticide for sucking pests.",
-    "urdu": "چوسنے والے کیڑوں کے لیے بہترین دوا۔",
-    "punjabi": "چوسن والے کیڑیاں لئی زبردست سپرے۔"
-  }
+    "english": "Dual action systemic insecticide for effective control of sucking pests.",
+    "urdu": "چوسنے والے کیڑوں کے لیے ڈبل ایکشن دوا۔",
+    "punjabi": "چوسن والے کیڑیاں لئی ڈبل ایکشن سپرے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "whitefly infestation",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "jassid attack",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "aphid colonies",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "virus transmission by pests",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Rippet insecticide contains dinotefuran and pymetrozine and is used for control of sucking pests like whitefly aphid jassid and hopper in cotton rice and vegetables. It provides dual action by stopping feeding and killing pests and also reduces virus transmission."
 }

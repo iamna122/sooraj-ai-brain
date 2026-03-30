@@ -4,67 +4,177 @@
   "brand": "Sooraj Crop Sciences",
 
   "category": "Crop Nutrition",
-  "product_type": "Micronutrient fertilizer",
+  "type": "Micronutrient fertilizer (Zinc)",
+
   "formulation": "Granular",
-  "systemicity": "Soil and foliar",
+  "systemicity": "Soil + foliar uptake",
+
+  "mode_of_action_summary": "Zinc plays a key role in enzyme activation, chlorophyll formation and growth hormone production. It corrects zinc deficiency, improves tillering in cereals and enhances overall crop vigor.",
 
   "active_ingredients": [
     {
       "name": "Zinc (Zn)",
       "percentage": "33%",
-      "mode_of_action": "Corrects zinc deficiency and boosts enzyme activity"
+      "mode_of_action": "Corrects zinc deficiency and improves enzyme activity and growth"
     }
   ],
 
-  "targets": {
-    "insects": [],
-    "diseases": [],
-    "weeds": [],
-    "nutrient_deficiencies": ["zinc deficiency", "khaira disease"]
-  },
+  "target_pests": [],
+  "target_diseases": [],
+  "target_weeds": [],
 
-  "crop_applicability": {
-    "major_crops": ["rice", "wheat"],
-    "all_supported_crops": ["rice", "wheat", "maize", "cotton", "vegetables"]
-  },
-
-  "dosage": { "per_acre": "4 kg" },
-
-  "application_details": {
-    "application_method": "Soil broadcast / foliar",
-    "spray_interval": "Once at early stage"
-  },
-
-  "farmer_symptoms": [
-    "دھان وچ زنک دی کمی",
-    "کھیرہ بیماری",
-    "پتے پیلے ہو گئے",
-    "stunted crop",
-    "bronzing in rice"
+  "target_nutrient_deficiencies": [
+    "zinc deficiency",
+    "khaira disease"
   ],
 
-  "farmer_queries": [
+  "deficiency_behavior": {
+    "zinc_deficiency": "Occurs mostly in rice and wheat under high pH soils and low organic matter",
+    "impact": [
+      "reduced tillering",
+      "poor root growth",
+      "low yield"
+    ]
+  },
+
+  "crops": {
+    "major": ["rice", "wheat"],
+    "all": [
+      "rice",
+      "wheat",
+      "maize",
+      "cotton",
+      "vegetables"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "dhan",
+    "gandum",
+    "makai",
+    "kapas"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتے پیلے ہو رہے ہیں",
+      "کھیرہ بیماری",
+      "پودا چھوٹا رہ گیا ہے",
+      "نئی پتیاں سفید یا پیلی ہیں"
+    ],
+    "punjabi": [
+      "پتے پیلے ہو گئے نیں",
+      "کھیرہ بیماری اے",
+      "پودا کمزور اے",
+      "بڑھوتری رک گئی اے"
+    ],
+    "roman_urdu": [
+      "pattay peele ho gaye",
+      "khaira aa gaya hai",
+      "plant chhota reh gaya",
+      "growth ruk gayi hai"
+    ],
+    "english": [
+      "yellowing of leaves",
+      "khaira disease in rice",
+      "stunted growth",
+      "chlorosis in young leaves",
+      "bronzing in rice"
+    ]
+  },
+
+  "farmer_problem_queries": [
     "zinc deficiency in rice",
-    "khaira disease treatment"
+    "khaira disease treatment",
+    "pattay peele ho rahe hain kya karein",
+    "growth ruk gayi hai crop ki",
+    "tillering kam ho rahi hai"
   ],
 
   "search_keywords": [
+    "zinc fertilizer",
+    "zinc deficiency treatment",
+    "khaira disease control",
+    "micro nutrient zinc",
     "زنک کھاد",
-    "zinc for rice",
-    "micro nutrient zinc"
-  ],
-
-  "farmer_benefits": [
-    "Greener crop",
-    "More tillers",
-    "Higher yield"
+    "کھیرہ بیماری دا علاج"
   ],
 
   "intent_tags": ["nutrition"],
 
-  "master_descriptions": {
-    "english": "High efficiency zinc fertilizer for rapid deficiency correction.",
-    "urdu": "زنک کی کمی کا فوری حل۔",
-    "punjabi_shahmukhi": "زنک دی کمی دا تیز علاج۔"
-  }
+  "dosage": {
+    "per_acre": "4 kg",
+    "method": "Soil broadcast / foliar spray",
+    "frequency": "1 application",
+    "best_time": ["Early crop stage"]
+  },
+
+  "application_details": {
+    "method": [
+      "Soil broadcast",
+      "Foliar spray"
+    ],
+    "timing": "Apply at early stage for best results"
+  },
+
+  "crop_stage_recommendation": [
+    "Early growth stage",
+    "Tillering stage (rice)"
+  ],
+
+  "soil_conditions": [
+    "High pH soil",
+    "Low organic matter soil",
+    "Alkaline soil"
+  ],
+
+  "compatibility": {
+    "recommended_with": [
+      "urea",
+      "basal fertilizers"
+    ],
+    "benefit": "Improves nutrient uptake efficiency"
+  },
+
+  "benefits": [
+    "Corrects zinc deficiency",
+    "Improves tillering in rice and wheat",
+    "Enhances crop greenness",
+    "Boosts growth and yield",
+    "Improves root development"
+  ],
+
+  "farmer_benefits": [
+    "پودا ہرا بھرا ہو جاندا اے",
+    "کھیرہ ختم ہو جاندا اے",
+    "گندم تے دھان دی ٹلرنگ ودھدی اے",
+    "فصل مضبوط ہو جاندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Zinc fertilizer for correcting deficiency and improving crop growth and tillering.",
+    "urdu": "زنک کی کمی کو دور کر کے فصل کی بڑھوتری بہتر بناتا ہے۔",
+    "punjabi": "زنک دی کمی دور کر کے فصل نوں مضبوط کردا اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "zinc deficiency",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "khaira disease",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "stunted growth",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "yellow leaves",
+      "solution_strength": "medium"
+    }
+  ],
+
+  "embedding_text": "WhatsApp Zinc fertilizer contains zinc 33 percent and is used for correction of zinc deficiency and khaira disease in crops like rice and wheat. It improves tillering, leaf greenness and crop growth especially in early stages."
 }

@@ -2,64 +2,71 @@
   "product_id": "sooraj_mister",
   "product_name": "Mister",
   "brand": "Sooraj Crop Sciences",
-  "product_type": "Insecticide",
+
   "category": "Insecticide",
+  "type": "Dual action insecticide (Systemic + contact)",
+
+  "formulation": "Liquid",
+  "systemicity": "Systemic + contact",
+
+  "mode_of_action_summary": "Dinotefuran provides systemic control by disrupting insect nervous system and stopping feeding, while bifenthrin delivers quick knockdown through contact action affecting sodium channels. Together they provide rapid and long-lasting control of sucking pests.",
 
   "active_ingredients": [
     {
       "name": "Dinotefuran",
-      "percentage": "—",
-      "mode_of_action": "Systemic neonicotinoid absorbed through leaves and translocated in plant sap, disrupts nicotinic acetylcholine receptors causing feeding stop and death in sucking pests"
+      "percentage": "As per formulation",
+      "chemical_group": "Neonicotinoid (IRAC Group 4A)",
+      "mode_of_action": "nAChR agonist causing feeding stop"
     },
     {
       "name": "Bifenthrin",
-      "percentage": "—",
-      "mode_of_action": "Contact and stomach pyrethroid that affects sodium channels of insect nerve cells causing rapid paralysis and knockdown"
+      "percentage": "As per formulation",
+      "chemical_group": "Pyrethroid (IRAC Group 3A)",
+      "mode_of_action": "Sodium channel modulator causing paralysis"
     }
   ],
 
-  "chemical_group": "Neonicotinoid (Group 4A) + Pyrethroid (Group 3A)",
-  "formulation_type": "Liquid",
-  "systemicity": "Systemic + Contact",
-  "mode_of_action_summary": "Dual action insecticide providing instant knockdown through Bifenthrin and long systemic control of sucking pests through Dinotefuran.",
+  "target_pests": [
+    "whitefly",
+    "aphid",
+    "jassid",
+    "thrips",
+    "leafhopper",
+    "planthopper",
+    "mealybug (early stage)",
+    "early bollworms",
+    "armyworm (small larvae)",
+    "spodoptera (early stage)",
+    "mites (suppression)"
+  ],
 
-  "targets": {
-    "weeds": [],
-    "diseases": [],
-    "insects": [
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "sucking_pests": [
       "whitefly",
       "aphid",
       "jassid",
       "thrips",
       "leafhopper",
-      "planthopper",
-      "mealybug (early stage)",
+      "planthopper"
+    ],
+    "early_larvae": [
       "early bollworms",
       "armyworm (small larvae)",
-      "spodoptera (early stage)",
-      "mites (suppression)"
+      "spodoptera (early stage)"
     ],
-    "nutrient_deficiencies": []
+    "others": [
+      "mealybug (early stage)",
+      "mites (suppression)"
+    ]
   },
 
-  "farmer_symptoms": [
-    "سفید مکھی دا بہت حملہ اے",
-    "ٹیلہ پتے توں رس چوس رہیا اے",
-    "مہو پتے دے تھلے بیٹھا اے",
-    "تھرپس کارن پتیاں چاندی ورگیاں ہو گئیاں نیں",
-    "پتیاں مڑ کے سکڑ رہیاں نیں",
-    "پودا کمزور ہو گیا اے",
-    "رس چوسن والے کیڑے بہت ودھ گئے نیں",
-    "نرم سنڈی شروع ہو گئی اے"
-  ],
-
-  "crop_applicability": {
-    "major_crops": [
-      "cotton",
-      "vegetables",
-      "rice"
-    ],
-    "all_supported_crops": [
+  "crops": {
+    "major": ["cotton", "vegetables", "rice"],
+    "all": [
       "cotton",
       "chilli",
       "tomato",
@@ -72,140 +79,160 @@
     ]
   },
 
+  "farmer_crop_terms": [
+    "kapas",
+    "tamatar",
+    "mirch",
+    "bhindi",
+    "dhan"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "سفید مکھی کا حملہ",
+      "پتیاں مڑ رہی ہیں",
+      "چپچپا مادہ آ رہا ہے",
+      "پودا کمزور ہو رہا ہے",
+      "تھرپس سے پتیاں چاندی جیسی ہو گئیں"
+    ],
+    "punjabi": [
+      "سفید مکھی بہت اے",
+      "پتیاں مڑ گئیاں نیں",
+      "تیلا رس چوس رہیا اے",
+      "پودا کمزور ہو گیا اے"
+    ],
+    "roman_urdu": [
+      "whitefly attack",
+      "jassid damage",
+      "thrips attack",
+      "pattay mur gaye",
+      "chipchipa madah aa raha hai"
+    ],
+    "english": [
+      "whitefly infestation",
+      "leaf curling",
+      "sticky honeydew",
+      "thrips damage",
+      "stunted growth"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "whitefly control in cotton",
+    "jassid attack spray",
+    "thrips control in vegetables",
+    "early bollworm control",
+    "kapas par teela",
+    "sucking pest fast control",
+    "jaldi asar karne wali dawa"
+  ],
+
+  "search_keywords": [
+    "dual action insecticide",
+    "whitefly control spray",
+    "jassid medicine",
+    "thrips control",
+    "fast knockdown insecticide",
+    "سفید مکھی کنٹرول",
+    "ٹیلہ دی دوا"
+  ],
+
+  "intent_tags": ["insect"],
+
   "dosage": {
     "per_acre": "60–100 ml",
     "per_100_litre": "20–25 ml",
-    "spray_volume_per_acre": "100–120 litres",
-    "application_coverage": "1 acre (100 ml pack)"
+    "water_volume": "100–120 liters per acre",
+    "method": "Foliar spray",
+    "frequency": "Based on pest pressure",
+    "best_time": ["Morning", "Evening"]
   },
 
   "application_details": {
-    "application_method": "Foliar spray",
-    "equipment": [
-      "knapsack sprayer",
-      "tractor boom sprayer"
-    ],
-    "number_of_applications": "As per pest pressure",
-    "coverage_requirement": "Uniform spray on upper and lower leaf surface"
+    "method": "Uniform spray covering both upper and lower leaf surfaces",
+    "equipment": ["knapsack sprayer", "boom sprayer"]
   },
 
   "crop_stage_recommendation": [
-    "At early pest appearance",
-    "Vegetative to flowering stage (avoid during active flowering)"
+    "Early pest appearance",
+    "Vegetative stage",
+    "Avoid during active flowering"
   ],
 
-  "water_management": {
-    "before_spray": "Normal field moisture",
-    "after_spray": "Avoid irrigation for few hours",
-    "water_level": "Not applicable"
-  },
-
-  "best_time_to_apply": [
-    "Morning",
-    "Evening"
-  ],
-
-  "weather_conditions": {
-    "ideal_condition": "Moderate temperature with low wind",
-    "avoid": [
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
       "Strong wind",
-      "Rain within 1–3 hours after spray",
+      "Rain within 2–3 hours",
       "Extreme heat"
     ]
   },
 
-  "tank_mix_compatibility": [
-    "Compatible with most fungicides",
-    "Compatible with foliar fertilizers",
-    "Jar test recommended before new tank mix"
-  ],
-
-  "incompatible_with": [
-    "Strongly alkaline products"
-  ],
-
-  "crop_safety": {
-    "selectivity_reason": "Safe for crops at recommended dose",
-    "overdose_effect": "Leaf burn or temporary crop stress"
-  },
-
-  "resistance_management": {
-    "mode_of_action_group": "Group 4A + Group 3A",
-    "rotation_advice": "Rotate with insecticides of different mode of action in next sprays"
-  },
-
-  "safety": {
-    "re_entry_interval": "24 hours",
-    "pre_harvest_interval": "As per label",
-    "toxicity_class": "Moderate toxicity",
-    "protective_measures": [
-      "Wear gloves",
-      "Wear mask",
-      "Avoid spray during bee activity",
-      "Avoid drift to water bodies"
+  "compatibility": {
+    "recommended_with": [
+      "fungicides",
+      "foliar fertilizers"
+    ],
+    "not_recommended_with": [
+      "strong alkaline products"
     ]
   },
 
-  "storage": {
-    "storage_conditions": "Store in cool and dry place",
-    "keep_away_from": [
-      "Children",
-      "Direct sunlight",
-      "Water sources"
-    ],
-    "shelf_life": "2 years"
+  "resistance_management": {
+    "groups": ["Group 4A", "Group 3A"],
+    "advantage": "Dual mode reduces resistance risk",
+    "advice": "Rotate with other insecticide groups"
   },
 
-  "packaging": {
-    "pack_sizes": [
-      "100 ml"
-    ],
-    "form": "Liquid"
-  },
-
-  "farmer_benefits": [
-    "Fast knockdown of insects",
-    "Long systemic control of sucking pests",
-    "Cleaner crop in one spray",
-    "Reduces repeat sprays when used at right timing",
-    "Low dose and economical",
-    "Improves crop health and recovery"
+  "safety": [
+    "Avoid spray during flowering (bee safety)",
+    "Wear PPE",
+    "Avoid drift to water bodies"
   ],
 
-  "frequently_asked_questions": [
+  "benefits": [
+    "Fast knockdown of pests",
+    "Long systemic control",
+    "Controls sucking pests effectively",
+    "Works on early larvae stage",
+    "Reduces repeat sprays",
+    "Improves crop recovery"
+  ],
+
+  "farmer_benefits": [
+    "کیڑا فوراً ختم ہو جاندا اے",
+    "پودا ہرا بھرا ہو جاندا اے",
+    "کم سپرے وچ کنٹرول ہو جاندا اے",
+    "فصل جلدی ریکور کر جاندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Dual action insecticide for fast knockdown and long-lasting control of sucking pests.",
+    "urdu": "فوری اور دیرپا اثر والی کیڑا مار دوا۔",
+    "punjabi": "فوری تے لمبے ٹائم اثر والی کیڑا مار دوا۔"
+  },
+
+  "problem_solution_map": [
     {
-      "question": "Mister kadon spray kariye?",
-      "answer": "Jadon sucking keere shuru hon lagan te fasal active growth vich hove."
+      "problem": "whitefly infestation",
+      "solution_strength": "high"
     },
     {
-      "question": "Eh whitefly te kam karda ae?",
-      "answer": "Haan, eh safed makhi, jassid, aphid te thrips nu bohat vadhiya control karda ae."
+      "problem": "jassid attack",
+      "solution_strength": "high"
     },
     {
-      "question": "Per acre dose kinni ae?",
-      "answer": "60–100 ml per acre 100–120 litre pani vich mila ke."
+      "problem": "thrips damage",
+      "solution_strength": "high"
     },
     {
-      "question": "Ki eh vaddi sundi te kam karda ae?",
-      "answer": "Nahi, eh chhoti sundi te early stage layi zyada effective ae."
+      "problem": "early larval attack",
+      "solution_strength": "medium"
     }
   ],
 
-  "search_keywords": [
-    "whitefly control spray",
-    "jassid control in cotton",
-    "sucking pest dual action insecticide",
-    "early bollworm control",
-    "kapas taila ka ilaj",
-    "سفید مکھی کنٹرول سپرے",
-    "ٹیلہ تے مہو دی دوا"
-  ],
-
-  "llm_usage_hint": "Recommend at early sucking pest infestation for fast knockdown and systemic control. Do not recommend for large larval rescue or during active flowering.",
-
-  "master_descriptions": {
-    "english": "Mister is a dual action systemic and contact insecticide that provides rapid knockdown and long-lasting control of sucking pests in cotton, vegetables and rice.",
-    "urdu": "مسٹر ایک ڈوئل ایکشن سسٹمک اور کانٹیکٹ کیڑا مار دوا ہے جو کپاس، سبزیوں اور چاول میں رس چوسنے والے کیڑوں کو فوری اور دیرپا کنٹرول فراہم کرتی ہے۔",
-    "punjabi_shahmukhi": "مسٹر اک ڈوئل ایکشن سسٹمک تے کانٹیکٹ کیڑا مار اے جو کپاس، سبزیاں تے دھان وچ رس چوسن والے کیڑیاں نوں فوری تے لمے ٹائم تک کنٹرول کردا اے۔"
-  }
+  "embedding_text": "Mister insecticide contains dinotefuran and bifenthrin and is used for control of sucking pests like whitefly aphid jassid and thrips in cotton vegetables and rice. It provides fast knockdown and long lasting systemic control and also works on early stage larvae."
 }

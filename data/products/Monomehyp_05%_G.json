@@ -1,194 +1,213 @@
 {
   "product_id": "monomehyp_05g",
   "product_name": "Monomehyp 05% G",
-  "brand": "",
-  "product_type": "Insecticide",
-  "category": "Granule",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Insecticide",
+  "type": "Systemic granular insecticide (Rice specific)",
+
+  "formulation": "GR (Granules)",
+  "systemicity": "Systemic + contact + stomach action",
+
+  "mode_of_action_summary": "Monosultap blocks nicotinic acetylcholine receptor ion channels in insects, stopping nerve signal transmission. Absorbed through roots and moves inside plant, effectively controlling hidden pests like stem borers and leaf folder larvae.",
 
   "active_ingredients": [
     {
       "name": "Monosultap",
       "percentage": "5%",
-      "mode_of_action": "Blocks nicotinic acetylcholine receptor ion channels in insect nervous system causing paralysis and death"
+      "chemical_group": "Nereistoxin analogue (IRAC Group 14)",
+      "mode_of_action": "Blocks nerve signal transmission causing paralysis and death"
     }
   ],
 
-  "chemical_group": "Nereistoxin analogue (IRAC Group 14)",
-  "formulation_type": "GR (Granule)",
-  "systemicity": "Systemic + Contact + Stomach action",
-  "mode_of_action_summary": "Absorbed through roots and moves inside the plant; stops nerve signal transmission in insects leading to feeding cessation, paralysis and death.",
-
-  "targets": {
-    "weeds": [],
-    "diseases": [],
-    "insects": [
-      "yellow stem borer",
-      "white stem borer",
-      "striped stem borer",
-      "pink stem borer",
-      "leaf folder",
-      "gall midge",
-      "whorl maggot"
-    ],
-    "nutrient_deficiencies": []
-  },
-
-  "farmer_symptoms": [
-    "دھان وچ ڈیڈ ہارٹ بن رہیا اے",
-    "بالیاں سفید ہو رہیاں نیں",
-    "تنا اندر توں کھایا ہویا اے",
-    "پتے لپٹ کے سوکھ رہئے نیں",
-    "فصل وچ سنڈی دا حملہ اے",
-    "پودا وچوں وچوں سوکھ رہیا اے",
-    "دھان دی بڑھوتری رک گئی اے",
-    "پتے وچ سوراخ تے اندر سنڈی اے"
+  "target_pests": [
+    "yellow stem borer",
+    "white stem borer",
+    "striped stem borer",
+    "pink stem borer",
+    "leaf folder",
+    "gall midge",
+    "whorl maggot"
   ],
 
-  "crop_applicability": {
-    "major_crops": [
-      "rice"
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "borers": [
+      "stem borer (all types)"
     ],
-    "all_supported_crops": [
-      "transplanted rice",
-      "maize",
-      "sugarcane"
+    "leaf_pests": [
+      "leaf folder"
+    ],
+    "other_rice_pests": [
+      "gall midge",
+      "whorl maggot"
     ]
   },
 
+  "pest_behavior": {
+    "hidden_pests": "Larvae remain inside stem or folded leaves, difficult to control with foliar sprays",
+    "damage_type": [
+      "dead heart",
+      "white ear",
+      "leaf folding"
+    ]
+  },
+
+  "crops": {
+    "major": ["rice"],
+    "all": [
+      "transplanted rice",
+      "direct seeded rice",
+      "maize (limited)",
+      "sugarcane (limited)"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "dhan",
+    "chawal"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "ڈیڈ ہارٹ بن رہا ہے",
+      "بالیاں سفید ہو رہی ہیں",
+      "تنا اندر سے کھایا ہوا ہے",
+      "پتے لپٹ کر سوکھ رہے ہیں"
+    ],
+    "punjabi": [
+      "ڈیڈ ہارٹ بن رہیا اے",
+      "وائٹ ایر بن رہیا اے",
+      "تنا اندر سنڈی اے",
+      "پتے لپٹ گئے نیں"
+    ],
+    "roman_urdu": [
+      "dead heart aa raha hai",
+      "white ear ban raha hai",
+      "tana ke andar sundi hai",
+      "leaf fold ho gaya"
+    ],
+    "english": [
+      "dead heart in rice",
+      "white ear formation",
+      "stem damage from inside",
+      "leaf folding"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "dead heart in rice solution",
+    "stem borer control in paddy",
+    "white ear problem in rice",
+    "leaf folder control",
+    "granular insecticide for rice",
+    "dhaan tana sundi control",
+    "standing water insecticide"
+  ],
+
+  "search_keywords": [
+    "monosultap granule",
+    "rice stem borer control",
+    "dead heart treatment",
+    "white ear prevention",
+    "granule insecticide rice",
+    "دھان تنا سنڈی کنٹرول",
+    "ڈیڈ ہارٹ علاج"
+  ],
+
+  "intent_tags": ["insect", "granular_application", "rice_specific"],
+
   "dosage": {
     "per_acre": "5–7 kg",
-    "per_100_litre": "Not applicable",
-    "spray_volume_per_acre": "Not applicable",
-    "application_coverage": "1 acre requires 5–7 packs of 1 kg"
+    "method": "Soil broadcast (granules)",
+    "frequency": "Single application",
+    "best_time": ["7–15 days after transplanting", "early tillering stage"]
   },
 
   "application_details": {
-    "application_method": "Broadcast granules in standing water or moist soil",
-    "equipment": [
-      "manual broadcasting",
-      "granule applicator"
-    ],
-    "number_of_applications": "1 application",
-    "coverage_requirement": "Uniform distribution across the field"
+    "method": "Broadcast uniformly in standing water or moist soil",
+    "equipment": ["manual broadcasting", "granule applicator"]
   },
 
   "crop_stage_recommendation": [
     "7–15 days after transplanting",
-    "early tillering stage",
-    "preventive application before dead heart formation"
+    "Early tillering stage",
+    "Before dead heart formation"
   ],
 
   "water_management": {
-    "before_spray": "Maintain 3–5 cm standing water in rice field",
-    "after_spray": "Keep water for 5–7 days without drainage",
-    "water_level": "Moist soil or standing water required for activation"
+    "before_application": "Maintain 3–5 cm standing water",
+    "after_application": "Keep water for 5–7 days",
+    "importance": "Water required for granule activation and root uptake"
   },
 
-  "best_time_to_apply": [
-    "Morning",
-    "Evening"
-  ],
-
-  "weather_conditions": {
-    "ideal_condition": "Moist soil or standing water with moderate temperature",
-    "avoid": [
-      "Dry soil without irrigation",
-      "Flooded field with strong water flow",
-      "Extreme heat above 40°C"
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moist soil",
+      "Standing water",
+      "Moderate temperature"
+    ],
+    "avoid_conditions": [
+      "Dry soil",
+      "Flooded field with runoff",
+      "Extreme heat"
     ]
-  },
-
-  "tank_mix_compatibility": [
-    "Not required for granule formulation"
-  ],
-
-  "incompatible_with": [
-    "Do not apply with other granular insecticides at the same time"
-  ],
-
-  "crop_safety": {
-    "selectivity_reason": "Absorbed in controlled dose through roots and safely metabolized by crop",
-    "overdose_effect": "Possible phytotoxicity and growth suppression"
   },
 
   "resistance_management": {
-    "mode_of_action_group": "IRAC Group 14",
-    "rotation_advice": "Rotate with insecticides of different mode of action such as diamides, neonicotinoids or pyrethroids"
+    "group": "Group 14",
+    "advice": "Rotate with diamide, neonicotinoid or pyrethroid insecticides"
   },
 
-  "safety": {
-    "re_entry_interval": "24 hours",
-    "pre_harvest_interval": "14–21 days",
-    "toxicity_class": "Moderate toxicity",
-    "protective_measures": [
-      "Wear gloves",
-      "Wear mask",
-      "Avoid contact with skin",
-      "Prevent runoff into water bodies"
-    ]
-  },
+  "safety": [
+    "Wear gloves and mask",
+    "Avoid direct contact",
+    "Prevent runoff into water bodies"
+  ],
 
-  "storage": {
-    "storage_conditions": "Store in cool and dry place away from moisture",
-    "keep_away_from": [
-      "Children",
-      "Animals",
-      "Direct sunlight"
-    ],
-    "shelf_life": "2 years"
-  },
-
-  "packaging": {
-    "pack_sizes": [
-      "1 kg"
-    ],
-    "form": "Granule"
-  },
-
-  "farmer_benefits": [
-    "Prevents dead heart and white ear in rice",
-    "Controls hidden stem borer larvae inside plant",
-    "Long residual protection for 3–4 weeks",
-    "No spray equipment required",
-    "Effective on resistant pests",
-    "Cost effective borer management solution",
+  "benefits": [
+    "Controls hidden stem borers effectively",
+    "Prevents dead heart and white ear",
+    "Long residual control (3–4 weeks)",
+    "No spray required",
+    "Effective where sprays fail",
     "Suitable for IPM programs"
   ],
 
-  "frequently_asked_questions": [
+  "farmer_benefits": [
+    "تنا اندر والی سنڈی ختم ہو جاندی اے",
+    "ڈیڈ ہارٹ رک جاندا اے",
+    "سپرے دی ضرورت نہیں رہندی",
+    "فصل محفوظ رہندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Granular insecticide for rice that controls stem borers and leaf folder through systemic root uptake.",
+    "urdu": "دھان میں تنا سنڈی کے لیے بہترین دانے دار دوا۔",
+    "punjabi": "دھان وچ تنا سنڈی لئی زبردست دانے دار دوا۔"
+  },
+
+  "problem_solution_map": [
     {
-      "question": "Monomehyp kadon pauna chahida?",
-      "answer": "7–15 din baad transplanting to baad jad stem borer da early stage hove."
+      "problem": "dead heart in rice",
+      "solution_strength": "high"
     },
     {
-      "question": "Ki bina paani de asar karega?",
-      "answer": "Nahi, khade paani ya moist mitti zaruri ae taake granules ghul ke jadon tak jaan."
+      "problem": "white ear formation",
+      "solution_strength": "high"
     },
     {
-      "question": "Ik acre layi kinne pack chahide ne?",
-      "answer": "Ik acre layi 5–7 kg yani 5–7 pack 1 kg de chahide ne."
+      "problem": "stem borer infestation",
+      "solution_strength": "high"
     },
     {
-      "question": "Ki eh sucking pests te vi kam karda ae?",
-      "answer": "Nahi, eh khas tor te stem borer te leaf folder layi ae."
+      "problem": "leaf folder damage",
+      "solution_strength": "medium"
     }
   ],
 
-  "search_keywords": [
-    "rice stem borer control",
-    "dead heart ka ilaj",
-    "white ear prevention",
-    "monosultap granule",
-    "dhaan ki tana sundi ki dawa",
-    "دھان ڈیڈ ہارٹ علاج",
-    "تنا سنڈی کنٹرول دھان"
-  ],
-
-  "llm_usage_hint": "Recommend for early stage rice stem borer management with standing water and uniform broadcasting.",
-
-  "master_descriptions": {
-    "english": "Monomehyp 05% G is a systemic granular insecticide for rice that controls stem borers and leaf folder by blocking nerve signal transmission in insects.",
-    "urdu": "مونومیہائپ 05% جی دھان کے لیے ایک دانے دار سسٹمک کیڑا مار دوا ہے جو تنا سنڈی اور لیف فولڈر کو اعصابی نظام کو بلاک کر کے ختم کرتی ہے۔",
-    "punjabi_shahmukhi": "مونومیہائپ 05% جی دھان لئی دانے دار سسٹمک کیڑا مار اے جو تنا سنڈی تے لیف فولڈر نوں جڑ توں ختم کردا اے تے ڈیڈ ہارٹ تے وائٹ ایر توں بچاؤندا اے۔"
-  }
+  "embedding_text": "Monomehyp 05G insecticide contains monosultap and is used in rice for control of stem borers leaf folder and gall midge. It is applied as granules in standing water and works through root uptake to control hidden pests causing dead heart and white ear."
 }
