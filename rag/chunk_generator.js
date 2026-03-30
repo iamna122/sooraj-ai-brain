@@ -22,11 +22,10 @@ const unique = value => {
 };
 
 /*
-LOAD FARMER QUERIES BY CATEGORY
+LOAD FARMER QUERIES
 */
 
 function loadFarmerQueries() {
-
   const files = fs.readdirSync(QUERIES_DIR);
 
   const queries = {
@@ -37,7 +36,6 @@ function loadFarmerQueries() {
   };
 
   files.forEach(file => {
-
     const filePath = path.join(QUERIES_DIR, file);
     const data = JSON.parse(fs.readFileSync(filePath));
 
@@ -46,18 +44,10 @@ function loadFarmerQueries() {
 
     if (!Array.isArray(list)) return;
 
-    if (file.includes("insect"))
-      queries.insect.push(...list);
-
-    if (file.includes("disease"))
-      queries.disease.push(...list);
-
-    if (file.includes("nutrition"))
-      queries.nutrition.push(...list);
-
-    if (file.includes("weed"))
-      queries.weed.push(...list);
-
+    if (file.includes("insect")) queries.insect.push(...list);
+    if (file.includes("disease")) queries.disease.push(...list);
+    if (file.includes("nutrition")) queries.nutrition.push(...list);
+    if (file.includes("weed")) queries.weed.push(...list);
   });
 
   Object.keys(queries).forEach(k => {
@@ -68,11 +58,10 @@ function loadFarmerQueries() {
 }
 
 /*
-MAP PRODUCT CATEGORY → PROBLEM TYPE
+CATEGORY → PROBLEM TYPE
 */
 
 function detectProblemType(category) {
-
   const c = (category || "").toLowerCase();
 
   if (c.includes("fungicide")) return "disease";
@@ -84,49 +73,58 @@ function detectProblemType(category) {
 }
 
 /*
-BUILD MULTIPLE CHUNKS PER PRODUCT
+BUILD CHUNKS
 */
 
 function buildChunks(product, farmerQueries) {
-
   const chunks = [];
 
   const problemType = detectProblemType(product.category);
 
-  const crops = unique(product.crops?.all || product.crops || []);
-  const controls = unique(product.target_pests || product.controls);
-  const diseases = unique(product.target_diseases || product.diseases);
-  const weeds = unique(product.target_weeds || product.weeds);
+  // ✅ FIXED MAPPING (CRITICAL)
+  const crops = unique(
+    product.crop_applicability?.all_supported_crops ||
+    product.crop_applicability?.major_crops ||
+    []
+  );
 
-  const symptoms = unique([
-    ...(product.symptoms?.english || []),
-    ...(product.symptoms?.urdu || []),
-    ...(product.symptoms?.punjabi || []),
-    ...(product.symptoms?.roman_urdu || [])
+  const diseases = unique(product.targets?.diseases || []);
+  const weeds = unique(product.targets?.weeds || []);
+  const insects = unique(product.targets?.insects || []);
+  const nutrients = unique(product.targets?.nutrient_deficiencies || []);
+
+  const controls = unique([
+    ...diseases,
+    ...weeds,
+    ...insects
   ]);
+
+  const symptoms = unique(product.farmer_symptoms || []);
 
   const queries = unique(product.farmer_problem_queries);
   const keywords = unique(product.search_keywords);
 
   const relevantQueries = farmerQueries[problemType] || [];
 
-  /*
-  PRODUCT INFO CHUNK
-  */
+  // ============================================================
+  // ✅ FULL PRODUCT CHUNK (NOW CORRECT)
+  // ============================================================
 
   const productText = `
 Product: ${product.product_name}
 Category: ${product.category}
+Type: ${product.product_type || ""}
+
 Problem Type: ${problemType}
 
 Crops: ${crops.join(", ")}
-
 Controls: ${controls.join(", ")}
 Diseases: ${diseases.join(", ")}
 Weeds: ${weeds.join(", ")}
+Nutrient deficiency: ${nutrients.join(", ")}
 
 Description:
-${product.multilingual_description?.english || product.description || ""}
+${product.master_descriptions?.english || ""}
 `;
 
   chunks.push({
@@ -134,17 +132,22 @@ ${product.multilingual_description?.english || product.description || ""}
     metadata: {
       product_name: product.product_name,
       category: product.category,
+      type: product.product_type || null,
+      crops,
+      controls,
+      diseases,
+      weeds,
+      nutrient_deficiency: nutrients,
       problem_type: problemType,
       chunk_type: "product"
     }
   });
 
-  /*
-  SYMPTOM CHUNKS
-  */
+  // ============================================================
+  // SYMPTOMS
+  // ============================================================
 
   symptoms.forEach(symptom => {
-
     chunks.push({
       text: symptom,
       metadata: {
@@ -154,15 +157,13 @@ ${product.multilingual_description?.english || product.description || ""}
         chunk_type: "symptom"
       }
     });
-
   });
 
-  /*
-  PRODUCT QUERY CHUNKS
-  */
+  // ============================================================
+  // PRODUCT QUERIES
+  // ============================================================
 
   queries.forEach(q => {
-
     chunks.push({
       text: q,
       metadata: {
@@ -172,15 +173,13 @@ ${product.multilingual_description?.english || product.description || ""}
         chunk_type: "product_query"
       }
     });
-
   });
 
-  /*
-  FARMER QUERY LIBRARY CHUNKS
-  */
+  // ============================================================
+  // FARMER QUERY LIBRARY
+  // ============================================================
 
   relevantQueries.forEach(q => {
-
     chunks.push({
       text: q,
       metadata: {
@@ -189,15 +188,13 @@ ${product.multilingual_description?.english || product.description || ""}
         chunk_type: "farmer_query"
       }
     });
-
   });
 
-  /*
-  KEYWORD CHUNKS
-  */
+  // ============================================================
+  // KEYWORDS
+  // ============================================================
 
   keywords.forEach(k => {
-
     chunks.push({
       text: k,
       metadata: {
@@ -207,18 +204,16 @@ ${product.multilingual_description?.english || product.description || ""}
         chunk_type: "keyword"
       }
     });
-
   });
 
   return chunks;
 }
 
 /*
-MAIN RUN
+MAIN
 */
 
 function run() {
-
   const farmerQueries = loadFarmerQueries();
 
   console.log(`🌾 Farmer queries loaded`);
@@ -232,13 +227,11 @@ function run() {
   const chunks = [];
 
   files.forEach(file => {
-
     const product = JSON.parse(
       fs.readFileSync(path.join(PRODUCTS_DIR, file))
     );
 
     chunks.push(...buildChunks(product, farmerQueries));
-
   });
 
   fs.writeFileSync(OUTPUT, JSON.stringify(chunks, null, 2));

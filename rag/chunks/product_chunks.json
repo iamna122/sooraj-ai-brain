@@ -1,9 +1,23 @@
 [
   {
-    "text": "Product: Atrazine 38% SC\nCategory: Herbicide\nProblem Type: weed\n\nCrops: \n\nControls: \nDiseases: \nWeeds: Bathu, Cholai, Makoh, Kulfa, Lehli, Wild mustard, Itsit, Parthenium (early stage), Sawank (Echinochloa), Crabgrass (Digitaria), Foxtail (early stage), Weak on perennial grasses; tank mix required for complete control.\n\nDescription:",
+    "text": "Product: Atrazine 38% SC\nCategory: Herbicide\nType: [object Object]\n\nProblem Type: weed\n\nCrops: \nControls: \nDiseases: \nWeeds: \nNutrient deficiency: \n\nDescription:",
     "metadata": {
       "product_name": "Atrazine 38% SC",
       "category": "Herbicide",
+      "type": {
+        "selectivity": "Selective",
+        "application_timing": [
+          "Pre-emergence",
+          "Early post-emergence"
+        ],
+        "systemicity": "Systemic",
+        "soil_residual": "4-8 weeks"
+      },
+      "crops": [],
+      "controls": [],
+      "diseases": [],
+      "weeds": [],
+      "nutrient_deficiency": [],
       "problem_type": "weed",
       "chunk_type": "product"
     }
@@ -1497,12 +1511,111 @@
     }
   },
   {
-    "text": "Product: Ceedo 20% SC\nCategory: Insecticide\nProblem Type: insect\n\nCrops: \n\nControls: \nDiseases: \nWeeds: \n\nDescription:",
+    "text": "Product: Ceedo 20% SC\nCategory: Insecticide\nType: Insecticide\n\nProblem Type: insect\n\nCrops: rice, cotton, wheat, maize, vegetables, citrus, mango, sugarcane, potato\nControls: aphid, whitefly, jassid, thrips, brown planthopper, green leafhopper, white backed planthopper, mealybug, scale insects, psyllid\nDiseases: \nWeeds: \nNutrient deficiency: \n\nDescription:\nCeedo 20% SC is a systemic neonicotinoid insecticide containing Clothianidin that provides fast and long-lasting control of major sucking pests in multiple crops.",
+    "metadata": {
+      "product_name": "Ceedo 20% SC",
+      "category": "Insecticide",
+      "type": "Insecticide",
+      "crops": [
+        "rice",
+        "cotton",
+        "wheat",
+        "maize",
+        "vegetables",
+        "citrus",
+        "mango",
+        "sugarcane",
+        "potato"
+      ],
+      "controls": [
+        "aphid",
+        "whitefly",
+        "jassid",
+        "thrips",
+        "brown planthopper",
+        "green leafhopper",
+        "white backed planthopper",
+        "mealybug",
+        "scale insects",
+        "psyllid"
+      ],
+      "diseases": [],
+      "weeds": [],
+      "nutrient_deficiency": [],
+      "problem_type": "insect",
+      "chunk_type": "product"
+    }
+  },
+  {
+    "text": "پتیاں مڑ رہیاں نیں تے رس چوسیا جا ریا اے",
     "metadata": {
       "product_name": "Ceedo 20% SC",
       "category": "Insecticide",
       "problem_type": "insect",
-      "chunk_type": "product"
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "سفید مکھی بہت زیادہ اے",
+    "metadata": {
+      "product_name": "Ceedo 20% SC",
+      "category": "Insecticide",
+      "problem_type": "insect",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "ٹیلہ فصل نوں کمزور کر ریا اے",
+    "metadata": {
+      "product_name": "Ceedo 20% SC",
+      "category": "Insecticide",
+      "problem_type": "insect",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "مہو دی کالونیاں بن گئیاں نیں",
+    "metadata": {
+      "product_name": "Ceedo 20% SC",
+      "category": "Insecticide",
+      "problem_type": "insect",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پتیاں پیلیاں تے چپچپی ہو گئیاں نیں",
+    "metadata": {
+      "product_name": "Ceedo 20% SC",
+      "category": "Insecticide",
+      "problem_type": "insect",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "چاول وچ تہسین دا حملہ اے",
+    "metadata": {
+      "product_name": "Ceedo 20% SC",
+      "category": "Insecticide",
+      "problem_type": "insect",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پتیاں تھلے کیڑے لُکے ہوئے نیں",
+    "metadata": {
+      "product_name": "Ceedo 20% SC",
+      "category": "Insecticide",
+      "problem_type": "insect",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پودا ہرا نہیں رہیا تے بڑھوتری رک گئی اے",
+    "metadata": {
+      "product_name": "Ceedo 20% SC",
+      "category": "Insecticide",
+      "problem_type": "insect",
+      "chunk_type": "symptom"
     }
   },
   {
@@ -2209,12 +2322,122 @@
     }
   },
   {
-    "text": "Product: Duo + Star\nCategory: Herbicide\nProblem Type: weed\n\nCrops: \n\nControls: \nDiseases: \nWeeds: \n\nDescription:",
+    "text": "Product: Duo + Star\nCategory: Herbicide\nType: Herbicide\n\nProblem Type: weed\n\nCrops: potato, soybean, groundnut, field peas, vegetable crops (where label permits)\nControls: barnyard grass, wild oats, johnson grass, foxtail, crabgrass, chenopodium, amaranthus, bindweed, purslane, black nightshade, cyperus rotundus, cyperus difformis\nDiseases: \nWeeds: barnyard grass, wild oats, johnson grass, foxtail, crabgrass, chenopodium, amaranthus, bindweed, purslane, black nightshade, cyperus rotundus, cyperus difformis\nNutrient deficiency: \n\nDescription:\nDuo + Star is a selective post-emergence herbicide combination containing Rimsulfuron, Quizalofop-P-Ethyl and Bentazone that controls grasses, broadleaf weeds and sedges through triple mode of action.",
+    "metadata": {
+      "product_name": "Duo + Star",
+      "category": "Herbicide",
+      "type": "Herbicide",
+      "crops": [
+        "potato",
+        "soybean",
+        "groundnut",
+        "field peas",
+        "vegetable crops (where label permits)"
+      ],
+      "controls": [
+        "barnyard grass",
+        "wild oats",
+        "johnson grass",
+        "foxtail",
+        "crabgrass",
+        "chenopodium",
+        "amaranthus",
+        "bindweed",
+        "purslane",
+        "black nightshade",
+        "cyperus rotundus",
+        "cyperus difformis"
+      ],
+      "diseases": [],
+      "weeds": [
+        "barnyard grass",
+        "wild oats",
+        "johnson grass",
+        "foxtail",
+        "crabgrass",
+        "chenopodium",
+        "amaranthus",
+        "bindweed",
+        "purslane",
+        "black nightshade",
+        "cyperus rotundus",
+        "cyperus difformis"
+      ],
+      "nutrient_deficiency": [],
+      "problem_type": "weed",
+      "chunk_type": "product"
+    }
+  },
+  {
+    "text": "کھیت وچ گھاس بہت اے",
     "metadata": {
       "product_name": "Duo + Star",
       "category": "Herbicide",
       "problem_type": "weed",
-      "chunk_type": "product"
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "چوڑی پتی والی جڑی بوٹی بہت زیادہ ہو گئی اے",
+    "metadata": {
+      "product_name": "Duo + Star",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "موتھا یا ڈیلا پورے کھیت وچ پھیل گیا اے",
+    "metadata": {
+      "product_name": "Duo + Star",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "فصل دی بڑھوتری رک گئی اے گھاس دی وجہ نال",
+    "metadata": {
+      "product_name": "Duo + Star",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "جڑی بوٹی فصل نوں دبا رہی اے",
+    "metadata": {
+      "product_name": "Duo + Star",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "کھیت صاف نہیں ہو رہا",
+    "metadata": {
+      "product_name": "Duo + Star",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "گھاس پانی تے کھاد نوں استعمال کر رہی اے",
+    "metadata": {
+      "product_name": "Duo + Star",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "مکس جڑی بوٹی دا حملہ اے",
+    "metadata": {
+      "product_name": "Duo + Star",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
     }
   },
   {
@@ -3778,12 +4001,110 @@
     }
   },
   {
-    "text": "Product: Fertera Plus\nCategory: Granule\nProblem Type: general\n\nCrops: \n\nControls: \nDiseases: \nWeeds: \n\nDescription:",
+    "text": "Product: Fertera Plus\nCategory: Granule\nType: Insecticide\n\nProblem Type: general\n\nCrops: transplanted rice, direct seeded rice, maize, sugarcane\nControls: yellow stem borer, striped stem borer, leaf folder, brown plant hopper, green leafhopper, early shoot borer, fall armyworm (early stage), top borer, root borer, pyrilla, termite, aphid, jassid, thrips\nDiseases: \nWeeds: \nNutrient deficiency: \n\nDescription:\nFertera Plus is a systemic granular insecticide for early crop protection that controls stem borers and sucking pests in rice, maize and sugarcane through root uptake and long residual action.",
+    "metadata": {
+      "product_name": "Fertera Plus",
+      "category": "Granule",
+      "type": "Insecticide",
+      "crops": [
+        "transplanted rice",
+        "direct seeded rice",
+        "maize",
+        "sugarcane"
+      ],
+      "controls": [
+        "yellow stem borer",
+        "striped stem borer",
+        "leaf folder",
+        "brown plant hopper",
+        "green leafhopper",
+        "early shoot borer",
+        "fall armyworm (early stage)",
+        "top borer",
+        "root borer",
+        "pyrilla",
+        "termite",
+        "aphid",
+        "jassid",
+        "thrips"
+      ],
+      "diseases": [],
+      "weeds": [],
+      "nutrient_deficiency": [],
+      "problem_type": "general",
+      "chunk_type": "product"
+    }
+  },
+  {
+    "text": "دھان وچ ڈیڈ ہارٹ بن رہیا اے",
     "metadata": {
       "product_name": "Fertera Plus",
       "category": "Granule",
       "problem_type": "general",
-      "chunk_type": "product"
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "تنا اندر سنڈی گھس گئی اے",
+    "metadata": {
+      "product_name": "Fertera Plus",
+      "category": "Granule",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پتے لپٹ کے سوکھ رہے نیں",
+    "metadata": {
+      "product_name": "Fertera Plus",
+      "category": "Granule",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "ٹِلر کم بن رہے نیں",
+    "metadata": {
+      "product_name": "Fertera Plus",
+      "category": "Granule",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "فصل دی بڑھوتری رک گئی اے کیڑے کارن",
+    "metadata": {
+      "product_name": "Fertera Plus",
+      "category": "Granule",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "ہاپر دا حملہ شروع ہو گیا اے",
+    "metadata": {
+      "product_name": "Fertera Plus",
+      "category": "Granule",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "مکئی دا وچلا پودا سوکھ رہیا اے",
+    "metadata": {
+      "product_name": "Fertera Plus",
+      "category": "Granule",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "گنے وچ شروع توں سنڈی نقصان کر رہی اے",
+    "metadata": {
+      "product_name": "Fertera Plus",
+      "category": "Granule",
+      "problem_type": "general",
+      "chunk_type": "symptom"
     }
   },
   {
@@ -3850,12 +4171,112 @@
     }
   },
   {
-    "text": "Product: Mister\nCategory: Insecticide\nProblem Type: insect\n\nCrops: \n\nControls: \nDiseases: \nWeeds: \n\nDescription:",
+    "text": "Product: Mister\nCategory: Insecticide\nType: Insecticide\n\nProblem Type: insect\n\nCrops: cotton, chilli, tomato, brinjal, okra, rice, maize, potato, citrus\nControls: whitefly, aphid, jassid, thrips, leafhopper, planthopper, mealybug (early stage), early bollworms, armyworm (small larvae), spodoptera (early stage), mites (suppression)\nDiseases: \nWeeds: \nNutrient deficiency: \n\nDescription:\nMister is a dual action systemic and contact insecticide that provides rapid knockdown and long-lasting control of sucking pests in cotton, vegetables and rice.",
+    "metadata": {
+      "product_name": "Mister",
+      "category": "Insecticide",
+      "type": "Insecticide",
+      "crops": [
+        "cotton",
+        "chilli",
+        "tomato",
+        "brinjal",
+        "okra",
+        "rice",
+        "maize",
+        "potato",
+        "citrus"
+      ],
+      "controls": [
+        "whitefly",
+        "aphid",
+        "jassid",
+        "thrips",
+        "leafhopper",
+        "planthopper",
+        "mealybug (early stage)",
+        "early bollworms",
+        "armyworm (small larvae)",
+        "spodoptera (early stage)",
+        "mites (suppression)"
+      ],
+      "diseases": [],
+      "weeds": [],
+      "nutrient_deficiency": [],
+      "problem_type": "insect",
+      "chunk_type": "product"
+    }
+  },
+  {
+    "text": "سفید مکھی دا بہت حملہ اے",
     "metadata": {
       "product_name": "Mister",
       "category": "Insecticide",
       "problem_type": "insect",
-      "chunk_type": "product"
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "ٹیلہ پتے توں رس چوس رہیا اے",
+    "metadata": {
+      "product_name": "Mister",
+      "category": "Insecticide",
+      "problem_type": "insect",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "مہو پتے دے تھلے بیٹھا اے",
+    "metadata": {
+      "product_name": "Mister",
+      "category": "Insecticide",
+      "problem_type": "insect",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "تھرپس کارن پتیاں چاندی ورگیاں ہو گئیاں نیں",
+    "metadata": {
+      "product_name": "Mister",
+      "category": "Insecticide",
+      "problem_type": "insect",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پتیاں مڑ کے سکڑ رہیاں نیں",
+    "metadata": {
+      "product_name": "Mister",
+      "category": "Insecticide",
+      "problem_type": "insect",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پودا کمزور ہو گیا اے",
+    "metadata": {
+      "product_name": "Mister",
+      "category": "Insecticide",
+      "problem_type": "insect",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "رس چوسن والے کیڑے بہت ودھ گئے نیں",
+    "metadata": {
+      "product_name": "Mister",
+      "category": "Insecticide",
+      "problem_type": "insect",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "نرم سنڈی شروع ہو گئی اے",
+    "metadata": {
+      "product_name": "Mister",
+      "category": "Insecticide",
+      "problem_type": "insect",
+      "chunk_type": "symptom"
     }
   },
   {
@@ -4562,12 +4983,102 @@
     }
   },
   {
-    "text": "Product: Monomehyp 05% G\nCategory: Granule\nProblem Type: general\n\nCrops: \n\nControls: \nDiseases: \nWeeds: \n\nDescription:",
+    "text": "Product: Monomehyp 05% G\nCategory: Granule\nType: Insecticide\n\nProblem Type: general\n\nCrops: transplanted rice, maize, sugarcane\nControls: yellow stem borer, white stem borer, striped stem borer, pink stem borer, leaf folder, gall midge, whorl maggot\nDiseases: \nWeeds: \nNutrient deficiency: \n\nDescription:\nMonomehyp 05% G is a systemic granular insecticide for rice that controls stem borers and leaf folder by blocking nerve signal transmission in insects.",
+    "metadata": {
+      "product_name": "Monomehyp 05% G",
+      "category": "Granule",
+      "type": "Insecticide",
+      "crops": [
+        "transplanted rice",
+        "maize",
+        "sugarcane"
+      ],
+      "controls": [
+        "yellow stem borer",
+        "white stem borer",
+        "striped stem borer",
+        "pink stem borer",
+        "leaf folder",
+        "gall midge",
+        "whorl maggot"
+      ],
+      "diseases": [],
+      "weeds": [],
+      "nutrient_deficiency": [],
+      "problem_type": "general",
+      "chunk_type": "product"
+    }
+  },
+  {
+    "text": "دھان وچ ڈیڈ ہارٹ بن رہیا اے",
     "metadata": {
       "product_name": "Monomehyp 05% G",
       "category": "Granule",
       "problem_type": "general",
-      "chunk_type": "product"
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "بالیاں سفید ہو رہیاں نیں",
+    "metadata": {
+      "product_name": "Monomehyp 05% G",
+      "category": "Granule",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "تنا اندر توں کھایا ہویا اے",
+    "metadata": {
+      "product_name": "Monomehyp 05% G",
+      "category": "Granule",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پتے لپٹ کے سوکھ رہئے نیں",
+    "metadata": {
+      "product_name": "Monomehyp 05% G",
+      "category": "Granule",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "فصل وچ سنڈی دا حملہ اے",
+    "metadata": {
+      "product_name": "Monomehyp 05% G",
+      "category": "Granule",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پودا وچوں وچوں سوکھ رہیا اے",
+    "metadata": {
+      "product_name": "Monomehyp 05% G",
+      "category": "Granule",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "دھان دی بڑھوتری رک گئی اے",
+    "metadata": {
+      "product_name": "Monomehyp 05% G",
+      "category": "Granule",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پتے وچ سوراخ تے اندر سنڈی اے",
+    "metadata": {
+      "product_name": "Monomehyp 05% G",
+      "category": "Granule",
+      "problem_type": "general",
+      "chunk_type": "symptom"
     }
   },
   {
@@ -4634,12 +5145,119 @@
     }
   },
   {
-    "text": "Product: Multi-KClasic Potash 30%\nCategory: Micronutrient\nProblem Type: general\n\nCrops: \n\nControls: \nDiseases: \nWeeds: \n\nDescription:",
+    "text": "Product: Multi-KClasic Potash 30%\nCategory: Micronutrient\nType: Fertilizer\n\nProblem Type: general\n\nCrops: all vegetables, all fruits, field crops, oilseed crops, sugarcane, grapes, banana, sunflower\nControls: \nDiseases: \nWeeds: \nNutrient deficiency: potassium deficiency\n\nDescription:\nMulti-KClasic Potash 30% is a chloride-free liquid potassium nitrate fertilizer that improves fruit size, grain filling, crop strength and overall produce quality.",
+    "metadata": {
+      "product_name": "Multi-KClasic Potash 30%",
+      "category": "Micronutrient",
+      "type": "Fertilizer",
+      "crops": [
+        "all vegetables",
+        "all fruits",
+        "field crops",
+        "oilseed crops",
+        "sugarcane",
+        "grapes",
+        "banana",
+        "sunflower"
+      ],
+      "controls": [],
+      "diseases": [],
+      "weeds": [],
+      "nutrient_deficiency": [
+        "potassium deficiency"
+      ],
+      "problem_type": "general",
+      "chunk_type": "product"
+    }
+  },
+  {
+    "text": "پھل چھوٹا رہ گیا اے",
     "metadata": {
       "product_name": "Multi-KClasic Potash 30%",
       "category": "Micronutrient",
       "problem_type": "general",
-      "chunk_type": "product"
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پھل دا رنگ ہلکا اے",
+    "metadata": {
+      "product_name": "Multi-KClasic Potash 30%",
+      "category": "Micronutrient",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "دانا نہیں بھر رہیا",
+    "metadata": {
+      "product_name": "Multi-KClasic Potash 30%",
+      "category": "Micronutrient",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "وزن کم اے",
+    "metadata": {
+      "product_name": "Multi-KClasic Potash 30%",
+      "category": "Micronutrient",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پتے دے کنارے جل گئے نیں",
+    "metadata": {
+      "product_name": "Multi-KClasic Potash 30%",
+      "category": "Micronutrient",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پودا کمزور اے",
+    "metadata": {
+      "product_name": "Multi-KClasic Potash 30%",
+      "category": "Micronutrient",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "ٹینڈے ٹھیک نہیں بن رہے",
+    "metadata": {
+      "product_name": "Multi-KClasic Potash 30%",
+      "category": "Micronutrient",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "بالیاں ہلکیاں نیں",
+    "metadata": {
+      "product_name": "Multi-KClasic Potash 30%",
+      "category": "Micronutrient",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "کپاس دے پتے لال ہو رہے نیں",
+    "metadata": {
+      "product_name": "Multi-KClasic Potash 30%",
+      "category": "Micronutrient",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "مارکیٹ والی کوالٹی نہیں بن رہی",
+    "metadata": {
+      "product_name": "Multi-KClasic Potash 30%",
+      "category": "Micronutrient",
+      "problem_type": "general",
+      "chunk_type": "symptom"
     }
   },
   {
@@ -4715,12 +5333,134 @@
     }
   },
   {
-    "text": "Product: Round-Up 48% SL\nCategory: Herbicide\nProblem Type: weed\n\nCrops: \n\nControls: \nDiseases: \nWeeds: \n\nDescription:",
+    "text": "Product: Round-Up 48% SL\nCategory: Herbicide\nType: Herbicide\n\nProblem Type: weed\n\nCrops: pre-sowing for all crops, orchard floor, non-crop areas, bunds, canal banks, roadsides\nControls: khabbal, dhoob grass, sawanki, wild oats, bathoo, cholai, makoh, lehli, field bindweed, annual grasses, broadleaf weeds, perennial weeds, motha (suppression)\nDiseases: \nWeeds: khabbal, dhoob grass, sawanki, wild oats, bathoo, cholai, makoh, lehli, field bindweed, annual grasses, broadleaf weeds, perennial weeds, motha (suppression)\nNutrient deficiency: \n\nDescription:\nRound-Up 48% SL is a non-selective systemic herbicide that kills all types of weeds from leaf to root and is mainly used for land preparation and non-crop weed control.",
+    "metadata": {
+      "product_name": "Round-Up 48% SL",
+      "category": "Herbicide",
+      "type": "Herbicide",
+      "crops": [
+        "pre-sowing for all crops",
+        "orchard floor",
+        "non-crop areas",
+        "bunds",
+        "canal banks",
+        "roadsides"
+      ],
+      "controls": [
+        "khabbal",
+        "dhoob grass",
+        "sawanki",
+        "wild oats",
+        "bathoo",
+        "cholai",
+        "makoh",
+        "lehli",
+        "field bindweed",
+        "annual grasses",
+        "broadleaf weeds",
+        "perennial weeds",
+        "motha (suppression)"
+      ],
+      "diseases": [],
+      "weeds": [
+        "khabbal",
+        "dhoob grass",
+        "sawanki",
+        "wild oats",
+        "bathoo",
+        "cholai",
+        "makoh",
+        "lehli",
+        "field bindweed",
+        "annual grasses",
+        "broadleaf weeds",
+        "perennial weeds",
+        "motha (suppression)"
+      ],
+      "nutrient_deficiency": [],
+      "problem_type": "weed",
+      "chunk_type": "product"
+    }
+  },
+  {
+    "text": "ہر قسم دی گھاس ختم کرنی اے",
     "metadata": {
       "product_name": "Round-Up 48% SL",
       "category": "Herbicide",
       "problem_type": "weed",
-      "chunk_type": "product"
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "خبال بہت ہو گئی اے",
+    "metadata": {
+      "product_name": "Round-Up 48% SL",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "ڈھوب گھاس قابو نہیں آ رہی",
+    "metadata": {
+      "product_name": "Round-Up 48% SL",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "بوائی توں پہلاں کھیت صاف کرنا اے",
+    "metadata": {
+      "product_name": "Round-Up 48% SL",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "کھیت وچ پرانی جڑی بوٹی کھڑی اے",
+    "metadata": {
+      "product_name": "Round-Up 48% SL",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "باغ دے تھلے زمین صاف کرنی اے",
+    "metadata": {
+      "product_name": "Round-Up 48% SL",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "واٹاں تے نہر کنارے گھاس ختم کرنی اے",
+    "metadata": {
+      "product_name": "Round-Up 48% SL",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "زیرو ٹیلج کرنی اے",
+    "metadata": {
+      "product_name": "Round-Up 48% SL",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "ہل چلائے بغیر گھاس مارنی اے",
+    "metadata": {
+      "product_name": "Round-Up 48% SL",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
     }
   },
   {
@@ -6284,12 +7024,114 @@
     }
   },
   {
-    "text": "Product: Wolf 25% OD\nCategory: Herbicide\nProblem Type: weed\n\nCrops: \n\nControls: \nDiseases: \nWeeds: \n\nDescription:",
+    "text": "Product: Wolf 25% OD\nCategory: Herbicide\nType: Herbicide\n\nProblem Type: weed\n\nCrops: wheat\nControls: phalaris minor, wild oats, canary grass, ryegrass, bathua, lehli, wild mustard, makoh, cholai, kulfa\nDiseases: \nWeeds: phalaris minor, wild oats, canary grass, ryegrass, bathua, lehli, wild mustard, makoh, cholai, kulfa\nNutrient deficiency: \n\nDescription:\nWolf 25% OD is a triple-action selective post-emergence systemic herbicide for wheat that controls grassy and broadleaf weeds including phalaris minor and wild oats.",
+    "metadata": {
+      "product_name": "Wolf 25% OD",
+      "category": "Herbicide",
+      "type": "Herbicide",
+      "crops": [
+        "wheat"
+      ],
+      "controls": [
+        "phalaris minor",
+        "wild oats",
+        "canary grass",
+        "ryegrass",
+        "bathua",
+        "lehli",
+        "wild mustard",
+        "makoh",
+        "cholai",
+        "kulfa"
+      ],
+      "diseases": [],
+      "weeds": [
+        "phalaris minor",
+        "wild oats",
+        "canary grass",
+        "ryegrass",
+        "bathua",
+        "lehli",
+        "wild mustard",
+        "makoh",
+        "cholai",
+        "kulfa"
+      ],
+      "nutrient_deficiency": [],
+      "problem_type": "weed",
+      "chunk_type": "product"
+    }
+  },
+  {
+    "text": "گندم وچ گلی ڈنڈا بہت اے",
     "metadata": {
       "product_name": "Wolf 25% OD",
       "category": "Herbicide",
       "problem_type": "weed",
-      "chunk_type": "product"
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "جنگلی جئی کھیت وچ پھیلی ہوئی اے",
+    "metadata": {
+      "product_name": "Wolf 25% OD",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "چوڑی پتی جڑی بوٹیاں ختم نہیں ہورہیاں",
+    "metadata": {
+      "product_name": "Wolf 25% OD",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "باتھو گندم نوں دبا رہیا اے",
+    "metadata": {
+      "product_name": "Wolf 25% OD",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "لہلی بہت زیادہ اے",
+    "metadata": {
+      "product_name": "Wolf 25% OD",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "کھیت وچ ملی جلی جڑی بوٹیاں نیں",
+    "metadata": {
+      "product_name": "Wolf 25% OD",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "گندم دی گروتھ رک گئی اے جڑی بوٹیاں کرکے",
+    "metadata": {
+      "product_name": "Wolf 25% OD",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "کھیت صاف نہیں ہورہا",
+    "metadata": {
+      "product_name": "Wolf 25% OD",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
     }
   },
   {
@@ -7835,12 +8677,169 @@
     }
   },
   {
-    "text": "Product: Babbar Sher Sulphur\nCategory: Crop Nutrition\nProblem Type: general\n\nCrops: \n\nControls: \nDiseases: \nWeeds: \n\nDescription:",
+    "text": "Product: Babbar Sher Sulphur\nCategory: Crop Nutrition\nType: Fertilizer\n\nProblem Type: general\n\nCrops: wheat, rice, maize, cotton, sugarcane, mustard, canola, sunflower, onion, garlic, potato, vegetables, oilseed crops\nControls: \nDiseases: \nWeeds: \nNutrient deficiency: sulphur deficiency\n\nDescription:\nBabbar Sher Sulphur is a high sulphur fertilizer enriched with nitrogen that improves soil fertility, nutrient availability, urea efficiency and crop quality.",
+    "metadata": {
+      "product_name": "Babbar Sher Sulphur",
+      "category": "Crop Nutrition",
+      "type": "Fertilizer",
+      "crops": [
+        "wheat",
+        "rice",
+        "maize",
+        "cotton",
+        "sugarcane",
+        "mustard",
+        "canola",
+        "sunflower",
+        "onion",
+        "garlic",
+        "potato",
+        "vegetables",
+        "oilseed crops"
+      ],
+      "controls": [],
+      "diseases": [],
+      "weeds": [],
+      "nutrient_deficiency": [
+        "sulphur deficiency"
+      ],
+      "problem_type": "general",
+      "chunk_type": "product"
+    }
+  },
+  {
+    "text": "نواں پتہ پیلا اے پرانا ہرا اے",
     "metadata": {
       "product_name": "Babbar Sher Sulphur",
       "category": "Crop Nutrition",
       "problem_type": "general",
-      "chunk_type": "product"
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پودا ہلکا سبز اے",
+    "metadata": {
+      "product_name": "Babbar Sher Sulphur",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "گندم دی ٹلرنگ گھٹ اے",
+    "metadata": {
+      "product_name": "Babbar Sher Sulphur",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "دھان کمزور اے بڑھوتری نہیں ہو رہی",
+    "metadata": {
+      "product_name": "Babbar Sher Sulphur",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پودا باریک تے کمزور اے",
+    "metadata": {
+      "product_name": "Babbar Sher Sulphur",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "دیر نال پک رہی اے فصل",
+    "metadata": {
+      "product_name": "Babbar Sher Sulphur",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "دانہ بھرائی کمزور اے",
+    "metadata": {
+      "product_name": "Babbar Sher Sulphur",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "سرسوں وچ تیل دی مقدار گھٹ اے",
+    "metadata": {
+      "product_name": "Babbar Sher Sulphur",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "یوریا دا پورا اثر نہیں ہو ریا",
+    "metadata": {
+      "product_name": "Babbar Sher Sulphur",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "زمین کڑی اے نرم نہیں ہندی",
+    "metadata": {
+      "product_name": "Babbar Sher Sulphur",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "alkaline soil vich fasal kamzor",
+    "metadata": {
+      "product_name": "Babbar Sher Sulphur",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "urea response kam",
+    "metadata": {
+      "product_name": "Babbar Sher Sulphur",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "young leaves pale yellow",
+    "metadata": {
+      "product_name": "Babbar Sher Sulphur",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "sulphur deficiency in wheat",
+    "metadata": {
+      "product_name": "Babbar Sher Sulphur",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "low oil content in mustard",
+    "metadata": {
+      "product_name": "Babbar Sher Sulphur",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
     }
   },
   {
@@ -7925,12 +8924,169 @@
     }
   },
   {
-    "text": "Product: Crestor Potassium Humate\nCategory: Crop Nutrition\nProblem Type: general\n\nCrops: \n\nControls: \nDiseases: \nWeeds: \n\nDescription:",
+    "text": "Product: Crestor Potassium Humate\nCategory: Crop Nutrition\nType: Micronutrient / Soil Conditioner / Bio-stimulant\n\nProblem Type: general\n\nCrops: all field crops, all vegetables, all fruit crops\nControls: \nDiseases: \nWeeds: \nNutrient deficiency: poor nutrient uptake, low organic matter soil\n\nDescription:\nCrestor Potassium Humate improves soil health, root growth and fertilizer efficiency for stronger crop growth.",
+    "metadata": {
+      "product_name": "Crestor Potassium Humate",
+      "category": "Crop Nutrition",
+      "type": "Micronutrient / Soil Conditioner / Bio-stimulant",
+      "crops": [
+        "all field crops",
+        "all vegetables",
+        "all fruit crops"
+      ],
+      "controls": [],
+      "diseases": [],
+      "weeds": [],
+      "nutrient_deficiency": [
+        "poor nutrient uptake",
+        "low organic matter soil"
+      ],
+      "problem_type": "general",
+      "chunk_type": "product"
+    }
+  },
+  {
+    "text": "پودا کمزور اے",
     "metadata": {
       "product_name": "Crestor Potassium Humate",
       "category": "Crop Nutrition",
       "problem_type": "general",
-      "chunk_type": "product"
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "فصل دی بڑھوتری رک گئی اے",
+    "metadata": {
+      "product_name": "Crestor Potassium Humate",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "جڑاں کمزور نیں",
+    "metadata": {
+      "product_name": "Crestor Potassium Humate",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "جڑاں تھلے نہیں جا رہیاں",
+    "metadata": {
+      "product_name": "Crestor Potassium Humate",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "کھاد اثر نہیں کر رہی",
+    "metadata": {
+      "product_name": "Crestor Potassium Humate",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پانی کھیت وچ نہیں ٹھہردا",
+    "metadata": {
+      "product_name": "Crestor Potassium Humate",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "زمین سخت ہو گئی اے",
+    "metadata": {
+      "product_name": "Crestor Potassium Humate",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "ریتلی زمین اے فصل کمزور اے",
+    "metadata": {
+      "product_name": "Crestor Potassium Humate",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "کالر والی زمین اے",
+    "metadata": {
+      "product_name": "Crestor Potassium Humate",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "فصل دا رنگ ہلکا اے",
+    "metadata": {
+      "product_name": "Crestor Potassium Humate",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "ایک جیسی بڑھوتری نہیں ہو رہی",
+    "metadata": {
+      "product_name": "Crestor Potassium Humate",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "کمزور ٹلرنگ",
+    "metadata": {
+      "product_name": "Crestor Potassium Humate",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "weak crop growth",
+    "metadata": {
+      "product_name": "Crestor Potassium Humate",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "poor root development",
+    "metadata": {
+      "product_name": "Crestor Potassium Humate",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "fertilizer not working",
+    "metadata": {
+      "product_name": "Crestor Potassium Humate",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "low organic matter soil",
+    "metadata": {
+      "product_name": "Crestor Potassium Humate",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
     }
   },
   {
@@ -7997,12 +9153,198 @@
     }
   },
   {
-    "text": "Product: FACEUP 56% SC\nCategory: Fungicide\nProblem Type: disease\n\nCrops: \n\nControls: \nDiseases: \nWeeds: \n\nDescription:",
+    "text": "Product: FACEUP 56% SC\nCategory: Fungicide\nType: Fungicide\n\nProblem Type: disease\n\nCrops: rice, wheat, maize, cotton, tomato, chilli, okra, potato, cucurbits, mango, citrus, grapes, apple, vegetables, fruits\nControls: powdery mildew, downy mildew, rust, leaf spot, early blight, late blight, anthracnose, rice blast, sheath blight\nDiseases: powdery mildew, downy mildew, rust, leaf spot, early blight, late blight, anthracnose, rice blast, sheath blight\nWeeds: \nNutrient deficiency: \n\nDescription:\nFACEUP 56% SC is a systemic strobilurin fungicide that provides long lasting preventive and early curative control of major fungal diseases.",
+    "metadata": {
+      "product_name": "FACEUP 56% SC",
+      "category": "Fungicide",
+      "type": "Fungicide",
+      "crops": [
+        "rice",
+        "wheat",
+        "maize",
+        "cotton",
+        "tomato",
+        "chilli",
+        "okra",
+        "potato",
+        "cucurbits",
+        "mango",
+        "citrus",
+        "grapes",
+        "apple",
+        "vegetables",
+        "fruits"
+      ],
+      "controls": [
+        "powdery mildew",
+        "downy mildew",
+        "rust",
+        "leaf spot",
+        "early blight",
+        "late blight",
+        "anthracnose",
+        "rice blast",
+        "sheath blight"
+      ],
+      "diseases": [
+        "powdery mildew",
+        "downy mildew",
+        "rust",
+        "leaf spot",
+        "early blight",
+        "late blight",
+        "anthracnose",
+        "rice blast",
+        "sheath blight"
+      ],
+      "weeds": [],
+      "nutrient_deficiency": [],
+      "problem_type": "disease",
+      "chunk_type": "product"
+    }
+  },
+  {
+    "text": "پتیاں تے داغ بن رہے نیں",
     "metadata": {
       "product_name": "FACEUP 56% SC",
       "category": "Fungicide",
       "problem_type": "disease",
-      "chunk_type": "product"
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پتیاں جل رہیاں نیں",
+    "metadata": {
+      "product_name": "FACEUP 56% SC",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پتیاں سڑ رہیاں نیں",
+    "metadata": {
+      "product_name": "FACEUP 56% SC",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پھپھوند لگ گئی اے",
+    "metadata": {
+      "product_name": "FACEUP 56% SC",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "بیماری تیزی نال پھیل رہی اے",
+    "metadata": {
+      "product_name": "FACEUP 56% SC",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پتے تے سفیدی آ گئی اے",
+    "metadata": {
+      "product_name": "FACEUP 56% SC",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "چاول دا بلاست",
+    "metadata": {
+      "product_name": "FACEUP 56% SC",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "شیٹھ بلائٹ دا حملہ",
+    "metadata": {
+      "product_name": "FACEUP 56% SC",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "گندم نوں رسٹ لگ گیا اے",
+    "metadata": {
+      "product_name": "FACEUP 56% SC",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "ٹماٹر تے جھلساؤ",
+    "metadata": {
+      "product_name": "FACEUP 56% SC",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "آلو تے لیٹ بلائٹ",
+    "metadata": {
+      "product_name": "FACEUP 56% SC",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پتے سوکھ رہے نیں داغاں نال",
+    "metadata": {
+      "product_name": "FACEUP 56% SC",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "leaf spot in crop",
+    "metadata": {
+      "product_name": "FACEUP 56% SC",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "blight attack",
+    "metadata": {
+      "product_name": "FACEUP 56% SC",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "rice blast symptoms",
+    "metadata": {
+      "product_name": "FACEUP 56% SC",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "fungus attack in vegetables",
+    "metadata": {
+      "product_name": "FACEUP 56% SC",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
     }
   },
   {
@@ -10471,12 +11813,194 @@
     }
   },
   {
-    "text": "Product: NIPA\nCategory: Fungicide\nProblem Type: disease\n\nCrops: \n\nControls: \nDiseases: \nWeeds: \n\nDescription:",
+    "text": "Product: NIPA\nCategory: Fungicide\nType: Fungicide / Bactericide\n\nProblem Type: disease\n\nCrops: wheat, rice, citrus, apple, chilli, cucumber, tomato, potato, vegetables, fruits, field crops\nControls: bacterial leaf spot, bacterial blight, bacterial streak, leaf spot, early blight, head blight, scab, powdery mildew, rice blast\nDiseases: bacterial leaf spot, bacterial blight, bacterial streak, leaf spot, early blight, head blight, scab, powdery mildew, rice blast\nWeeds: \nNutrient deficiency: \n\nDescription:",
+    "metadata": {
+      "product_name": "NIPA",
+      "category": "Fungicide",
+      "type": "Fungicide / Bactericide",
+      "crops": [
+        "wheat",
+        "rice",
+        "citrus",
+        "apple",
+        "chilli",
+        "cucumber",
+        "tomato",
+        "potato",
+        "vegetables",
+        "fruits",
+        "field crops"
+      ],
+      "controls": [
+        "bacterial leaf spot",
+        "bacterial blight",
+        "bacterial streak",
+        "leaf spot",
+        "early blight",
+        "head blight",
+        "scab",
+        "powdery mildew",
+        "rice blast"
+      ],
+      "diseases": [
+        "bacterial leaf spot",
+        "bacterial blight",
+        "bacterial streak",
+        "leaf spot",
+        "early blight",
+        "head blight",
+        "scab",
+        "powdery mildew",
+        "rice blast"
+      ],
+      "weeds": [],
+      "nutrient_deficiency": [],
+      "problem_type": "disease",
+      "chunk_type": "product"
+    }
+  },
+  {
+    "text": "پتیاں تے پانی والے داغ",
     "metadata": {
       "product_name": "NIPA",
       "category": "Fungicide",
       "problem_type": "disease",
-      "chunk_type": "product"
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پتیاں تے بھورے یا کالے دھبے",
+    "metadata": {
+      "product_name": "NIPA",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پتے جل رہے نیں",
+    "metadata": {
+      "product_name": "NIPA",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پتیاں سڑ رہی نیں",
+    "metadata": {
+      "product_name": "NIPA",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پتیاں وچ سوراخ ورگے نشان",
+    "metadata": {
+      "product_name": "NIPA",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "بیماری تیزی نال پھیل رہی اے",
+    "metadata": {
+      "product_name": "NIPA",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "چاول دا بلاست",
+    "metadata": {
+      "product_name": "NIPA",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "دھان دیاں پتیاں تے داغ",
+    "metadata": {
+      "product_name": "NIPA",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "گندم دا ہیڈ بلائٹ",
+    "metadata": {
+      "product_name": "NIPA",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "ٹماٹر تے جھلساؤ",
+    "metadata": {
+      "product_name": "NIPA",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "مرچ تے پتیاں خراب",
+    "metadata": {
+      "product_name": "NIPA",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "بیکٹیریا دا حملہ",
+    "metadata": {
+      "product_name": "NIPA",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پتیاں تے چکنے داغ",
+    "metadata": {
+      "product_name": "NIPA",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "leaf spot in crop",
+    "metadata": {
+      "product_name": "NIPA",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "blight attack",
+    "metadata": {
+      "product_name": "NIPA",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "bacterial disease in crop",
+    "metadata": {
+      "product_name": "NIPA",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
     }
   },
   {
@@ -12936,93 +14460,18 @@
     }
   },
   {
-    "text": "Product: Rippet\nCategory: Insecticide\nProblem Type: insect\n\nCrops: cotton, rice, vegetables, okra, tomato\n\nControls: whitefly, aphid, jassid, thrips, brown plant hopper, green leaf hopper\nDiseases: \nWeeds: \n\nDescription:\nSystemic insecticide for sucking pests.",
+    "text": "Product: Rippet\nCategory: Insecticide\nType: \n\nProblem Type: insect\n\nCrops: \nControls: \nDiseases: \nWeeds: \nNutrient deficiency: \n\nDescription:",
     "metadata": {
       "product_name": "Rippet",
       "category": "Insecticide",
+      "type": null,
+      "crops": [],
+      "controls": [],
+      "diseases": [],
+      "weeds": [],
+      "nutrient_deficiency": [],
       "problem_type": "insect",
       "chunk_type": "product"
-    }
-  },
-  {
-    "text": "whitefly infestation",
-    "metadata": {
-      "product_name": "Rippet",
-      "category": "Insecticide",
-      "problem_type": "insect",
-      "chunk_type": "symptom"
-    }
-  },
-  {
-    "text": "leaf curling",
-    "metadata": {
-      "product_name": "Rippet",
-      "category": "Insecticide",
-      "problem_type": "insect",
-      "chunk_type": "symptom"
-    }
-  },
-  {
-    "text": "کپاس پر سفید مکھی",
-    "metadata": {
-      "product_name": "Rippet",
-      "category": "Insecticide",
-      "problem_type": "insect",
-      "chunk_type": "symptom"
-    }
-  },
-  {
-    "text": "پتیاں سکڑ رہی ہیں",
-    "metadata": {
-      "product_name": "Rippet",
-      "category": "Insecticide",
-      "problem_type": "insect",
-      "chunk_type": "symptom"
-    }
-  },
-  {
-    "text": "چپچپا مادہ",
-    "metadata": {
-      "product_name": "Rippet",
-      "category": "Insecticide",
-      "problem_type": "insect",
-      "chunk_type": "symptom"
-    }
-  },
-  {
-    "text": "کپاس تے تیلا",
-    "metadata": {
-      "product_name": "Rippet",
-      "category": "Insecticide",
-      "problem_type": "insect",
-      "chunk_type": "symptom"
-    }
-  },
-  {
-    "text": "پتے مڑ گئے نیں",
-    "metadata": {
-      "product_name": "Rippet",
-      "category": "Insecticide",
-      "problem_type": "insect",
-      "chunk_type": "symptom"
-    }
-  },
-  {
-    "text": "safed makhi attack",
-    "metadata": {
-      "product_name": "Rippet",
-      "category": "Insecticide",
-      "problem_type": "insect",
-      "chunk_type": "symptom"
-    }
-  },
-  {
-    "text": "pattay mur gaye",
-    "metadata": {
-      "product_name": "Rippet",
-      "category": "Insecticide",
-      "problem_type": "insect",
-      "chunk_type": "symptom"
     }
   },
   {
@@ -13720,12 +15169,55 @@
     }
   },
   {
-    "text": "Product: Sulphur 80% WDG\nCategory: Fungicide\nProblem Type: disease\n\nCrops: \n\nControls: \nDiseases: \nWeeds: \n\nDescription:",
+    "text": "Product: Sulphur 80% WDG\nCategory: Fungicide\nType: Contact fungicide\n\nProblem Type: disease\n\nCrops: cucurbits, mango, grapes, chilli\nControls: powdery mildew, mites\nDiseases: powdery mildew\nWeeds: \nNutrient deficiency: \n\nDescription:\nMulti-purpose sulphur for fungal and mite control.",
+    "metadata": {
+      "product_name": "Sulphur 80% WDG",
+      "category": "Fungicide",
+      "type": "Contact fungicide",
+      "crops": [
+        "cucurbits",
+        "mango",
+        "grapes",
+        "chilli"
+      ],
+      "controls": [
+        "powdery mildew",
+        "mites"
+      ],
+      "diseases": [
+        "powdery mildew"
+      ],
+      "weeds": [],
+      "nutrient_deficiency": [],
+      "problem_type": "disease",
+      "chunk_type": "product"
+    }
+  },
+  {
+    "text": "سفید پھپھوند",
     "metadata": {
       "product_name": "Sulphur 80% WDG",
       "category": "Fungicide",
       "problem_type": "disease",
-      "chunk_type": "product"
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "powdery mildew on leaves",
+    "metadata": {
+      "product_name": "Sulphur 80% WDG",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "mites on crop",
+    "metadata": {
+      "product_name": "Sulphur 80% WDG",
+      "category": "Fungicide",
+      "problem_type": "disease",
+      "chunk_type": "symptom"
     }
   },
   {
@@ -16131,12 +17623,72 @@
     }
   },
   {
-    "text": "Product: Whats App (Zinc)\nCategory: Crop Nutrition\nProblem Type: general\n\nCrops: \n\nControls: \nDiseases: \nWeeds: \n\nDescription:",
+    "text": "Product: Whats App (Zinc)\nCategory: Crop Nutrition\nType: Micronutrient fertilizer\n\nProblem Type: general\n\nCrops: rice, wheat, maize, cotton, vegetables\nControls: \nDiseases: \nWeeds: \nNutrient deficiency: zinc deficiency, khaira disease\n\nDescription:\nHigh efficiency zinc fertilizer for rapid deficiency correction.",
+    "metadata": {
+      "product_name": "Whats App (Zinc)",
+      "category": "Crop Nutrition",
+      "type": "Micronutrient fertilizer",
+      "crops": [
+        "rice",
+        "wheat",
+        "maize",
+        "cotton",
+        "vegetables"
+      ],
+      "controls": [],
+      "diseases": [],
+      "weeds": [],
+      "nutrient_deficiency": [
+        "zinc deficiency",
+        "khaira disease"
+      ],
+      "problem_type": "general",
+      "chunk_type": "product"
+    }
+  },
+  {
+    "text": "دھان وچ زنک دی کمی",
     "metadata": {
       "product_name": "Whats App (Zinc)",
       "category": "Crop Nutrition",
       "problem_type": "general",
-      "chunk_type": "product"
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "کھیرہ بیماری",
+    "metadata": {
+      "product_name": "Whats App (Zinc)",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "پتے پیلے ہو گئے",
+    "metadata": {
+      "product_name": "Whats App (Zinc)",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "stunted crop",
+    "metadata": {
+      "product_name": "Whats App (Zinc)",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "bronzing in rice",
+    "metadata": {
+      "product_name": "Whats App (Zinc)",
+      "category": "Crop Nutrition",
+      "problem_type": "general",
+      "chunk_type": "symptom"
     }
   },
   {
@@ -16167,12 +17719,144 @@
     }
   },
   {
-    "text": "Product: Winsta 30% WP\nCategory: Herbicide\nProblem Type: weed\n\nCrops: \n\nControls: \nDiseases: \nWeeds: \n\nDescription:",
+    "text": "Product: Winsta 30% WP\nCategory: Herbicide\nType: Herbicide\n\nProblem Type: weed\n\nCrops: rice, dhan, transplanted rice, direct seeded rice\nControls: barnyard grass, jungle rice, echinochloa, cyperus difformis, fimbristylis, monochoria, ammannia, ludwigia, swanki, deela\nDiseases: \nWeeds: barnyard grass, jungle rice, echinochloa, cyperus difformis, fimbristylis, monochoria, ammannia, ludwigia, swanki, deela\nNutrient deficiency: \n\nDescription:\nWinsta 30% WP is a selective post-emergence systemic herbicide for rice that controls grasses, sedges and broadleaf weeds by inhibiting the ALS enzyme.",
+    "metadata": {
+      "product_name": "Winsta 30% WP",
+      "category": "Herbicide",
+      "type": "Herbicide",
+      "crops": [
+        "rice",
+        "dhan",
+        "transplanted rice",
+        "direct seeded rice"
+      ],
+      "controls": [
+        "barnyard grass",
+        "jungle rice",
+        "echinochloa",
+        "cyperus difformis",
+        "fimbristylis",
+        "monochoria",
+        "ammannia",
+        "ludwigia",
+        "swanki",
+        "deela"
+      ],
+      "diseases": [],
+      "weeds": [
+        "barnyard grass",
+        "jungle rice",
+        "echinochloa",
+        "cyperus difformis",
+        "fimbristylis",
+        "monochoria",
+        "ammannia",
+        "ludwigia",
+        "swanki",
+        "deela"
+      ],
+      "nutrient_deficiency": [],
+      "problem_type": "weed",
+      "chunk_type": "product"
+    }
+  },
+  {
+    "text": "دھان وچ سوانکی بہت اے",
     "metadata": {
       "product_name": "Winsta 30% WP",
       "category": "Herbicide",
       "problem_type": "weed",
-      "chunk_type": "product"
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "ڈیلا نکل آیا اے",
+    "metadata": {
+      "product_name": "Winsta 30% WP",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "گھاس فصل نوں دبا رہی اے",
+    "metadata": {
+      "product_name": "Winsta 30% WP",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "جڑی بوٹی بہت ہو گئی اے",
+    "metadata": {
+      "product_name": "Winsta 30% WP",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "کھیت صاف نہیں ہو رہا",
+    "metadata": {
+      "product_name": "Winsta 30% WP",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "چوڑے پتے والی جڑی بوٹی",
+    "metadata": {
+      "product_name": "Winsta 30% WP",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "دھان کمزور ہو گیا اے گھاس وجہ توں",
+    "metadata": {
+      "product_name": "Winsta 30% WP",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "دھان وچ گھاس دا مسئلہ",
+    "metadata": {
+      "product_name": "Winsta 30% WP",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "swanki in rice",
+    "metadata": {
+      "product_name": "Winsta 30% WP",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "deela in rice",
+    "metadata": {
+      "product_name": "Winsta 30% WP",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
+    }
+  },
+  {
+    "text": "rice weed problem",
+    "metadata": {
+      "product_name": "Winsta 30% WP",
+      "category": "Herbicide",
+      "problem_type": "weed",
+      "chunk_type": "symptom"
     }
   },
   {
