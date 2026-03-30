@@ -1,0 +1,211 @@
+{
+  "product_id": "thiophanate_methyl_70_wp",
+  "product_name": "Thiophanate Methyl 70% WP",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Fungicide",
+  "type": "Systemic fungicide (Curative + protective)",
+
+  "formulation": "WP (Wettable Powder)",
+  "systemicity": "Fully systemic",
+
+  "mode_of_action_summary": "Thiophanate-methyl is a systemic fungicide that converts into carbendazim inside the plant and inhibits fungal cell division (mitosis), providing curative and protective control of a wide range of fungal diseases.",
+
+  "active_ingredients": [
+    {
+      "name": "Thiophanate Methyl",
+      "percentage": "70%",
+      "chemical_group": "Benzimidazole (FRAC Group 1)",
+      "mode_of_action": "Inhibits mitosis and fungal cell division"
+    }
+  ],
+
+  "target_pests": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "target_diseases": [
+    "powdery mildew",
+    "leaf spot",
+    "anthracnose",
+    "early blight",
+    "scab",
+    "fruit rot",
+    "stem rot",
+    "dieback"
+  ],
+
+  "disease_categories": {
+    "fungal_diseases": [
+      "powdery mildew",
+      "leaf spot",
+      "anthracnose",
+      "blight",
+      "scab",
+      "fruit rot"
+    ]
+  },
+
+  "disease_behavior": {
+    "infection_type": "Internal infection (systemic control effective)",
+    "spread": "Moderate to rapid under favorable conditions",
+    "stage": "Effective even after infection has started"
+  },
+
+  "crops": {
+    "major": ["wheat", "rice", "fruits", "vegetables"],
+    "all": [
+      "wheat",
+      "rice",
+      "tomato",
+      "chilli",
+      "mango",
+      "citrus",
+      "apple",
+      "vegetables",
+      "fruits"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "gandum",
+    "dhan",
+    "tamatar",
+    "mirch",
+    "aam"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتوں پر داغ بن رہے ہیں",
+      "پتیاں سڑ رہی ہیں",
+      "پھل گل رہے ہیں",
+      "بیماری پھیل رہی ہے"
+    ],
+    "punjabi": [
+      "پتیاں تے داغ نیں",
+      "پتے سڑ رہے نیں",
+      "پھل خراب ہو رہے نیں"
+    ],
+    "roman_urdu": [
+      "leaf spot aa gaya",
+      "blight attack ho gaya",
+      "fruit rot ho raha hai",
+      "fungus spread ho raha hai"
+    ],
+    "english": [
+      "leaf spots",
+      "blight symptoms",
+      "fruit rot",
+      "fungal infection spreading"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "fungal disease control",
+    "leaf spot spray",
+    "blight control",
+    "fruit rot treatment",
+    "systemic fungicide"
+  ],
+
+  "search_keywords": [
+    "thiophanate methyl fungicide",
+    "systemic fungicide",
+    "curative fungicide",
+    "leaf spot control",
+    "پھپھوندی دی دوا",
+    "سسٹمک فنگس کش"
+  ],
+
+  "intent_tags": ["disease", "fungicide", "systemic"],
+
+  "dosage": {
+    "per_acre": "200–300 g",
+    "per_100_litre": "100–150 g",
+    "water_volume": "100–120 liters per acre",
+    "method": "Foliar spray",
+    "frequency": "10–14 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform foliar spray",
+    "coverage": "Ensure good leaf coverage for systemic absorption"
+  },
+
+  "crop_stage_recommendation": [
+    "Early disease stage",
+    "Active disease stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "No rain during spray"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after spray",
+      "Strong wind"
+    ]
+  },
+
+  "resistance_management": {
+    "group": "FRAC Group 1",
+    "risk": "High resistance risk",
+    "advice": "Do not use repeatedly; rotate with multi-site fungicides like sulphur or copper"
+  },
+
+  "compatibility": {
+    "recommended_with": [
+      "multi-site fungicides"
+    ],
+    "not_recommended_with": [
+      "strong alkaline products"
+    ]
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid overdose",
+    "Follow recommended dose"
+  ],
+
+  "benefits": [
+    "Strong systemic action",
+    "Curative and protective control",
+    "Controls wide range of fungal diseases",
+    "Stops disease progression",
+    "Improves crop recovery"
+  ],
+
+  "farmer_benefits": [
+    "بیماری رک جاندی اے",
+    "فصل ٹھیک ہو جاندی اے",
+    "پتے صاف ہو جاندے نیں",
+    "پیداوار بہتر ہندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Systemic fungicide for curative and protective control of fungal diseases.",
+    "urdu": "سسٹمک فنگس کش دوا جو بیماری کے بعد بھی مؤثر ہے۔",
+    "punjabi": "سسٹمک فنگس کش جو بیماری نوں اندر توں ختم کردا اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "leaf spot",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "anthracnose",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "fruit rot",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Thiophanate methyl 70 WP is a systemic fungicide used for control of fungal diseases like leaf spot anthracnose and blight in crops like wheat rice fruits and vegetables. It provides curative and protective action by stopping fungal growth inside the plant."
+}   
