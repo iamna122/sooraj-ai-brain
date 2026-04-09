@@ -1,0 +1,110 @@
+[
+  {
+    "name": "wild oat",
+    "type": "grass weed",
+    "common_crops": ["wheat"],
+    "related_keywords": ["jungle gehu", "ghaas", "جنگلی گندم", "گھاس", "wild oat", "grass weed"]
+  },
+  {
+    "name": "barnyard grass",
+    "type": "grass weed",
+    "common_crops": ["rice"],
+    "related_keywords": ["sawan ghas", "dhaan ghas", "ساون گھاس", "گھاس", "barnyard grass", "rice weed"]
+  },
+  {
+    "name": "crabgrass",
+    "type": "grass weed",
+    "common_crops": ["maize", "lawns"],
+    "related_keywords": ["crabgrass", "phailti ghas", "گھاس", "زمین پر پھیلنے والی گھاس", "grass weed", "spreading grass"]
+  },
+  {
+    "name": "goosegrass",
+    "type": "grass weed",
+    "common_crops": ["vegetables"],
+    "related_keywords": ["goosegrass", "sakht ghas", "گھاس", "سخت گھاس", "grass weed", "hard grass"]
+  },
+  {
+    "name": "foxtail",
+    "type": "grass weed",
+    "common_crops": ["wheat", "maize"],
+    "related_keywords": ["foxtail", "lomri dum ghas", "لومڑی دم گھاس", "گھاس", "grass weed", "tail grass"]
+  },
+  {
+    "name": "nutgrass",
+    "type": "sedge weed",
+    "common_crops": ["vegetables", "cotton"],
+    "related_keywords": ["deela", "nut grass", "ڈیلا", "جڑی بوٹی", "sedge weed", "ziddi ghas"]
+  },
+  {
+    "name": "purple nutsedge",
+    "type": "sedge weed",
+    "common_crops": ["vegetables"],
+    "related_keywords": ["purple deela", "deela ghas", "ڈیلا گھاس", "جڑی بوٹی", "nutsedge", "sedge plant"]
+  },
+  {
+    "name": "pigweed",
+    "type": "broadleaf weed",
+    "common_crops": ["cotton", "maize"],
+    "related_keywords": ["chakki booti", "pigweed", "چکّی بوٹی", "بوٹی", "broadleaf weed", "weed plant"]
+  },
+  {
+    "name": "parthenium",
+    "type": "broadleaf weed",
+    "common_crops": ["fields"],
+    "related_keywords": ["gajar booti", "parthenium", "گاجر بوٹی", "بوٹی", "harmful weed", "allergy plant"]
+  },
+  {
+    "name": "purslane",
+    "type": "broadleaf weed",
+    "common_crops": ["vegetables"],
+    "related_keywords": ["kulfa", "purslane", "کلفا", "بوٹی", "leafy weed", "ground weed"]
+  },
+  {
+    "name": "bindweed",
+    "type": "broadleaf weed",
+    "common_crops": ["wheat"],
+    "related_keywords": ["lehr daar booti", "bindweed", "بیل بوٹی", "چڑھنے والی بوٹی", "climbing weed", "vine weed"]
+  },
+  {
+    "name": "lambsquarters",
+    "type": "broadleaf weed",
+    "common_crops": ["wheat"],
+    "related_keywords": ["bathua", "lambsquarters", "باتھوا", "بوٹی", "field weed", "leaf weed"]
+  },
+  {
+    "name": "ragweed",
+    "type": "broadleaf weed",
+    "common_crops": ["fields"],
+    "related_keywords": ["ragweed", "jangli booti", "جنگلی بوٹی", "بوٹی", "allergy weed", "wild plant"]
+  },
+  {
+    "name": "amaranth",
+    "type": "broadleaf weed",
+    "common_crops": ["maize", "cotton"],
+    "related_keywords": ["chaulai", "amaranth", "چولائی", "بوٹی", "leaf weed", "broadleaf plant"]
+  },
+  {
+    "name": "field bindweed",
+    "type": "broadleaf weed",
+    "common_crops": ["wheat"],
+    "related_keywords": ["field bel", "bindweed", "بیل بوٹی", "چڑھنے والی", "vine weed", "creeping plant"]
+  },
+  {
+    "name": "johnsongrass",
+    "type": "grass weed",
+    "common_crops": ["maize"],
+    "related_keywords": ["johnson ghas", "jungle ghas", "گھاس", "جنگلی گھاس", "grass weed", "tall grass"]
+  },
+  {
+    "name": "knotweed",
+    "type": "broadleaf weed",
+    "common_crops": ["fields"],
+    "related_keywords": ["knotweed", "zamin se chipki booti", "زمین سے چپکی بوٹی", "بوٹی", "ground weed", "flat plant"]
+  },
+  {
+    "name": "spiny amaranth",
+    "type": "broadleaf weed",
+    "common_crops": ["vegetables"],
+    "related_keywords": ["kaantay wali booti", "spiny amaranth", "کانٹے والی بوٹی", "بوٹی", "thorn weed", "spiky plant"]
+  }
+]

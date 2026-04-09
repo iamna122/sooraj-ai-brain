@@ -1,0 +1,177 @@
+[
+  {
+    "name": "bollworm",
+    "category": "insect",
+    "sub_type": "caterpillar",
+    "common_crops": ["cotton", "maize"],
+    "related_keywords": ["sundi", "keera", "bollworm", "سُنڈی", "کیڑا", "keera sundi", "worm"]
+  },
+  {
+    "name": "armyworm",
+    "category": "insect",
+    "sub_type": "caterpillar",
+    "common_crops": ["maize", "wheat"],
+    "related_keywords": ["lashkari keera", "armyworm", "sundi", "کیڑا", "سُنڈی", "lashkari sundi", "worm"]
+  },
+  {
+    "name": "cutworm",
+    "category": "insect",
+    "sub_type": "caterpillar",
+    "common_crops": ["vegetables", "wheat"],
+    "related_keywords": ["cutworm", "jad se kaatna", "sundi", "کیڑا", "پودا کاٹنا", "kaatnay wala keera", "worm"]
+  },
+  {
+    "name": "fruit borer",
+    "category": "insect",
+    "sub_type": "borer",
+    "common_crops": ["tomato", "chili"],
+    "related_keywords": ["phal keera", "borer", "sundi", "پھل کا کیڑا", "keera phal", "fruit insect", "worm"]
+  },
+  {
+    "name": "stem borer",
+    "category": "insect",
+    "sub_type": "borer",
+    "common_crops": ["rice", "maize"],
+    "related_keywords": ["tana keera", "borer", "stem insect", "تنا کا کیڑا", "tana sundi", "andar se khana", "borer pest"]
+  },
+  {
+    "name": "whitefly",
+    "category": "insect",
+    "sub_type": "sap sucking",
+    "common_crops": ["cotton", "vegetables"],
+    "related_keywords": ["chitti makhi", "white fly", "makhi", "سفید مکھی", "makhi safed", "fly pest", "sap insect"]
+  },
+  {
+    "name": "aphid",
+    "category": "insect",
+    "sub_type": "sap sucking",
+    "common_crops": ["wheat", "vegetables"],
+    "related_keywords": ["chepa", "aphid", "ras choosne wala", "چیپا", "keera chipaknay wala", "sap keera", "plant lice"]
+  },
+  {
+    "name": "jassid",
+    "category": "insect",
+    "sub_type": "sap sucking",
+    "common_crops": ["cotton"],
+    "related_keywords": ["jassid", "hara keera", "leaf hopper", "سبز کیڑا", "patta choosna", "hopper insect", "sap pest"]
+  },
+  {
+    "name": "thrips",
+    "category": "insect",
+    "sub_type": "sap sucking",
+    "common_crops": ["onion", "cotton"],
+    "related_keywords": ["thrips", "patla keera", "ras choosna", "باریک کیڑا", "chota keera", "sap insect", "tiny pest"]
+  },
+  {
+    "name": "mealybug",
+    "category": "insect",
+    "sub_type": "sap sucking",
+    "common_crops": ["cotton", "fruits"],
+    "related_keywords": ["mealy bug", "safed keera", "rui jaisa", "سفید کیڑا", "rui jaisa keera", "cotton pest", "bug"]
+  },
+  {
+    "name": "termite",
+    "category": "insect",
+    "sub_type": "soil pest",
+    "common_crops": ["wheat", "sugarcane"],
+    "related_keywords": ["deemak", "termite", "lakri khanay wala", "دیمک", "zameen ka keera", "white insect", "soil pest"]
+  },
+  {
+    "name": "grasshopper",
+    "category": "insect",
+    "sub_type": "chewing",
+    "common_crops": ["wheat", "vegetables"],
+    "related_keywords": ["tiddi", "grasshopper", "chalang lagana", "ٹڈی", "patta khanay wala", "hopper", "leaf eater"]
+  },
+  {
+    "name": "locust",
+    "category": "insect",
+    "sub_type": "chewing",
+    "common_crops": ["crops"],
+    "related_keywords": ["tiddi dal", "locust", "jhund keera", "ٹڈی دل", "fasal khanay wala", "swarm insect", "crop eater"]
+  },
+  {
+    "name": "leaf miner",
+    "category": "insect",
+    "sub_type": "miner",
+    "common_crops": ["vegetables"],
+    "related_keywords": ["leaf miner", "patte ke andar keera", "lakeer banana", "پتے کے اندر کیڑا", "line patta", "miner insect", "leaf pest"]
+  },
+  {
+    "name": "red mite",
+    "category": "insect",
+    "sub_type": "mite",
+    "common_crops": ["vegetables", "cotton"],
+    "related_keywords": ["red mite", "lal keera", "chota lal", "لال کیڑا", "sookha patta", "mite pest", "tiny red insect"]
+  },
+  {
+    "name": "spider mite",
+    "category": "insect",
+    "sub_type": "mite",
+    "common_crops": ["vegetables"],
+    "related_keywords": ["spider mite", "jaal banana", "chota keera", "جالا بنانا", "patta sookhna", "mite insect", "web pest"]
+  },
+  {
+    "name": "flea beetle",
+    "category": "insect",
+    "sub_type": "chewing",
+    "common_crops": ["vegetables"],
+    "related_keywords": ["chalang keera", "flea beetle", "patta chhedna", "کیڑا کودنے والا", "holes patta", "beetle pest", "leaf holes"]
+  },
+  {
+    "name": "weevil",
+    "category": "insect",
+    "sub_type": "borer",
+    "common_crops": ["grains"],
+    "related_keywords": ["ghun", "weevil", "anaaj keera", "گھُن", "danay khana", "storage pest", "grain insect"]
+  },
+  {
+    "name": "fruit fly",
+    "category": "insect",
+    "sub_type": "fly",
+    "common_crops": ["fruits"],
+    "related_keywords": ["fruit fly", "phal makhi", "makhi", "پھل مکھی", "fruit insect", "fly pest", "makhi phal"]
+  },
+  {
+    "name": "shoot fly",
+    "category": "insect",
+    "sub_type": "fly",
+    "common_crops": ["maize"],
+    "related_keywords": ["shoot fly", "nayi pod keera", "makhi", "پودے کی مکھی", "plant fly", "young plant pest", "fly insect"]
+  },
+  {
+    "name": "leafhopper",
+    "category": "insect",
+    "sub_type": "sap sucking",
+    "common_crops": ["cotton"],
+    "related_keywords": ["leaf hopper", "patta keera", "hara keera", "پتہ کیڑا", "hopper insect", "sap pest", "jumping insect"]
+  },
+  {
+    "name": "scale insect",
+    "category": "insect",
+    "sub_type": "sap sucking",
+    "common_crops": ["fruits"],
+    "related_keywords": ["scale insect", "chipka keera", "patta chipakna", "چپکا کیڑا", "sap insect", "sticky pest", "plant scale"]
+  },
+  {
+    "name": "beetle",
+    "category": "insect",
+    "sub_type": "chewing",
+    "common_crops": ["vegetables"],
+    "related_keywords": ["beetle", "sakt keera", "patta khana", "سخت کیڑا", "leaf eater", "hard insect", "chewing pest"]
+  },
+  {
+    "name": "caterpillar",
+    "category": "insect",
+    "sub_type": "caterpillar",
+    "common_crops": ["vegetables"],
+    "related_keywords": ["sundi", "keera", "larva", "سُنڈی", "patta khanay wala", "worm", "leaf eater"]
+  },
+  {
+    "name": "borer",
+    "category": "insect",
+    "sub_type": "borer",
+    "common_crops": ["crops"],
+    "related_keywords": ["borer", "andar ghusna", "tana keera", "اندر جانے والا کیڑا", "stem insect", "hole keera", "boring pest"]
+  }
+]

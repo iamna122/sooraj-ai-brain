@@ -1,0 +1,242 @@
+[
+  {
+    "name": "leaf spot",
+    "type": "fungal",
+    "related_keywords": ["daagh", "dhabba", "patton ke daagh", "داغ", "پتوں پر داغ", "patte te daag", "leaf spots", "spot disease"],
+    "common_crops": ["wheat", "rice", "cotton"]
+  },
+  {
+    "name": "early blight",
+    "type": "fungal",
+    "related_keywords": ["jalao", "brown daagh", "جلاؤ", "پتے جلنا", "jala hoya patta", "early blight", "leaf burn"],
+    "common_crops": ["potato", "tomato"]
+  },
+  {
+    "name": "late blight",
+    "type": "fungal",
+    "related_keywords": ["late jalao", "sardi jalao", "دیر سے جلاؤ", "پتے جل گئے", "thand wala jalao", "late blight", "plant burn"],
+    "common_crops": ["potato", "tomato"]
+  },
+  {
+    "name": "bacterial blight",
+    "type": "bacterial",
+    "related_keywords": ["bacterial jalao", "patti jalna", "بیکٹیریل جلاؤ", "پتے جل گئے", "patta jal gaya", "blight disease", "bacterial burn"],
+    "common_crops": ["rice", "cotton"]
+  },
+  {
+    "name": "powdery mildew",
+    "type": "fungal",
+    "related_keywords": ["safed powder", "phaphundi", "سفید پاؤڈر", "پھپھوندی", "chitta powder", "powdery mildew", "white fungus"],
+    "common_crops": ["wheat", "grapes"]
+  },
+  {
+    "name": "downy mildew",
+    "type": "fungal",
+    "related_keywords": ["peela  ", "zang jaisa", "پیلا داغ", "پتے پر تہہ", "thalle mail", "downy mildew", "yellow fungus"],
+    "common_crops": ["onion", "grapes"]
+  },
+  {
+    "name": "rust",
+    "type": "fungal",
+    "related_keywords": ["zang", "peela zang", "زنگ", "پیلا زنگ", "zang lag gaya", "rust disease", "fungal rust"],
+    "common_crops": ["wheat"]
+  },
+  {
+    "name": "smut",
+    "type": "fungal",
+    "related_keywords": ["kala powder", "kala dana", "کالا دانہ", "سیاہ گرد", "kali gard", "smut disease", "black fungus"],
+    "common_crops": ["wheat", "maize"]
+  },
+  {
+    "name": "wilt",
+    "type": "fungal",
+    "related_keywords": ["murjana", "sookhna", "مرجھانا", "سوکھنا", "murjha gaya", "plant wilt", "wilting"],
+    "common_crops": ["cotton", "tomato"]
+  },
+  {
+    "name": "bacterial wilt",
+    "type": "bacterial",
+    "related_keywords": ["bacterial murjana", "پودا مرجھانا", "اچانک سوکھنا", "sudden murjana", "bacterial wilt", "plant collapse"],
+    "common_crops": ["tomato", "potato"]
+  },
+  {
+    "name": "root rot",
+    "type": "fungal",
+    "related_keywords": ["jad galna", "جڑ گلنا", "roots black", "jad sadi hoi", "root rot", "root disease"],
+    "common_crops": ["wheat", "vegetables"]
+  },
+  {
+    "name": "stem rot",
+    "type": "fungal",
+    "related_keywords": ["tana galna", "تنا گلنا", "tana sad gaya", "stem sadi", "stem rot", "plant rot"],
+    "common_crops": ["rice", "maize"]
+  },
+  {
+    "name": "collar rot",
+    "type": "fungal",
+    "related_keywords": ["collar galna", "جڑ کے پاس سڑنا", "thalle rot", "jad kol galna", "collar rot", "base rot"],
+    "common_crops": ["groundnut", "vegetables"]
+  },
+  {
+    "name": "damping off",
+    "type": "fungal",
+    "related_keywords": ["nayi pod marna", "پود گرنا", "seedling marna", "navi pod mar gai", "damping off", "seedling disease"],
+    "common_crops": ["vegetables"]
+  },
+  {
+    "name": "mosaic virus",
+    "type": "viral",
+    "related_keywords": ["rang badalna", "موزیک نشان", "patta design", "rang biranga patta", "mosaic virus", "leaf pattern"],
+    "common_crops": ["tomato", "chili"]
+  },
+  {
+    "name": "leaf curl virus",
+    "type": "viral",
+    "related_keywords": ["patte murhna", "پتے مڑنا", "murhe patte", "lapet gaye patte", "leaf curl", "curl virus"],
+    "common_crops": ["cotton", "tomato"]
+  },
+  {
+    "name": "yellow leaf curl virus",
+    "type": "viral",
+    "related_keywords": ["peelay patte", "پیلے پتے", "zard patte", "peela patta mur gaya", "yellow curl", "virus disease"],
+    "common_crops": ["tomato"]
+  },
+  {
+    "name": "anthracnose",
+    "type": "fungal",
+    "related_keywords": ["gehra daagh", "گہرا داغ", "kala nishan", "fruit te daag", "anthracnose", "fruit spot"],
+    "common_crops": ["mango", "chili"]
+  },
+  {
+    "name": "canker",
+    "type": "bacterial",
+    "related_keywords": ["zakhm", "دراڑ", "stem phatna", "zakhmi tana", "canker disease", "plant wound"],
+    "common_crops": ["citrus"]
+  },
+  {
+    "name": "scab",
+    "type": "fungal",
+    "related_keywords": ["khurdra daagh", "کھردرا نشان", "rough spot", "sukha nishan", "scab disease", "rough patches"],
+    "common_crops": ["potato"]
+  },
+  {
+    "name": "sheath blight",
+    "type": "fungal",
+    "related_keywords": ["sheath jalao", "تنے پر داغ", "neeche jalao", "pattay jal gaye", "sheath blight", "stem blight"],
+    "common_crops": ["rice"]
+  },
+  {
+    "name": "leaf blight",
+    "type": "fungal",
+    "related_keywords": ["patte jalna", "پتے جلنا", "daagh barhna", "patta kharab", "leaf blight", "leaf burn"],
+    "common_crops": ["wheat"]
+  },
+  {
+    "name": "dieback",
+    "type": "fungal",
+    "related_keywords": ["shaakh sookhna", "شاخ سوکھنا", "sukhi shaakh", "shaakh mur gai", "dieback", "branch drying"],
+    "common_crops": ["mango"]
+  },
+  {
+    "name": "blast",
+    "type": "fungal",
+    "related_keywords": ["blast daagh", "بلاسٹ داغ", "chitay", "daagh blast", "blast disease", "leaf blast"],
+    "common_crops": ["rice"]
+  },
+  {
+    "name": "brown spot",
+    "type": "fungal",
+    "related_keywords": ["bhura daagh", "بھورا داغ", "brown spots", "bhura patta", "brown spot", "leaf spot brown"],
+    "common_crops": ["rice"]
+  },
+  {
+    "name": "stripe rust",
+    "type": "fungal",
+    "related_keywords": ["lakeer zang", "پیلی لکیریں", "line zang", "peeli line", "stripe rust", "line disease"],
+    "common_crops": ["wheat"]
+  },
+  {
+    "name": "loose smut",
+    "type": "fungal",
+    "related_keywords": ["khula kala powder", "کالا گرد", "kali gard", "kala powder khula", "loose smut", "grain fungus"],
+    "common_crops": ["wheat"]
+  },
+  {
+    "name": "covered smut",
+    "type": "fungal",
+    "related_keywords": ["band kala dana", "کالا دانہ", "kala dana", "band dana", "covered smut", "grain rot"],
+    "common_crops": ["barley"]
+  },
+  {
+    "name": "fusarium wilt",
+    "type": "fungal",
+    "related_keywords": ["fusarium murjana", "مرجھانا", "murjha gaya", "jad problem", "fusarium wilt", "root wilt"],
+    "common_crops": ["cotton", "tomato"]
+  },
+  {
+    "name": "verticillium wilt",
+    "type": "fungal",
+    "related_keywords": ["verticillium murjana", "اندر سے سوکھنا", "jhuk gaya poda", "andar sookh gaya", "verticillium wilt", "internal wilt"],
+    "common_crops": ["cotton"]
+  },
+  {
+    "name": "bacterial leaf streak",
+    "type": "bacterial",
+    "related_keywords": ["lakeer daagh", "پتے پر لائن", "line nishan", "seedhi line", "leaf streak", "bacterial streak"],
+    "common_crops": ["rice"]
+  },
+  {
+    "name": "citrus greening",
+    "type": "bacterial",
+    "related_keywords": ["peelay patte", "پھل چھوٹا", "zard patte", "fruit chota", "greening disease", "yellow leaves"],
+    "common_crops": ["citrus"]
+  },
+  {
+    "name": "red rot",
+    "type": "fungal",
+    "related_keywords": ["lal sadhna", "لال سڑنا", "ganna galna", "andar lal", "red rot", "cane rot"],
+    "common_crops": ["sugarcane"]
+  },
+  {
+    "name": "charcoal rot",
+    "type": "fungal",
+    "related_keywords": ["kala sadhna", "کوئلہ جیسا", "jad sookh gai", "kala root", "charcoal rot", "dry root rot"],
+    "common_crops": ["maize"]
+  },
+  {
+    "name": "nematode damage",
+    "type": "nematode",
+    "related_keywords": ["jad ke keere", "جڑ کے کیڑے", "root knots", "jad gathay", "nematode", "root pest"],
+    "common_crops": ["vegetables"]
+  },
+  {
+    "name": "leaf streak",
+    "type": "fungal",
+    "related_keywords": ["patte pe lakeer", "پتے پر لکیر", "line patta", "lakeer patta", "leaf streak", "line disease"],
+    "common_crops": ["wheat"]
+  },
+  {
+    "name": "gummosis",
+    "type": "fungal",
+    "related_keywords": ["chipchipa ras", "گوند نکلنا", "ras nikalna", "chipchipa pani", "gummosis", "sap leakage"],
+    "common_crops": ["citrus"]
+  },
+  {
+    "name": "sooty mold",
+    "type": "fungal",
+    "related_keywords": ["kala mail", "کالی تہہ", "kala patta", "mail parat", "sooty mold", "black layer"],
+    "common_crops": ["citrus", "cotton"]
+  },
+  {
+    "name": "leaf scorch",
+    "type": "bacterial",
+    "related_keywords": ["patte jalna kinare se", "خشک کنارہ", "kinara sukha", "edge dry", "leaf scorch", "edge burn"],
+    "common_crops": ["trees"]
+  },
+  {
+    "name": "bud rot",
+    "type": "fungal",
+    "related_keywords": ["kali galna", "کلی سڑنا", "phool gal gaya", "bud mar gaya", "bud rot", "flower rot"],
+    "common_crops": ["coconut"]
+  }
+]

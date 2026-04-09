@@ -1,0 +1,242 @@
+[
+  {
+    "query": "cotton pe safed makhi bohat hai",
+    "expected_type": "pest",
+    "expected_name": "whitefly"
+  },
+  {
+    "query": "پتوں پر سفید مکھی آ گئی ہے",
+    "expected_type": "pest",
+    "expected_name": "whitefly"
+  },
+  {
+    "query": "wheat ki patti pe zang aa gaya hai",
+    "expected_type": "disease",
+    "expected_name": "rust"
+  },
+  {
+    "query": "گندم کے پتے پر پیلا زنگ ہے",
+    "expected_type": "disease",
+    "expected_name": "rust"
+  },
+  {
+    "query": "tamatar ke patte murh rahe hain",
+    "expected_type": "disease",
+    "expected_name": "leaf curl virus"
+  },
+  {
+    "query": "ٹماٹر کے پتے مڑ رہے ہیں",
+    "expected_type": "disease",
+    "expected_name": "leaf curl virus"
+  },
+  {
+    "query": "pattay pe safed powder aa gaya hai",
+    "expected_type": "disease",
+    "expected_name": "powdery mildew"
+  },
+  {
+    "query": "پتوں پر سفید پاؤڈر ہے",
+    "expected_type": "disease",
+    "expected_name": "powdery mildew"
+  },
+  {
+    "query": "khet mein bohat ghas ug ayi hai",
+    "expected_type": "weed",
+    "expected_name": "wild oat"
+  },
+  {
+    "query": "کھیت میں گھاس بہت زیادہ ہو گئی ہے",
+    "expected_type": "weed",
+    "expected_name": "wild oat"
+  },
+  {
+    "query": "cotton pe sundi lag gayi hai",
+    "expected_type": "pest",
+    "expected_name": "bollworm"
+  },
+  {
+    "query": "روئی پر سنڈی لگ گئی ہے",
+    "expected_type": "pest",
+    "expected_name": "bollworm"
+  },
+  {
+    "query": "patton pe daagh hain",
+    "expected_type": "disease",
+    "expected_name": "leaf spot"
+  },
+  {
+    "query": "پتوں پر داغ ہیں",
+    "expected_type": "disease",
+    "expected_name": "leaf spot"
+  },
+  {
+    "query": "jad gal rahi hai aur poda gir raha hai",
+    "expected_type": "disease",
+    "expected_name": "root rot"
+  },
+  {
+    "query": "جڑ گل رہی ہے اور پودا گر رہا ہے",
+    "expected_type": "disease",
+    "expected_name": "root rot"
+  },
+  {
+    "query": "deemak ne fasal kharab kar di",
+    "expected_type": "pest",
+    "expected_name": "termite"
+  },
+  {
+    "query": "دیمک لگ گئی ہے زمین میں",
+    "expected_type": "pest",
+    "expected_name": "termite"
+  },
+  {
+    "query": "poda murjha gaya hai",
+    "expected_type": "disease",
+    "expected_name": "wilt"
+  },
+  {
+    "query": "پودا مرجھا گیا ہے",
+    "expected_type": "disease",
+    "expected_name": "wilt"
+  },
+  {
+    "query": "patte pe bhure daagh hain",
+    "expected_type": "disease",
+    "expected_name": "brown spot"
+  },
+  {
+    "query": "پتے پر بھورے داغ ہیں",
+    "expected_type": "disease",
+    "expected_name": "brown spot"
+  },
+  {
+    "query": "choti pod gir rahi hai",
+    "expected_type": "disease",
+    "expected_name": "damping off"
+  },
+  {
+    "query": "نئی پود مر رہی ہے",
+    "expected_type": "disease",
+    "expected_name": "damping off"
+  },
+  {
+    "query": "phal ke andar keera hai",
+    "expected_type": "pest",
+    "expected_name": "fruit borer"
+  },
+  {
+    "query": "پھل کے اندر کیڑا ہے",
+    "expected_type": "pest",
+    "expected_name": "fruit borer"
+  },
+  {
+    "query": "patte pe kali parat aa gayi hai",
+    "expected_type": "disease",
+    "expected_name": "sooty mold"
+  },
+  {
+    "query": "پتوں پر کالی تہہ ہے",
+    "expected_type": "disease",
+    "expected_name": "sooty mold"
+  },
+  {
+    "query": "khet mein gajar booti phail gayi hai",
+    "expected_type": "weed",
+    "expected_name": "parthenium"
+  },
+  {
+    "query": "گاجر بوٹی بہت زیادہ ہو گئی ہے",
+    "expected_type": "weed",
+    "expected_name": "parthenium"
+  },
+  {
+    "query": "makhi patton ka ras choos rahi hai",
+    "expected_type": "pest",
+    "expected_name": "aphid"
+  },
+  {
+    "query": "کیڑا رس چوس رہا ہے",
+    "expected_type": "pest",
+    "expected_name": "aphid"
+  },
+  {
+    "query": "patte pe lakeerain ban rahi hain",
+    "expected_type": "disease",
+    "expected_name": "leaf streak"
+  },
+  {
+    "query": "پتوں پر لکیریں ہیں",
+    "expected_type": "disease",
+    "expected_name": "leaf streak"
+  },
+  {
+    "query": "zameen mein deela bohat hai",
+    "expected_type": "weed",
+    "expected_name": "nutgrass"
+  },
+  {
+    "query": "ڈیلا گھاس بہت زیادہ ہے",
+    "expected_type": "weed",
+    "expected_name": "nutgrass"
+  },
+  {
+    "query": "patta kinare se jal raha hai",
+    "expected_type": "disease",
+    "expected_name": "leaf scorch"
+  },
+  {
+    "query": "پتہ کنارے سے جل رہا ہے",
+    "expected_type": "disease",
+    "expected_name": "leaf scorch"
+  },
+  {
+    "query": "makki mein lashkari keera aa gaya hai",
+    "expected_type": "pest",
+    "expected_name": "armyworm"
+  },
+  {
+    "query": "مکئی میں لشکری کیڑا ہے",
+    "expected_type": "pest",
+    "expected_name": "armyworm"
+  },
+  {
+    "query": "patte andar se khaye ja rahe hain",
+    "expected_type": "pest",
+    "expected_name": "leaf miner"
+  },
+  {
+    "query": "پتے کے اندر لائنیں بن رہی ہیں",
+    "expected_type": "pest",
+    "expected_name": "leaf miner"
+  },
+  {
+    "query": "ghun ne anaaj kharab kar diya",
+    "expected_type": "pest",
+    "expected_name": "weevil"
+  },
+  {
+    "query": "گندم میں گھُن لگ گیا ہے",
+    "expected_type": "pest",
+    "expected_name": "weevil"
+  },
+  {
+    "query": "kulfa poori zameen pe phail gaya hai",
+    "expected_type": "weed",
+    "expected_name": "purslane"
+  },
+  {
+    "query": "کلفا پورے کھیت میں ہے",
+    "expected_type": "weed",
+    "expected_name": "purslane"
+  },
+  {
+    "query": "bathua ug aya hai wheat ke saath",
+    "expected_type": "weed",
+    "expected_name": "lambsquarters"
+  },
+  {
+    "query": "باتھوا گندم کے ساتھ اگ آیا ہے",
+    "expected_type": "weed",
+    "expected_name": "lambsquarters"
+  }
+]
