@@ -63,17 +63,23 @@ function confidenceLabel(score) {
   return "🔴 Low";
 }
 
-function extractField(text, field) {
-  const lines = text.split("\n");
+const safeJoin = arr =>
+  Array.isArray(arr) && arr.length ? arr.join(", ") : "N/A";
 
-  for (let line of lines) {
-    if (line.toLowerCase().startsWith(field.toLowerCase() + ":")) {
-      const value = line.split(":")[1]?.trim();
-      return value && value !== "" ? value : "N/A";
-    }
-  }
+// ============================================================
+// Recommendation Generator
+// ============================================================
+function generateRecommendation(product, detectedDiseases) {
+  const diseases = product.metadata.diseases || [];
 
-  return "N/A";
+  return `
+👉 Recommended Product: ${product.metadata.product_name}
+
+👉 Why:
+- Controls: ${diseases.slice(0, 3).join(", ") || "multiple diseases"}
+- Category: ${product.metadata.category}
+- Matches problem: ${detectedDiseases.join(", ") || "general issue"}
+`;
 }
 
 // ============================================================
@@ -102,13 +108,12 @@ async function run() {
   const queryVector = Array.from(output.data);
 
   // ============================================================
-  // DETECTION (FIXED ORDER)
+  // DETECTION
   // ============================================================
   const detectedDiseases = detectDiseaseKeywords(query);
   let problemType = detectProblemType(query);
   const crop = detectCrop(query);
 
-  // 🔥 override logic (CRITICAL FIX)
   if (detectedDiseases.length > 0) {
     problemType = "disease";
   }
@@ -118,7 +123,7 @@ async function run() {
   console.log("🧬 Detected diseases:", detectedDiseases);
 
   // ============================================================
-  // FILTERING (CLEAN)
+  // FILTERING
   // ============================================================
   let filteredDB;
 
@@ -128,7 +133,6 @@ async function run() {
       item.metadata.chunk_type === "product"
     );
   } else {
-    // fallback → still enforce product chunks
     filteredDB = db.filter(item =>
       item.metadata.chunk_type === "product"
     );
@@ -142,7 +146,7 @@ async function run() {
   console.log("📦 After filtering:", filteredDB.length);
 
   // ============================================================
-  // SCORING (IMPROVED)
+  // SCORING (STRONG FIX)
   // ============================================================
   const results = filteredDB.map(item => {
     let score = cosine(queryVector, item.vector);
@@ -158,21 +162,31 @@ async function run() {
       score += 0.15;
     }
 
-    // 🔥 disease boost
+    // 🔥 strong disease boost
     if (
       detectedDiseases.length > 0 &&
       item.metadata.diseases?.some(d =>
         detectedDiseases.includes(d.toLowerCase())
       )
     ) {
-      score += 0.3;
+      score += 0.5;
     }
 
     return { ...item, score };
   });
 
   results.sort((a, b) => b.score - a.score);
+
+  const best = results[0];
   const top = results.slice(0, 3);
+
+  // ============================================================
+  // FINAL RECOMMENDATION
+  // ============================================================
+  if (best) {
+    console.log("\n🌟 FINAL RECOMMENDATION:\n");
+    console.log(generateRecommendation(best, detectedDiseases));
+  }
 
   // ============================================================
   // DEBUG
@@ -192,9 +206,9 @@ async function run() {
     console.log(`📂 Category: ${r.metadata.category}`);
     console.log(`🧪 Type: ${r.metadata.type || "N/A"}`);
 
-    console.log(`🌾 Crops: ${extractField(r.text, "Crops")}`);
-    console.log(`🎯 Controls: ${extractField(r.text, "Controls")}`);
-    console.log(`🍄 Diseases: ${extractField(r.text, "Diseases")}`);
+    console.log(`🌾 Crops: ${safeJoin(r.metadata.crops)}`);
+    console.log(`🎯 Controls: ${safeJoin(r.metadata.controls)}`);
+    console.log(`🍄 Diseases: ${safeJoin(r.metadata.diseases)}`);
 
     console.log(
       `⭐ Score: ${r.score.toFixed(3)} ${confidenceLabel(r.score)}\n`
