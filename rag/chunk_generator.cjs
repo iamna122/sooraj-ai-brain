@@ -80,15 +80,12 @@ function buildChunks(product, farmerQueries) {
 
   // DISEASES
   const diseases = unique([
-    ...(product.target_diseases || []),
-    ...(product.disease_categories?.foliar_diseases || []),
-    ...(product.disease_categories?.airborne_diseases || []),
-    ...(product.disease_categories?.water_related_diseases || []),
-    ...(product.disease_categories?.major_crop_diseases || []),
-    ...(product.symptoms?.english || []),
-    ...(product.symptoms?.roman_urdu || [])
-  ]);
-
+  ...(product.target_diseases || []),
+  ...(product.disease_categories?.foliar_diseases || []),
+  ...(product.disease_categories?.airborne_diseases || []),
+  ...(product.disease_categories?.water_related_diseases || []),
+  ...(product.disease_categories?.major_crop_diseases || [])
+]);
   // OTHER FIELDS
   const weeds = unique(product.target_weeds || []);
   const insects = unique(product.target_pests || []);
