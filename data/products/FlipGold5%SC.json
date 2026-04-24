@@ -1,0 +1,197 @@
+{
+  "product_id": "sooraj_flipgold_5_sc",
+  "product_name": "FlipGold 5% SC",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Insecticide",
+  "type": "Broad-spectrum phenylpyrazole insecticide",
+
+  "formulation": "SC (Suspension Concentrate)",
+  "systemicity": "Contact + ingestion (limited systemic activity)",
+
+  "mode_of_action_summary": "Fipronil acts by blocking GABA-gated chloride channels in the insect nervous system, causing hyperexcitation, paralysis, and death. It is highly effective against soil and sucking pests with long residual activity.",
+
+  "active_ingredients": [
+    {
+      "name": "Fipronil",
+      "percentage": "5%",
+      "chemical_group": "Phenylpyrazole (IRAC Group 2B)",
+      "mode_of_action": "GABA-gated chloride channel blocker causing nervous system disruption"
+    }
+  ],
+
+  "target_pests": [
+    "stem borer",
+    "leaf folder",
+    "thrips",
+    "white grub",
+    "termites",
+    "rice hispa",
+    "cutworms"
+  ],
+
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "soil_pests": [
+      "white grub",
+      "termites",
+      "cutworms"
+    ],
+    "borers": [
+      "stem borer"
+    ],
+    "leaf_feeders": [
+      "leaf folder",
+      "rice hispa"
+    ],
+    "sucking_pests": [
+      "thrips"
+    ]
+  },
+
+  "pest_behavior": {
+    "root_damage": "Soil pests attack roots reducing plant stability and nutrient uptake",
+    "boring": "Borers enter stems causing dead hearts and reduced yield",
+    "leaf_feeding": "Leaf feeders damage foliage reducing photosynthesis",
+    "sap_sucking": "Thrips suck sap causing leaf curling and silvering"
+  },
+
+  "crops": {
+    "major": ["rice"],
+    "all": ["rice", "sugarcane", "vegetables", "cotton"]
+  },
+
+  "farmer_crop_terms": [
+    "dhan",
+    "chawal",
+    "ganna",
+    "kapas",
+    "sabziyan"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پودے کے تنے میں سوراخ",
+      "پتے کھائے جا رہے ہیں",
+      "پودا مرجھا رہا ہے",
+      "جڑیں خراب ہو رہی ہیں"
+    ],
+    "punjabi": [
+      "تنا وچ سوراخ",
+      "پتے کھا رہے نیں",
+      "پودا سوکھ رہا اے",
+      "جڑاں خراب ہو رہیاں نیں"
+    ],
+    "roman_urdu": [
+      "tana mein surakh",
+      "pattay kha rahe hain",
+      "plant murjha raha hai",
+      "jarain kharab ho rahi hain"
+    ],
+    "english": [
+      "stem damage",
+      "leaf feeding damage",
+      "wilting plants",
+      "root damage"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "stem borer control in rice",
+    "termite control in crops",
+    "white grub control",
+    "rice hispa control",
+    "thrips control spray"
+  ],
+
+  "search_keywords": [
+    "fipronil insecticide",
+    "stem borer control",
+    "termite killer for crops",
+    "soil insecticide",
+    "چوہا کیڑا ختم کرنے کی دوا"
+  ],
+
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "400–600 ml",
+    "method": "Foliar spray / soil application",
+    "frequency": "10–15 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Apply as foliar spray or soil drench depending on pest type",
+    "coverage": "Ensure uniform coverage of plant and soil zone"
+  },
+
+  "crop_stage_recommendation": [
+    "Early pest infestation",
+    "Vegetative stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after spray",
+      "Strong wind",
+      "Extreme heat"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": ["Group 2B"],
+    "advantage": "Effective against resistant pest populations",
+    "advice": "Rotate with insecticides of different modes of action"
+  },
+
+  "safety": [
+    "Wear protective clothing",
+    "Avoid contamination of water bodies",
+    "Do not spray during strong wind"
+  ],
+
+  "benefits": [
+    "Long residual control",
+    "Effective against soil and foliar pests",
+    "Controls resistant pests",
+    "Improves crop health and yield"
+  ],
+
+  "farmer_benefits": [
+    "کیڑے لمبے عرصے تک ختم رہندے نیں",
+    "جڑاں محفوظ رہندیاں نیں",
+    "پودا مضبوط ہوندا اے",
+    "فصل بہتر ہوندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Fipronil based insecticide effective against soil and foliar pests.",
+    "urdu": "فپرونل پر مشتمل دوا جو زمین اور پتے کے کیڑوں کو ختم کرتی ہے۔",
+    "punjabi": "فپرونل والی دوا جو مٹی تے پتے والے کیڑیاں نوں ختم کردی اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "stem borer damage",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "termite attack",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "white grub infestation",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "FlipGold 5 SC insecticide contains fipronil and is used for control of stem borer termites white grub and other pests in rice and crops. It works by disrupting insect nervous system and provides long lasting control."
+}
