@@ -85,7 +85,7 @@ export function computeScore(item, queryVector, queryInfo) {
   let score = cosine(queryVector, item.vector) || 0;
 
   const chunkText   = (item.text || "").toLowerCase();
-  const productType = (item.metadata?.type || "").toLowerCase();
+  const productType = String(item.metadata?.type || "").toLowerCase();
 
   // ── Keyword boost ──────────────────────────────────────────────────────────
   // Check individual meaningful tokens against chunk text — not the full string.

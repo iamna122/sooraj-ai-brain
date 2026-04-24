@@ -1,10 +1,10 @@
 // rag/utils/ambiguity_detector.js
 
 const FIELD_WEIGHTS = {
-  crop:           0.35,
-  symptoms:       0.35,
-  problem_type:   0.20,
-  crop_stage:     0.10,
+  crop:         0.35,
+  symptoms:     0.35,
+  problem_type: 0.20,
+  crop_stage:   0.10,
 };
 
 const CONFIDENCE_THRESHOLD = 0.70;
@@ -30,7 +30,6 @@ export function detectAmbiguity(data) {
   const problemType = data.problem_type || "unknown";
   const required    = REQUIRED_BY_TYPE[problemType] || REQUIRED_BY_TYPE.unknown;
 
-  // ── Hard requirements ──────────────────────────────────────────────────────
   if (required.includes("crop") && !data.crop) {
     missing.push("crop");
   }
@@ -45,20 +44,15 @@ export function detectAmbiguity(data) {
     }
   }
 
-  // ── Confidence score ───────────────────────────────────────────────────────
   let confidence = 0;
-  if (data.crop)                        confidence += FIELD_WEIGHTS.crop;
-  if (data.symptoms?.length > 0)        confidence += FIELD_WEIGHTS.symptoms;
-  if (data.problem_type)                confidence += FIELD_WEIGHTS.problem_type;
-  if (data.crop_stage)                  confidence += FIELD_WEIGHTS.crop_stage;
+  if (data.crop)                             confidence += FIELD_WEIGHTS.crop;
+  if (data.symptoms && data.symptoms.length) confidence += FIELD_WEIGHTS.symptoms;
+  if (data.problem_type)                     confidence += FIELD_WEIGHTS.problem_type;
+  if (data.crop_stage)                       confidence += FIELD_WEIGHTS.crop_stage;
 
-  // ── All required fields present check ─────────────────────────────────────
-  // If every required field for this problem type is filled,
-  // skip the confidence threshold — don't penalise insect/weed
-  // queries for missing symptoms they don't need.
   const allRequiredPresent = required.every(field => {
-    if (field === "crop")     return !!data.crop;
-    if (field === "symptoms") return data.symptoms?.length > 0;
+    if (field === "crop")     return Boolean(data.crop);
+    if (field === "symptoms") return data.symptoms && data.symptoms.length > 0;
     return true;
   });
 
