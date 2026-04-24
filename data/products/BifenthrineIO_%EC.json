@@ -1,0 +1,209 @@
+{
+  "product_id": "bifenthrin_10_ec",
+  "product_name": "Bifenthrin 10% EC",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Insecticide",
+  "type": "Contact insecticide (Pyrethroid fast knockdown)",
+
+  "formulation": "EC (Emulsifiable Concentrate)",
+  "systemicity": "Contact",
+
+  "mode_of_action_summary": "Bifenthrin is a pyrethroid insecticide that affects sodium channels in insect nerve cells, causing paralysis and rapid death. It provides strong contact action with quick knockdown effect.",
+
+  "active_ingredients": [
+    {
+      "name": "Bifenthrin",
+      "percentage": "10%",
+      "chemical_group": "Pyrethroid (IRAC Group 3A)",
+      "mode_of_action": "Sodium channel modulator causing rapid knockdown"
+    }
+  ],
+
+  "target_pests": [
+    "caterpillars",
+    "bollworms",
+    "cutworms",
+    "termites",
+    "thrips",
+    "whitefly (partial)"
+  ],
+
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "chewing_pests": [
+      "caterpillars",
+      "bollworms",
+      "cutworms"
+    ],
+    "soil_pests": [
+      "termites"
+    ],
+    "sucking_pests": [
+      "thrips",
+      "whitefly (partial)"
+    ]
+  },
+
+  "pest_behavior": {
+    "chewing_damage": "Insects eat leaves and reduce photosynthesis",
+    "soil_attack": "Termites damage roots and stems",
+    "rapid_spread": "Pests spread quickly causing crop loss"
+  },
+
+  "crops": {
+    "major": ["cotton", "vegetables"],
+    "all": [
+      "cotton",
+      "vegetables",
+      "chilli",
+      "okra",
+      "tomato",
+      "wheat (termite control)"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "kapas",
+    "mirch",
+    "bhindi",
+    "gandum"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "کیڑے پتیاں کھا رہے ہیں",
+      "پودا کٹ رہا ہے",
+      "زمین میں دیمک لگ گئی ہے",
+      "پودا کمزور ہو رہا ہے"
+    ],
+    "punjabi": [
+      "کیڑے پتے کھا رہے نیں",
+      "پودا کٹ رہا اے",
+      "دیمک لگ گئی اے"
+    ],
+    "roman_urdu": [
+      "keere pattay kha rahe hain",
+      "plant cut ho raha hai",
+      "deemak lag gayi hai",
+      "plant weak ho raha hai"
+    ],
+    "english": [
+      "chewing damage",
+      "caterpillar attack",
+      "termite infestation",
+      "leaf damage"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "caterpillar control",
+    "bollworm spray",
+    "termite control",
+    "fast insecticide spray",
+    "kapas mein keera lag gaya"
+  ],
+
+  "search_keywords": [
+    "bifenthrin insecticide",
+    "pyrethroid spray",
+    "caterpillar control",
+    "termite control",
+    "fast knockdown insecticide",
+    "کیڑا مار دوا"
+  ],
+
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "200–300 ml",
+    "method": "Foliar spray or soil application (termite)",
+    "frequency": "10–14 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Spray directly on pests and affected areas",
+    "coverage": "Ensure full coverage of plant",
+    "water_volume": "100–120 liters per acre"
+  },
+
+  "crop_stage_recommendation": [
+    "At pest appearance",
+    "Vegetative stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "Rain after spray",
+      "Strong wind",
+      "Extreme heat"
+    ]
+  },
+
+  "resistance_management": {
+    "group": "IRAC Group 3A",
+    "risk": "High resistance risk",
+    "advice": "Rotate with non-pyrethroid insecticides"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid inhalation",
+    "Keep away from water bodies",
+    "Follow label instructions"
+  ],
+
+  "benefits": [
+    "Fast knockdown effect",
+    "Effective against chewing pests",
+    "Controls termites",
+    "Quick visible results"
+  ],
+
+  "farmer_benefits": [
+    "کیڑے فوراً ختم ہو جاندے نیں",
+    "دیمک ختم ہو جاندی اے",
+    "پودا بچ جاندا اے",
+    "فصل محفوظ رہندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Fast acting contact insecticide for control of chewing pests and termites.",
+    "urdu": "تیزی سے اثر کرنے والی کیڑا مار دوا۔",
+    "punjabi": "جلدی اثر کرن والی کیڑا مار دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "caterpillar attack",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "termite infestation",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Chewing pests present",
+      "Fast knockdown required",
+      "Termite problem present"
+    ],
+    "do_not_recommend_when": [
+      "Need systemic control",
+      "High resistance risk",
+      "Beneficial insects need protection"
+    ]
+  },
+
+  "embedding_text": "Bifenthrin 10 EC insecticide is used for control of caterpillars bollworms and termites. It is a fast acting contact insecticide that provides quick knockdown effect."
+}

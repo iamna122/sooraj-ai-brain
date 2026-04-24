@@ -1,0 +1,193 @@
+{
+  "product_id": "lufenuron_5_ec",
+  "product_name": "Lufenuron 5% EC",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Insecticide",
+  "type": "Insect Growth Regulator (IGR) larvicide",
+
+  "formulation": "EC (Emulsifiable Concentrate)",
+  "systemicity": "Contact + ingestion",
+
+  "mode_of_action_summary": "Lufenuron is an insect growth regulator that inhibits chitin synthesis in insects. It prevents larvae from molting, stopping development and causing death at immature stages.",
+
+  "active_ingredients": [
+    {
+      "name": "Lufenuron",
+      "percentage": "5%",
+      "chemical_group": "Benzoylurea (IRAC Group 15)",
+      "mode_of_action": "Chitin synthesis inhibitor affecting insect growth"
+    }
+  ],
+
+  "target_pests": [
+    "caterpillars",
+    "bollworms",
+    "armyworms",
+    "leaf eating larvae"
+  ],
+
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "larvae_pests": [
+      "caterpillars",
+      "bollworms",
+      "armyworms"
+    ],
+    "adult_pests": []
+  },
+
+  "pest_behavior": {
+    "growth_disruption": "Larvae fail to molt and die in immature stage",
+    "slow_action": "Does not kill instantly but prevents future damage",
+    "population_control": "Reduces pest population over time"
+  },
+
+  "crops": {
+    "major": ["cotton", "vegetables"],
+    "all": [
+      "cotton",
+      "chilli",
+      "tomato",
+      "okra",
+      "cabbage"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "kapas",
+    "mirch",
+    "tamatar",
+    "bhindi"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "چھوٹی سنڈی نظر آ رہی ہے",
+      "پتیاں کھائی جا رہی ہیں",
+      "ابتدائی حملہ ہے",
+      "کیڑے بڑھ رہے ہیں"
+    ],
+    "punjabi": [
+      "چھوٹی سنڈی اے",
+      "پتے کھائے جا رہے نیں",
+      "شروع دا حملہ اے"
+    ],
+    "roman_urdu": [
+      "choti sundi hai",
+      "early stage keere hain",
+      "pattay kha rahe hain",
+      "keere barh rahe hain"
+    ],
+    "english": [
+      "early caterpillar stage",
+      "larvae feeding",
+      "initial infestation",
+      "leaf damage starting"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "early caterpillar control",
+    "sundi ka early ilaj",
+    "bollworm early stage control",
+    "preventive insecticide",
+    "larvae control spray"
+  ],
+
+  "search_keywords": [
+    "lufenuron insecticide",
+    "IGR insecticide",
+    "caterpillar early control",
+    "chitin inhibitor",
+    "سنڈی کا ابتدائی علاج"
+  ],
+
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "200–300 ml",
+    "method": "Foliar spray",
+    "frequency": "10–14 days",
+    "best_time": ["Early infestation", "Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Apply at early larval stage",
+    "coverage": "Uniform spray required",
+    "water_volume": "100–120 liters per acre"
+  },
+
+  "crop_stage_recommendation": [
+    "Early pest stage",
+    "Preventive application"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Early infestation"
+    ],
+    "avoid_conditions": [
+      "Heavy infestation stage",
+      "Rain after spray"
+    ]
+  },
+
+  "resistance_management": {
+    "group": "IRAC Group 15",
+    "risk": "Low to moderate resistance risk",
+    "advice": "Use in rotation with fast-acting insecticides"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid inhalation",
+    "Follow label recommendations"
+  ],
+
+  "benefits": [
+    "Excellent early-stage control",
+    "Prevents pest population buildup",
+    "Selective and safer for beneficial insects",
+    "Long-term pest management"
+  ],
+
+  "farmer_benefits": [
+    "سنڈی بڑھنے سے رک جاندی اے",
+    "شروع وچ ہی کنٹرول ہو جاندی اے",
+    "فصل محفوظ رہندی اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Insect growth regulator for early control of caterpillars and larvae.",
+    "urdu": "سنڈی کے ابتدائی مرحلے کے لیے بہترین دوا۔",
+    "punjabi": "سنڈی دے شروع دے مرحلے لئی زبردست دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "early caterpillar infestation",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Early larval stage present",
+      "Preventive control needed",
+      "Low to moderate infestation"
+    ],
+    "do_not_recommend_when": [
+      "Heavy infestation",
+      "Need immediate knockdown",
+      "Adult pest dominant"
+    ]
+  },
+
+  "embedding_text": "Lufenuron 5 EC insecticide is an insect growth regulator used for early control of caterpillars and larvae. It prevents molting and stops pest development in crops like cotton and vegetables."
+}

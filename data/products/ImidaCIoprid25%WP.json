@@ -1,0 +1,203 @@
+{
+  "product_id": "imidacloprid_25_wp",
+  "product_name": "Imidacloprid 25% WP",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Insecticide",
+  "type": "Systemic insecticide (Neonicotinoid)",
+
+  "formulation": "WP (Wettable Powder)",
+  "systemicity": "Systemic",
+
+  "mode_of_action_summary": "Imidacloprid is a systemic neonicotinoid insecticide that acts on nicotinic acetylcholine receptors in insects, disrupting nerve transmission and causing paralysis and death. It is absorbed by roots and leaves and translocated throughout the plant.",
+
+  "active_ingredients": [
+    {
+      "name": "Imidacloprid",
+      "percentage": "25%",
+      "chemical_group": "Neonicotinoid (IRAC Group 4A)",
+      "mode_of_action": "nAChR agonist causing nervous system disruption"
+    }
+  ],
+
+  "target_pests": [
+    "whitefly",
+    "aphid",
+    "jassid",
+    "thrips"
+  ],
+
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "sucking_pests": [
+      "whitefly",
+      "aphid",
+      "jassid",
+      "thrips"
+    ],
+    "chewing_pests": []
+  },
+
+  "pest_behavior": {
+    "sap_sucking": "Pests suck plant sap causing yellowing, curling and weakening",
+    "virus_transmission": "Sucking pests spread viral diseases",
+    "rapid_multiplication": "Pests multiply quickly in favorable conditions"
+  },
+
+  "crops": {
+    "major": ["cotton", "rice"],
+    "all": [
+      "cotton",
+      "rice",
+      "wheat",
+      "vegetables",
+      "okra",
+      "chilli"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "kapas",
+    "dhan",
+    "gandum",
+    "bhindi",
+    "mirch"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "سفید مکھی کا حملہ",
+      "پتیاں سکڑ رہی ہیں",
+      "پودا کمزور ہو رہا ہے",
+      "چپچپا مادہ بن رہا ہے"
+    ],
+    "punjabi": [
+      "کپاس تے تیلا",
+      "پتے مڑ گئے نیں",
+      "پودا کمزور ہو گیا اے"
+    ],
+    "roman_urdu": [
+      "whitefly attack",
+      "pattay mur gaye",
+      "plant weak ho raha hai",
+      "chipchipa madah"
+    ],
+    "english": [
+      "whitefly infestation",
+      "leaf curling",
+      "sap sucking damage",
+      "sticky honeydew"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "whitefly control",
+    "aphid control spray",
+    "jassid control cotton",
+    "thrips control",
+    "sucking pest insecticide"
+  ],
+
+  "search_keywords": [
+    "imidacloprid insecticide",
+    "systemic insecticide",
+    "whitefly control",
+    "aphid spray",
+    "neonicotinoid insecticide",
+    "تیلا کنٹرول دوا"
+  ],
+
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "100–150 g",
+    "method": "Foliar spray or soil application",
+    "frequency": "10–14 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform spray or soil application",
+    "coverage": "Ensure full plant absorption",
+    "water_volume": "100–120 liters per acre"
+  },
+
+  "crop_stage_recommendation": [
+    "Early infestation",
+    "Vegetative stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "Rain after spray",
+      "Extreme heat"
+    ]
+  },
+
+  "resistance_management": {
+    "group": "IRAC Group 4A",
+    "risk": "High resistance risk",
+    "advice": "Rotate with non-neonicotinoid insecticides"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid overuse",
+    "Protect pollinators",
+    "Follow label instructions"
+  ],
+
+  "benefits": [
+    "Strong systemic control",
+    "Effective against sucking pests",
+    "Long residual action",
+    "Prevents virus transmission"
+  ],
+
+  "farmer_benefits": [
+    "تیلا ختم ہو جاندا اے",
+    "پودا مضبوط ہو جاندا اے",
+    "بیماری پھیلنا رک جاندی اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Systemic insecticide for effective control of sucking pests.",
+    "urdu": "چوسنے والے کیڑوں کو ختم کرنے والی سسٹمک دوا۔",
+    "punjabi": "چوسن والے کیڑیاں لئی زبردست سسٹمک سپرے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "whitefly infestation",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "aphid attack",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Sucking pests present",
+      "Early infestation stage",
+      "Need systemic protection",
+      "Virus transmission risk"
+    ],
+    "do_not_recommend_when": [
+      "Chewing pests dominant",
+      "Resistance to neonicotinoids present",
+      "Repeated use already done"
+    ]
+  },
+
+  "embedding_text": "Imidacloprid 25 WP insecticide is used for control of sucking pests like whitefly aphid jassid and thrips. It is a systemic neonicotinoid insecticide that provides long lasting protection and prevents virus transmission."
+}

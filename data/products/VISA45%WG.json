@@ -1,0 +1,209 @@
+{
+  "product_id": "visa_45_wg",
+  "product_name": "VISA 45% WG",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Insecticide",
+  "type": "Dual action larvicide (IGR + feeding blocker)",
+
+  "formulation": "WG (Water Dispersible Granules)",
+  "systemicity": "Translaminar + ingestion",
+
+  "mode_of_action_summary": "Combination of lufenuron and emamectin benzoate provides dual control of caterpillars. Lufenuron inhibits chitin synthesis preventing larval development, while emamectin stops feeding immediately by affecting nerve cells, leading to paralysis and death.",
+
+  "active_ingredients": [
+    {
+      "name": "Lufenuron",
+      "percentage": "40%",
+      "chemical_group": "Benzoylurea (IRAC Group 15)",
+      "mode_of_action": "Chitin synthesis inhibitor stopping insect growth"
+    },
+    {
+      "name": "Emamectin Benzoate",
+      "percentage": "5%",
+      "chemical_group": "Avermectin (IRAC Group 6)",
+      "mode_of_action": "Chloride channel activator causing feeding stop and paralysis"
+    }
+  ],
+
+  "target_pests": [
+    "bollworms",
+    "helicoverpa",
+    "spodoptera",
+    "armyworms",
+    "fruit borer",
+    "leaf folder",
+    "caterpillars"
+  ],
+
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "larvae_pests": [
+      "bollworms",
+      "helicoverpa",
+      "spodoptera",
+      "armyworms",
+      "fruit borer"
+    ]
+  },
+
+  "pest_behavior": {
+    "feeding_damage": "Larvae feed aggressively on leaves and fruits",
+    "hidden_attack": "Borers remain hidden inside plant parts",
+    "rapid_spread": "Infestation spreads quickly in favorable conditions"
+  },
+
+  "crops": {
+    "major": ["cotton", "vegetables"],
+    "all": [
+      "cotton",
+      "chilli",
+      "tomato",
+      "okra",
+      "brinjal"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "kapas",
+    "mirch",
+    "tamatar",
+    "bhindi",
+    "baingan"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "سنڈی پتیاں کھا رہی ہے",
+      "پھل میں سوراخ ہو گئے ہیں",
+      "پودا خراب ہو رہا ہے",
+      "کیڑا اندر چھپا ہوا ہے"
+    ],
+    "punjabi": [
+      "سنڈی پتے کھا رہی اے",
+      "پھل وچ سوراخ اے",
+      "پودا خراب ہو رہا اے"
+    ],
+    "roman_urdu": [
+      "sundi pattay kha rahi hai",
+      "fruit mein hole hai",
+      "bollworm attack",
+      "keera andar hai"
+    ],
+    "english": [
+      "caterpillar damage",
+      "fruit borer holes",
+      "leaf feeding damage",
+      "larvae infestation"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "bollworm control",
+    "caterpillar spray",
+    "sundi ka ilaj",
+    "fruit borer control",
+    "armyworm control"
+  ],
+
+  "search_keywords": [
+    "lufenuron emamectin insecticide",
+    "dual action caterpillar control",
+    "bollworm spray",
+    "larvicide insecticide",
+    "سنڈی مار دوا"
+  ],
+
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "60–80 g",
+    "method": "Foliar spray",
+    "frequency": "7–10 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Apply at early to medium larval stage",
+    "coverage": "Ensure deep penetration into canopy",
+    "water_volume": "100–120 liters per acre"
+  },
+
+  "crop_stage_recommendation": [
+    "Early to moderate infestation",
+    "Vegetative and flowering stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Active pest feeding"
+    ],
+    "avoid_conditions": [
+      "Rain after spray",
+      "Extreme heat"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": ["Group 15", "Group 6"],
+    "advantage": "Dual mode reduces resistance risk",
+    "advice": "Rotate with other insecticide groups"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid inhalation",
+    "Follow label instructions"
+  ],
+
+  "benefits": [
+    "Immediate feeding stop",
+    "Long-term pest control",
+    "Effective against hidden larvae",
+    "Dual action reduces resistance"
+  ],
+
+  "farmer_benefits": [
+    "سنڈی فوراً کھانا چھوڑ دی اے",
+    "پھل محفوظ رہندا اے",
+    "پودا بچ جاندا اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Dual action insecticide for effective control of caterpillars and borers.",
+    "urdu": "سنڈی اور بورر کے لیے ڈبل ایکشن دوا۔",
+    "punjabi": "سنڈی تے بورر لئی ڈبل ایکشن سپرے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "bollworm attack",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "caterpillar infestation",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Caterpillars present",
+      "Medium to heavy infestation",
+      "Need both immediate and long control",
+      "Hidden larvae problem"
+    ],
+    "do_not_recommend_when": [
+      "Only sucking pests present",
+      "Very early stage (single IGR sufficient)",
+      "Need fast knockdown only"
+    ]
+  },
+
+  "embedding_text": "Lufenuron 40 plus emamectin benzoate 5 WG insecticide is used for control of caterpillars bollworms and borers. It provides immediate feeding stop and long lasting control in crops like cotton and vegetables."
+}

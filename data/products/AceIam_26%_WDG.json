@@ -1,0 +1,214 @@
+{
+  "product_id": "aceiam_26_wdg",
+  "product_name": "AceIam 26% WDG",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Insecticide",
+  "type": "Systemic + contact insecticide (Dual action)",
+
+  "formulation": "WDG (Water Dispersible Granules)",
+  "systemicity": "Systemic + contact",
+
+  "mode_of_action_summary": "Combination of acetamiprid and lambda-cyhalothrin provides dual action control. Acetamiprid acts systemically disrupting insect nervous system, while lambda-cyhalothrin provides fast contact knockdown by affecting sodium channels in nerve cells.",
+
+  "active_ingredients": [
+    {
+      "name": "Acetamiprid",
+      "percentage": "23.5%",
+      "chemical_group": "Neonicotinoid (IRAC Group 4A)",
+      "mode_of_action": "nAChR agonist causing nervous system disruption"
+    },
+    {
+      "name": "Lambda-cyhalothrin",
+      "percentage": "2.5%",
+      "chemical_group": "Pyrethroid (IRAC Group 3A)",
+      "mode_of_action": "Sodium channel modulator causing rapid knockdown"
+    }
+  ],
+
+  "target_pests": [
+    "whitefly",
+    "aphid",
+    "jassid",
+    "thrips",
+    "caterpillars",
+    "bollworms"
+  ],
+
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "sucking_pests": [
+      "whitefly",
+      "aphid",
+      "jassid",
+      "thrips"
+    ],
+    "chewing_pests": [
+      "caterpillars",
+      "bollworms"
+    ]
+  },
+
+  "pest_behavior": {
+    "sap_sucking": "Pests suck plant sap causing curling and weakening",
+    "leaf_damage": "Chewing insects damage leaves and reduce yield",
+    "rapid_spread": "Pests multiply quickly causing heavy infestation"
+  },
+
+  "crops": {
+    "major": ["cotton", "vegetables"],
+    "all": [
+      "cotton",
+      "vegetables",
+      "chilli",
+      "okra",
+      "tomato"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "kapas",
+    "mirch",
+    "bhindi",
+    "tamatar"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "سفید مکھی کا حملہ",
+      "پتیاں سکڑ رہی ہیں",
+      "پودا کمزور ہو رہا ہے",
+      "کیڑے پتیاں کھا رہے ہیں"
+    ],
+    "punjabi": [
+      "کپاس تے تیلا",
+      "پتے مڑ گئے نیں",
+      "کیڑے پتے کھا رہے نیں"
+    ],
+    "roman_urdu": [
+      "whitefly attack",
+      "pattay mur gaye",
+      "plant weak ho raha hai",
+      "keere pattay kha rahe hain"
+    ],
+    "english": [
+      "whitefly infestation",
+      "leaf curling",
+      "chewing damage",
+      "stunted growth"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "whitefly control",
+    "jassid control cotton",
+    "thrips control spray",
+    "bollworm control",
+    "sucking pest insecticide"
+  ],
+
+  "search_keywords": [
+    "acetamiprid insecticide",
+    "lambda cyhalothrin spray",
+    "dual action insecticide",
+    "whitefly control",
+    "تیلا کنٹرول دوا"
+  ],
+
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "80–120 g",
+    "method": "Foliar spray",
+    "frequency": "10–14 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform spray on crop foliage",
+    "coverage": "Ensure full plant coverage",
+    "water_volume": "100–120 liters per acre"
+  },
+
+  "crop_stage_recommendation": [
+    "Early pest infestation",
+    "Vegetative stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "Rain after spray",
+      "Strong wind",
+      "Extreme heat"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": ["Group 4A", "Group 3A"],
+    "advantage": "Dual mode reduces resistance risk",
+    "advice": "Rotate with other insecticide groups"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid drift",
+    "Follow recommended dose"
+  ],
+
+  "benefits": [
+    "Fast knockdown effect",
+    "Long residual control",
+    "Controls both sucking and chewing pests",
+    "Improves crop health"
+  ],
+
+  "farmer_benefits": [
+    "کیڑے فوراً ختم ہو جاندے نیں",
+    "پودا جلدی ٹھیک ہو جاندا اے",
+    "فصل محفوظ رہندی اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Dual action insecticide for control of sucking and chewing pests.",
+    "urdu": "چوسنے اور کھانے والے کیڑوں کے لیے ڈبل ایکشن دوا۔",
+    "punjabi": "چوسن تے کھان والے کیڑیاں لئی ڈبل ایکشن سپرے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "whitefly infestation",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "jassid attack",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "bollworm damage",
+      "solution_strength": "high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Sucking pests present",
+      "Chewing pests present",
+      "Heavy infestation",
+      "Fast knockdown needed"
+    ],
+    "do_not_recommend_when": [
+      "Resistance to pyrethroids present",
+      "Beneficial insects need protection"
+    ]
+  },
+
+  "embedding_text": "AceIam 26 WDG insecticide contains acetamiprid and lambda cyhalothrin and is used for control of sucking pests like whitefly aphid jassid and chewing pests like caterpillars. It provides fast knockdown and long lasting control."
+}

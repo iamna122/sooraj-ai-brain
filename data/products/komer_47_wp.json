@@ -1,0 +1,218 @@
+{
+  "product_id": "komer_47_wp",
+  "product_name": "Komer 47% WP",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Fungicide",
+  "type": "Contact fungicide + bactericide (Copper + antibiotic)",
+
+  "formulation": "WP (Wettable Powder)",
+  "systemicity": "Contact + localized systemic (kasugamycin)",
+
+  "mode_of_action_summary": "Copper oxychloride provides multi-site protective action against fungal and bacterial pathogens, while kasugamycin acts as an antibiotic bactericide inhibiting protein synthesis in bacteria. The combination provides preventive and early curative control of mixed infections.",
+
+  "active_ingredients": [
+    {
+      "name": "Copper Oxychloride",
+      "percentage": "45%",
+      "chemical_group": "Inorganic copper compound",
+      "mode_of_action": "Multi-site contact action disrupting enzyme systems in pathogens"
+    },
+    {
+      "name": "Kasugamycin",
+      "percentage": "2%",
+      "chemical_group": "Antibiotic bactericide",
+      "mode_of_action": "Inhibits protein synthesis in bacteria"
+    }
+  ],
+
+  "target_pests": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "target_diseases": [
+    "bacterial leaf blight",
+    "bacterial leaf spot",
+    "bacterial streak",
+    "leaf spot",
+    "early blight",
+    "anthracnose",
+    "downy mildew (suppression)"
+  ],
+
+  "disease_categories": {
+    "bacterial_diseases": [
+      "bacterial leaf blight",
+      "bacterial leaf spot",
+      "bacterial streak"
+    ],
+    "fungal_diseases": [
+      "leaf spot",
+      "early blight",
+      "anthracnose"
+    ],
+    "mixed_infection_cases": "Useful when fungal and bacterial symptoms are difficult to differentiate"
+  },
+
+  "disease_behavior": {
+    "spread": "Rapid spread under humid and wet conditions",
+    "infection_type": "Surface infection (contact fungicide effective)",
+    "stage": "Best controlled at early stage"
+  },
+
+  "crops": {
+    "major": ["rice", "vegetables", "fruits"],
+    "all": [
+      "rice",
+      "wheat",
+      "tomato",
+      "chilli",
+      "potato",
+      "citrus",
+      "mango",
+      "vegetables",
+      "fruits"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "dhan",
+    "tamatar",
+    "mirch",
+    "aloo"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتوں پر پانی والے دھبے",
+      "پتوں پر بھورے یا کالے داغ",
+      "بیماری تیزی سے پھیل رہی ہے",
+      "پتے جل رہے ہیں"
+    ],
+    "punjabi": [
+      "پتیاں تے پانی والے داغ",
+      "پتیاں تے کالے دھبے",
+      "بیماری تیزی نال پھیل رہی اے"
+    ],
+    "roman_urdu": [
+      "leaf spot aa gaya hai",
+      "pani jese daag hain",
+      "bacterial infection ho gaya",
+      "disease fast spread ho rahi hai"
+    ],
+    "english": [
+      "water soaked lesions",
+      "leaf spots",
+      "blight symptoms",
+      "rapid disease spread"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "leaf spot control",
+    "bacterial disease spray",
+    "blight control",
+    "rice bacterial blight treatment",
+    "pattay par pani wale daag"
+  ],
+
+  "search_keywords": [
+    "copper fungicide",
+    "kasugamycin bactericide",
+    "bacterial disease control",
+    "leaf spot fungicide",
+    "کاپر سپرے",
+    "بیکٹیریا دی دوا"
+  ],
+
+  "intent_tags": ["disease", "fungicide", "bactericide"],
+
+  "dosage": {
+    "per_acre": "250–400 g",
+    "per_100_litre": "100–150 g",
+    "water_volume": "100–120 liters per acre",
+    "method": "Foliar spray",
+    "frequency": "7–10 days interval",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform foliar spray covering full leaf surface",
+    "coverage": "Important for contact action"
+  },
+
+  "crop_stage_recommendation": [
+    "Preventive stage",
+    "Early disease appearance"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Humid conditions (disease stage)"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after spray",
+      "Strong wind"
+    ]
+  },
+
+  "compatibility": {
+    "recommended_with": [
+      "systemic fungicides"
+    ],
+    "not_recommended_with": [
+      "strong alkaline products"
+    ]
+  },
+
+  "resistance_management": {
+    "type": "Multi-site + antibiotic",
+    "advantage": "Low resistance risk due to copper",
+    "advice": "Rotate with systemic fungicides"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid overdose (copper phytotoxicity)",
+    "Follow recommended dose"
+  ],
+
+  "benefits": [
+    "Controls both fungal and bacterial diseases",
+    "Strong protective action",
+    "Low resistance risk",
+    "Effective in mixed infections",
+    "Stops disease spread"
+  ],
+
+  "farmer_benefits": [
+    "بیکٹیریا تے فنگس دونوں ختم",
+    "بیماری رک جاندی اے",
+    "پتے صاف ہو جاندے نیں",
+    "فصل محفوظ رہندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Copper-based fungicide and bactericide for control of leaf spots and bacterial diseases.",
+    "urdu": "کاپر اور اینٹی بائیوٹک پر مشتمل دوا جو فنگس اور بیکٹیریا دونوں کو کنٹرول کرتی ہے۔",
+    "punjabi": "کاپر والی دوا جو فنگس تے بیکٹیریا دونوں نوں ختم کردا اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "bacterial leaf blight",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "leaf spot disease",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "mixed infection",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Komer 47 WP fungicide contains copper oxychloride and kasugamycin and is used for control of bacterial and fungal diseases like leaf spot and bacterial blight in crops like rice vegetables and fruits. It works best as a preventive and early stage spray."
+}

@@ -1,0 +1,229 @@
+{
+  "product_id": "winsta_30_wp",
+  "product_name": "Winsta 30% WP",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Herbicide",
+  "type": "Selective post-emergence systemic herbicide",
+
+  "formulation": "WP (Wettable Powder)",
+  "systemicity": "Systemic",
+
+  "mode_of_action_summary": "Bispyribac sodium and bensulfuron methyl inhibit the ALS enzyme in weeds, stopping amino acid synthesis and cell division, leading to gradual weed death within 7–14 days.",
+
+  "active_ingredients": [
+    {
+      "name": "Bispyribac Sodium",
+      "percentage": "18%",
+      "chemical_group": "ALS inhibitor (HRAC Group 2)",
+      "mode_of_action": "Absorbed through leaves, controls grassy weeds"
+    },
+    {
+      "name": "Bensulfuron Methyl",
+      "percentage": "12%",
+      "chemical_group": "Sulfonylurea (ALS inhibitor)",
+      "mode_of_action": "Controls sedges and broadleaf weeds"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_nutrient_deficiencies": [],
+
+  "target_weeds": [
+    "echinochloa (swanki)",
+    "barnyard grass",
+    "jungle rice",
+    "cyperus (deela)",
+    "fimbristylis",
+    "monochoria",
+    "ammannia",
+    "ludwigia"
+  ],
+
+  "weed_categories": {
+    "grassy": [
+      "echinochloa",
+      "barnyard grass",
+      "swanki"
+    ],
+    "sedges": [
+      "cyperus",
+      "deela",
+      "fimbristylis"
+    ],
+    "broadleaf": [
+      "monochoria",
+      "ammannia",
+      "ludwigia"
+    ]
+  },
+
+  "weed_behavior": {
+    "stage": "2–4 leaf stage",
+    "control_window": "Early post-emergence",
+    "effect": "Stops growth then kills weeds"
+  },
+
+  "crops": {
+    "major": ["rice"],
+    "all": [
+      "transplanted rice",
+      "direct seeded rice"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "dhan",
+    "chawal"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "دھان میں سوانکی نکل آئی ہے",
+      "ڈیلا نکل آیا ہے",
+      "جڑی بوٹی فصل کو دبا رہی ہے",
+      "کھیت صاف نہیں ہو رہا"
+    ],
+    "punjabi": [
+      "دھان وچ سوانکی اے",
+      "ڈیلا نکل آیا اے",
+      "گھاس فصل نوں دبا رہی اے"
+    ],
+    "roman_urdu": [
+      "swanki aa gayi hai",
+      "deela aa gaya hai",
+      "mixed weeds hain",
+      "field clean nahi ho raha"
+    ],
+    "english": [
+      "grass weeds in rice",
+      "sedge infestation",
+      "mixed weeds in rice",
+      "weed competition"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "rice weed control",
+    "swanki control",
+    "deela control",
+    "post emergence herbicide for rice",
+    "dhaan mein ghaas ka ilaj"
+  ],
+
+  "search_keywords": [
+    "bispyribac sodium",
+    "bensulfuron methyl",
+    "rice herbicide",
+    "post emergence herbicide",
+    "دھان دی گھاس دی دوا"
+  ],
+
+  "intent_tags": ["weed", "herbicide", "post_emergence", "rice_specific"],
+
+  "dosage": {
+    "per_acre": "60–100 g",
+    "water_volume": "100–120 liters per acre",
+    "method": "Foliar spray",
+    "frequency": "Single application",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform spray on actively growing weeds",
+    "coverage": "Full weed coverage required"
+  },
+
+  "crop_stage_recommendation": [
+    "15–25 days after transplanting",
+    "Weeds at 2–4 leaf stage"
+  ],
+
+  "water_management": {
+    "before_spray": "Drain standing water",
+    "after_spray": "Reflood after 24–48 hours",
+    "importance": "Critical for effectiveness"
+  },
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moist soil",
+      "Moderate temperature"
+    ],
+    "avoid_conditions": [
+      "Heavy rain",
+      "Strong wind",
+      "Dry soil"
+    ]
+  },
+
+  "critical_usage_notes": [
+    "Apply only at correct stage",
+    "Do not spray on large weeds",
+    "Ensure proper water management"
+  ],
+
+  "resistance_management": {
+    "group": "HRAC Group 2",
+    "risk": "High resistance risk",
+    "advice": "Rotate with other herbicides"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid drift",
+    "Follow recommended dose"
+  ],
+
+  "benefits": [
+    "Controls grasses, sedges and broadleaf weeds",
+    "Single spray solution",
+    "Improves crop growth",
+    "Reduces manual weeding cost"
+  ],
+
+  "farmer_benefits": [
+    "سوانکی تے ڈیلا ختم ہو جاندا اے",
+    "کھیت صاف ہو جاندا اے",
+    "گوڈی دا خرچہ بچدا اے",
+    "فصل مضبوط ہندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Post-emergence herbicide for controlling mixed weeds in rice.",
+    "urdu": "دھان میں اگنے والی جڑی بوٹیوں کے لیے بہترین دوا۔",
+    "punjabi": "دھان وچ اگیاں گھاساں ختم کرن لئی زبردست دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "swanki",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "deela",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "mixed weeds in rice",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Crop is rice",
+      "Weeds already emerged",
+      "Mixed weed infestation",
+      "Early stage weeds"
+    ],
+    "do_not_recommend_when": [
+      "Pre-emergence stage",
+      "Weeds too large",
+      "Wrong crop"
+    ]
+  },
+
+  "embedding_text": "Winsta 30 WP herbicide contains bispyribac sodium and bensulfuron methyl and is used in rice for post emergence control of grasses sedges and broadleaf weeds like swanki and deela. It works best at 15 to 25 days after transplanting with proper water management."
+}

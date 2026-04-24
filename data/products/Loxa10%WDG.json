@@ -1,0 +1,202 @@
+{
+  "product_id": "loxa_10_wdg",
+  "product_name": "Loxa 10% WDG",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Insecticide",
+  "type": "Contact insecticide (Pyrethroid fast knockdown)",
+
+  "formulation": "WDG (Water Dispersible Granules)",
+  "systemicity": "Contact",
+
+  "mode_of_action_summary": "Lambda-cyhalothrin is a pyrethroid insecticide that disrupts sodium channels in insect nerve cells, causing rapid paralysis and death. It provides fast knockdown effect through contact action.",
+
+  "active_ingredients": [
+    {
+      "name": "Lambda-cyhalothrin",
+      "percentage": "10%",
+      "chemical_group": "Pyrethroid (IRAC Group 3A)",
+      "mode_of_action": "Sodium channel modulator causing rapid knockdown"
+    }
+  ],
+
+  "target_pests": [
+    "caterpillars",
+    "bollworms",
+    "thrips",
+    "aphid (temporary)",
+    "cutworms"
+  ],
+
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "chewing_pests": [
+      "caterpillars",
+      "bollworms",
+      "cutworms"
+    ],
+    "sucking_pests": [
+      "thrips",
+      "aphid (temporary control)"
+    ]
+  },
+
+  "pest_behavior": {
+    "chewing_damage": "Insects eat leaves and reduce plant growth",
+    "fast_activity": "Pests are killed quickly after contact",
+    "temporary_control": "Short residual effect especially on sucking pests"
+  },
+
+  "crops": {
+    "major": ["cotton", "vegetables"],
+    "all": [
+      "cotton",
+      "chilli",
+      "tomato",
+      "okra",
+      "maize"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "kapas",
+    "mirch",
+    "tamatar",
+    "bhindi",
+    "makai"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "کیڑے پتیاں کھا رہے ہیں",
+      "فصل کو نقصان ہو رہا ہے",
+      "اچانک کیڑوں کا حملہ",
+      "پودا خراب ہو رہا ہے"
+    ],
+    "punjabi": [
+      "کیڑے پتے کھا رہے نیں",
+      "اچانک حملہ ہو گیا اے",
+      "پودا خراب ہو رہا اے"
+    ],
+    "roman_urdu": [
+      "keere pattay kha rahe hain",
+      "sudden attack ho gaya",
+      "fast control chahiye",
+      "plant damage ho raha hai"
+    ],
+    "english": [
+      "caterpillar attack",
+      "sudden pest outbreak",
+      "chewing damage",
+      "rapid infestation"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "fast insecticide spray",
+    "caterpillar control",
+    "bollworm spray",
+    "sudden pest attack solution",
+    "quick insect control"
+  ],
+
+  "search_keywords": [
+    "lambda cyhalothrin insecticide",
+    "fast knockdown insecticide",
+    "pyrethroid spray",
+    "caterpillar control",
+    "کیڑا مار دوا"
+  ],
+
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "80–120 g",
+    "method": "Foliar spray",
+    "frequency": "10–14 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Direct spray on pests",
+    "coverage": "Ensure full plant coverage",
+    "water_volume": "100–120 liters per acre"
+  },
+
+  "crop_stage_recommendation": [
+    "At pest appearance",
+    "Sudden outbreak"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "Rain after spray",
+      "Extreme heat"
+    ]
+  },
+
+  "resistance_management": {
+    "group": "IRAC Group 3A",
+    "risk": "High resistance risk",
+    "advice": "Avoid repeated use, rotate with other groups"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid spray drift",
+    "Follow label instructions"
+  ],
+
+  "benefits": [
+    "Very fast knockdown",
+    "Effective against chewing pests",
+    "Quick visible results",
+    "Useful in sudden pest outbreaks"
+  ],
+
+  "farmer_benefits": [
+    "کیڑے فوراً ختم ہو جاندے نیں",
+    "فصل بچ جاندی اے",
+    "اچانک حملہ کنٹرول ہو جاندا اے",
+    "نقصان رک جاندا اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Fast acting contact insecticide for quick control of pests.",
+    "urdu": "تیزی سے اثر کرنے والی کیڑا مار دوا۔",
+    "punjabi": "جلدی اثر کرن والی کیڑا مار دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "sudden pest outbreak",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "caterpillar attack",
+      "solution_strength": "high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Sudden pest outbreak",
+      "Need fast knockdown",
+      "Chewing pests present"
+    ],
+    "do_not_recommend_when": [
+      "Need systemic control",
+      "Long-term sucking pest control needed",
+      "Resistance present"
+    ]
+  },
+
+  "embedding_text": "Lambda cyhalothrin 10 WDG insecticide is used for fast control of caterpillars and sudden pest outbreaks. It is a contact pyrethroid insecticide providing rapid knockdown effect."
+}

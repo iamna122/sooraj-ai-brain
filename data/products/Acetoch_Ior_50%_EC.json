@@ -1,0 +1,207 @@
+{
+  "product_id": "acetochlor_50_ec",
+  "product_name": "Acetochlor 50% EC",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Herbicide",
+  "type": "Selective pre-emergence herbicide",
+
+  "formulation": "EC (Emulsifiable Concentrate)",
+  "systemicity": "Soil active (absorbed by emerging shoots)",
+
+  "mode_of_action_summary": "Acetochlor inhibits cell division and elongation in germinating weeds, preventing shoot growth and establishment. It provides effective pre-emergence control of grassy weeds and some broadleaf weeds.",
+
+  "active_ingredients": [
+    {
+      "name": "Acetochlor",
+      "percentage": "50%",
+      "chemical_group": "Chloroacetamide (HRAC Group 15)",
+      "mode_of_action": "Inhibits cell division and shoot growth in emerging weeds"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_nutrient_deficiencies": [],
+
+  "target_weeds": [
+    "echinochloa (swanki)",
+    "barnyard grass",
+    "jungle rice",
+    "foxtail",
+    "crabgrass",
+    "some broadleaf weeds (early stage)"
+  ],
+
+  "weed_categories": {
+    "grassy": [
+      "echinochloa",
+      "barnyard grass",
+      "jungle rice",
+      "foxtail",
+      "crabgrass"
+    ],
+    "broadleaf": [
+      "early stage broadleaf weeds (partial control)"
+    ]
+  },
+
+  "weed_behavior": {
+    "stage": "Germination stage",
+    "control_window": "Pre-emergence",
+    "effect": "Prevents weed establishment"
+  },
+
+  "crops": {
+    "major": ["maize", "sugarcane", "soybean"],
+    "all": [
+      "maize",
+      "sugarcane",
+      "soybean",
+      "cotton (label dependent)"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "makai",
+    "ganna",
+    "soybean",
+    "kapas"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "بوائی کے بعد گھاس نکل آتی ہے",
+      "شروع سے جڑی بوٹی روکنی ہے",
+      "کھیت صاف رکھنا ہے"
+    ],
+    "punjabi": [
+      "بوائی توں بعد گھاس نکل آندی اے",
+      "شروع توں کھیت صاف رکھنا اے"
+    ],
+    "roman_urdu": [
+      "starting se ghaas rokni hai",
+      "weed control early stage",
+      "field clean rakhna hai"
+    ],
+    "english": [
+      "early weed emergence",
+      "grass weeds in crop",
+      "prevent weed growth"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "pre emergence herbicide",
+    "weed control after sowing",
+    "grass control early stage",
+    "starting se ghaas rokni hai"
+  ],
+
+  "search_keywords": [
+    "acetochlor herbicide",
+    "pre emergence herbicide",
+    "grass weed control",
+    "soil herbicide",
+    "گھاس روکنے والی دوا"
+  ],
+
+  "intent_tags": ["weed", "herbicide", "pre_emergence"],
+
+  "dosage": {
+    "per_acre": "800–1200 ml",
+    "water_volume": "100–150 liters per acre",
+    "method": "Soil application",
+    "frequency": "Single application",
+    "best_time": ["Immediately after sowing"]
+  },
+
+  "application_details": {
+    "method": "Apply on moist soil",
+    "coverage": "Uniform soil coverage required"
+  },
+
+  "crop_stage_recommendation": [
+    "0–3 days after sowing"
+  ],
+
+  "soil_requirements": [
+    "Moist soil required",
+    "Light irrigation improves effectiveness"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moist soil",
+      "Calm weather"
+    ],
+    "avoid_conditions": [
+      "Dry soil",
+      "Heavy rain",
+      "Strong wind"
+    ]
+  },
+
+  "critical_usage_notes": [
+    "Apply before weed emergence",
+    "Not effective on established weeds",
+    "Proper soil moisture required"
+  ],
+
+  "resistance_management": {
+    "group": "HRAC Group 15",
+    "risk": "Moderate resistance risk",
+    "advice": "Rotate with other herbicides"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid overdose",
+    "Follow label instructions"
+  ],
+
+  "benefits": [
+    "Controls weeds at early stage",
+    "Prevents weed emergence",
+    "Reduces manual weeding",
+    "Improves crop establishment"
+  ],
+
+  "farmer_benefits": [
+    "شروع توں گھاس ختم ہو جاندی اے",
+    "کھیت صاف رہندا اے",
+    "گوڈی دا خرچہ بچدا اے",
+    "فصل مضبوط ہندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Pre-emergence herbicide for early control of grassy weeds.",
+    "urdu": "بوائی کے فوراً بعد جڑی بوٹیوں کو روکنے والی دوا۔",
+    "punjabi": "بوائی توں بعد گھاس روکڻ والی دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "early weed emergence",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "grassy weeds",
+      "solution_strength": "high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Pre-emergence stage",
+      "Weeds not emerged",
+      "Farmer wants early weed control"
+    ],
+    "do_not_recommend_when": [
+      "Weeds already visible",
+      "Late stage crop"
+    ]
+  },
+
+  "embedding_text": "Acetochlor 50 EC herbicide is used as a pre emergence herbicide to control grassy weeds in crops like maize and soybean. It works best when applied immediately after sowing on moist soil."
+}

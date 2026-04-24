@@ -1,0 +1,202 @@
+{
+  "product_id": "laser_gold_40_ec",
+  "product_name": "LASER Gold 40% EC",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Insecticide",
+  "type": "Systemic + contact insecticide (Organophosphate)",
+
+  "formulation": "EC (Emulsifiable Concentrate)",
+  "systemicity": "Systemic + contact",
+
+  "mode_of_action_summary": "Dimethoate is an organophosphate insecticide that inhibits acetylcholinesterase enzyme in insects, causing nervous system disruption, paralysis and death. It acts through both contact and systemic action providing quick control.",
+
+  "active_ingredients": [
+    {
+      "name": "Dimethoate",
+      "percentage": "40%",
+      "chemical_group": "Organophosphate (IRAC Group 1B)",
+      "mode_of_action": "Acetylcholinesterase inhibitor causing nerve disruption"
+    }
+  ],
+
+  "target_pests": [
+    "aphid",
+    "jassid",
+    "whitefly",
+    "thrips",
+    "mites (partial)"
+  ],
+
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "sucking_pests": [
+      "aphid",
+      "jassid",
+      "whitefly",
+      "thrips"
+    ],
+    "mites": [
+      "mites (partial control)"
+    ]
+  },
+
+  "pest_behavior": {
+    "sap_sucking": "Pests suck plant sap causing yellowing and curling",
+    "rapid_spread": "Pests multiply quickly in favorable conditions",
+    "crop_damage": "Heavy infestation reduces plant vigor and yield"
+  },
+
+  "crops": {
+    "major": ["cotton", "vegetables"],
+    "all": [
+      "cotton",
+      "vegetables",
+      "wheat",
+      "fruits"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "kapas",
+    "sabzi",
+    "gandum"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پودا کمزور ہو رہا ہے",
+      "پتیاں سکڑ رہی ہیں",
+      "چپچپا مادہ بن رہا ہے",
+      "تیلا لگ گیا ہے"
+    ],
+    "punjabi": [
+      "پودا کمزور ہو گیا اے",
+      "پتے مڑ گئے نیں",
+      "تیلا لگ گیا اے"
+    ],
+    "roman_urdu": [
+      "plant weak ho raha hai",
+      "pattay mur gaye",
+      "whitefly attack",
+      "chipchipa madah"
+    ],
+    "english": [
+      "leaf curling",
+      "whitefly infestation",
+      "sap sucking damage",
+      "stunted growth"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "aphid control",
+    "whitefly control",
+    "jassid control cotton",
+    "thrips spray",
+    "sucking pest insecticide"
+  ],
+
+  "search_keywords": [
+    "dimethoate insecticide",
+    "systemic insecticide",
+    "whitefly control",
+    "aphid spray",
+    "organophosphate insecticide",
+    "تیلا کنٹرول دوا"
+  ],
+
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "250–400 ml",
+    "method": "Foliar spray",
+    "frequency": "10–14 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform spray on crop foliage",
+    "coverage": "Ensure full plant coverage",
+    "water_volume": "100–120 liters per acre"
+  },
+
+  "crop_stage_recommendation": [
+    "Early to moderate infestation",
+    "Vegetative stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "High temperature",
+      "Rain after spray",
+      "Strong wind"
+    ]
+  },
+
+  "resistance_management": {
+    "group": "IRAC Group 1B",
+    "risk": "High resistance risk",
+    "advice": "Avoid repeated use, rotate with newer chemistries"
+  },
+
+  "safety": [
+    "Use PPE",
+    "Avoid inhalation and skin contact",
+    "Toxic if misused",
+    "Follow label instructions strictly"
+  ],
+
+  "benefits": [
+    "Strong control of sucking pests",
+    "Systemic and contact action",
+    "Cost-effective solution",
+    "Quick visible results"
+  ],
+
+  "farmer_benefits": [
+    "تیلا ختم ہو جاندا اے",
+    "پودا ٹھیک ہو جاندا اے",
+    "فصل بچ جاندی اے",
+    "پیداوار بہتر ہندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Systemic insecticide for control of sucking pests.",
+    "urdu": "چوسنے والے کیڑوں کے لیے مؤثر دوا۔",
+    "punjabi": "چوسن والے کیڑیاں لئی زبردست سپرے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "whitefly infestation",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "aphid attack",
+      "solution_strength": "high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Sucking pests present",
+      "Moderate infestation",
+      "Cost-effective solution needed"
+    ],
+    "do_not_recommend_when": [
+      "High resistance risk",
+      "Need safer modern insecticide",
+      "Extreme temperature conditions"
+    ]
+  },
+
+  "embedding_text": "Dimethoate 40 EC insecticide is used for control of sucking pests like aphid whitefly jassid and thrips. It is a systemic organophosphate insecticide that provides quick and effective control."
+}

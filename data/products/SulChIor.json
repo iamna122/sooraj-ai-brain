@@ -1,0 +1,222 @@
+{
+  "product_id": "sulchlor",
+  "product_name": "SulChlor",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Fungicide",
+  "type": "Contact fungicide + miticide (Multi-site protective)",
+
+  "formulation": "WP / SC (varies by manufacturer)",
+  "systemicity": "Contact",
+
+  "mode_of_action_summary": "Sulphur disrupts fungal respiration and controls mites, while chlorothalonil provides multi-site contact protection preventing fungal spore germination. The combination offers strong preventive control against fungal diseases.",
+
+  "active_ingredients": [
+    {
+      "name": "Sulphur",
+      "percentage": "Varies",
+      "chemical_group": "Inorganic multi-site",
+      "mode_of_action": "Disrupts fungal respiration and controls mites"
+    },
+    {
+      "name": "Chlorothalonil",
+      "percentage": "Varies",
+      "chemical_group": "Multi-site contact fungicide",
+      "mode_of_action": "Prevents fungal spore germination"
+    }
+  ],
+
+  "target_pests": [
+    "mites",
+    "red spider mite"
+  ],
+
+  "target_diseases": [
+    "powdery mildew",
+    "leaf spot",
+    "early blight",
+    "anthracnose"
+  ],
+
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "disease_categories": {
+    "fungal_diseases": [
+      "powdery mildew",
+      "leaf spot",
+      "blight",
+      "anthracnose"
+    ]
+  },
+
+  "pest_categories": {
+    "mites": [
+      "red spider mite"
+    ]
+  },
+
+  "disease_behavior": {
+    "stage": "Best for preventive and early stage",
+    "spread": "Rapid in moderate conditions",
+    "control": "Surface protection"
+  },
+
+  "crops": {
+    "major": ["vegetables", "fruits"],
+    "all": [
+      "tomato",
+      "chilli",
+      "cucurbits",
+      "grapes",
+      "apple",
+      "vegetables",
+      "fruits"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "tamatar",
+    "mirch",
+    "kheera",
+    "angoor"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتوں پر سفید پھپھوند",
+      "پتوں پر داغ بن رہے ہیں",
+      "مائیٹس کا حملہ",
+      "بیماری شروع ہو رہی ہے"
+    ],
+    "punjabi": [
+      "پتیاں تے سفید سفیدی اے",
+      "پتیاں تے داغ نیں",
+      "مائیٹس دا حملہ اے"
+    ],
+    "roman_urdu": [
+      "white powder aa gaya",
+      "leaf spot shuru ho raha",
+      "mites attack hai",
+      "preventive spray chahiye"
+    ],
+    "english": [
+      "powdery mildew",
+      "leaf spots",
+      "mite infestation",
+      "early disease symptoms"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "powdery mildew spray",
+    "leaf spot control",
+    "preventive fungicide",
+    "mites control spray",
+    "cheap fungicide"
+  ],
+
+  "search_keywords": [
+    "sulphur chlorothalonil",
+    "preventive fungicide",
+    "powdery mildew control",
+    "mites control sulphur",
+    "پھپھوندی دا سپرے"
+  ],
+
+  "intent_tags": ["disease", "fungicide", "preventive", "miticide"],
+
+  "dosage": {
+    "per_acre": "500–800 g",
+    "per_100_litre": "200–300 g",
+    "water_volume": "100–120 liters per acre",
+    "method": "Foliar spray",
+    "frequency": "7–10 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform spray on leaf surface",
+    "coverage": "Full coverage required for contact action"
+  },
+
+  "crop_stage_recommendation": [
+    "Preventive stage",
+    "Early disease stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature (20–30°C)",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "High temperature above 32°C",
+      "Rain after spray",
+      "Strong sunlight"
+    ]
+  },
+
+  "temperature_sensitivity": {
+    "risk": "Sulphur may cause leaf burn above 32°C"
+  },
+
+  "resistance_management": {
+    "type": "Multi-site",
+    "advantage": "Very low resistance risk"
+  },
+
+  "compatibility": {
+    "recommended_with": [
+      "most fungicides"
+    ],
+    "not_recommended_with": [
+      "oil sprays",
+      "alkaline products"
+    ]
+  },
+
+  "safety": [
+    "Avoid spraying in high temperature",
+    "Wear PPE",
+    "Follow recommended dose"
+  ],
+
+  "benefits": [
+    "Broad spectrum preventive control",
+    "Controls powdery mildew and leaf spots",
+    "Controls mites",
+    "Low resistance risk",
+    "Cost effective solution"
+  ],
+
+  "farmer_benefits": [
+    "پھپھوند رک جاندی اے",
+    "پتے صاف رہندے نیں",
+    "مائیٹس ختم ہو جاندے نیں",
+    "کم خرچ وچ کنٹرول ہو جاندا اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Multi-site contact fungicide and miticide for preventive control of fungal diseases.",
+    "urdu": "پھپھوندی اور مائیٹس کے لیے حفاظتی دوا۔",
+    "punjabi": "پھپھوندی تے مائیٹس لئی حفاظتی سپرے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "powdery mildew",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "leaf spot",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "mites",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Sulphur chlorothalonil fungicide is used for preventive control of powdery mildew leaf spot and mites in crops like vegetables and fruits. It provides contact multi site protection and works best at early stage."
+}

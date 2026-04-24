@@ -1,0 +1,215 @@
+{
+  "product_id": "acephate_75_sp",
+  "product_name": "Acephate 75% SP",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Insecticide",
+  "type": "Systemic insecticide (Organophosphate)",
+
+  "formulation": "SP (Soluble Powder)",
+  "systemicity": "Systemic + contact",
+
+  "mode_of_action_summary": "Acephate is an organophosphate insecticide that inhibits acetylcholinesterase enzyme in insects, causing nervous system disruption, paralysis and death. It works through both systemic absorption and contact action.",
+
+  "active_ingredients": [
+    {
+      "name": "Acephate",
+      "percentage": "75%",
+      "chemical_group": "Organophosphate (IRAC Group 1B)",
+      "mode_of_action": "Acetylcholinesterase inhibitor causing nerve disruption"
+    }
+  ],
+
+  "target_pests": [
+    "aphid",
+    "jassid",
+    "thrips",
+    "whitefly",
+    "leaf miner",
+    "caterpillars",
+    "bollworms"
+  ],
+
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "sucking_pests": [
+      "aphid",
+      "jassid",
+      "thrips",
+      "whitefly"
+    ],
+    "chewing_pests": [
+      "caterpillars",
+      "bollworms",
+      "leaf miner"
+    ]
+  },
+
+  "pest_behavior": {
+    "sap_sucking": "Pests suck plant sap causing yellowing and weakness",
+    "leaf_damage": "Chewing insects damage leaves and reduce photosynthesis",
+    "yield_loss": "Heavy infestation reduces yield and plant vigor"
+  },
+
+  "crops": {
+    "major": ["cotton", "vegetables"],
+    "all": [
+      "cotton",
+      "vegetables",
+      "chilli",
+      "okra",
+      "potato",
+      "tobacco"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "kapas",
+    "mirch",
+    "bhindi",
+    "aloo"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتیاں سکڑ رہی ہیں",
+      "پودا کمزور ہو رہا ہے",
+      "کیڑے پتیاں کھا رہے ہیں",
+      "سفید مکھی یا مہو کا حملہ"
+    ],
+    "punjabi": [
+      "پتے مڑ رہے نیں",
+      "پودا کمزور ہو گیا اے",
+      "کیڑے پتے کھا رہے نیں"
+    ],
+    "roman_urdu": [
+      "pattay mur rahe hain",
+      "plant weak ho raha hai",
+      "keere pattay kha rahe hain",
+      "whitefly ya aphid attack"
+    ],
+    "english": [
+      "leaf curling",
+      "sap sucking damage",
+      "chewing insect damage",
+      "stunted plant growth"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "aphid control spray",
+    "jassid control cotton",
+    "thrips control",
+    "bollworm spray",
+    "sucking pest insecticide",
+    "kapas mein keera lag gaya"
+  ],
+
+  "search_keywords": [
+    "acephate insecticide",
+    "systemic insecticide",
+    "sucking pest control",
+    "bollworm control",
+    "organophosphate insecticide",
+    "تیلا کنٹرول دوا"
+  ],
+
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "250–400 g",
+    "method": "Foliar spray",
+    "frequency": "10–14 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform spray covering entire plant",
+    "coverage": "Ensure both upper and lower leaf coverage",
+    "water_volume": "100–120 liters per acre"
+  },
+
+  "crop_stage_recommendation": [
+    "At pest appearance",
+    "Vegetative stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after spray",
+      "Strong wind",
+      "Extreme heat"
+    ]
+  },
+
+  "resistance_management": {
+    "group": "IRAC Group 1B",
+    "risk": "Moderate resistance risk",
+    "advice": "Rotate with insecticides of different groups"
+  },
+
+  "safety": [
+    "Use PPE during handling",
+    "Avoid inhalation and skin contact",
+    "Keep away from children",
+    "Follow label instructions"
+  ],
+
+  "benefits": [
+    "Controls both sucking and chewing pests",
+    "Systemic action provides internal protection",
+    "Quick knockdown effect",
+    "Improves plant health and yield"
+  ],
+
+  "farmer_benefits": [
+    "کیڑے فوراً ختم ہو جاندے نیں",
+    "پودا جلدی ٹھیک ہو جاندا اے",
+    "فصل مضبوط ہندی اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Systemic insecticide for controlling sucking and chewing pests in crops.",
+    "urdu": "چوسنے اور کھانے والے کیڑوں کو ختم کرنے والی دوا۔",
+    "punjabi": "چوسن تے کھان والے کیڑیاں لئی زبردست سپرے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "aphid infestation",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "jassid attack",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "bollworm damage",
+      "solution_strength": "high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Sucking pests present",
+      "Chewing pests present",
+      "Crop is cotton or vegetables",
+      "Early pest infestation"
+    ],
+    "do_not_recommend_when": [
+      "Severe resistance cases",
+      "Need highly selective insecticide",
+      "Beneficial insects need protection"
+    ]
+  },
+
+  "embedding_text": "Acephate 75 SP insecticide is used in cotton and vegetables for control of sucking pests like aphids jassids thrips and chewing pests like caterpillars and bollworms. It works by disrupting the nervous system of insects."
+}

@@ -1,0 +1,215 @@
+{
+  "product_id": "pyraclostrobin_tebuconazole_sc",
+  "product_name": "Panatron 30% SC",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Fungicide",
+  "type": "Systemic fungicide (Dual action premium)",
+
+  "formulation": "SC (Suspension Concentrate)",
+  "systemicity": "Systemic + translaminar",
+
+  "mode_of_action_summary": "Pyraclostrobin inhibits fungal respiration (QoI), while tebuconazole inhibits sterol biosynthesis, providing strong preventive and curative control along with plant health benefits.",
+
+  "active_ingredients": [
+    {
+      "name": "Pyraclostrobin",
+      "percentage": "10%",
+      "chemical_group": "Strobilurin (QoI, FRAC Group 11)",
+      "mode_of_action": "Blocks mitochondrial respiration in fungi"
+    },
+    {
+      "name": "Tebuconazole",
+      "percentage": "30%",
+      "chemical_group": "Triazole (FRAC Group 3)",
+      "mode_of_action": "Inhibits sterol biosynthesis in fungi"
+    }
+  ],
+
+  "target_pests": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "target_diseases": [
+    "rust",
+    "leaf spot",
+    "early blight",
+    "late blight",
+    "anthracnose",
+    "powdery mildew",
+    "sheath blight"
+  ],
+
+  "disease_categories": {
+    "fungal_diseases": [
+      "rust",
+      "leaf spot",
+      "blight",
+      "anthracnose",
+      "powdery mildew"
+    ]
+  },
+
+  "disease_behavior": {
+    "infection_type": "Internal and surface infection",
+    "spread": "Rapid under favorable conditions",
+    "control": "Effective at both preventive and curative stages"
+  },
+
+  "crops": {
+    "major": ["wheat", "rice", "vegetables"],
+    "all": [
+      "wheat",
+      "rice",
+      "cotton",
+      "tomato",
+      "chilli",
+      "grapes",
+      "vegetables",
+      "fruits"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "gandum",
+    "dhan",
+    "tamatar",
+    "mirch",
+    "kapas"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتوں پر داغ",
+      "رسٹ لگ گیا ہے",
+      "پتے جل رہے ہیں",
+      "بیماری بار بار آ رہی ہے"
+    ],
+    "punjabi": [
+      "پتیاں تے داغ نیں",
+      "رسٹ لگ گیا اے",
+      "بیماری رک نہیں رہی"
+    ],
+    "roman_urdu": [
+      "rust aa gaya hai",
+      "leaf spot bar bar aa raha",
+      "blight control nahi ho raha",
+      "strong spray chahiye"
+    ],
+    "english": [
+      "rust infection",
+      "leaf spots",
+      "blight symptoms",
+      "repeated disease attack"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "rust control",
+    "strong fungicide",
+    "leaf spot control",
+    "blight control spray",
+    "best fungicide for crops"
+  ],
+
+  "search_keywords": [
+    "pyraclostrobin tebuconazole",
+    "systemic fungicide",
+    "rust control fungicide",
+    "premium fungicide",
+    "فنگس کش طاقتور دوا"
+  ],
+
+  "intent_tags": ["disease", "fungicide", "systemic", "premium"],
+
+  "dosage": {
+    "per_acre": "200–300 ml",
+    "per_100_litre": "80–100 ml",
+    "water_volume": "100–120 liters per acre",
+    "method": "Foliar spray",
+    "frequency": "10–14 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform foliar spray",
+    "coverage": "Ensure full leaf coverage"
+  },
+
+  "crop_stage_recommendation": [
+    "Preventive stage",
+    "Early disease stage",
+    "Active disease stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Good humidity"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after spray",
+      "Strong wind"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": ["FRAC 11", "FRAC 3"],
+    "risk": "Moderate resistance risk",
+    "advice": "Rotate with other fungicides"
+  },
+
+  "compatibility": {
+    "recommended_with": [
+      "most fungicides"
+    ],
+    "not_recommended_with": [
+      "strong alkaline products"
+    ]
+  },
+
+  "plant_health_benefits": [
+    "Greening effect",
+    "Improved photosynthesis",
+    "Better stress tolerance",
+    "Higher yield potential"
+  ],
+
+  "benefits": [
+    "Broad spectrum disease control",
+    "Strong curative and preventive action",
+    "Long residual control",
+    "Improves plant health",
+    "Reduces disease recurrence"
+  ],
+
+  "farmer_benefits": [
+    "بیماری مکمل کنٹرول ہو جاندی اے",
+    "فصل ہری بھری ہو جاندی اے",
+    "پیداوار ودھدی اے",
+    "بار بار بیماری نہیں آندی"
+  ],
+
+  "multilingual_description": {
+    "english": "Premium dual-action fungicide for strong control of fungal diseases and improved crop health.",
+    "urdu": "طاقتور فنگس کش دوا جو بیماری کو مکمل کنٹرول کرتی ہے۔",
+    "punjabi": "طاقتور فنگس کش جو بیماری نوں مکمل ختم کردا اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "rust",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "leaf spot",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "blight",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Pyraclostrobin tebuconazole fungicide is used for control of rust leaf spot blight and anthracnose in crops like wheat rice vegetables and fruits. It provides strong systemic and preventive control along with plant health benefits."
+}

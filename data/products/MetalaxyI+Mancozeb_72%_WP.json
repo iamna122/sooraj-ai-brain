@@ -1,0 +1,215 @@
+{
+  "product_id": "metalaxyl_mancozeb_72_wp",
+  "product_name": "Metalaxyl + Mancozeb 72% WP",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Fungicide",
+  "type": "Systemic + contact fungicide (Dual action)",
+
+  "formulation": "WP (Wettable Powder)",
+  "systemicity": "Systemic (metalaxyl) + contact (mancozeb)",
+
+  "mode_of_action_summary": "Metalaxyl provides systemic control of oomycete fungi by inhibiting RNA synthesis, while mancozeb offers multi-site contact protection, preventing spore germination. The combination provides both preventive and curative control.",
+
+  "active_ingredients": [
+    {
+      "name": "Metalaxyl",
+      "percentage": "8%",
+      "chemical_group": "Phenylamide (FRAC Group 4)",
+      "mode_of_action": "Inhibits RNA synthesis in oomycete fungi"
+    },
+    {
+      "name": "Mancozeb",
+      "percentage": "64%",
+      "chemical_group": "Dithiocarbamate (Multi-site)",
+      "mode_of_action": "Prevents fungal spore germination through multi-site activity"
+    }
+  ],
+
+  "target_pests": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "target_diseases": [
+    "downy mildew",
+    "late blight",
+    "damping-off",
+    "root rot (oomycetes)",
+    "seedling diseases"
+  ],
+
+  "disease_categories": {
+    "oomycete_diseases": [
+      "downy mildew",
+      "late blight",
+      "damping-off"
+    ],
+    "soil_borne": [
+      "root rot",
+      "seedling diseases"
+    ]
+  },
+
+  "disease_behavior": {
+    "environment": "High humidity and wet conditions favor disease",
+    "spread": "Rapid spread in moist conditions",
+    "infection_type": "Soil and foliar infection"
+  },
+
+  "crops": {
+    "major": ["potato", "vegetables"],
+    "all": [
+      "potato",
+      "tomato",
+      "onion",
+      "cucurbits",
+      "grapes",
+      "vegetables"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "aloo",
+    "tamatar",
+    "pyaaz",
+    "kheera"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتوں پر بھورے دھبے",
+      "پتے نیچے سے سڑ رہے ہیں",
+      "پودا گر رہا ہے",
+      "پانی والی بیماری"
+    ],
+    "punjabi": [
+      "پتے تھلے توں سڑ رہے نیں",
+      "پودا گر رہیا اے",
+      "نمی وچ بیماری پھیل رہی اے"
+    ],
+    "roman_urdu": [
+      "late blight aa gaya",
+      "plant gir raha hai",
+      "nami wali disease hai",
+      "patte sarr rahe hain"
+    ],
+    "english": [
+      "late blight symptoms",
+      "downy mildew",
+      "plant collapse",
+      "root rot"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "late blight control",
+    "downy mildew treatment",
+    "damping off solution",
+    "nami wali disease ka ilaj",
+    "plant gir raha hai fungus"
+  ],
+
+  "search_keywords": [
+    "metalaxyl mancozeb fungicide",
+    "blight control",
+    "downy mildew spray",
+    "systemic fungicide",
+    "بلائٹ کنٹرول",
+    "نمی والی بیماری دا علاج"
+  ],
+
+  "intent_tags": ["disease", "fungicide", "systemic", "soil_disease"],
+
+  "dosage": {
+    "per_acre": "500–700 g",
+    "per_100_litre": "200–250 g",
+    "water_volume": "100–120 liters per acre",
+    "method": "Foliar spray / soil drench",
+    "frequency": "7–10 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": [
+      "Foliar spray",
+      "Soil drench (for damping-off)"
+    ],
+    "coverage": "Uniform coverage required"
+  },
+
+  "crop_stage_recommendation": [
+    "Preventive stage",
+    "Early disease stage",
+    "Seedling stage (damping-off)"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "High humidity",
+      "Moderate temperature"
+    ],
+    "avoid_conditions": [
+      "Heavy rain after spray",
+      "Waterlogged conditions"
+    ]
+  },
+
+  "resistance_management": {
+    "group": "FRAC Group 4",
+    "risk": "Moderate to high resistance risk (metalaxyl)",
+    "advice": "Do not use repeatedly; rotate with other fungicides"
+  },
+
+  "compatibility": {
+    "recommended_with": [
+      "contact fungicides"
+    ],
+    "not_recommended_with": [
+      "strong alkaline products"
+    ]
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid overdose",
+    "Follow recommended dose"
+  ],
+
+  "benefits": [
+    "Effective against downy mildew and blight",
+    "Dual action (systemic + contact)",
+    "Protects new growth",
+    "Controls soil and foliar diseases",
+    "Fast disease control"
+  ],
+
+  "farmer_benefits": [
+    "بلائٹ رک جاندی اے",
+    "پودا بچ جاندا اے",
+    "بیماری پھیلنا رک جاندی اے",
+    "فصل محفوظ رہندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Dual action fungicide for control of downy mildew and blight diseases.",
+    "urdu": "بلائٹ اور نمی والی بیماریوں کے لیے بہترین دوا۔",
+    "punjabi": "بلائٹ تے نمی والی بیماری لئی زبردست دوا۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "late blight",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "downy mildew",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "damping-off",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Metalaxyl mancozeb 72 WP fungicide is used for control of downy mildew late blight and damping off in crops like potato and vegetables. It provides systemic and contact action and works best in humid conditions."
+}

@@ -1,0 +1,210 @@
+{
+  "product_id": "metribuzin_72_wp",
+  "product_name": "Metribuzin 72% WP",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Herbicide",
+  "type": "Selective broad-spectrum herbicide",
+
+  "formulation": "WP (Wettable Powder)",
+  "systemicity": "Systemic + soil activity",
+
+  "mode_of_action_summary": "Metribuzin inhibits photosystem II, blocking photosynthesis in weeds. This leads to chlorophyll breakdown, yellowing, and eventual death. It works through both root uptake and foliar absorption providing pre and early post-emergence control.",
+
+  "active_ingredients": [
+    {
+      "name": "Metribuzin",
+      "percentage": "72%",
+      "chemical_group": "Triazinone (HRAC Group 5)",
+      "mode_of_action": "Photosystem II inhibitor"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_weeds": [
+    "bathua (Chenopodium album)",
+    "amaranthus (pigweed)",
+    "wild mustard",
+    "lambsquarters",
+    "phalaris minor (early stage)",
+    "annual grasses"
+  ],
+  "target_nutrient_deficiencies": [],
+
+  "weed_categories": {
+    "broadleaf_weeds": [
+      "bathua",
+      "amaranthus",
+      "chenopodium",
+      "wild mustard"
+    ],
+    "grassy_weeds": [
+      "phalaris minor (early stage)",
+      "annual grasses"
+    ]
+  },
+
+  "weed_behavior": {
+    "photosynthesis_block": "Weeds stop producing energy and turn yellow",
+    "growth_stage": "Most effective at germination to early stage",
+    "symptom_progression": "Yellowing → necrosis → death"
+  },
+
+  "crops": {
+    "major": ["wheat", "potato", "soybean"],
+    "all": ["wheat", "potato", "soybean"]
+  },
+
+  "unsafe_crops": [
+    "cotton",
+    "sensitive vegetables"
+  ],
+
+  "farmer_crop_terms": [
+    "gandum",
+    "aloo",
+    "soybean"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "گندم میں باتھو اور گھاس دونوں ہیں",
+      "کھیت میں مکس جڑی بوٹی ہے",
+      "فصل دب رہی ہے"
+    ],
+    "punjabi": [
+      "گندم وچ مکس گھاس اے",
+      "باتھو تے گھاس دونوں نیں",
+      "فصل دب رہی اے"
+    ],
+    "roman_urdu": [
+      "gandum mein bathu aur ghaas dono hain",
+      "mixed weeds hain",
+      "crop dab rahi hai"
+    ],
+    "english": [
+      "mixed weeds in wheat",
+      "broadleaf and grassy weeds",
+      "weed competition reducing crop growth"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "mixed weed control wheat",
+    "bathua control",
+    "gandum mein ghaas aur bathu ka ilaj",
+    "broadleaf weed control wheat",
+    "early weed control"
+  ],
+
+  "search_keywords": [
+    "metribuzin herbicide",
+    "broad spectrum herbicide",
+    "wheat weed control",
+    "bathua control spray",
+    "photosystem inhibitor",
+    "گندم دی گھاس دی دوا"
+  ],
+
+  "intent_tags": ["weed"],
+
+  "dosage": {
+    "per_acre": "70–120 g",
+    "method": "Soil or foliar spray",
+    "frequency": "Single application",
+    "best_time": ["Pre-emergence", "Early post-emergence", "Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Apply on moist soil or early weeds",
+    "coverage": "Uniform application required",
+    "water_volume": "100–120 liters per acre"
+  },
+
+  "crop_stage_recommendation": [
+    "Immediately after sowing",
+    "Early weed stage"
+  ],
+
+  "soil_requirements": [
+    "Moist soil improves effectiveness",
+    "Organic matter enhances performance"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Moist soil"
+    ],
+    "avoid_conditions": [
+      "Dry soil",
+      "Heavy rainfall after application"
+    ]
+  },
+
+  "resistance_management": {
+    "group": "HRAC Group 5",
+    "risk": "Moderate resistance risk",
+    "advice": "Rotate with herbicides of different mode of action"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid overdose",
+    "Prevent drift to sensitive crops",
+    "Follow label recommendations"
+  ],
+
+  "benefits": [
+    "Controls both broadleaf and grassy weeds",
+    "Flexible application timing",
+    "Improves crop establishment",
+    "Reduces manual weeding cost",
+    "Enhances yield potential"
+  ],
+
+  "farmer_benefits": [
+    "مکس گھاس ختم ہو جاندی اے",
+    "کھیت صاف ہو جاندا اے",
+    "فصل مضبوط ہندی اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Broad-spectrum herbicide for controlling mixed weeds in wheat, potato and soybean.",
+    "urdu": "مکس جڑی بوٹیوں کو ختم کرنے والی مؤثر دوا۔",
+    "punjabi": "گندم وچ مکس گھاس ختم کرن لئی زبردست سپرے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "mixed weeds in wheat",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "bathua infestation",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "early weed competition",
+      "solution_strength": "high"
+    }
+  ],
+
+  "ai_recommendation_logic": {
+    "recommend_when": [
+      "Mixed weeds present",
+      "Crop is wheat, potato or soybean",
+      "Early stage weeds",
+      "Broadleaf weeds dominant"
+    ],
+    "do_not_recommend_when": [
+      "Sensitive crop present",
+      "Late stage weeds",
+      "Need grass-only control"
+    ]
+  },
+
+  "embedding_text": "Metribuzin 72 WP herbicide is used in wheat potato and soybean for control of mixed weeds including bathua and grasses. It works by blocking photosynthesis and is effective at pre emergence and early post emergence stages."
+}

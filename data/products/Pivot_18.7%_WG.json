@@ -1,0 +1,203 @@
+{
+  "product_id": "pivot_18_7_wg",
+  "product_name": "Pivot 18.7% WG",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Fungicide",
+  "type": "Systemic fungicide (Specialized for downy mildew and blight)",
+
+  "formulation": "WG (Water Dispersible Granules)",
+  "systemicity": "Systemic + translaminar",
+
+  "mode_of_action_summary": "Pyraclostrobin provides preventive protection by inhibiting fungal respiration, while dimethomorph inhibits cell wall formation in oomycete fungi, providing strong curative control of downy mildew and blight diseases.",
+
+  "active_ingredients": [
+    {
+      "name": "Pyraclostrobin",
+      "percentage": "6.7%",
+      "chemical_group": "Strobilurin (QoI, FRAC Group 11)",
+      "mode_of_action": "Blocks mitochondrial respiration in fungi"
+    },
+    {
+      "name": "Dimethomorph",
+      "percentage": "12%",
+      "chemical_group": "CAA fungicide (FRAC Group 40)",
+      "mode_of_action": "Inhibits cell wall synthesis in oomycetes"
+    }
+  ],
+
+  "target_pests": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "target_diseases": [
+    "downy mildew",
+    "late blight",
+    "phytophthora diseases"
+  ],
+
+  "disease_categories": {
+    "oomycete_diseases": [
+      "downy mildew",
+      "late blight",
+      "phytophthora"
+    ]
+  },
+
+  "disease_behavior": {
+    "environment": "High humidity and wet conditions",
+    "spread": "Rapid spread in moisture",
+    "infection_type": "Leaf and stem infection"
+  },
+
+  "crops": {
+    "major": ["vegetables", "fruits"],
+    "all": [
+      "tomato",
+      "potato",
+      "chilli",
+      "onion",
+      "cucurbits",
+      "grapes",
+      "vegetables"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "tamatar",
+    "aloo",
+    "mirch",
+    "pyaaz",
+    "kheera"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتے نیچے سے سڑ رہے ہیں",
+      "پتوں پر پانی والے دھبے",
+      "بیماری نمی میں پھیل رہی ہے",
+      "بلائٹ لگ گیا ہے"
+    ],
+    "punjabi": [
+      "پتے تھلے توں سڑ رہے نیں",
+      "پتیاں تے پانی والے داغ",
+      "نمی وچ بیماری پھیل رہی اے"
+    ],
+    "roman_urdu": [
+      "nami wali disease hai",
+      "blight aa gaya hai",
+      "patte sarr rahe hain",
+      "downy mildew aa gaya"
+    ],
+    "english": [
+      "downy mildew symptoms",
+      "late blight",
+      "water soaked lesions",
+      "leaf rot"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "downy mildew control",
+    "late blight treatment",
+    "nami wali disease ka ilaj",
+    "blight control spray",
+    "phytophthora control"
+  ],
+
+  "search_keywords": [
+    "pyraclostrobin dimethomorph",
+    "downy mildew fungicide",
+    "blight control fungicide",
+    "systemic fungicide",
+    "بلائٹ کنٹرول",
+    "نمی والی بیماری دی دوا"
+  ],
+
+  "intent_tags": ["disease", "fungicide", "systemic", "specialized"],
+
+  "dosage": {
+    "per_acre": "200–300 g",
+    "per_100_litre": "80–100 g",
+    "water_volume": "100–120 liters per acre",
+    "method": "Foliar spray",
+    "frequency": "7–10 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform foliar spray",
+    "coverage": "Ensure full leaf coverage"
+  },
+
+  "crop_stage_recommendation": [
+    "Preventive stage",
+    "Early disease stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "High humidity",
+      "Moderate temperature"
+    ],
+    "avoid_conditions": [
+      "Heavy rain after spray",
+      "Waterlogging"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": ["FRAC 11", "FRAC 40"],
+    "risk": "Moderate resistance risk",
+    "advice": "Rotate with other fungicides"
+  },
+
+  "compatibility": {
+    "recommended_with": [
+      "contact fungicides"
+    ],
+    "not_recommended_with": [
+      "strong alkaline products"
+    ]
+  },
+
+  "plant_health_benefits": [
+    "Greening effect",
+    "Improved crop vigor",
+    "Better stress tolerance"
+  ],
+
+  "benefits": [
+    "Strong control of downy mildew and blight",
+    "Dual action (preventive + curative)",
+    "Improves crop health",
+    "Fast disease control",
+    "Long protection"
+  ],
+
+  "farmer_benefits": [
+    "بلائٹ فوراً رک جاندی اے",
+    "بیماری پھیلنا رک جاندی اے",
+    "پودا بچ جاندا اے",
+    "فصل مضبوط ہو جاندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Specialized fungicide for control of downy mildew and blight diseases.",
+    "urdu": "نمی والی بیماریوں اور بلائٹ کے لیے بہترین دوا۔",
+    "punjabi": "بلائٹ تے نمی والی بیماری لئی زبردست سپرے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "downy mildew",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "late blight",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Pivot fungicide contains pyraclostrobin and dimethomorph and is used for control of downy mildew and late blight in vegetables and fruits. It works best in humid conditions and provides strong preventive and curative control."
+}

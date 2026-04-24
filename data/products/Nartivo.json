@@ -1,0 +1,213 @@
+{
+  "product_id": "nartivo_trifloxystrobin_tebuconazole",
+  "product_name": "Nartivo",
+  "brand": "Generic / Multiple brands",
+
+  "category": "Fungicide",
+  "type": "Systemic fungicide (Premium dual action)",
+
+  "formulation": "WG / SC (varies by brand)",
+  "systemicity": "Systemic + translaminar + vapor action",
+
+  "mode_of_action_summary": "Trifloxystrobin inhibits fungal respiration providing long-lasting preventive protection, while tebuconazole inhibits sterol biosynthesis offering strong curative control. The combination provides powerful broad-spectrum disease control.",
+
+  "active_ingredients": [
+    {
+      "name": "Trifloxystrobin",
+      "percentage": "Typically ~25%",
+      "chemical_group": "Strobilurin (QoI, FRAC Group 11)",
+      "mode_of_action": "Blocks mitochondrial respiration in fungi"
+    },
+    {
+      "name": "Tebuconazole",
+      "percentage": "Typically ~50%",
+      "chemical_group": "Triazole (FRAC Group 3)",
+      "mode_of_action": "Inhibits sterol biosynthesis in fungi"
+    }
+  ],
+
+  "target_pests": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "target_diseases": [
+    "rust",
+    "powdery mildew",
+    "leaf spot",
+    "early blight",
+    "anthracnose"
+  ],
+
+  "disease_categories": {
+    "fungal_diseases": [
+      "rust",
+      "powdery mildew",
+      "leaf spot",
+      "blight",
+      "anthracnose"
+    ]
+  },
+
+  "disease_behavior": {
+    "infection_type": "Internal and surface infection",
+    "spread": "Rapid under favorable conditions",
+    "control": "Effective at preventive and curative stages"
+  },
+
+  "crops": {
+    "major": ["wheat", "rice", "vegetables"],
+    "all": [
+      "wheat",
+      "rice",
+      "cotton",
+      "tomato",
+      "chilli",
+      "grapes",
+      "vegetables",
+      "fruits"
+    ]
+  },
+
+  "farmer_crop_terms": [
+    "gandum",
+    "dhan",
+    "tamatar",
+    "mirch",
+    "kapas"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "رسٹ لگ گیا ہے",
+      "پتوں پر داغ",
+      "پتوں پر سفید پھپھوند",
+      "بیماری تیزی سے پھیل رہی ہے"
+    ],
+    "punjabi": [
+      "رسٹ لگ گیا اے",
+      "پتیاں تے داغ نیں",
+      "سفید پھپھوند اے"
+    ],
+    "roman_urdu": [
+      "rust aa gaya hai",
+      "leaf spot ho gaya",
+      "powdery mildew aa gaya",
+      "strong spray chahiye"
+    ],
+    "english": [
+      "rust infection",
+      "leaf spots",
+      "powdery mildew",
+      "fungal disease spread"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "rust control",
+    "powdery mildew treatment",
+    "strong fungicide",
+    "best fungicide spray",
+    "premium fungicide"
+  ],
+
+  "search_keywords": [
+    "trifloxystrobin tebuconazole",
+    "rust control fungicide",
+    "systemic fungicide",
+    "premium fungicide",
+    "رسٹ کنٹرول سپرے"
+  ],
+
+  "intent_tags": ["disease", "fungicide", "systemic", "premium"],
+
+  "dosage": {
+    "per_acre": "120–160 g",
+    "per_100_litre": "40–60 g",
+    "water_volume": "100–120 liters per acre",
+    "method": "Foliar spray",
+    "frequency": "10–14 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform foliar spray",
+    "coverage": "Ensure full leaf coverage"
+  },
+
+  "crop_stage_recommendation": [
+    "Preventive stage",
+    "Early disease stage",
+    "Active disease stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Good humidity"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after spray",
+      "Strong wind"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": ["FRAC 11", "FRAC 3"],
+    "risk": "Moderate resistance risk",
+    "advice": "Rotate with other fungicides"
+  },
+
+  "compatibility": {
+    "recommended_with": [
+      "most fungicides"
+    ],
+    "not_recommended_with": [
+      "strong alkaline products"
+    ]
+  },
+
+  "plant_health_benefits": [
+    "Greening effect",
+    "Improved photosynthesis",
+    "Better stress tolerance",
+    "Long residual protection"
+  ],
+
+  "benefits": [
+    "Strong control of rust and fungal diseases",
+    "Long lasting protection",
+    "Dual action (preventive + curative)",
+    "Improves crop health",
+    "Reduces disease recurrence"
+  ],
+
+  "farmer_benefits": [
+    "رسٹ مکمل ختم ہو جاندا اے",
+    "بیماری دوبارہ نہیں آندی",
+    "فصل ہری بھری ہو جاندی اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Premium dual-action fungicide for strong control of fungal diseases including rust.",
+    "urdu": "طاقتور فنگس کش دوا جو رسٹ اور دیگر بیماریوں کو مکمل کنٹرول کرتی ہے۔",
+    "punjabi": "طاقتور فنگس کش جو رسٹ تے ہور بیماری نوں ختم کردا اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "rust",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "powdery mildew",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "leaf spot",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Nartivo fungicide contains trifloxystrobin and tebuconazole and is used for control of rust powdery mildew and leaf spot in crops like wheat rice and vegetables. It provides strong systemic and long lasting protection."
+}
