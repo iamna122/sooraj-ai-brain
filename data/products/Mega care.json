@@ -1,0 +1,177 @@
+{
+  "product_id": "sooraj_mega_care_mgso4",
+  "product_name": "Mega Care",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Micronutrients",
+  "type": "Magnesium sulphate fertilizer",
+
+  "formulation": "Water Soluble Powder (WSP)",
+  "systemicity": "Systemic (absorbed through leaves and roots)",
+
+  "mode_of_action_summary": "Magnesium is a central component of chlorophyll and is essential for photosynthesis. It helps in enzyme activation and energy transfer, while sulphur supports protein synthesis. Together they improve plant growth, leaf greenness, and yield.",
+
+  "active_ingredients": [
+    {
+      "name": "Magnesium (Mg)",
+      "percentage": "Not specified",
+      "chemical_group": "Secondary nutrient",
+      "mode_of_action": "Essential for chlorophyll formation and photosynthesis"
+    },
+    {
+      "name": "Sulphur (S)",
+      "percentage": "Not specified",
+      "chemical_group": "Macronutrient",
+      "mode_of_action": "Supports protein synthesis and enzyme activity"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [
+    "magnesium deficiency",
+    "chlorosis",
+    "yellowing between leaf veins"
+  ],
+
+  "pest_categories": {},
+  "pest_behavior": {},
+
+  "crops": {
+    "major": ["wheat", "rice"],
+    "all": ["wheat", "rice", "cotton", "vegetables", "fruits", "maize"]
+  },
+
+  "farmer_crop_terms": [
+    "gehun",
+    "dhan",
+    "chawal",
+    "kapas",
+    "sabziyan",
+    "phal",
+    "makai"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتوں کے درمیان زردی",
+      "پتے ہلکے سبز ہو جاتے ہیں",
+      "پودا کمزور ہو جاتا ہے",
+      "نشوونما کم ہو جاتی ہے"
+    ],
+    "punjabi": [
+      "پتے وچ زردی آ رہی اے",
+      "پتے ہلکے سبز ہو گئے نیں",
+      "پودا کمزور اے",
+      "وڈھائی کم اے"
+    ],
+    "roman_urdu": [
+      "pattay ke darmiyan zardi",
+      "pattay halkay sabz ho jate hain",
+      "plant kamzor ho jata hai",
+      "growth kam ho jati hai"
+    ],
+    "english": [
+      "interveinal chlorosis",
+      "pale green leaves",
+      "weak plant growth",
+      "reduced growth"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "magnesium deficiency in crops",
+    "magnesium sulphate fertilizer use",
+    "yellow leaves between veins",
+    "chlorophyll deficiency solution",
+    "mgso4 fertilizer"
+  ],
+
+  "search_keywords": [
+    "magnesium sulphate",
+    "mgso4 fertilizer",
+    "magnesium deficiency solution",
+    "chlorophyll booster",
+    "میگنیشیم کھاد"
+  ],
+
+  "intent_tags": ["nutrition"],
+
+  "dosage": {
+    "per_acre": "1–2 kg",
+    "method": "Foliar spray / soil application",
+    "frequency": "10–15 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Dissolve in water and apply via foliar spray or irrigation",
+    "coverage": "Ensure uniform coverage for effective absorption"
+  },
+
+  "crop_stage_recommendation": [
+    "Vegetative stage",
+    "Early deficiency symptoms"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Cool temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "High temperature",
+      "Rain immediately after spray"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": [],
+    "advantage": "Corrects magnesium deficiency quickly",
+    "advice": "Use in balanced nutrient program"
+  },
+
+  "safety": [
+    "Use recommended dose",
+    "Store in dry place",
+    "Avoid over application"
+  ],
+
+  "benefits": [
+    "Improves chlorophyll formation",
+    "Enhances photosynthesis",
+    "Corrects magnesium deficiency",
+    "Improves crop yield"
+  ],
+
+  "farmer_benefits": [
+    "پتے ہرے بھرے ہو جاندے نیں",
+    "پودا مضبوط ہو جاندا اے",
+    "وڈھائی بہتر ہو جاندی اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Magnesium sulphate fertilizer for improving chlorophyll formation and plant growth.",
+    "urdu": "میگنیشیم سلفیٹ کھاد جو پودے کی نشوونما اور پتوں کی سبزی بہتر بناتی ہے۔",
+    "punjabi": "میگنیشیم سلفیٹ کھاد جو پتے ہرے بھرے کرکے پودے دی وڈھائی بہتر کردی اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "magnesium deficiency",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "interveinal chlorosis",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "weak plant growth",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Mega Care magnesium sulphate fertilizer is used to correct magnesium deficiency improve chlorophyll formation and enhance plant growth and yield in crops."
+}
