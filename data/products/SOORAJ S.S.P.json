@@ -1,0 +1,176 @@
+{
+  "product_id": "sooraj_ssp",
+  "product_name": "SOORAJ S.S.P",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Micronutrients",
+  "type": "Single Super Phosphate fertilizer",
+
+  "formulation": "Granular",
+  "systemicity": "Systemic (absorbed through roots)",
+
+  "mode_of_action_summary": "Single Super Phosphate provides phosphorus and sulphur essential for root development and plant growth. Phosphorus enhances energy transfer, root strength, and flowering, while sulphur supports protein synthesis and improves overall plant health.",
+
+  "active_ingredients": [
+    {
+      "name": "Phosphorus (P2O5)",
+      "percentage": "16%",
+      "chemical_group": "Macronutrient",
+      "mode_of_action": "Enhances root development, flowering, and energy transfer"
+    },
+    {
+      "name": "Sulphur (S)",
+      "percentage": "11%",
+      "chemical_group": "Macronutrient",
+      "mode_of_action": "Supports protein synthesis and enzyme activity"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [
+    "phosphorus deficiency",
+    "poor root development",
+    "low soil fertility"
+  ],
+
+  "pest_categories": {},
+  "pest_behavior": {},
+
+  "crops": {
+    "major": ["wheat", "rice"],
+    "all": ["wheat", "rice", "cotton", "maize", "vegetables"]
+  },
+
+  "farmer_crop_terms": [
+    "gehun",
+    "dhan",
+    "chawal",
+    "kapas",
+    "makai",
+    "sabziyan"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پودا کمزور ہے",
+      "جڑیں کمزور ہیں",
+      "نشوونما سست ہے",
+      "پتے گہرے سبز یا جامنی ہو جاتے ہیں"
+    ],
+    "punjabi": [
+      "پودا کمزور اے",
+      "جڑاں کمزور نیں",
+      "وڈھائی سست اے",
+      "پتے گہرے سبز یا جامنی ہو جاندے نیں"
+    ],
+    "roman_urdu": [
+      "plant weak hai",
+      "jarain kamzor hain",
+      "growth slow hai",
+      "pattay dark green ya purple ho jate hain"
+    ],
+    "english": [
+      "weak plant growth",
+      "poor root development",
+      "slow growth",
+      "dark green or purplish leaves"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "SSP fertilizer use",
+    "phosphorus fertilizer for crops",
+    "root development fertilizer",
+    "soil fertility improvement",
+    "starter fertilizer"
+  ],
+
+  "search_keywords": [
+    "single super phosphate",
+    "SSP fertilizer",
+    "phosphorus fertilizer",
+    "soil fertilizer",
+    "فاسفورس کھاد"
+  ],
+
+  "intent_tags": ["nutrition"],
+
+  "dosage": {
+    "per_acre": "50–100 kg",
+    "method": "Soil application",
+    "frequency": "Basal application",
+    "best_time": ["Before sowing", "During soil preparation"]
+  },
+
+  "application_details": {
+    "method": "Apply directly to soil before planting",
+    "coverage": "Mix well into soil for better root absorption"
+  },
+
+  "crop_stage_recommendation": [
+    "Soil preparation stage",
+    "Before sowing"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moist soil",
+      "Moderate temperature"
+    ],
+    "avoid_conditions": [
+      "Dry soil",
+      "Heavy rainfall immediately after application"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": [],
+    "advantage": "Improves soil fertility and root strength",
+    "advice": "Use as base fertilizer in nutrient program"
+  },
+
+  "safety": [
+    "Use recommended dose",
+    "Store in dry place",
+    "Avoid moisture exposure"
+  ],
+
+  "benefits": [
+    "Enhances root development",
+    "Improves soil fertility",
+    "Promotes early plant growth",
+    "Increases yield"
+  ],
+
+  "farmer_benefits": [
+    "جڑاں مضبوط ہوندیاں نیں",
+    "زمین زرخیز ہو جاندی اے",
+    "پودا تیزی نال وڈھدا اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Single super phosphate fertilizer for improving soil fertility and root development.",
+    "urdu": "سنگل سپر فاسفیٹ کھاد جو زمین کی زرخیزی اور جڑوں کی مضبوطی بہتر بناتی ہے۔",
+    "punjabi": "سنگل سپر فاسفیٹ کھاد جو زمین دی زرخیزی تے جڑاں مضبوط کردی اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "poor root development",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "low soil fertility",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "phosphorus deficiency",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "embedding_text": "Sooraj SSP fertilizer is a single super phosphate used to improve soil fertility root development and crop growth. It provides phosphorus and sulphur essential for plant development."
+}

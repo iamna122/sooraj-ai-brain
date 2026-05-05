@@ -1,0 +1,169 @@
+{
+  "product_id": "sooraj_boron_14",
+  "product_name": "Boron 14%",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Micronutrients",
+  "type": "Boron micronutrient fertilizer",
+
+  "formulation": "Water Soluble Powder (WSP)",
+  "systemicity": "Systemic (absorbed through leaves and roots)",
+
+  "mode_of_action_summary": "Boron plays a critical role in cell wall formation, pollen viability, and sugar transport in plants. It improves flowering, fruit setting, and overall crop quality while enhancing reproductive growth.",
+
+  "active_ingredients": [
+    {
+      "name": "Boron (B)",
+      "percentage": "14%",
+      "chemical_group": "Micronutrient",
+      "mode_of_action": "Supports cell division, flowering, and sugar transport"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [
+    "boron deficiency",
+    "poor flowering",
+    "poor fruit setting"
+  ],
+
+  "pest_categories": {},
+  "pest_behavior": {},
+
+  "crops": {
+    "major": ["fruits", "vegetables"],
+    "all": ["fruits", "vegetables", "cotton", "wheat", "rice"]
+  },
+
+  "farmer_crop_terms": [
+    "phal",
+    "sabziyan",
+    "kapas",
+    "gehun",
+    "dhan"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پھول گر رہے ہیں",
+      "پھل صحیح نہیں بن رہا",
+      "پتے مڑ رہے ہیں",
+      "نشوونما رک گئی ہے"
+    ],
+    "punjabi": [
+      "پھول گر رہے نیں",
+      "پھل صحیح نہیں بن رہا",
+      "پتے مڑ رہے نیں",
+      "وڈھائی رک گئی اے"
+    ],
+    "roman_urdu": [
+      "phool gir rahe hain",
+      "phal sahi nahi ban raha",
+      "pattay mur rahe hain",
+      "growth ruk gayi hai"
+    ],
+    "english": [
+      "flower drop",
+      "poor fruit formation",
+      "leaf curling",
+      "stunted growth"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "boron deficiency in crops",
+    "flower drop solution",
+    "fruit setting fertilizer",
+    "boron spray use",
+    "micronutrient boron fertilizer"
+  ],
+
+  "search_keywords": [
+    "boron fertilizer",
+    "boron 14%",
+    "flowering fertilizer",
+    "fruit setting enhancer",
+    "بوران کھاد"
+  ],
+
+  "intent_tags": ["nutrition"],
+
+  "dosage": {
+    "per_acre": "150–200 g",
+    "method": "Foliar spray",
+    "frequency": "10–15 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Dissolve in water and spray evenly on foliage",
+    "coverage": "Ensure full coverage for better absorption"
+  },
+
+  "crop_stage_recommendation": [
+    "Pre-flowering stage",
+    "Flowering stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Cool temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "High temperature",
+      "Rain immediately after spray"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": [],
+    "advantage": "Improves reproductive growth",
+    "advice": "Use as part of balanced nutrient program"
+  },
+
+  "safety": [
+    "Use recommended dose",
+    "Avoid over application",
+    "Store in dry place"
+  ],
+
+  "benefits": [
+    "Improves flowering and fruit setting",
+    "Reduces flower drop",
+    "Enhances crop quality",
+    "Increases yield"
+  ],
+
+  "farmer_benefits": [
+    "پھول گرنا بند ہو جاندا اے",
+    "پھل صحیح تے وڈا بن دا اے",
+    "پودا صحت مند رہندا اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Boron 14% fertilizer for improving flowering and fruit setting.",
+    "urdu": "بوران 14 فیصد والی کھاد جو پھول اور پھل بننے کے عمل کو بہتر بناتی ہے۔",
+    "punjabi": "بوران 14 فیصد والی کھاد جو پھولاں تے پھلاں دی بنتر بہتر کردی اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "flower drop",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "poor fruit setting",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "boron deficiency",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "embedding_text": "Boron 14 fertilizer is used to improve flowering fruit setting and overall crop quality. It helps reduce flower drop and enhances yield in crops."
+}

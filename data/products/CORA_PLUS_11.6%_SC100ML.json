@@ -1,0 +1,192 @@
+{
+  "product_id": "sooraj_cora_plus_11_6_sc",
+  "product_name": "CORA PLUS 11.6% SC",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Insecticide",
+  "type": "Systemic diamide insecticide",
+
+  "formulation": "SC (Suspension Concentrate)",
+  "systemicity": "Systemic + ingestion",
+
+  "mode_of_action_summary": "Chlorantraniliprole acts by activating ryanodine receptors in insect muscles, causing uncontrolled calcium release, paralysis, and death. It is highly effective against chewing pests, especially caterpillars and borers, with long residual control.",
+
+  "active_ingredients": [
+    {
+      "name": "Chlorantraniliprole",
+      "percentage": "11.6%",
+      "chemical_group": "Diamide (IRAC Group 28)",
+      "mode_of_action": "Ryanodine receptor modulator causing muscle paralysis"
+    }
+  ],
+
+  "target_pests": [
+    "bollworms",
+    "armyworm",
+    "fruit borer",
+    "stem borer",
+    "leaf folder",
+    "caterpillars"
+  ],
+
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "chewing_pests": [
+      "bollworms",
+      "armyworm",
+      "fruit borer",
+      "caterpillars"
+    ],
+    "borers": [
+      "stem borer"
+    ],
+    "leaf_feeders": [
+      "leaf folder"
+    ]
+  },
+
+  "pest_behavior": {
+    "leaf_feeding": "Larvae feed on leaves reducing photosynthesis",
+    "boring": "Borers damage stems and fruits causing yield loss",
+    "rapid_growth": "Larvae grow quickly and cause severe crop damage"
+  },
+
+  "crops": {
+    "major": ["cotton", "rice"],
+    "all": ["cotton", "rice", "vegetables", "chilli", "tomato"]
+  },
+
+  "farmer_crop_terms": [
+    "kapas",
+    "dhan",
+    "chawal",
+    "mirch",
+    "tamatar"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتے کھائے جا رہے ہیں",
+      "پھل میں سوراخ",
+      "تنے میں نقصان",
+      "پودا کمزور ہو رہا ہے"
+    ],
+    "punjabi": [
+      "پتے کھا رہے نیں",
+      "پھل وچ سوراخ",
+      "تنا خراب ہو گیا اے",
+      "پودا کمزور ہو رہا اے"
+    ],
+    "roman_urdu": [
+      "pattay kha rahe hain",
+      "phal mein surakh",
+      "tana damage ho raha hai",
+      "plant weak ho raha hai"
+    ],
+    "english": [
+      "leaf feeding damage",
+      "holes in fruits",
+      "stem damage",
+      "stunted growth"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "bollworm control in cotton",
+    "armyworm control",
+    "fruit borer spray",
+    "stem borer control rice",
+    "caterpillar insecticide"
+  ],
+
+  "search_keywords": [
+    "chlorantraniliprole insecticide",
+    "caterpillar control",
+    "bollworm control",
+    "borer insecticide",
+    "سنڈی مار دوا"
+  ],
+
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "80–100 ml",
+    "method": "Foliar spray",
+    "frequency": "10–14 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform foliar spray ensuring coverage of leaves and growing points",
+    "coverage": "Ensure thorough coverage for ingestion by larvae"
+  },
+
+  "crop_stage_recommendation": [
+    "Early larval stage",
+    "Vegetative to flowering stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after spray",
+      "Strong wind",
+      "Extreme heat"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": ["Group 28"],
+    "advantage": "Highly effective against resistant caterpillar populations",
+    "advice": "Rotate with other insecticide groups"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid spray drift",
+    "Follow recommended dosage"
+  ],
+
+  "benefits": [
+    "Fast feeding stoppage",
+    "Long residual control",
+    "Highly effective on caterpillars",
+    "Improves crop protection and yield"
+  ],
+
+  "farmer_benefits": [
+    "سنڈیاں فوراً کھانا چھوڑ دیندیاں نیں",
+    "فصل محفوظ رہندی اے",
+    "پودا صحت مند رہندا اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Systemic insecticide for effective control of caterpillars and borers.",
+    "urdu": "سنڈیوں اور بوررز کے مؤثر کنٹرول کے لیے دوا۔",
+    "punjabi": "سنڈیاں تے بورر کیڑیاں لئی مؤثر سپرے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "bollworm damage",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "armyworm attack",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "fruit borer infestation",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Cora Plus 11.6 SC insecticide contains chlorantraniliprole and is used for control of caterpillars bollworms and borers in cotton rice and vegetables. It stops feeding quickly and provides long lasting control."
+}

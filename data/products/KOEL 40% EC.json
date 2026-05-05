@@ -1,0 +1,193 @@
+{
+  "product_id": "sooraj_koel_40_ec",
+  "product_name": "KOEL 40% EC",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Insecticide",
+  "type": "Broad-spectrum organophosphate insecticide",
+
+  "formulation": "EC (Emulsifiable Concentrate)",
+  "systemicity": "Contact + stomach action",
+
+  "mode_of_action_summary": "Chlorpyrifos inhibits acetylcholinesterase enzyme in insects, leading to accumulation of acetylcholine, continuous nerve impulse transmission, paralysis, and death. It is effective against soil and foliar pests.",
+
+  "active_ingredients": [
+    {
+      "name": "Chlorpyrifos",
+      "percentage": "40%",
+      "chemical_group": "Organophosphate (IRAC Group 1B)",
+      "mode_of_action": "Acetylcholinesterase inhibitor causing nervous system disruption"
+    }
+  ],
+
+  "target_pests": [
+    "termites",
+    "cutworms",
+    "stem borer",
+    "white grub",
+    "aphid",
+    "jassid"
+  ],
+
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "soil_pests": [
+      "termites",
+      "white grub",
+      "cutworms"
+    ],
+    "borers": [
+      "stem borer"
+    ],
+    "sucking_pests": [
+      "aphid",
+      "jassid"
+    ]
+  },
+
+  "pest_behavior": {
+    "soil_attack": "Soil pests damage roots and reduce plant stability",
+    "boring": "Borers damage stems causing yield loss",
+    "sap_sucking": "Sucking pests weaken plants by feeding on sap"
+  },
+
+  "crops": {
+    "major": ["rice", "cotton"],
+    "all": ["rice", "cotton", "sugarcane", "vegetables", "wheat"]
+  },
+
+  "farmer_crop_terms": [
+    "dhan",
+    "chawal",
+    "kapas",
+    "ganna",
+    "gehun",
+    "sabziyan"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "جڑیں خراب ہو رہی ہیں",
+      "پودا کمزور ہو رہا ہے",
+      "تنے میں نقصان",
+      "پتے زرد ہو رہے ہیں"
+    ],
+    "punjabi": [
+      "جڑاں خراب ہو رہیاں نیں",
+      "پودا کمزور ہو رہا اے",
+      "تنا خراب ہو گیا اے",
+      "پتے زرد ہو رہے نیں"
+    ],
+    "roman_urdu": [
+      "jarain kharab ho rahi hain",
+      "plant weak ho raha hai",
+      "tana damage ho raha hai",
+      "pattay zard ho rahe hain"
+    ],
+    "english": [
+      "root damage",
+      "weak plant growth",
+      "stem damage",
+      "yellowing leaves"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "termite control in crops",
+    "soil insecticide for roots",
+    "stem borer control",
+    "chlorpyrifos use",
+    "cutworm control"
+  ],
+
+  "search_keywords": [
+    "chlorpyrifos insecticide",
+    "soil insect control",
+    "termite killer",
+    "broad spectrum insecticide",
+    "دیمک مار دوا"
+  ],
+
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "800–1000 ml",
+    "method": "Soil drench / foliar spray",
+    "frequency": "As required",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Apply as soil drench or foliar spray depending on pest type",
+    "coverage": "Ensure thorough coverage of soil and plant base"
+  },
+
+  "crop_stage_recommendation": [
+    "Early infestation stage",
+    "Vegetative stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Moist soil"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after application",
+      "Strong wind",
+      "Extreme heat"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": ["Group 1B"],
+    "advantage": "Effective against a wide range of pests",
+    "advice": "Rotate with insecticides of different groups"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid inhalation and skin contact",
+    "Keep away from water sources"
+  ],
+
+  "benefits": [
+    "Controls soil and foliar pests",
+    "Broad-spectrum activity",
+    "Improves crop health",
+    "Increases yield"
+  ],
+
+  "farmer_benefits": [
+    "دیمک تے مٹی والے کیڑے ختم ہو جاندے نیں",
+    "پودا مضبوط ہو جاندا اے",
+    "فصل محفوظ رہندی اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Broad-spectrum insecticide for control of soil and foliar pests.",
+    "urdu": "وسیع اثر رکھنے والی دوا جو مٹی اور پتے کے کیڑوں کو ختم کرتی ہے۔",
+    "punjabi": "وڈے اثر والی دوا جو مٹی تے پتے والے کیڑیاں نوں ختم کردی اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "termite infestation",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "root damage",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "stem borer attack",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Koel 40 EC insecticide contains chlorpyrifos and is used for control of termites soil pests and borers in crops. It provides broad spectrum control and protects crops from damage."
+}

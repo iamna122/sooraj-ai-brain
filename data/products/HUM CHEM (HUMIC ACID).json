@@ -1,0 +1,170 @@
+{
+  "product_id": "sooraj_hum_chem_humic_acid",
+  "product_name": "HUM CHEM (HUMIC ACID)",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Micronutrients",
+  "type": "Soil conditioner and bio-stimulant (Humic acid)",
+
+  "formulation": "Granular / Powder",
+  "systemicity": "Systemic (enhances nutrient uptake through roots)",
+
+  "mode_of_action_summary": "Humic acid improves soil structure, enhances nutrient availability, and stimulates root growth. It increases microbial activity in soil and helps plants absorb nutrients more efficiently, leading to better growth and stress tolerance.",
+
+  "active_ingredients": [
+    {
+      "name": "Humic Acid",
+      "percentage": "Not specified",
+      "chemical_group": "Organic soil conditioner",
+      "mode_of_action": "Improves nutrient uptake, soil fertility, and root development"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [
+    "poor soil fertility",
+    "low nutrient uptake",
+    "weak root development"
+  ],
+
+  "pest_categories": {},
+  "pest_behavior": {},
+
+  "crops": {
+    "major": ["wheat", "rice"],
+    "all": ["wheat", "rice", "cotton", "vegetables", "fruits"]
+  },
+
+  "farmer_crop_terms": [
+    "gehun",
+    "dhan",
+    "chawal",
+    "kapas",
+    "sabziyan",
+    "phal"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پودا کمزور ہے",
+      "جڑیں کمزور ہیں",
+      "زمین سخت ہے",
+      "نشوونما کم ہے"
+    ],
+    "punjabi": [
+      "پودا کمزور اے",
+      "جڑاں کمزور نیں",
+      "زمین سخت اے",
+      "وڈھائی کم اے"
+    ],
+    "roman_urdu": [
+      "plant weak hai",
+      "jarain kamzor hain",
+      "zameen sakht hai",
+      "growth kam hai"
+    ],
+    "english": [
+      "weak plant growth",
+      "poor root development",
+      "hard soil",
+      "slow growth"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "humic acid fertilizer use",
+    "soil improvement fertilizer",
+    "root growth booster",
+    "soil fertility increase",
+    "plant growth slow solution"
+  ],
+
+  "search_keywords": [
+    "humic acid",
+    "soil conditioner",
+    "root growth enhancer",
+    "organic fertilizer",
+    "ہیومک ایسڈ کھاد"
+  ],
+
+  "intent_tags": ["nutrition"],
+
+  "dosage": {
+    "per_acre": "2–4 kg",
+    "method": "Soil application / fertigation",
+    "frequency": "15–20 days",
+    "best_time": ["Before irrigation", "After irrigation"]
+  },
+
+  "application_details": {
+    "method": "Apply to soil or mix with irrigation water",
+    "coverage": "Ensure uniform distribution in root zone"
+  },
+
+  "crop_stage_recommendation": [
+    "Soil preparation stage",
+    "Early growth stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moist soil",
+      "Moderate temperature"
+    ],
+    "avoid_conditions": [
+      "Extremely dry soil",
+      "Heavy rainfall immediately after application"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": [],
+    "advantage": "Improves long-term soil health",
+    "advice": "Use regularly as part of soil management"
+  },
+
+  "safety": [
+    "Use recommended dose",
+    "Store in dry place",
+    "Avoid contamination"
+  ],
+
+  "benefits": [
+    "Improves soil structure",
+    "Enhances nutrient absorption",
+    "Boosts root growth",
+    "Increases crop yield"
+  ],
+
+  "farmer_benefits": [
+    "زمین نرم ہو جاندی اے",
+    "جڑاں مضبوط ہوندیاں نیں",
+    "پودا تیزی نال وڈھدا اے",
+    "فصل دی پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Humic acid based soil conditioner that improves soil fertility and plant growth.",
+    "urdu": "ہیومک ایسڈ پر مشتمل کھاد جو زمین کی زرخیزی اور پودے کی نشوونما بہتر بناتی ہے۔",
+    "punjabi": "ہیومک ایسڈ والی کھاد جو زمین دی زرخیزی تے پودے دی وڈھائی بہتر کردی اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "poor soil fertility",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "weak root development",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "slow plant growth",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Hum Chem humic acid is a soil conditioner used to improve soil fertility root development and nutrient absorption in crops. It enhances plant growth and increases yield."
+}

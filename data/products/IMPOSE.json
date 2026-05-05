@@ -1,0 +1,171 @@
+{
+  "product_id": "sooraj_impose_humic_acid_liquid",
+  "product_name": "IMPOSE",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Micronutrients",
+  "type": "Liquid humic acid bio-stimulant",
+
+  "formulation": "Liquid",
+  "systemicity": "Systemic (enhances nutrient uptake through roots and leaves)",
+
+  "mode_of_action_summary": "Humic acid improves soil structure, increases nutrient availability, and enhances root development. It stimulates microbial activity and improves plant metabolism, helping crops absorb nutrients efficiently and withstand stress.",
+
+  "active_ingredients": [
+    {
+      "name": "Humic Acid",
+      "percentage": "Not specified",
+      "chemical_group": "Organic bio-stimulant",
+      "mode_of_action": "Enhances nutrient uptake, root growth, and soil fertility"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [
+    "poor soil fertility",
+    "low nutrient uptake",
+    "weak root development"
+  ],
+
+  "pest_categories": {},
+  "pest_behavior": {},
+
+  "crops": {
+    "major": ["wheat", "rice"],
+    "all": ["wheat", "rice", "cotton", "vegetables", "fruits"]
+  },
+
+  "farmer_crop_terms": [
+    "gehun",
+    "dhan",
+    "chawal",
+    "kapas",
+    "sabziyan",
+    "phal"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پودا کمزور ہے",
+      "جڑیں کمزور ہیں",
+      "نشوونما کم ہے",
+      "زمین سخت ہے"
+    ],
+    "punjabi": [
+      "پودا کمزور اے",
+      "جڑاں کمزور نیں",
+      "وڈھائی کم اے",
+      "زمین سخت اے"
+    ],
+    "roman_urdu": [
+      "plant weak hai",
+      "jarain kamzor hain",
+      "growth kam hai",
+      "zameen sakht hai"
+    ],
+    "english": [
+      "weak plant growth",
+      "poor root development",
+      "slow growth",
+      "hard soil"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "humic acid liquid use",
+    "soil conditioner liquid",
+    "root growth fertilizer",
+    "soil fertility improvement",
+    "plant growth booster"
+  ],
+
+  "search_keywords": [
+    "liquid humic acid",
+    "soil conditioner",
+    "root growth enhancer",
+    "bio stimulant fertilizer",
+    "ہیومک ایسڈ کھاد"
+  ],
+
+  "intent_tags": ["nutrition"],
+
+  "dosage": {
+    "per_acre": "500 ml – 1 liter",
+    "method": "Soil application / fertigation / foliar spray",
+    "frequency": "15–20 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Mix with water and apply through irrigation or spray",
+    "coverage": "Ensure application in root zone or full foliar coverage"
+  },
+
+  "crop_stage_recommendation": [
+    "Soil preparation stage",
+    "Vegetative stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moist soil",
+      "Moderate temperature"
+    ],
+    "avoid_conditions": [
+      "Dry soil",
+      "Extreme heat",
+      "Heavy rainfall immediately after application"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": [],
+    "advantage": "Improves long-term soil health and plant growth",
+    "advice": "Use regularly as part of nutrient program"
+  },
+
+  "safety": [
+    "Use recommended dose",
+    "Store in cool place",
+    "Avoid contamination"
+  ],
+
+  "benefits": [
+    "Improves soil structure",
+    "Enhances nutrient absorption",
+    "Boosts root development",
+    "Increases crop yield"
+  ],
+
+  "farmer_benefits": [
+    "زمین نرم ہو جاندی اے",
+    "جڑاں مضبوط ہوندیاں نیں",
+    "پودا تیزی نال وڈھدا اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Liquid humic acid bio-stimulant for improving soil fertility and plant growth.",
+    "urdu": "ہیومک ایسڈ والی مائع کھاد جو زمین کی زرخیزی اور پودے کی نشوونما بہتر بناتی ہے۔",
+    "punjabi": "ہیومک ایسڈ والی مائع کھاد جو زمین دی زرخیزی تے پودے دی وڈھائی بہتر کردی اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "poor soil fertility",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "weak root development",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "slow plant growth",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Impose liquid humic acid is used to improve soil fertility root development and nutrient absorption in crops. It enhances plant growth and increases yield."
+}

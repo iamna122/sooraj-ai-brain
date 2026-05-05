@@ -1,0 +1,179 @@
+{
+  "product_id": "sooraj_tony_30_sc",
+  "product_name": "TONY 30% SC",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Herbicide",
+  "type": "Selective post-emergence herbicide",
+
+  "formulation": "SC (Suspension Concentrate)",
+  "systemicity": "Systemic",
+
+  "mode_of_action_summary": "Topramezone inhibits the HPPD enzyme in weeds, blocking carotenoid biosynthesis. This leads to bleaching of leaves, disruption of photosynthesis, and eventual death of susceptible weeds.",
+
+  "active_ingredients": [
+    {
+      "name": "Topramezone",
+      "percentage": "30%",
+      "chemical_group": "Triketone (HPPD inhibitor, HRAC Group 27)",
+      "mode_of_action": "Inhibits HPPD enzyme causing bleaching and death of weeds"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_weeds": [
+    "barnyard grass",
+    "foxtail",
+    "crabgrass",
+    "broadleaf weeds",
+    "annual grasses"
+  ],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "grassy_weeds": [
+      "barnyard grass",
+      "foxtail",
+      "crabgrass"
+    ],
+    "broadleaf_weeds": [
+      "broadleaf weeds"
+    ]
+  },
+
+  "pest_behavior": {
+    "rapid_growth": "Weeds compete with crops for nutrients and sunlight",
+    "nutrient_competition": "Weeds reduce crop yield by consuming essential nutrients",
+    "spread": "Weeds spread quickly if not controlled early"
+  },
+
+  "crops": {
+    "major": ["maize"],
+    "all": ["maize", "corn"]
+  },
+
+  "farmer_crop_terms": [
+    "makai",
+    "corn"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "جڑی بوٹیاں فصل میں پھیل رہی ہیں",
+      "فصل کمزور ہو رہی ہے",
+      "پودے کی بڑھوتری متاثر ہو رہی ہے"
+    ],
+    "punjabi": [
+      "جڑی بوٹیاں فصل وچ پھیل رہیاں نیں",
+      "فصل کمزور ہو رہی اے",
+      "پودے دی وڈھائی متاثر ہو رہی اے"
+    ],
+    "roman_urdu": [
+      "jhari bootiyan phail rahi hain",
+      "fasal kamzor ho rahi hai",
+      "growth affect ho rahi hai"
+    ],
+    "english": [
+      "weed infestation",
+      "reduced crop growth",
+      "competition for nutrients"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "weed control in maize",
+    "post emergence herbicide",
+    "grass weed control",
+    "broadleaf weed control",
+    "maize herbicide spray"
+  ],
+
+  "search_keywords": [
+    "topramezone herbicide",
+    "maize weed control",
+    "post emergence weed killer",
+    "grass and broadleaf control",
+    "جڑی بوٹی مار دوا"
+  ],
+
+  "intent_tags": ["weed"],
+
+  "dosage": {
+    "per_acre": "100–150 ml",
+    "method": "Foliar spray",
+    "frequency": "Single application (post-emergence)",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Apply uniformly on actively growing weeds",
+    "coverage": "Ensure full coverage of weed foliage"
+  },
+
+  "crop_stage_recommendation": [
+    "Post-emergence stage",
+    "Early weed growth stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Moist soil"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after spray",
+      "Strong wind",
+      "Drought stress conditions"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": ["Group 27"],
+    "advantage": "Effective on resistant weed populations",
+    "advice": "Rotate with herbicides of different modes of action"
+  },
+
+  "safety": [
+    "Wear protective clothing",
+    "Avoid drift to nearby crops",
+    "Follow recommended dosage"
+  ],
+
+  "benefits": [
+    "Controls both grassy and broadleaf weeds",
+    "Fast visible effect (bleaching)",
+    "Improves crop growth",
+    "Increases yield"
+  ],
+
+  "farmer_benefits": [
+    "جڑی بوٹیاں جلد ختم ہو جاندیاں نیں",
+    "فصل مضبوط ہو جاندی اے",
+    "پیداوار ودھدی اے",
+    "زمین صاف رہندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Post-emergence herbicide for effective control of weeds in maize.",
+    "urdu": "مکئی میں جڑی بوٹیوں کے کنٹرول کے لیے مؤثر دوا۔",
+    "punjabi": "مکئی وچ جڑی بوٹیاں ختم کرن لئی مؤثر سپرے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "grass weeds in maize",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "broadleaf weeds",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "weed competition",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "embedding_text": "Tony 30 SC herbicide contains topramezone and is used for control of grassy and broadleaf weeds in maize. It works by inhibiting HPPD enzyme causing bleaching and death of weeds."
+}

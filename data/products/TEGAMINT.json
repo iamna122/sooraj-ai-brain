@@ -1,0 +1,170 @@
+{
+  "product_id": "sooraj_tegament_amino_acid",
+  "product_name": "TEGAMINT",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Micronutrients",
+  "type": "Bio-stimulant (Amino acid based)",
+
+  "formulation": "Liquid",
+  "systemicity": "Systemic (absorbed through leaves and roots)",
+
+  "mode_of_action_summary": "Amino acid based bio-stimulant enhances plant metabolism, improves nutrient absorption, and helps plants recover from stress conditions. It promotes cell division, chlorophyll formation, and overall plant vigor leading to better growth and yield.",
+
+  "active_ingredients": [
+    {
+      "name": "Amino Acids",
+      "percentage": "Not specified",
+      "chemical_group": "Bio-stimulant",
+      "mode_of_action": "Enhances metabolic activity, protein synthesis, and stress tolerance"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [
+    "plant stress",
+    "poor growth",
+    "low nutrient uptake"
+  ],
+
+  "pest_categories": {},
+  "pest_behavior": {},
+
+  "crops": {
+    "major": ["vegetables", "fruits"],
+    "all": ["vegetables", "fruits", "cotton", "wheat", "rice"]
+  },
+
+  "farmer_crop_terms": [
+    "sabziyan",
+    "phal",
+    "kapas",
+    "gehun",
+    "dhan"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پودا کمزور ہے",
+      "پتے زرد ہو رہے ہیں",
+      "نشوونما رک گئی ہے",
+      "پودا تناؤ میں ہے"
+    ],
+    "punjabi": [
+      "پودا کمزور اے",
+      "پتے زرد ہو رہے نیں",
+      "وڈھائی رک گئی اے",
+      "پودا تناؤ وچ اے"
+    ],
+    "roman_urdu": [
+      "plant weak hai",
+      "pattay zard ho rahe hain",
+      "growth ruk gayi hai",
+      "plant stress mein hai"
+    ],
+    "english": [
+      "weak plant growth",
+      "yellowing leaves",
+      "stunted growth",
+      "plant stress"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "amino acid fertilizer use",
+    "plant stress solution",
+    "growth booster spray",
+    "crop recovery fertilizer",
+    "yield improvement supplement"
+  ],
+
+  "search_keywords": [
+    "amino acid fertilizer",
+    "bio stimulant for crops",
+    "plant growth booster",
+    "stress relief fertilizer",
+    "امینو ایسڈ کھاد"
+  ],
+
+  "intent_tags": ["nutrition"],
+
+  "dosage": {
+    "per_acre": "250–500 ml",
+    "method": "Foliar spray / fertigation",
+    "frequency": "10–15 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Dilute in water and apply as foliar spray or through irrigation",
+    "coverage": "Ensure uniform coverage on foliage"
+  },
+
+  "crop_stage_recommendation": [
+    "Vegetative stage",
+    "Flowering stage",
+    "Stress conditions"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "Extreme heat",
+      "Rain immediately after spray"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": [],
+    "advantage": "Enhances plant recovery and stress tolerance",
+    "advice": "Use regularly with nutrient program"
+  },
+
+  "safety": [
+    "Use recommended dose",
+    "Store in cool place",
+    "Avoid contamination"
+  ],
+
+  "benefits": [
+    "Improves plant growth",
+    "Enhances stress tolerance",
+    "Boosts nutrient uptake",
+    "Increases crop yield"
+  ],
+
+  "farmer_benefits": [
+    "پودا جلدی ٹھیک ہو جاندا اے",
+    "تناؤ ختم ہو جاندا اے",
+    "پودا تیزی نال وڈھدا اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Amino acid based bio-stimulant for improving plant growth and stress resistance.",
+    "urdu": "امینو ایسڈ والی کھاد جو پودے کی نشوونما اور تناؤ برداشت بہتر بناتی ہے۔",
+    "punjabi": "امینو ایسڈ والی کھاد جو پودے دی وڈھائی تے تناؤ برداشت بہتر کردی اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "plant stress",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "weak plant growth",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "low nutrient uptake",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Tegamint amino acid bio stimulant is used to improve plant growth stress tolerance and nutrient uptake in crops. It enhances plant metabolism and increases yield."
+}

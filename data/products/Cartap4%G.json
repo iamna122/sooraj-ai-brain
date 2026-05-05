@@ -1,0 +1,188 @@
+{
+  "product_id": "sooraj_cartap_4_g",
+  "product_name": "Cartap 4% G",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Insecticide",
+  "type": "Systemic granular insecticide (Nereistoxin analogue)",
+
+  "formulation": "G (Granules)",
+  "systemicity": "Systemic + contact",
+
+  "mode_of_action_summary": "Cartap acts as a nereistoxin analogue that blocks nicotinic acetylcholine receptors in insects, leading to paralysis and death. It is highly effective against stem borers and soil pests when applied as granules.",
+
+  "active_ingredients": [
+    {
+      "name": "Cartap Hydrochloride",
+      "percentage": "4%",
+      "chemical_group": "Nereistoxin analogue (IRAC Group 14)",
+      "mode_of_action": "Blocks nicotinic acetylcholine receptors causing paralysis"
+    }
+  ],
+
+  "target_pests": [
+    "stem borer",
+    "leaf folder",
+    "rice hispa",
+    "cutworms",
+    "soil insects"
+  ],
+
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "borers": [
+      "stem borer"
+    ],
+    "leaf_feeders": [
+      "leaf folder",
+      "rice hispa"
+    ],
+    "soil_pests": [
+      "cutworms",
+      "soil insects"
+    ]
+  },
+
+  "pest_behavior": {
+    "boring": "Stem borers enter stems causing dead hearts and yield loss",
+    "leaf_feeding": "Leaf feeders damage leaves reducing photosynthesis",
+    "soil_attack": "Soil pests damage roots and young plants"
+  },
+
+  "crops": {
+    "major": ["rice"],
+    "all": ["rice", "sugarcane", "vegetables"]
+  },
+
+  "farmer_crop_terms": [
+    "dhan",
+    "chawal",
+    "ganna",
+    "sabziyan"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "تنے میں سوراخ",
+      "پتے خراب ہو رہے ہیں",
+      "پودا سوکھ رہا ہے",
+      "پودا گر رہا ہے"
+    ],
+    "punjabi": [
+      "تنا وچ سوراخ",
+      "پتے خراب ہو رہے نیں",
+      "پودا سوکھ رہا اے",
+      "پودا گر رہا اے"
+    ],
+    "roman_urdu": [
+      "tana mein surakh",
+      "pattay kharab ho rahe hain",
+      "plant sookh raha hai",
+      "plant gir raha hai"
+    ],
+    "english": [
+      "stem damage",
+      "leaf damage",
+      "wilting plants",
+      "lodging"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "stem borer control in rice",
+    "granular insecticide for rice",
+    "leaf folder control",
+    "soil pest control",
+    "rice insect control granules"
+  ],
+
+  "search_keywords": [
+    "cartap insecticide",
+    "granular insecticide rice",
+    "stem borer control",
+    "soil insecticide granules",
+    "سنڈی مار دانے"
+  ],
+
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "8–10 kg",
+    "method": "Broadcast application in field",
+    "frequency": "As required based on infestation",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Broadcast granules uniformly in standing water or moist soil",
+    "coverage": "Ensure even distribution across field"
+  },
+
+  "crop_stage_recommendation": [
+    "Early infestation stage",
+    "Tillering stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moist soil",
+      "Standing water (for rice)"
+    ],
+    "avoid_conditions": [
+      "Dry soil",
+      "Heavy rainfall immediately after application"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": ["Group 14"],
+    "advantage": "Effective against borers and soil pests",
+    "advice": "Rotate with other insecticide groups"
+  },
+
+  "safety": [
+    "Wear gloves during application",
+    "Avoid direct contact with granules",
+    "Keep away from water bodies"
+  ],
+
+  "benefits": [
+    "Effective control of stem borers",
+    "Easy application as granules",
+    "Long residual control",
+    "Protects roots and stems"
+  ],
+
+  "farmer_benefits": [
+    "دانے ڈالنے سے آسانی سے کنٹرول ہو جاندا اے",
+    "پودا مضبوط رہندا اے",
+    "سنڈی ختم ہو جاندی اے",
+    "فصل محفوظ رہندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Granular insecticide for control of stem borers and soil pests.",
+    "urdu": "دانے دار دوا جو سنڈی اور مٹی کے کیڑوں کو ختم کرتی ہے۔",
+    "punjabi": "دانے والی دوا جو سنڈی تے مٹی دے کیڑیاں نوں ختم کردی اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "stem borer damage",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "leaf folder infestation",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "soil pest attack",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Cartap 4 G insecticide contains cartap hydrochloride and is used for control of stem borer leaf folder and soil pests in rice and crops. It is applied as granules and provides long lasting control."
+}

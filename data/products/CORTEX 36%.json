@@ -1,0 +1,182 @@
+{
+  "product_id": "sooraj_cortex_36_sc",
+  "product_name": "CORTEX 36%",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Fungicide",
+  "type": "Protective + curative fungicide (Contact + systemic)",
+
+  "formulation": "SC (Suspension Concentrate)",
+  "systemicity": "Contact + locally systemic",
+
+  "mode_of_action_summary": "Combination of chlorothalonil and cymoxanil provides dual protection against fungal diseases. Chlorothalonil acts as a contact fungicide preventing spore germination, while cymoxanil provides curative action by penetrating plant tissues and stopping fungal development inside the plant.",
+
+  "active_ingredients": [
+    {
+      "name": "Chlorothalonil",
+      "percentage": "30%",
+      "chemical_group": "Chloronitrile (FRAC Group M05)",
+      "mode_of_action": "Multi-site contact activity inhibiting fungal enzyme systems"
+    },
+    {
+      "name": "Cymoxanil",
+      "percentage": "6%",
+      "chemical_group": "Cyanoacetamide oxime (FRAC Group 27)",
+      "mode_of_action": "Locally systemic activity disrupting fungal growth inside plant tissues"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [
+    "late blight",
+    "early blight",
+    "downy mildew",
+    "leaf spot",
+    "anthracnose"
+  ],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {},
+
+  "pest_behavior": {
+    "spore_germination": "Fungal spores germinate on leaf surface causing infection",
+    "rapid_spread": "Diseases spread quickly in humid conditions",
+    "tissue_infection": "Fungi penetrate plant tissue leading to lesions and rot"
+  },
+
+  "crops": {
+    "major": ["potato", "vegetables"],
+    "all": ["potato", "tomato", "onion", "vegetables", "chilli"]
+  },
+
+  "farmer_crop_terms": [
+    "aloo",
+    "tamatar",
+    "pyaz",
+    "sabziyan",
+    "mirch"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتوں پر دھبے آ رہے ہیں",
+      "پتے سڑ رہے ہیں",
+      "پودا مرجھا رہا ہے",
+      "بیماری تیزی سے پھیل رہی ہے"
+    ],
+    "punjabi": [
+      "پتے تے داغ آ رہے نیں",
+      "پتے سڑ رہے نیں",
+      "پودا مرجھا رہا اے",
+      "بیماری جلدی پھیل رہی اے"
+    ],
+    "roman_urdu": [
+      "pattay par daagh aa rahe hain",
+      "pattay sar rahe hain",
+      "plant murjha raha hai",
+      "bimari tezi se phail rahi hai"
+    ],
+    "english": [
+      "leaf spots",
+      "leaf rotting",
+      "wilting plants",
+      "rapid disease spread"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "late blight control potato",
+    "downy mildew spray",
+    "leaf spot fungicide",
+    "fungus control in vegetables",
+    "blight disease solution"
+  ],
+
+  "search_keywords": [
+    "chlorothalonil fungicide",
+    "cymoxanil fungicide",
+    "blight control spray",
+    "fungicide for vegetables",
+    "فنگس کی دوا"
+  ],
+
+  "intent_tags": ["disease"],
+
+  "dosage": {
+    "per_acre": "400–600 ml",
+    "method": "Foliar spray",
+    "frequency": "7–10 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform foliar spray ensuring full leaf coverage",
+    "coverage": "Ensure both upper and lower leaf surface coverage"
+  },
+
+  "crop_stage_recommendation": [
+    "Early disease appearance",
+    "Vegetative stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Low humidity initially"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after spray",
+      "High humidity and wet conditions"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": ["Group M05", "Group 27"],
+    "advantage": "Dual mode reduces resistance risk",
+    "advice": "Rotate with fungicides of different FRAC groups"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid inhalation",
+    "Do not spray in strong wind"
+  ],
+
+  "benefits": [
+    "Protective and curative action",
+    "Controls a wide range of fungal diseases",
+    "Prevents disease spread",
+    "Improves crop health and yield"
+  ],
+
+  "farmer_benefits": [
+    "بیماری جلدی کنٹرول ہو جاندی اے",
+    "پودا صحت مند رہندا اے",
+    "فصل محفوظ رہندی اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Dual action fungicide for effective control of blight and fungal diseases.",
+    "urdu": "ڈبل ایکشن فنگس کش دوا جو بیماریوں کو مؤثر طریقے سے کنٹرول کرتی ہے۔",
+    "punjabi": "ڈبل ایکشن فنگس کش جو بیماری نوں مؤثر طریقے نال ختم کردا اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "late blight",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "downy mildew",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "leaf spot",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Cortex 36 fungicide contains chlorothalonil and cymoxanil and is used for control of blight downy mildew and fungal diseases in vegetables and crops. It provides both protective and curative action."
+}
