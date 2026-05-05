@@ -1,70 +1,162 @@
 // rag/utils/ambiguity_detector.js
 
-const FIELD_WEIGHTS = {
-  crop:         0.35,
-  symptoms:     0.35,
-  problem_type: 0.20,
-  crop_stage:   0.10,
-};
+// ─────────────────────────────────────────────────────────────
+// 🎯 Helper Functions (NEW - Fix 2)
+// ─────────────────────────────────────────────────────────────
 
-const CONFIDENCE_THRESHOLD = 0.70;
+function hasSpecificPestOrDisease(query, analysis) {
+  const specificTerms = [
+    "whitefly", "fruit fly", "stem borer", "aphid",
+    "rust", "blight", "blast",
+    "سفید مکھی", "تیلا", "زنگ", "بلاسٹ"
+  ];
 
-const GENERIC_SYMPTOMS = [
-  "leaf spot",
-  "yellowing",
-  "wilt",
-];
+  const q = query.toLowerCase();
 
-const REQUIRED_BY_TYPE = {
-  disease:   ["crop", "symptoms"],
-  insect:    ["crop"],
-  weed:      ["crop"],
-  nutrition: ["crop", "symptoms"],
-  unknown:   ["crop", "symptoms"],
-};
+  return (
+    specificTerms.some(term => q.includes(term.toLowerCase())) ||
+    (analysis.diseases && analysis.diseases.length > 0)
+  );
+}
 
-export function detectAmbiguity(data) {
-  const missing  = [];
+function hasSpecificProduct(query) {
+  const products = [
+    "imidacloprid", "mancozeb", "round-up", "glyphosate",
+    "lambda", "chlorpyrifos", "sooraj"
+  ];
+
+  const q = query.toLowerCase();
+  return products.some(p => q.includes(p));
+}
+
+function hasSpecificProductType(query) {
+  const types = [
+    "fertilizer", "khad", "کھاد",
+    "nitrogen", "phosphorus", "potash",
+    "npk", "urea", "dap",
+    "herbicide", "fungicide", "insecticide"
+  ];
+
+  const q = query.toLowerCase();
+  return types.some(t => q.includes(t.toLowerCase()));
+}
+
+// ─────────────────────────────────────────────────────────────
+// 🧠 Main Ambiguity Detector
+// ─────────────────────────────────────────────────────────────
+
+export function detectAmbiguity(analysis) {
+  const {
+    raw_query = "",
+    crop = null,
+    diseases = [],
+    problem_type = null,
+    disease_nature = null,
+    isPreventive = false
+  } = analysis;
+
+  const query = raw_query.toLowerCase();
+
+  // ─────────────────────────────────────────
+  // ✅ BYPASS 1: Specific product
+  // ─────────────────────────────────────────
+  if (hasSpecificProduct(query)) {
+    return {
+      isAmbiguous: false,
+      confidence: 0.85,
+      missingFields: [],
+      hardMissing: [],
+      warnings: []
+    };
+  }
+
+  // ─────────────────────────────────────────
+  // ✅ BYPASS 2: Specific pest/disease
+  // ─────────────────────────────────────────
+  if (hasSpecificPestOrDisease(query, analysis)) {
+    if (!crop || crop === "unknown") {
+      return {
+        isAmbiguous: true,
+        confidence: 0.5,
+        missingFields: ["crop"],
+        hardMissing: ["crop"],
+        warnings: ["Crop missing for disease-specific query"]
+      };
+    }
+
+    return {
+      isAmbiguous: false,
+      confidence: 0.75,
+      missingFields: [],
+      hardMissing: [],
+      warnings: []
+    };
+  }
+
+  // ─────────────────────────────────────────
+  // ✅ BYPASS 3: Specific product type
+  // ─────────────────────────────────────────
+  if (hasSpecificProductType(query)) {
+    return {
+      isAmbiguous: false,
+      confidence: 0.7,
+      missingFields: [],
+      hardMissing: [],
+      warnings: []
+    };
+  }
+
+  // ─────────────────────────────────────────
+  // ✅ PREVENTIVE QUERIES (Fix 4 partial)
+  // ─────────────────────────────────────────
+  if (isPreventive) {
+    if (!crop || crop === "unknown") {
+      return {
+        isAmbiguous: true,
+        confidence: 0.4,
+        missingFields: ["crop"],
+        hardMissing: ["crop"],
+        warnings: ["Preventive query but crop missing"]
+      };
+    }
+
+    return {
+      isAmbiguous: false,
+      confidence: 0.7,
+      missingFields: [],
+      hardMissing: [],
+      warnings: []
+    };
+  }
+
+  // ─────────────────────────────────────────
+  // ⚠️ DEFAULT LOGIC (fallback)
+  // ─────────────────────────────────────────
+
+  const missingFields = [];
+  const hardMissing = [];
   const warnings = [];
 
-  const problemType = data.problem_type || "unknown";
-  const required    = REQUIRED_BY_TYPE[problemType] || REQUIRED_BY_TYPE.unknown;
-
-  if (required.includes("crop") && !data.crop) {
-    missing.push("crop");
+  if (!crop || crop === "unknown") {
+    missingFields.push("crop");
+    hardMissing.push("crop");
   }
 
-  if (required.includes("symptoms")) {
-    if (!data.symptoms || data.symptoms.length === 0) {
-      missing.push("symptoms");
-    } else if (data.symptoms.every(s => GENERIC_SYMPTOMS.includes(s))) {
-      if (!data.disease_nature || data.disease_nature === "unknown") {
-        warnings.push("symptom_detail");
-      }
-    }
+  if (!problem_type || problem_type === "unknown") {
+    missingFields.push("problem_type");
   }
 
-  let confidence = 0;
-  if (data.crop)                             confidence += FIELD_WEIGHTS.crop;
-  if (data.symptoms && data.symptoms.length) confidence += FIELD_WEIGHTS.symptoms;
-  if (data.problem_type)                     confidence += FIELD_WEIGHTS.problem_type;
-  if (data.crop_stage)                       confidence += FIELD_WEIGHTS.crop_stage;
+  if (diseases.length === 0 && problem_type === "disease") {
+    missingFields.push("symptoms");
+  }
 
-  const allRequiredPresent = required.every(field => {
-    if (field === "crop")     return Boolean(data.crop);
-    if (field === "symptoms") return data.symptoms && data.symptoms.length > 0;
-    return true;
-  });
-
-  const isAmbiguous =
-    missing.length > 0 ||
-    (!allRequiredPresent && confidence < CONFIDENCE_THRESHOLD);
+  const isAmbiguous = hardMissing.length > 0;
 
   return {
     isAmbiguous,
-    missingFields: [...missing, ...warnings],
-    confidence:    parseFloat(confidence.toFixed(2)),
-    hardMissing:   missing,
-    warnings,
+    confidence: isAmbiguous ? 0.4 : 0.6,
+    missingFields,
+    hardMissing,
+    warnings
   };
 }
