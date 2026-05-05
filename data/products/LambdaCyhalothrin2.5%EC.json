@@ -1,0 +1,193 @@
+{
+  "product_id": "sooraj_lambda_cyhalothrin_2_5_ec",
+  "product_name": "Lambda Cyhalothrin 2.5% EC",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Insecticide",
+  "type": "Contact pyrethroid insecticide (Fast knockdown)",
+
+  "formulation": "EC (Emulsifiable Concentrate)",
+  "systemicity": "Contact",
+
+  "mode_of_action_summary": "Lambda-cyhalothrin is a synthetic pyrethroid that affects sodium channels in insect nerve cells, causing rapid knockdown, paralysis, and death. It provides quick control of a wide range of pests.",
+
+  "active_ingredients": [
+    {
+      "name": "Lambda-cyhalothrin",
+      "percentage": "2.5%",
+      "chemical_group": "Pyrethroid (IRAC Group 3A)",
+      "mode_of_action": "Sodium channel modulator causing rapid paralysis"
+    }
+  ],
+
+  "target_pests": [
+    "bollworms",
+    "armyworm",
+    "aphid",
+    "jassid",
+    "thrips",
+    "leaf hopper",
+    "cutworms"
+  ],
+
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "sucking_pests": [
+      "aphid",
+      "jassid",
+      "thrips",
+      "leaf hopper"
+    ],
+    "chewing_pests": [
+      "bollworms",
+      "armyworm",
+      "cutworms"
+    ]
+  },
+
+  "pest_behavior": {
+    "sap_sucking": "Sucking pests reduce plant vigor by feeding on sap",
+    "leaf_damage": "Chewing pests damage leaves and reduce yield",
+    "rapid_spread": "Pests multiply quickly causing heavy infestation"
+  },
+
+  "crops": {
+    "major": ["cotton", "vegetables"],
+    "all": ["cotton", "vegetables", "chilli", "tomato", "okra", "rice"]
+  },
+
+  "farmer_crop_terms": [
+    "kapas",
+    "sabziyan",
+    "mirch",
+    "tamatar",
+    "bhindi",
+    "dhan"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتے خراب ہو رہے ہیں",
+      "پودا کمزور ہو رہا ہے",
+      "کیڑے حملہ کر رہے ہیں",
+      "پتے مڑ رہے ہیں"
+    ],
+    "punjabi": [
+      "پتے خراب ہو رہے نیں",
+      "پودا کمزور ہو رہا اے",
+      "کیڑے حملہ کر رہے نیں",
+      "پتے مڑ رہے نیں"
+    ],
+    "roman_urdu": [
+      "pattay kharab ho rahe hain",
+      "plant weak ho raha hai",
+      "keere hamla kar rahe hain",
+      "pattay mur rahe hain"
+    ],
+    "english": [
+      "leaf damage",
+      "weak plant",
+      "insect infestation",
+      "leaf curling"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "fast insect killer spray",
+    "bollworm control",
+    "aphid control spray",
+    "jassid control",
+    "thrips insecticide"
+  ],
+
+  "search_keywords": [
+    "lambda cyhalothrin insecticide",
+    "pyrethroid insecticide",
+    "fast knockdown insecticide",
+    "sucking pest control",
+    "کیڑا مار دوا"
+  ],
+
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "200–300 ml",
+    "method": "Foliar spray",
+    "frequency": "7–10 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Apply uniform spray on crop foliage",
+    "coverage": "Ensure full plant coverage"
+  },
+
+  "crop_stage_recommendation": [
+    "Early infestation stage",
+    "Vegetative stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after spray",
+      "Strong wind",
+      "Extreme heat"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": ["Group 3A"],
+    "advantage": "Fast knockdown effect",
+    "advice": "Rotate with other insecticide groups to prevent resistance"
+  },
+
+  "safety": [
+    "Wear protective clothing",
+    "Avoid spray drift",
+    "Follow recommended dosage"
+  ],
+
+  "benefits": [
+    "Fast knockdown of pests",
+    "Broad-spectrum control",
+    "Easy application",
+    "Improves crop health"
+  ],
+
+  "farmer_benefits": [
+    "کیڑے فوراً ختم ہو جاندے نیں",
+    "فصل محفوظ رہندی اے",
+    "پودا صحت مند رہندا اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Fast-acting insecticide for control of sucking and chewing pests.",
+    "urdu": "تیز اثر کرنے والی دوا جو چوسنے اور کھانے والے کیڑوں کو ختم کرتی ہے۔",
+    "punjabi": "تیز اثر والی دوا جو چوسن تے کھان والے کیڑیاں نوں ختم کردی اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "aphid infestation",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "bollworm damage",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "thrips attack",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Lambda cyhalothrin 2.5 EC is a pyrethroid insecticide used for control of sucking and chewing pests like aphids jassids thrips and bollworms. It provides fast knockdown and effective pest control."
+}

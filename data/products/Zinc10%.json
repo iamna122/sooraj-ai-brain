@@ -1,0 +1,171 @@
+{
+  "product_id": "sooraj_zinc_10",
+  "product_name": "Zinc 10%",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Micronutrients",
+  "type": "Zinc micronutrient fertilizer",
+
+  "formulation": "Liquid / Water Soluble",
+  "systemicity": "Systemic (absorbed through leaves and roots)",
+
+  "mode_of_action_summary": "Zinc is essential for enzyme activation, chlorophyll formation, and hormone regulation in plants. It improves growth, enhances root development, and supports overall plant health and yield.",
+
+  "active_ingredients": [
+    {
+      "name": "Zinc (Zn)",
+      "percentage": "10%",
+      "chemical_group": "Micronutrient",
+      "mode_of_action": "Activates enzymes and supports plant growth and development"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [
+    "zinc deficiency",
+    "chlorosis",
+    "stunted growth"
+  ],
+
+  "pest_categories": {},
+  "pest_behavior": {},
+
+  "crops": {
+    "major": ["rice", "wheat"],
+    "all": ["rice", "wheat", "maize", "cotton", "vegetables", "fruits"]
+  },
+
+  "farmer_crop_terms": [
+    "dhan",
+    "chawal",
+    "gehun",
+    "makai",
+    "kapas",
+    "sabziyan",
+    "phal"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتے زرد ہو رہے ہیں",
+      "پودا چھوٹا رہ جاتا ہے",
+      "نشوونما رک جاتی ہے",
+      "پتوں پر دھبے آتے ہیں"
+    ],
+    "punjabi": [
+      "پتے زرد ہو رہے نیں",
+      "پودا چھوٹا رہ جاندا اے",
+      "وڈھائی رک جاندی اے",
+      "پتیاں تے داغ آندے نیں"
+    ],
+    "roman_urdu": [
+      "pattay zard ho rahe hain",
+      "plant chhota reh jata hai",
+      "growth ruk jati hai",
+      "pattay par daagh aate hain"
+    ],
+    "english": [
+      "yellowing leaves",
+      "stunted growth",
+      "poor development",
+      "leaf spots"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "zinc deficiency in crops",
+    "zinc fertilizer spray",
+    "yellow leaves solution",
+    "micronutrient zinc use",
+    "plant growth slow solution"
+  ],
+
+  "search_keywords": [
+    "zinc fertilizer",
+    "zinc 10%",
+    "micronutrient zinc",
+    "zinc deficiency solution",
+    "زنک کھاد"
+  ],
+
+  "intent_tags": ["nutrition"],
+
+  "dosage": {
+    "per_acre": "1–2 liter",
+    "method": "Foliar spray / soil application",
+    "frequency": "10–15 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Dilute in water and apply as foliar spray or soil application",
+    "coverage": "Ensure uniform coverage for better absorption"
+  },
+
+  "crop_stage_recommendation": [
+    "Early growth stage",
+    "Vegetative stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Cool temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "High temperature",
+      "Rain immediately after spray"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": [],
+    "advantage": "Corrects zinc deficiency effectively",
+    "advice": "Use as part of balanced fertilization"
+  },
+
+  "safety": [
+    "Use recommended dose",
+    "Avoid over application",
+    "Store in cool place"
+  ],
+
+  "benefits": [
+    "Corrects zinc deficiency",
+    "Improves plant growth",
+    "Enhances crop yield",
+    "Promotes healthy leaf development"
+  ],
+
+  "farmer_benefits": [
+    "پتے ہرے بھرے ہو جاندے نیں",
+    "پودا مضبوط ہو جاندا اے",
+    "وڈھائی تیز ہو جاندی اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Zinc 10% micronutrient fertilizer for improving plant growth and correcting deficiency.",
+    "urdu": "زنک 10 فیصد والی کھاد جو پودے کی نشوونما بہتر اور کمی کو پورا کرتی ہے۔",
+    "punjabi": "زنک 10 فیصد والی کھاد جو پودے دی وڈھائی بہتر کرکے کمی پوری کردی اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "zinc deficiency",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "stunted growth",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "yellowing leaves",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Zinc 10 fertilizer is used to correct zinc deficiency improve plant growth and increase crop yield. It supports enzyme activity and healthy plant development."
+}

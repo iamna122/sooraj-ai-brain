@@ -1,0 +1,182 @@
+{
+  "product_id": "sooraj_super_k_5_15_45",
+  "product_name": "Super K 5:15:45",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Micronutrients",
+  "type": "Water-soluble NPK fertilizer (High potassium)",
+
+  "formulation": "Water Soluble Powder (WSP)",
+  "systemicity": "Systemic (nutrient uptake through leaves and roots)",
+
+  "mode_of_action_summary": "Balanced NPK fertilizer with high potassium content improves plant metabolism, enhances fruit quality, strengthens plant structure, and increases resistance to stress. Nitrogen supports vegetative growth, phosphorus aids root and flower development, and potassium improves yield and quality.",
+
+  "active_ingredients": [
+    {
+      "name": "Nitrogen (N)",
+      "percentage": "5%",
+      "chemical_group": "Macronutrient",
+      "mode_of_action": "Supports vegetative growth and chlorophyll formation"
+    },
+    {
+      "name": "Phosphorus (P2O5)",
+      "percentage": "15%",
+      "chemical_group": "Macronutrient",
+      "mode_of_action": "Enhances root development and flowering"
+    },
+    {
+      "name": "Potassium (K2O)",
+      "percentage": "45%",
+      "chemical_group": "Macronutrient",
+      "mode_of_action": "Improves fruit quality, stress tolerance, and disease resistance"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [
+    "potassium deficiency",
+    "phosphorus deficiency",
+    "general nutrient imbalance"
+  ],
+
+  "pest_categories": {},
+
+  "pest_behavior": {},
+
+  "crops": {
+    "major": ["vegetables", "fruits"],
+    "all": ["vegetables", "fruits", "cotton", "wheat", "rice"]
+  },
+
+  "farmer_crop_terms": [
+    "sabziyan",
+    "phal",
+    "kapas",
+    "gehun",
+    "dhan"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پھل کا سائز چھوٹا رہ جاتا ہے",
+      "پتے کمزور اور زرد ہو جاتے ہیں",
+      "پودا کمزور ہے",
+      "پھل کا معیار خراب ہے"
+    ],
+    "punjabi": [
+      "پھل چھوٹا رہ جاندا اے",
+      "پتے زرد ہو رہے نیں",
+      "پودا کمزور اے",
+      "پھل دی کوالٹی خراب اے"
+    ],
+    "roman_urdu": [
+      "phal chhota reh jata hai",
+      "pattay zard ho rahe hain",
+      "plant weak hai",
+      "fruit quality poor hai"
+    ],
+    "english": [
+      "small fruit size",
+      "yellowing leaves",
+      "weak plant growth",
+      "poor fruit quality"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "potash fertilizer for fruits",
+    "fruit size increase fertilizer",
+    "NPK 5 15 45 use",
+    "flowering fertilizer",
+    "yield increase spray"
+  ],
+
+  "search_keywords": [
+    "NPK 5 15 45",
+    "high potassium fertilizer",
+    "water soluble fertilizer",
+    "fruit quality enhancer",
+    "پوٹاش کھاد"
+  ],
+
+  "intent_tags": ["nutrition"],
+
+  "dosage": {
+    "per_acre": "1–2 kg",
+    "method": "Foliar spray / fertigation",
+    "frequency": "10–15 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Dissolve in water and apply as foliar spray or through drip irrigation",
+    "coverage": "Ensure uniform application on foliage or soil"
+  },
+
+  "crop_stage_recommendation": [
+    "Flowering stage",
+    "Fruit development stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Cool temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "High temperature",
+      "Rain immediately after spray"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": [],
+    "advantage": "Improves plant strength and stress tolerance",
+    "advice": "Use in balanced nutrient program"
+  },
+
+  "safety": [
+    "Use recommended dose",
+    "Avoid over-application",
+    "Store in dry place"
+  ],
+
+  "benefits": [
+    "Improves fruit size and quality",
+    "Enhances flowering and fruiting",
+    "Strengthens plant resistance",
+    "Increases yield"
+  ],
+
+  "farmer_benefits": [
+    "پھل بڑا تے وزنی ہو جاندا اے",
+    "پودا مضبوط ہو جاندا اے",
+    "پیداوار ودھدی اے",
+    "فصل دی کوالٹی بہتر ہوندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "High potassium water-soluble fertilizer for improved fruit quality and yield.",
+    "urdu": "زیادہ پوٹاش والی پانی میں حل ہونے والی کھاد جو پھل کی کوالٹی بہتر بناتی ہے۔",
+    "punjabi": "وڈی پوٹاش والی پانی چ حل ہون والی کھاد جو پھل دی کوالٹی بہتر کردی اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "small fruit size",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "poor fruit quality",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "weak plant growth",
+      "solution_strength": "medium"
+    }
+  ],
+
+  "embedding_text": "Super K 5 15 45 is a water soluble fertilizer containing nitrogen phosphorus and high potassium used for improving fruit size quality and yield in crops. It is applied during flowering and fruit development stages."
+}

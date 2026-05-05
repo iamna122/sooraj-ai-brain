@@ -1,0 +1,195 @@
+{
+  "product_id": "sooraj_kromo_emamectin_lufenuron_15",
+  "product_name": "KROMO 125ML",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Insecticide",
+  "type": "Dual-action insecticide (Larvicide + insect growth regulator)",
+
+  "formulation": "SC (Suspension Concentrate)",
+  "systemicity": "Translaminar + ingestion",
+
+  "mode_of_action_summary": "Combination of emamectin benzoate and lufenuron provides strong control of caterpillars. Emamectin causes paralysis and rapid feeding stoppage, while lufenuron inhibits chitin synthesis, preventing proper molting and development of larvae.",
+
+  "active_ingredients": [
+    {
+      "name": "Emamectin Benzoate",
+      "percentage": "5%",
+      "chemical_group": "Avermectin (IRAC Group 6)",
+      "mode_of_action": "Activates chloride channels causing paralysis and feeding cessation"
+    },
+    {
+      "name": "Lufenuron",
+      "percentage": "10%",
+      "chemical_group": "Benzoylurea (IRAC Group 15)",
+      "mode_of_action": "Inhibits chitin synthesis disrupting molting"
+    }
+  ],
+
+  "target_pests": [
+    "bollworms",
+    "armyworm",
+    "fruit borer",
+    "leaf folder",
+    "caterpillars"
+  ],
+
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "chewing_pests": [
+      "bollworms",
+      "armyworm",
+      "fruit borer",
+      "caterpillars"
+    ],
+    "leaf_feeders": [
+      "leaf folder"
+    ]
+  },
+
+  "pest_behavior": {
+    "leaf_feeding": "Larvae feed on leaves and fruits causing heavy damage",
+    "rapid_growth": "Larvae develop quickly increasing infestation",
+    "molting_cycle": "Insects depend on molting for growth which is disrupted"
+  },
+
+  "crops": {
+    "major": ["cotton", "vegetables"],
+    "all": ["cotton", "vegetables", "chilli", "tomato", "okra"]
+  },
+
+  "farmer_crop_terms": [
+    "kapas",
+    "sabziyan",
+    "mirch",
+    "tamatar",
+    "bhindi"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتے کھائے جا رہے ہیں",
+      "پھل میں سوراخ",
+      "سنڈی کا حملہ",
+      "پودا کمزور ہو رہا ہے"
+    ],
+    "punjabi": [
+      "پتے کھا رہے نیں",
+      "پھل وچ سوراخ",
+      "سنڈی دا حملہ",
+      "پودا کمزور ہو رہا اے"
+    ],
+    "roman_urdu": [
+      "pattay kha rahe hain",
+      "phal mein surakh",
+      "sundi ka hamla",
+      "plant weak ho raha hai"
+    ],
+    "english": [
+      "leaf feeding damage",
+      "holes in fruits",
+      "caterpillar infestation",
+      "stunted growth"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "caterpillar control",
+    "bollworm control cotton",
+    "fruit borer spray",
+    "armyworm control",
+    "larvicide insecticide"
+  ],
+
+  "search_keywords": [
+    "emamectin lufenuron insecticide",
+    "caterpillar control spray",
+    "bollworm insecticide",
+    "IGR insecticide",
+    "سنڈی مار دوا"
+  ],
+
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "150–200 ml",
+    "method": "Foliar spray",
+    "frequency": "10–12 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform foliar spray on crop",
+    "coverage": "Ensure full coverage especially on underside of leaves"
+  },
+
+  "crop_stage_recommendation": [
+    "Early larval stage",
+    "Vegetative to flowering stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after spray",
+      "Strong wind",
+      "Extreme heat"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": ["Group 6", "Group 15"],
+    "advantage": "Dual mode reduces resistance development",
+    "advice": "Rotate with other insecticide groups"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid inhalation",
+    "Follow recommended dose"
+  ],
+
+  "benefits": [
+    "Rapid feeding stoppage",
+    "Disrupts pest growth cycle",
+    "Effective larval control",
+    "Long residual action",
+    "Improves crop yield"
+  ],
+
+  "farmer_benefits": [
+    "سنڈی فوراً کھانا چھوڑ دیندی اے",
+    "کیڑا مر جاندا اے تے دوبارہ نہیں بنتا",
+    "فصل محفوظ رہندی اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Dual action insecticide for effective control of caterpillars and borers.",
+    "urdu": "سنڈیوں کے کنٹرول کے لیے ڈبل ایکشن دوا جو کیڑوں کی بڑھوتری بھی روکتی ہے۔",
+    "punjabi": "سنڈیاں لئی ڈبل ایکشن سپرے جو کیڑے دی وڈھائی وی روکدا اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "caterpillar infestation",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "bollworm damage",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "fruit borer attack",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Kromo insecticide contains emamectin benzoate and lufenuron and is used for control of caterpillars bollworms and borers in crops. It stops feeding and disrupts growth cycle providing long lasting control."
+}

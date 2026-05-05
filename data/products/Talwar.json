@@ -1,0 +1,170 @@
+{
+  "product_id": "sooraj_talwar_crop_supplement",
+  "product_name": "Talwar",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Micronutrients",
+  "type": "Crop supplement and bio-stimulant",
+
+  "formulation": "Granular / Powder",
+  "systemicity": "Systemic (enhances nutrient uptake and plant metabolism)",
+
+  "mode_of_action_summary": "Crop supplement formulation enhances plant growth by improving nutrient uptake, stimulating metabolic activity, and strengthening plant structure. It helps crops recover from stress and improves overall productivity.",
+
+  "active_ingredients": [
+    {
+      "name": "Crop Supplement (Micronutrient blend)",
+      "percentage": "Not specified",
+      "chemical_group": "Micronutrients / Bio-stimulant",
+      "mode_of_action": "Improves nutrient absorption and plant growth processes"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [
+    "general micronutrient deficiency",
+    "poor plant growth",
+    "low crop vigor"
+  ],
+
+  "pest_categories": {},
+  "pest_behavior": {},
+
+  "crops": {
+    "major": ["wheat", "rice"],
+    "all": ["wheat", "rice", "cotton", "vegetables", "fruits"]
+  },
+
+  "farmer_crop_terms": [
+    "gehun",
+    "dhan",
+    "chawal",
+    "kapas",
+    "sabziyan",
+    "phal"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پودا کمزور ہے",
+      "نشوونما سست ہے",
+      "پتے زرد ہو رہے ہیں",
+      "پیداوار کم ہے"
+    ],
+    "punjabi": [
+      "پودا کمزور اے",
+      "وڈھائی سست اے",
+      "پتے زرد ہو رہے نیں",
+      "پیداوار گھٹ اے"
+    ],
+    "roman_urdu": [
+      "plant weak hai",
+      "growth slow hai",
+      "pattay zard ho rahe hain",
+      "yield kam hai"
+    ],
+    "english": [
+      "weak plant growth",
+      "slow growth",
+      "yellowing leaves",
+      "low yield"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "crop growth supplement",
+    "micronutrient fertilizer for crops",
+    "plant growth booster",
+    "low yield solution",
+    "crop health improvement"
+  ],
+
+  "search_keywords": [
+    "crop supplement",
+    "plant growth booster",
+    "micronutrient fertilizer",
+    "yield enhancer",
+    "فصل بڑھانے والی کھاد"
+  ],
+
+  "intent_tags": ["nutrition"],
+
+  "dosage": {
+    "per_acre": "500 g – 1 kg",
+    "method": "Soil application / foliar spray",
+    "frequency": "15–20 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Apply to soil or dissolve in water for spray",
+    "coverage": "Ensure uniform application for best results"
+  },
+
+  "crop_stage_recommendation": [
+    "Vegetative stage",
+    "Pre-flowering stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "Extreme heat",
+      "Rain immediately after application"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": [],
+    "advantage": "Improves plant resilience and productivity",
+    "advice": "Use regularly with balanced fertilization"
+  },
+
+  "safety": [
+    "Use recommended dose",
+    "Store in dry place",
+    "Avoid over application"
+  ],
+
+  "benefits": [
+    "Improves plant growth",
+    "Enhances nutrient uptake",
+    "Increases crop yield",
+    "Strengthens plant health"
+  ],
+
+  "farmer_benefits": [
+    "پودا تیزی نال وڈھدا اے",
+    "فصل مضبوط ہوندی اے",
+    "پیداوار ودھدی اے",
+    "پتے ہرے بھرے ہوندے نیں"
+  ],
+
+  "multilingual_description": {
+    "english": "Crop supplement that enhances plant growth and improves yield.",
+    "urdu": "فصل کی نشوونما بہتر بنانے والی کھاد جو پیداوار بڑھاتی ہے۔",
+    "punjabi": "فصل دی وڈھائی بہتر کرکے پیداوار ودھاندی اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "weak plant growth",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "low yield",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "micronutrient deficiency",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Talwar crop supplement is a micronutrient fertilizer used to improve plant growth nutrient uptake and crop yield. It helps strengthen plants and enhance overall productivity."
+}

@@ -1,0 +1,176 @@
+{
+  "product_id": "sooraj_np_15_10",
+  "product_name": "SOORAJ N.P",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Micronutrients",
+  "type": "Water-soluble NP fertilizer (Nitrogen + Phosphorus)",
+
+  "formulation": "Liquid / Soluble Fertilizer",
+  "systemicity": "Systemic (absorbed through leaves and roots)",
+
+  "mode_of_action_summary": "Combination of nitrogen and phosphorus supports early plant growth, enhances root development, and promotes vegetative vigor. Nitrogen improves chlorophyll formation and leaf growth, while phosphorus strengthens root system and energy transfer in plants.",
+
+  "active_ingredients": [
+    {
+      "name": "Nitrogen (N)",
+      "percentage": "15%",
+      "chemical_group": "Macronutrient",
+      "mode_of_action": "Supports vegetative growth and chlorophyll synthesis"
+    },
+    {
+      "name": "Phosphorus (P2O5)",
+      "percentage": "10%",
+      "chemical_group": "Macronutrient",
+      "mode_of_action": "Enhances root development and energy transfer"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [
+    "nitrogen deficiency",
+    "phosphorus deficiency",
+    "poor root development"
+  ],
+
+  "pest_categories": {},
+  "pest_behavior": {},
+
+  "crops": {
+    "major": ["wheat", "rice"],
+    "all": ["wheat", "rice", "cotton", "vegetables", "maize"]
+  },
+
+  "farmer_crop_terms": [
+    "gehun",
+    "dhan",
+    "chawal",
+    "kapas",
+    "makai",
+    "sabziyan"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتے زرد ہو رہے ہیں",
+      "پودا کمزور ہے",
+      "جڑیں کمزور ہیں",
+      "نشوونما سست ہے"
+    ],
+    "punjabi": [
+      "پتے زرد ہو رہے نیں",
+      "پودا کمزور اے",
+      "جڑاں کمزور نیں",
+      "وڈھائی سست اے"
+    ],
+    "roman_urdu": [
+      "pattay zard ho rahe hain",
+      "plant weak hai",
+      "jarain kamzor hain",
+      "growth slow hai"
+    ],
+    "english": [
+      "yellowing leaves",
+      "weak plant growth",
+      "poor root development",
+      "slow growth"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "nitrogen deficiency fertilizer",
+    "root growth fertilizer",
+    "NP fertilizer use",
+    "plant growth slow solution",
+    "early growth fertilizer"
+  ],
+
+  "search_keywords": [
+    "NP fertilizer",
+    "nitrogen phosphorus fertilizer",
+    "root development fertilizer",
+    "plant growth booster",
+    "نائٹروجن کھاد"
+  ],
+
+  "intent_tags": ["nutrition"],
+
+  "dosage": {
+    "per_acre": "1–2 liter",
+    "method": "Foliar spray / fertigation",
+    "frequency": "10–15 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Apply through foliar spray or irrigation system",
+    "coverage": "Ensure even distribution for effective absorption"
+  },
+
+  "crop_stage_recommendation": [
+    "Early growth stage",
+    "Vegetative stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Cool temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "High temperature",
+      "Rain immediately after application"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": [],
+    "advantage": "Improves plant vigor and root strength",
+    "advice": "Use as part of balanced fertilization program"
+  },
+
+  "safety": [
+    "Use recommended dose",
+    "Avoid over application",
+    "Store properly"
+  ],
+
+  "benefits": [
+    "Enhances root development",
+    "Improves vegetative growth",
+    "Corrects nutrient deficiencies",
+    "Boosts early crop establishment"
+  ],
+
+  "farmer_benefits": [
+    "پودا تیزی نال وڈھدا اے",
+    "جڑاں مضبوط ہوندیاں نیں",
+    "پتے ہرے بھرے ہوندے نیں",
+    "فصل صحت مند رہندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Nitrogen and phosphorus fertilizer for strong root development and early plant growth.",
+    "urdu": "نائٹروجن اور فاسفورس والی کھاد جو جڑوں کو مضبوط اور پودے کی نشوونما بہتر بناتی ہے۔",
+    "punjabi": "نائٹروجن تے فاسفورس والی کھاد جو جڑاں مضبوط تے پودا تیزی نال وڈھاندی اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "yellowing leaves",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "poor root development",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "slow plant growth",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Sooraj NP fertilizer contains nitrogen and phosphorus and is used for improving root development and early plant growth in crops. It helps correct nutrient deficiencies and boosts vegetative growth."
+}

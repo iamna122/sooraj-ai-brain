@@ -1,0 +1,176 @@
+{
+  "product_id": "sooraj_champion_17_44",
+  "product_name": "Sooraj Champion 17:44",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Micronutrients",
+  "type": "High phosphorus NP fertilizer (Starter fertilizer)",
+
+  "formulation": "Water Soluble Powder (WSP)",
+  "systemicity": "Systemic (absorbed through leaves and roots)",
+
+  "mode_of_action_summary": "High phosphorus NP fertilizer supports strong root development and early crop establishment. Nitrogen promotes vegetative growth while phosphorus enhances root growth, flowering, and energy transfer within the plant.",
+
+  "active_ingredients": [
+    {
+      "name": "Nitrogen (N)",
+      "percentage": "17%",
+      "chemical_group": "Macronutrient",
+      "mode_of_action": "Supports vegetative growth and chlorophyll formation"
+    },
+    {
+      "name": "Phosphorus (P2O5)",
+      "percentage": "44%",
+      "chemical_group": "Macronutrient",
+      "mode_of_action": "Enhances root development, flowering, and energy transfer"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [
+    "phosphorus deficiency",
+    "poor root development",
+    "slow early growth"
+  ],
+
+  "pest_categories": {},
+  "pest_behavior": {},
+
+  "crops": {
+    "major": ["wheat", "rice"],
+    "all": ["wheat", "rice", "cotton", "maize", "vegetables"]
+  },
+
+  "farmer_crop_terms": [
+    "gehun",
+    "dhan",
+    "chawal",
+    "kapas",
+    "makai",
+    "sabziyan"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پودا کمزور ہے",
+      "جڑیں کمزور ہیں",
+      "نشوونما سست ہے",
+      "پتے گہرے سبز یا جامنی ہو جاتے ہیں"
+    ],
+    "punjabi": [
+      "پودا کمزور اے",
+      "جڑاں کمزور نیں",
+      "وڈھائی سست اے",
+      "پتے گہرے سبز یا جامنی ہو جاندے نیں"
+    ],
+    "roman_urdu": [
+      "plant weak hai",
+      "jarain kamzor hain",
+      "growth slow hai",
+      "pattay dark green ya purple ho jate hain"
+    ],
+    "english": [
+      "weak plant growth",
+      "poor root development",
+      "slow growth",
+      "dark green or purplish leaves"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "phosphorus fertilizer for roots",
+    "starter fertilizer for crops",
+    "NP 17 44 use",
+    "root development fertilizer",
+    "early growth fertilizer"
+  ],
+
+  "search_keywords": [
+    "NPK 17 44",
+    "high phosphorus fertilizer",
+    "starter fertilizer",
+    "root growth fertilizer",
+    "فاسفورس کھاد"
+  ],
+
+  "intent_tags": ["nutrition"],
+
+  "dosage": {
+    "per_acre": "1–2 kg",
+    "method": "Foliar spray / fertigation",
+    "frequency": "10–15 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Dissolve in water and apply through spray or irrigation",
+    "coverage": "Ensure uniform distribution"
+  },
+
+  "crop_stage_recommendation": [
+    "Early growth stage",
+    "Root development stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Cool temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "High temperature",
+      "Rain immediately after spray"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": [],
+    "advantage": "Enhances early plant establishment",
+    "advice": "Use in balanced fertilization program"
+  },
+
+  "safety": [
+    "Use recommended dose",
+    "Avoid over application",
+    "Store in dry place"
+  ],
+
+  "benefits": [
+    "Promotes strong root growth",
+    "Improves early plant development",
+    "Enhances flowering potential",
+    "Increases yield"
+  ],
+
+  "farmer_benefits": [
+    "جڑاں مضبوط ہوندیاں نیں",
+    "پودا تیزی نال وڈھدا اے",
+    "فصل صحت مند رہندی اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "High phosphorus fertilizer for strong root development and early crop growth.",
+    "urdu": "زیادہ فاسفورس والی کھاد جو جڑوں کو مضبوط اور ابتدائی نشوونما بہتر بناتی ہے۔",
+    "punjabi": "وڈی فاسفورس والی کھاد جو جڑاں مضبوط تے پودے دی ابتدائی وڈھائی بہتر کردی اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "poor root development",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "slow plant growth",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "phosphorus deficiency",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "embedding_text": "Sooraj Champion 17 44 fertilizer contains nitrogen and high phosphorus and is used for strong root development and early crop growth. It improves plant establishment and increases yield."
+}

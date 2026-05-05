@@ -1,0 +1,175 @@
+{
+  "product_id": "sooraj_major_sop_g_50_18",
+  "product_name": "Major SOP G (50:18)",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Micronutrients",
+  "type": "Sulphate of Potassium fertilizer (Granular form)",
+
+  "formulation": "Granular",
+  "systemicity": "Systemic (absorbed through roots)",
+
+  "mode_of_action_summary": "Sulphate of Potassium in granular form provides potassium and sulphur essential for plant growth. Potassium enhances fruit size, quality, and stress tolerance, while sulphur supports enzyme activity and protein synthesis, improving overall crop health.",
+
+  "active_ingredients": [
+    {
+      "name": "Potassium (K2O)",
+      "percentage": "50%",
+      "chemical_group": "Macronutrient",
+      "mode_of_action": "Improves fruit quality, plant strength, and stress tolerance"
+    },
+    {
+      "name": "Sulphur (S)",
+      "percentage": "18%",
+      "chemical_group": "Macronutrient",
+      "mode_of_action": "Enhances protein synthesis and enzyme activity"
+    }
+  ],
+
+  "target_pests": [],
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [
+    "potassium deficiency",
+    "sulphur deficiency",
+    "poor fruit quality"
+  ],
+
+  "pest_categories": {},
+  "pest_behavior": {},
+
+  "crops": {
+    "major": ["fruits", "vegetables"],
+    "all": ["fruits", "vegetables", "cotton", "wheat", "rice"]
+  },
+
+  "farmer_crop_terms": [
+    "phal",
+    "sabziyan",
+    "kapas",
+    "gehun",
+    "dhan"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پھل کا سائز چھوٹا ہے",
+      "پتے کمزور ہیں",
+      "پودا کمزور ہے",
+      "پھل کی کوالٹی خراب ہے"
+    ],
+    "punjabi": [
+      "پھل چھوٹا اے",
+      "پتے کمزور نیں",
+      "پودا کمزور اے",
+      "پھل دی کوالٹی خراب اے"
+    ],
+    "roman_urdu": [
+      "phal chhota hai",
+      "pattay kamzor hain",
+      "plant weak hai",
+      "fruit quality poor hai"
+    ],
+    "english": [
+      "small fruit size",
+      "weak leaves",
+      "poor plant strength",
+      "low fruit quality"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "granular SOP fertilizer",
+    "potash fertilizer for crops",
+    "fruit quality improvement fertilizer",
+    "sulphate of potash use",
+    "yield increase fertilizer"
+  ],
+
+  "search_keywords": [
+    "SOP granular fertilizer",
+    "potassium sulphate",
+    "sulphate of potash",
+    "fruit quality fertilizer",
+    "پوٹاش کھاد"
+  ],
+
+  "intent_tags": ["nutrition"],
+
+  "dosage": {
+    "per_acre": "4–6 kg",
+    "method": "Soil application",
+    "frequency": "20–25 days",
+    "best_time": ["Before irrigation", "After irrigation"]
+  },
+
+  "application_details": {
+    "method": "Apply granules directly to soil",
+    "coverage": "Ensure even distribution in root zone"
+  },
+
+  "crop_stage_recommendation": [
+    "Pre-flowering stage",
+    "Fruit development stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moist soil",
+      "Moderate temperature"
+    ],
+    "avoid_conditions": [
+      "Dry soil",
+      "Heavy rainfall immediately after application"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": [],
+    "advantage": "Improves plant strength and yield quality",
+    "advice": "Use in balanced nutrient program"
+  },
+
+  "safety": [
+    "Use recommended dose",
+    "Avoid over application",
+    "Store in dry place"
+  ],
+
+  "benefits": [
+    "Improves fruit size and quality",
+    "Enhances plant strength",
+    "Increases yield",
+    "Provides long-lasting nutrient supply"
+  ],
+
+  "farmer_benefits": [
+    "پھل بڑا تے وزنی ہو جاندا اے",
+    "پودا مضبوط ہو جاندا اے",
+    "پیداوار ودھدی اے",
+    "فصل دی کوالٹی بہتر ہوندی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Granular sulphate of potassium fertilizer for improving crop quality and yield.",
+    "urdu": "دانے دار سلفیٹ آف پوٹاش کھاد جو فصل کی کوالٹی اور پیداوار بہتر بناتی ہے۔",
+    "punjabi": "دانے والی سلفیٹ آف پوٹاش کھاد جو فصل دی کوالٹی تے پیداوار بہتر کردی اے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "poor fruit quality",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "small fruit size",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "potassium deficiency",
+      "solution_strength": "very_high"
+    }
+  ],
+
+  "embedding_text": "Major SOP G 50 18 is a granular sulphate of potassium fertilizer used to improve fruit quality plant strength and crop yield. It provides potassium and sulphur essential for crop development."
+}

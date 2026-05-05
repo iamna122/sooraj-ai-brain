@@ -1,0 +1,199 @@
+{
+  "product_id": "sooraj_tulip_plus_30_sc",
+  "product_name": "TULIP PLUS 30% SC",
+  "brand": "Sooraj Crop Sciences",
+
+  "category": "Insecticide",
+  "type": "Dual-action insecticide (Ryanodine receptor activator + insect growth regulator)",
+
+  "formulation": "SC (Suspension Concentrate)",
+  "systemicity": "Systemic + ingestion",
+
+  "mode_of_action_summary": "Combination of chlorantraniliprole and methoxyfenozide provides dual control of chewing pests. Chlorantraniliprole activates ryanodine receptors causing muscle paralysis, while methoxyfenozide acts as an insect growth regulator disrupting molting and development of larvae.",
+
+  "active_ingredients": [
+    {
+      "name": "Chlorantraniliprole (CTPR)",
+      "percentage": "20%",
+      "chemical_group": "Diamide (IRAC Group 28)",
+      "mode_of_action": "Ryanodine receptor modulator causing muscle paralysis"
+    },
+    {
+      "name": "Methoxyfenozide",
+      "percentage": "10%",
+      "chemical_group": "Diacylhydrazine (IRAC Group 18)",
+      "mode_of_action": "Ecdysone receptor agonist disrupting insect molting"
+    }
+  ],
+
+  "target_pests": [
+    "bollworms",
+    "armyworm",
+    "fruit borer",
+    "stem borer",
+    "leaf folder",
+    "caterpillars"
+  ],
+
+  "target_diseases": [],
+  "target_weeds": [],
+  "target_nutrient_deficiencies": [],
+
+  "pest_categories": {
+    "chewing_pests": [
+      "bollworms",
+      "armyworm",
+      "fruit borer",
+      "caterpillars"
+    ],
+    "borers": [
+      "stem borer"
+    ],
+    "leaf_feeders": [
+      "leaf folder"
+    ]
+  },
+
+  "pest_behavior": {
+    "leaf_feeding": "Larvae feed on leaves reducing photosynthesis",
+    "boring": "Borers damage stems and fruits causing yield loss",
+    "rapid_growth": "Larvae grow quickly and cause severe crop damage"
+  },
+
+  "crops": {
+    "major": ["cotton", "rice"],
+    "all": ["cotton", "rice", "vegetables", "chilli", "tomato"]
+  },
+
+  "farmer_crop_terms": [
+    "kapas",
+    "dhan",
+    "chawal",
+    "mirch",
+    "tamatar"
+  ],
+
+  "symptoms": {
+    "urdu": [
+      "پتے کھائے جا رہے ہیں",
+      "پھل میں سوراخ",
+      "تنے میں نقصان",
+      "پودا کمزور ہو رہا ہے"
+    ],
+    "punjabi": [
+      "پتے کھا رہے نیں",
+      "پھل وچ سوراخ",
+      "تنا خراب ہو گیا اے",
+      "پودا کمزور ہو رہا اے"
+    ],
+    "roman_urdu": [
+      "pattay kha rahe hain",
+      "phal mein surakh",
+      "tana damage ho raha hai",
+      "plant weak ho raha hai"
+    ],
+    "english": [
+      "leaf feeding damage",
+      "holes in fruits",
+      "stem damage",
+      "stunted growth"
+    ]
+  },
+
+  "farmer_problem_queries": [
+    "bollworm control in cotton",
+    "armyworm control",
+    "fruit borer spray",
+    "stem borer control rice",
+    "caterpillar insecticide"
+  ],
+
+  "search_keywords": [
+    "chlorantraniliprole insecticide",
+    "methoxyfenozide spray",
+    "bollworm control",
+    "caterpillar control",
+    "کیڑا مار دوا"
+  ],
+
+  "intent_tags": ["insect"],
+
+  "dosage": {
+    "per_acre": "120–150 ml",
+    "method": "Foliar spray",
+    "frequency": "10–14 days",
+    "best_time": ["Morning", "Evening"]
+  },
+
+  "application_details": {
+    "method": "Uniform foliar spray ensuring coverage of leaves and growing points",
+    "coverage": "Ensure thorough coverage for effective ingestion by larvae"
+  },
+
+  "crop_stage_recommendation": [
+    "Early larval stage",
+    "Vegetative to flowering stage"
+  ],
+
+  "weather_guidelines": {
+    "best_conditions": [
+      "Moderate temperature",
+      "Low wind"
+    ],
+    "avoid_conditions": [
+      "Rain immediately after spray",
+      "Strong wind",
+      "Extreme heat"
+    ]
+  },
+
+  "resistance_management": {
+    "groups": ["Group 28", "Group 18"],
+    "advantage": "Dual mode reduces resistance development",
+    "advice": "Rotate with other insecticide groups"
+  },
+
+  "safety": [
+    "Wear PPE",
+    "Avoid spray drift",
+    "Follow recommended dosage"
+  ],
+
+  "benefits": [
+    "Effective larval control",
+    "Stops feeding quickly",
+    "Long residual activity",
+    "Reduces crop damage",
+    "Improves yield"
+  ],
+
+  "farmer_benefits": [
+    "کیڑے فوراً کھانا چھوڑ دیندے نیں",
+    "فصل محفوظ رہندی اے",
+    "پودا صحت مند رہندا اے",
+    "پیداوار ودھدی اے"
+  ],
+
+  "multilingual_description": {
+    "english": "Dual action insecticide for control of caterpillars and borers.",
+    "urdu": "سنڈیوں اور بوررز کے کنٹرول کے لیے ڈبل ایکشن دوا۔",
+    "punjabi": "سنڈیاں تے بورر کیڑیاں لئی ڈبل ایکشن سپرے۔"
+  },
+
+  "problem_solution_map": [
+    {
+      "problem": "bollworm damage",
+      "solution_strength": "very_high"
+    },
+    {
+      "problem": "armyworm attack",
+      "solution_strength": "high"
+    },
+    {
+      "problem": "fruit borer infestation",
+      "solution_strength": "high"
+    }
+  ],
+
+  "embedding_text": "Tulip Plus 30 SC insecticide contains chlorantraniliprole and methoxyfenozide and is used for control of caterpillars bollworms and borers in cotton rice and vegetables. It stops feeding and disrupts growth providing long lasting control."
+}
