@@ -83,20 +83,22 @@ export function computeScore(item, queryVector, queryInfo) {
 // ✅ STRONG fertilizer detection
 export function isFertilizerProduct(item) {
   const category = (item.metadata?.category || "").toLowerCase();
-  const type = String(item.metadata?.type || "").toLowerCase();
-  const name = (item.metadata?.product_name || "").toLowerCase();
-
-  const signals = [
-    "fertilizer","nutrient","npk","dap","urea",
-    "potash","nitrogen","phosphorus","zinc",
-    "iron","boron","micronutrient","کھاد"
-  ];
-
-  return signals.some(s =>
-    category.includes(s) ||
-    type.includes(s) ||
-    name.includes(s)
-  );
+  const type = (item.metadata?.type || "").toLowerCase();
+  
+  // YOUR ACTUAL CATEGORIES
+  if (category.includes("crop nutrition") || 
+      category.includes("micronutrient")) {
+    return true;
+  }
+  
+  // Backup: check type field
+  const fertTypes = ["fertilizer", "nutrient", "npk", "dap", "zinc", 
+                     "potash", "nitrogen", "phosphorus", "humic"];
+  if (fertTypes.some(t => type.includes(t))) {
+    return true;
+  }
+  
+  return false;
 }
 
 export function isFertilizerQuery(query, diseaseNature) {
